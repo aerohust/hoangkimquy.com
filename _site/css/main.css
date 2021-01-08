@@ -37,25 +37,25 @@
 
 .nav-home.nav-current { color: #fff; text-decoration: none; }
 
-.nav-tutorial:hover .fa, .nav-tutorial.nav-current .fa { color: #fc5d76; }
+.nav-thought:hover .fa, .nav-thought.nav-current .fa { color: #bd96f6; }
 
-.nav-tutorial.nav-current { color: #fff; text-decoration: none; }
+.nav-thought.nav-current { color: #fff; text-decoration: none; }
 
 .nav-reading:hover .fa, .nav-reading.nav-current .fa { color: #5eeda3; }
 
 .nav-reading.nav-current { color: #fff; text-decoration: none; }
 
-.nav-about:hover .fa, .nav-about.nav-current .fa { color: #3292f6; }
+.nav-about:hover .fa, .nav-about.nav-current .fa { color: #fc5d76; }
 
 .nav-about.nav-current { color: #fff; text-decoration: none; }
+
+.nav-tutorial:hover .fa, .nav-tutorial.nav-current .fa { color: #3292f6; }
+
+.nav-tutorial.nav-current { color: #fff; text-decoration: none; }
 
 .nav-sketch:hover .fa, .nav-sketch.nav-current .fa { color: #fdb54b; }
 
 .nav-sketch.nav-current { color: #fff; text-decoration: none; }
-
-.nav-thought:hover .fa, .nav-thought.nav-current .fa { color: #bd96f6; }
-
-.nav-thought.nav-current { color: #fff; text-decoration: none; }
 
 .navbar-custom span { margin-top: 5px; }
 

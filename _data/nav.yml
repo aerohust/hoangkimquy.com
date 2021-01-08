@@ -4,11 +4,11 @@
   icon: fa-home
   name: home
   color: ffeead
-- title: Tutorial
-  url: /tutorial
-  icon: fa-map-o
-  name: tutorial
-  color: fc5d76
+- title: Blog
+  url: /thought
+  icon: fa-commenting-o
+  name: thought
+  color: bd96f6
 - title: Reading
   url: /reading
   icon: fa-book
@@ -18,14 +18,15 @@
   url: /about
   icon: fa-heart-o
   name: about
+  color: fc5d76
+- title: Simulation
+  url: /tutorial
+  icon: fa-map-o
+  name: tutorial
   color: 3292f6
-- title: Sketch
+- title: Notes
   url: /sketch
   icon: fa-pencil
   name: sketch
   color: fdb54b
-- title: Thought
-  url: /thought
-  icon: fa-commenting-o
-  name: thought
-  color: bd96f6
+
