@@ -16,8 +16,7 @@
 .page-post-header h3 a { color: rgba(255, 255, 255, 0.9); }
 .page-post-header h3 a:hover { color: #fff; }
 
-#idx-header { background: linear-gradient(to bottom right, #111217, #484d60); color: rgba(255, 255, 255, 0.8); padding: 3rem 0 6rem 0; position: relative; overflow-x: hidden; }
-#idx-header:after { content: ""; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 50vw solid white; border-right: 50vw solid white; border-top: 6vw solid transparent; }
+#idx-header { background: linear-gradient(to bottom right, #111217, #484d60); color: rgba(255, 255, 255, 0.8); padding: 1rem 0 1rem 0; position: relative; overflow-x: hidden; }
 
 .img-avatar { max-width: 200px; margin: 0 auto; }
 .img-avatar img { height: 100%; width: 100%; border-radius: 50%; }
@@ -29,6 +28,9 @@
 .idx-abt a { color: #ffeead; font-size: 1.2rem; }
 .idx-abt a:hover { text-decoration: none; color: #fbe17d; }
 @media screen and (max-width: 400px) { .idx-abt a { font-weight: normal; } }
+.idx-abt b { color: #ffeead; font-size: 2.5rem; }
+.idx-abt b:hover { text-decoration: none; color: #fbe17d; }
+@media screen and (max-width: 400px) { .idx-abt b { font-weight: normal; } }
 .idx-abt p { font-size: 1.2rem; }
 
 @media screen and (max-width: 400px) { .idx-social { font-size: 1rem; } }

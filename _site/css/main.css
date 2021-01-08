@@ -59,16 +59,13 @@
 
 .navbar-custom span { margin-top: 5px; }
 
-.section { padding: 5rem 10px; }
+.section { padding: 1rem 10px; }
 
-.alt-color:nth-child(odd) { padding: 6rem 10px; background: #f1f1f1; position: relative; overflow-x: hidden; }
-@media (max-width: 575px) { .alt-color:nth-child(odd) { padding-bottom: 6rem; } }
-.alt-color:nth-child(odd):before { content: ""; position: absolute; bottom: 0; top: 0; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 50vw solid white; border-right: 50vw solid white; border-bottom: 6vw solid transparent; }
-.alt-color:nth-child(odd):after { content: ""; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 50vw solid white; border-right: 50vw solid white; border-top: 6vw solid transparent; }
+.alt-color:nth-child(odd) { padding: 1rem 10px; background: #f1f1f1; position: relative; overflow-x: hidden; }
+@media (max-width: 575px) { .alt-color:nth-child(odd) { padding-bottom: 1rem; } }
 
-.alt-color-top { padding: 5rem 10px 2rem 10px; background: #f1f1f1; position: relative; overflow-x: hidden; }
-@media (max-width: 575px) { .alt-color-top { padding-bottom: 6rem; } }
-.alt-color-top:before { content: ""; position: absolute; bottom: 0; top: 0; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 50vw solid white; border-right: 50vw solid white; border-bottom: 6vw solid transparent; }
+.alt-color-top { padding: 1rem 10px 2rem 10px; background: #f1f1f1; position: relative; overflow-x: hidden; }
+@media (max-width: 575px) { .alt-color-top { padding-bottom: 1rem; } }
 
 .sec-title { margin-bottom: 1.5rem; }
 .sec-title h2 { font-weight: 800; color: #4682b4; font-size: 2.3rem; }
@@ -92,9 +89,8 @@
 
 .alt-color-top + .footer:before { border-left: 50vw solid #f1f1f1; border-right: 50vw solid #f1f1f1; }
 
-.footer { background: linear-gradient(to bottom right, #111217, #484d60); color: #fff; position: relative; overflow-x: hidden; padding-top: 3rem; }
+.footer { background: linear-gradient(to bottom right, #111217, #484d60); color: #fff; position: relative; overflow-x: hidden; padding-top: 0.25rem; }
 .footer a:hover { color: #fff; }
-.footer:before { content: ""; position: absolute; bottom: 0; top: 0; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 50vw solid white; border-right: 50vw solid white; border-bottom: 6vw solid transparent; }
 
 .footer-info { color: #ddd; }
 .footer-info a { color: #ddd; }
