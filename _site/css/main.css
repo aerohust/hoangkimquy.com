@@ -45,11 +45,11 @@
 
 .nav-reading.nav-current { color: #fff; text-decoration: none; }
 
-.nav-about:hover .fa, .nav-about.nav-current .fa { color: #fc5d76; }
+.nav-about:hover .fa, .nav-about.nav-current .fa { color: #3292f6; }
 
 .nav-about.nav-current { color: #fff; text-decoration: none; }
 
-.nav-tutorial:hover .fa, .nav-tutorial.nav-current .fa { color: #3292f6; }
+.nav-tutorial:hover .fa, .nav-tutorial.nav-current .fa { color: #fc5d76; }
 
 .nav-tutorial.nav-current { color: #fff; text-decoration: none; }
 

@@ -15,13 +15,13 @@
   }
 
   .bg-about{
-    background-image: linear-gradient(160deg,#fc5d76,#06060669);
-    background-color: #fc5d76;
+    background-image: linear-gradient(160deg,#3292f6,#06060669);
+    background-color: #3292f6;
   }
 
   .bg-tutorial{
-    background-image: linear-gradient(160deg,#3292f6,#06060669);
-    background-color: #3292f6;
+    background-image: linear-gradient(160deg,#fc5d76,#06060669);
+    background-color: #fc5d76;
   }
 
   .bg-sketch{

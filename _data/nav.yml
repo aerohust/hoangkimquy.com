@@ -4,7 +4,7 @@
   icon: fa-home
   name: home
   color: ffeead
-- title: Blog
+- title: Thoughts
   url: /thought
   icon: fa-commenting-o
   name: thought
@@ -18,12 +18,12 @@
   url: /about
   icon: fa-heart-o
   name: about
-  color: fc5d76
+  color: 3292f6
 - title: Simulation
   url: /tutorial
   icon: fa-map-o
   name: tutorial
-  color: 3292f6
+  color: fc5d76
 - title: Notes
   url: /sketch
   icon: fa-pencil
