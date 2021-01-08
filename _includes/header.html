@@ -100,16 +100,10 @@
         </div>
       </div>
     </header>
-  {% when "index" %}
-    {% if site.data.setting.lang.current == "en" %}
-      {% assign idx-intro = site.data.lang['index'].intro.en %}
-      {% assign idx-abt = site.data.lang['index'].about.en %}
-      {% assign idx-cv = site.data.lang['mycv'].en %}
-    {% else %}
-      {% assign idx-intro = site.data.lang['index'].intro.vn %}
-      {% assign idx-abt = site.data.lang['index'].about.vn %}
-      {% assign idx-cv = site.data.lang['mycv'].vn %}
-    {% endif %}
+  {% when "index" %} 
+    {% assign idx-intro = site.data.lang['index'].intro.en %}
+    {% assign idx-abt = site.data.lang['index'].about.en %}
+    {% assign idx-cv = site.data.lang['mycv'].en %}
     <header id="idx-header">
       <div class="container">
         <div class="row align-items-center">
