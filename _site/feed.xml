@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-08T11:05:54+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TaniaJekyll</title><subtitle>Beautiful personal Jekyll theme</subtitle><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><entry xml:lang="en"><title type="html">How to install TaniaJekyll?</title><link href="http://localhost:4000/tutorial/how-to-install-taniajekyll" rel="alternate" type="text/html" title="How to install TaniaJekyll?" /><published>2019-03-17T00:00:00+01:00</published><updated>2019-03-17T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/how-to-install-taniajekyll</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-install-taniajekyll">&lt;p&gt;In this tutorial, I suppose that you are new to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, just follow the ones you need and don’t forget to leave a comment below.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  I'm not a native English speaker, please ignore my bad expressions!
+&lt;/div&gt;
+
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;fa fa-list-ul&quot;&gt;&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;toc-content&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-to-create-a-github-page&quot; id=&quot;markdown-toc-how-to-create-a-github-page&quot;&gt;How to create a Github Page?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-to-apply-taniajekyll&quot; id=&quot;markdown-toc-how-to-apply-taniajekyll&quot;&gt;How to apply TaniaJekyll?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#get-some-errors&quot; id=&quot;markdown-toc-get-some-errors&quot;&gt;Get some errors?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;how-to-create-a-github-page&quot;&gt;How to create a Github Page?&lt;/h2&gt;
+
+&lt;p&gt;In the case you don’t have any Github Page, follow following rules, otherwise please step to next steps. &lt;strong&gt;For Vietnameses&lt;/strong&gt;, please read &lt;a href=&quot;https://toituhoc.xyz/huong-dan-nhanh-tao-trang-web-github-page-dung-theme-co-san&quot;&gt;this article&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/join?source=header-home&quot;&gt;Create&lt;/a&gt; a Github account, don’t forget to verify your email before loging in. I suppose that you signed up with name &lt;code class=&quot;highlighter-rouge&quot;&gt;dinhanhthi&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Login to your Github account.&lt;/li&gt;
+  &lt;li&gt;Create a new repository by clicking &lt;strong&gt;New&lt;/strong&gt; on the right side of &lt;em&gt;Repositories&lt;/em&gt; section and naming your repo with &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/code&gt;. For example, my Github account is “&lt;em&gt;dinhanhthi&lt;/em&gt;”, so I name this repo “&lt;em&gt;dinhanhthi.github.io&lt;/em&gt;”. We need to name the repo like this because your website will have an address like &lt;strong&gt;https://&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Basically, you now have a place where you can put your website, you can choose either a built-in theme from Github or an external theme.
+    &lt;ul&gt;
+      &lt;li&gt;If you wanna apply &lt;strong&gt;&lt;a href=&quot;https://github.com/dinhanhthi/TaniaJekyll&quot;&gt;TaniaJekyll&lt;/a&gt;&lt;/strong&gt; (or &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;other external theme&lt;/a&gt;), please step to next section (&lt;a href=&quot;#how-to-apply-taniajekyll&quot;&gt;How to apply TaniaJekyll&lt;/a&gt;) and ignore following steps in this section.&lt;/li&gt;
+      &lt;li&gt;If you wanna create immediately a buit-in theme from Github, please continue to step 5.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;On your repo on github, click on tab &lt;strong&gt;Settings&lt;/strong&gt;, on the left hand side, choose tab &lt;strong&gt;Options&lt;/strong&gt; (default) and then go to section &lt;strong&gt;Github Pages&lt;/strong&gt;, click on &lt;strong&gt;Choose a theme&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Choose a theme you like and then click on &lt;strong&gt;Select theme&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;A new page appears, write something on &lt;strong&gt;Commit changes&lt;/strong&gt; and then click on &lt;strong&gt;Commit changes&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Done, now you have a page, check it out at &lt;strong&gt;https://&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  Don't worry if you followed step 5-8 and you wanna apply other themes, just keep going to next section.
+&lt;/div&gt;
+
+&lt;h2 id=&quot;how-to-apply-taniajekyll&quot;&gt;How to apply TaniaJekyll?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download and install &lt;strong&gt;&lt;a href=&quot;https://desktop.github.com/&quot;&gt;Github Client&lt;/a&gt;&lt;/strong&gt; (GC). GC helps you “upload” changes from local host (on your own computer) to your remote (on Github server).&lt;/li&gt;
+  &lt;li&gt;Login to GC with the account created in step 1.&lt;/li&gt;
+  &lt;li&gt;Clone the repo created in step 3 of previous section to your local computer:
+    &lt;ol&gt;
+      &lt;li&gt;Come back to the repo’s directory, click on &lt;strong&gt;Set up in Desktop&lt;/strong&gt;, a popup appears to ask you “&lt;em&gt;Open Github Desktop?&lt;/em&gt;”, choose &lt;strong&gt;Open Github Desktop&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;This will open GC on your computer, click on button &lt;strong&gt;Clone&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;Choose the location where you save your repo on your computer. A folder whose name is &lt;strong&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt; will be created.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From this step, you will apply a theme &lt;a href=&quot;http://jekyllthemes.org&quot;&gt;downloaded from the internet&lt;/a&gt; for your Github page. In this case, you will apply &lt;strong&gt;&lt;a href=&quot;https://github.com/dinhanhthi/TaniaJekyll&quot;&gt;TaniaJekyll&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Download &lt;a href=&quot;https://github.com/dinhanhthi/TaniaJekyll&quot;&gt;TaniaJekyll&lt;/a&gt; to your local computer (a file .zip)&lt;/li&gt;
+  &lt;li&gt;Delete all files and folders in folder &lt;strong&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt; created in step 3.3.&lt;/li&gt;
+  &lt;li&gt;Extract all files and folders from file .zip in step 5 to folder &lt;strong&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Open file &lt;strong&gt;_config.yml&lt;/strong&gt; and change some fields in this file
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt;: your website’s name&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;description&lt;/code&gt;: your website’s description&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;: leave blank (i.e., &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&quot;&lt;/code&gt;)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;url&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;paginate&lt;/code&gt;: number of posts on each page (default is 28)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;banner&lt;/code&gt;: directory to your website’s banner&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;favicon&lt;/code&gt;: directory to your website’s favicon (icon appears on the left on browser’s tab)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;user&lt;/code&gt;: change all your personal information (&lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;email&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;website&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;avatar&lt;/code&gt;,…)&lt;/li&gt;
+      &lt;li&gt;Save and close &lt;strong&gt;_config.yml&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open Github Desktop to see the changes
+    &lt;ol&gt;
+      &lt;li&gt;Write something on field commit&lt;/li&gt;
+      &lt;li&gt;Click on &lt;strong&gt;Commit to master&lt;/strong&gt; and then &lt;strong&gt;Publish branch&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;All done! Go to &lt;strong&gt;https://&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt; to see the changes, you may wait a little minutes to get the changes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;get-some-errors&quot;&gt;Get some errors?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you have some unexpected errors, please tell me on the comment section below.&lt;/li&gt;
+  &lt;li&gt;If you wanna config more on this theme, please read &lt;a href=&quot;/how-to-use-taniajekyll&quot;&gt;How to use TaniaJekyll&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you find something wrong on this post, please tell me to fix them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you and good luck.&lt;/p&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="tutorial" /><category term="how to" /><summary type="html">In this tutorial, I suppose that you are new to Github Pages and Jekyll, just follow the ones you need and don’t forget to leave a comment below.</summary></entry><entry xml:lang="en"><title type="html">How to use TaniaJekyll?</title><link href="http://localhost:4000/tutorial/how-to-use-taniajekyll" rel="alternate" type="text/html" title="How to use TaniaJekyll?" /><published>2019-03-17T00:00:00+01:00</published><updated>2019-03-17T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/how-to-use-taniajekyll</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-use-taniajekyll">&lt;p&gt;In this tutorial, I suppose that you have already &lt;a href=&quot;/how-to-install-taniajekyll&quot;&gt;installed TaniaJekyll&lt;/a&gt;, just follow the ones you need and don’t forget to leave a comment below.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  I'm not a native English speaker, please ignore my bad expressions!
+&lt;/div&gt;
+
+&lt;p&gt;Full list of usages can be found &lt;a href=&quot;/tutorial/for-the-editors-only&quot;&gt;here&lt;/a&gt;. This post only shows &lt;strong&gt;some showcases&lt;/strong&gt; of this theme.&lt;/p&gt;
+
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;fa fa-list-ul&quot;&gt;&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;toc-content&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#5-layouts-of-posts&quot; id=&quot;markdown-toc-5-layouts-of-posts&quot;&gt;5 layouts of posts&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#project&quot; id=&quot;markdown-toc-project&quot;&gt;Project&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#reading-list&quot; id=&quot;markdown-toc-reading-list&quot;&gt;Reading list&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#tutorial&quot; id=&quot;markdown-toc-tutorial&quot;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#thought-layout-1&quot; id=&quot;markdown-toc-thought-layout-1&quot;&gt;Thought (layout 1)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#thought-layout-2&quot; id=&quot;markdown-toc-thought-layout-2&quot;&gt;Thought (layout 2)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#front-matter&quot; id=&quot;markdown-toc-front-matter&quot;&gt;Front Matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-figures&quot; id=&quot;markdown-toc-insert-figures&quot;&gt;Insert figures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#side-by-side-figure-and-content&quot; id=&quot;markdown-toc-side-by-side-figure-and-content&quot;&gt;Side by side figure and content&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-boxes&quot; id=&quot;markdown-toc-insert-boxes&quot;&gt;Insert boxes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#steps&quot; id=&quot;markdown-toc-steps&quot;&gt;Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#texts&quot; id=&quot;markdown-toc-texts&quot;&gt;Texts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;5-layouts-of-posts&quot;&gt;5 layouts of posts&lt;/h2&gt;
+
+&lt;p&gt;You can check on the &lt;a href=&quot;/&quot;&gt;index page&lt;/a&gt;, there are 5 different layout of posts. If you wanna apply some layout, just indicate fields&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The source of elements&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;element-source&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The type of layout&lt;/strong&gt;: using included file &lt;strong&gt;post-layout.html&lt;/strong&gt; with keyword &lt;code class=&quot;highlighter-rouge&quot;&gt;type&lt;/code&gt; to indicate the layout. In this field, you also need to indicate &lt;code class=&quot;highlighter-rouge&quot;&gt;img-src&lt;/code&gt; (the source of images), &lt;code class=&quot;highlighter-rouge&quot;&gt;offset&lt;/code&gt; (from which element we show the list of elements) and &lt;code class=&quot;highlighter-rouge&quot;&gt;limit&lt;/code&gt; (how many elements you wanna show).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, below are the codes to show the projects (&lt;code class=&quot;highlighter-rouge&quot;&gt;type=&quot;project&quot;&lt;/code&gt;) I’ve done in the front page. In this field, I only show the first (&lt;code class=&quot;highlighter-rouge&quot;&gt;offset=0&lt;/code&gt;) 4 projects (&lt;code class=&quot;highlighter-rouge&quot;&gt;limit=4&lt;/code&gt;). The list of projects are stores in a data file called &lt;strong&gt;_data/project.yml&lt;/strong&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;site.data.project&lt;/code&gt;). Please open file &lt;strong&gt;index.html&lt;/strong&gt; in the repository and then step to section “&lt;strong&gt;project&lt;/strong&gt;” to see an example of below descriptions&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign element-source = site.data.project %}
+{% include post-layout.html type=&quot;project&quot; img-src=&quot;/img/project&quot; source=element-source offset=0 limit=4 %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;project&quot;&gt;Project&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: &lt;em&gt;Photo - Title - Description&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;In this example page, I use this layout as the layout of my projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;img-full&quot;&gt;
+  &lt;img src=&quot;/img/post/tutorial/project.png&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;In order to modify this, you can ()&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Source of elements&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;site.data.project&lt;/code&gt; (&lt;em&gt;_data/project.yml&lt;/em&gt;). You can also use the sources as a list of posts like other below layouts.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Type&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;type=&quot;project&quot;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Icons for the projects must be located in &lt;strong&gt;/img/project/&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign element-source = site.data.project %}
+{% include post-layout.html type=&quot;project&quot; img-src=&quot;/img/project&quot; source=element-source offset=0 limit=4 %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;reading-list&quot;&gt;Reading list&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: &lt;em&gt;Photo - Title - Author - Rating&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Specifically used for the list of books.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;img-full&quot;&gt;
+  &lt;img src=&quot;/img/post/tutorial/book.png&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Change the number of challenge books in &lt;strong&gt;_data/setting.yml&lt;/strong&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;ncb&lt;/code&gt; for the amount and &lt;code class=&quot;highlighter-rouge&quot;&gt;ncb_year&lt;/code&gt; for the considered year)&lt;/li&gt;
+  &lt;li&gt;The theme will automatically determine how many book is read in that year.&lt;/li&gt;
+  &lt;li&gt;Read more on the &lt;a href=&quot;/tutorial/for-the-editors-only#front-matter&quot; title=&quot;For the editors&quot;&gt;front matter setting&lt;/a&gt; to see the list of arguments used for this type of post.&lt;/li&gt;
+  &lt;li&gt;All book covers must be stored in &lt;strong&gt;/img/bookimg/&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign element-source = site.categories.reading %}
+{% include post-layout.html type=&quot;reading&quot; img-src=&quot;/img/bookimg&quot; source=element-source offset=0 limit=4 %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tutorial&quot;&gt;Tutorial&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: &lt;em&gt;Icon - Title - Descripton&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Used for tutorial posts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;img-full&quot;&gt;
+  &lt;img src=&quot;/img/post/tutorial/tutorial.png&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check some examples in &lt;strong&gt;_posts/tutorial/&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;For the free icons, you can use &lt;a href=&quot;https://www.flaticon.com/&quot;&gt;this site&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Icons must be located in &lt;strong&gt;/img/turorial/&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign element-source = site.categories.tutorial %}
+{% include post-layout.html type=&quot;tutorial&quot; source=element-source offset=0 img-src=&quot;/img/tutorial&quot; limit=6 %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;thought-layout-1&quot;&gt;Thought (layout 1)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: &lt;em&gt;Title - Date&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Very simple layout.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;img-full&quot;&gt;
+  &lt;img src=&quot;/img/post/tutorial/thought-1.png&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign element-source = site.categories.thought %}
+{% include post-layout.html type=&quot;thought&quot; source=element-source offset=0 limit=6 %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;thought-layout-2&quot;&gt;Thought (layout 2)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: &lt;em&gt;Photo - Title - Date&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;img-full&quot;&gt;
+  &lt;img src=&quot;/img/post/tutorial/thought-2.png&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% assign element-source = site.categories.thought %}
+{% include post-layout.html type=&quot;thought2&quot; source=element-source offset=0 limit=4 %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;front-matter&quot;&gt;Front Matter&lt;/h2&gt;
+
+&lt;p&gt;Begin of each post, you need to be careful to choose the right &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;front matter&lt;/a&gt; for that post. What’s front matter? Something like this&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: How to use TaniaJekyll?
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There are some already-defined components on TaniaJekyll that you could use (If you don’t want to use something, &lt;strong&gt;remember to REMOVE it&lt;/strong&gt;). Check more in &lt;a href=&quot;/tutorial/for-the-editors-only#front-matter&quot; title=&quot;For the editors&quot;&gt;this post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;insert-figures&quot;&gt;Insert figures&lt;/h2&gt;
+
+&lt;p&gt;There are a lot of ways you can insert an image in a post. I imitate the idea of photo post in a Medium post so that they are really beautiful with this layout. All of usages can be seen in &lt;a href=&quot;/tutorial/for-the-editors-only#inset-figures&quot;&gt;this post&lt;/a&gt;. Below are some examples,&lt;/p&gt;
+
+&lt;p&gt;A full-width image&lt;/p&gt;
+
+&lt;div class=&quot;img-full&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/palais.jpg&quot; alt=&quot;Hình: A description of the image.&quot; /&gt;
+  &lt;em&gt;A description of the image.&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Or images can be float to the left or the right of the post,&lt;/p&gt;
+
+&lt;div class=&quot;img-right&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/nghichden.jpg&quot; alt=&quot;Hình: A description of the image.&quot; /&gt;
+  &lt;em&gt;A description of the image.&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it.&lt;/p&gt;
+
+&lt;h2 id=&quot;side-by-side-figure-and-content&quot;&gt;Side by side figure and content&lt;/h2&gt;
+
+&lt;p&gt;In the case you wanna create some tutorial posts with a figure on the left and some instructions on the right, you can use this type of shortcode. Please &lt;a href=&quot;/tutorial/for-the-editors-only#side-by-side-figure-and-content&quot;&gt;check this&lt;/a&gt; to see how to use it.&lt;/p&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/tutorial/locate.jpg&quot; alt=&quot;Description&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-6 order-md-2&quot;&gt;
+&lt;img src=&quot;/img/post/tutorial/locate.jpg&quot; alt=&quot;Description&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-6 order-md-1&quot;&gt;
+This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;insert-boxes&quot;&gt;Insert boxes&lt;/h2&gt;
+
+&lt;p&gt;I build this theme based on Boostrap, then you can use all of &lt;a href=&quot;https://getbootstrap.com/docs/4.1/components/alerts/&quot;&gt;its boxes&lt;/a&gt; in this theme, for example,&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
+  A simple primary alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-secondary&quot; role=&quot;alert&quot;&gt;
+  A simple secondary alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  A simple success alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;
+  A simple danger alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  A simple warning alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+  A simple info alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-light&quot; role=&quot;alert&quot;&gt;
+  A simple light alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-dark&quot; role=&quot;alert&quot;&gt;
+  A simple dark alert—check it out!
+&lt;/div&gt;
+
+&lt;p&gt;Please &lt;a href=&quot;/tutorial/for-the-editors-only#insert-boxes&quot;&gt;check this&lt;/a&gt; to see how to use it. I also add a &lt;strong&gt;hide/show box&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;tomTat&quot;&gt;
+&lt;div id=&quot;btTomTat&quot; class=&quot;collapsed&quot; data-toggle=&quot;collapse&quot; href=&quot;#ndTomTat&quot;&gt;
+  &lt;span&gt;Highlights I like&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ndTomTat&quot; class=&quot;collapse multi-collapse ndTomTat&quot;&gt;
+    &lt;p&gt;Contents.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;and &lt;strong&gt;definition box&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;def-box&quot; id=&quot;dn1&quot;&gt;
+  &lt;div class=&quot;box-title&quot;&gt;
+    &lt;p&gt;Title&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;box-content&quot;&gt;
+    &lt;p&gt;Content&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;p&gt;You even can add the steps. Please &lt;a href=&quot;/tutorial/for-the-editors-only#steps&quot;&gt;check this&lt;/a&gt; to see how to use it.&lt;/p&gt;
+
+&lt;div class=&quot;thi-step&quot;&gt;
+
+&lt;div class=&quot;step&quot;&gt;
+&lt;div class=&quot;step-number&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;step-content&quot;&gt;
+      &lt;p&gt;Content of step 1.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;step&quot;&gt;
+&lt;div class=&quot;step-number&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;step-content&quot;&gt;
+      &lt;p&gt;Content of step 2.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;texts&quot;&gt;Texts&lt;/h2&gt;
+
+&lt;p&gt;You can do many things with text like &lt;mark&gt;marked texts&lt;/mark&gt; or a keyboard like &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;B&lt;/kbd&gt;. You even can make a text be &lt;sbj&gt;more beautiful&lt;/sbj&gt; with this.&lt;/p&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="tutorial" /><category term="how to" /><summary type="html">In this tutorial, I suppose that you have already installed TaniaJekyll, just follow the ones you need and don’t forget to leave a comment below.</summary></entry><entry><title type="html">For the editor only</title><link href="http://localhost:4000/tutorial/for-the-editors-only" rel="alternate" type="text/html" title="For the editor only" /><published>2018-12-27T00:00:00+01:00</published><updated>2018-12-27T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/for-the-editors-only</id><content type="html" xml:base="http://localhost:4000/tutorial/for-the-editors-only">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  &lt;p&gt;This post is only for the editors, please read &lt;a href=&quot;/tutorial&quot;&gt;&lt;strong&gt;other posts&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  &lt;p&gt;Bài này chỉ dành cho tác giả blog, các bạn vui lòng đọc &lt;strong&gt;&lt;a href=&quot;/tutorial&quot;&gt;các bài khác&lt;/a&gt;&lt;/strong&gt; nhé.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;fa fa-list-ul&quot;&gt;&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;toc-content&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#front-matter&quot; id=&quot;markdown-toc-front-matter&quot;&gt;Front matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#inset-figures&quot; id=&quot;markdown-toc-inset-figures&quot;&gt;Inset figures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#side-by-side-figure-and-content&quot; id=&quot;markdown-toc-side-by-side-figure-and-content&quot;&gt;Side by side figure and content&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-codes&quot; id=&quot;markdown-toc-insert-codes&quot;&gt;Insert codes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-boxes&quot; id=&quot;markdown-toc-insert-boxes&quot;&gt;Insert boxes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#steps&quot; id=&quot;markdown-toc-steps&quot;&gt;Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#fonts--texts&quot; id=&quot;markdown-toc-fonts--texts&quot;&gt;Fonts &amp;amp; Texts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#math-expressions&quot; id=&quot;markdown-toc-math-expressions&quot;&gt;Math expressions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;front-matter&quot;&gt;Front matter&lt;/h2&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  &lt;p&gt;If you don’t want to use any item below, don’t write it down. &lt;code class=&quot;highlighter-rouge&quot;&gt;math: 0&lt;/code&gt; will be considered similarly to &lt;code class=&quot;highlighter-rouge&quot;&gt;math: 1&lt;/code&gt; and jekyll understand that they are the same unless you don’t write either of them.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;math: 1&lt;/code&gt; : only add if you wanna use math equations inside post.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt;: categories among &lt;code class=&quot;highlighter-rouge&quot;&gt;thought&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;reading&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;sketch&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt;: add new tag in &lt;code class=&quot;highlighter-rouge&quot;&gt;_data\tags.yml&lt;/code&gt; before using it.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt;: thumbnail of the post .&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bigimg&lt;/code&gt;: background photo of the post (showing on shared post on facebook)&lt;/li&gt;
+  &lt;li&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt; posts
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;snippet: 1&lt;/code&gt;: use if it post in category &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt; and you wanna pin it on top.&lt;/li&gt;
+      &lt;li&gt;Thumbnail for posts in tutorial should be saved in &lt;code class=&quot;highlighter-rouge&quot;&gt;/img/tutorial/&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;reading&lt;/code&gt; posts
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;subtitle&lt;/code&gt;: author&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;subtitle_link&lt;/code&gt;: author’s profile url&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;img: hnmkad.png&lt;/code&gt;: book cover (image’s url is &lt;em&gt;img/bookimg/&lt;/em&gt;)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rating: 3.5&lt;/code&gt;: rating of the book, must be a number, not string&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;update: 1&lt;/code&gt;: if you just update the content of the post. Notice that, the badge “update” is only showed if the updated date is under 7 days.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;notnumbering: 1&lt;/code&gt;: if you don’t want to number headings inside the post.
+    &lt;ul&gt;
+      &lt;li&gt;In the case you don’t want to number certain of headings, use &lt;code class=&quot;highlighter-rouge&quot;&gt;{:.nocount}&lt;/code&gt; before that heading.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;inset-figures&quot;&gt;Inset figures&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Normal inserting: &lt;code class=&quot;highlighter-rouge&quot;&gt;![Describe](link/to/figures)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Full width: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Full but modified: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full-normal.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Full but 50% width: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full-50.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Float to right: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/right.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Float to left: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/left.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;side-by-side-figure-and-content&quot;&gt;Side by side figure and content&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Figure on the left:&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row align-items-center img-aside&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+![Description](/link/to/figure)
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Contents
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Figure on the right (but above on a smaller view port):&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row align-items-center img-aside&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6 order-md-2&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+![Description](/link/to/figure)
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6 order-md-1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Contents.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;insert-codes&quot;&gt;Insert codes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you wanna add tag &lt;code class=&quot;highlighter-rouge&quot;&gt;{% this %}&lt;/code&gt;, use alert&lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;{% this &quot;}}%}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If you like this &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ this }}&lt;/code&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;{{ this &quot;}}}}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The rule&lt;/strong&gt;: use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;&lt;/code&gt; before the key-word and end with &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;}}&lt;/code&gt; before the end of key-word.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;An easier way&lt;/strong&gt;: use &lt;code class=&quot;highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; around the key-word. These two commands are also used for a block of codes,&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~~ {% raw %}{% for %}
+// line of codes
+{% end for %}{% endraw %} ~~~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;: For a beautiful display, put &lt;code class=&quot;highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; exactly like the above code.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;insert-boxes&quot;&gt;Insert boxes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Terminal box&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;terminal&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+$ sudo apt-get update
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Warning bootstrap : &lt;a href=&quot;https://getbootstrap.com/docs/4.1/components/alerts/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Success box (green):&lt;/p&gt;
+
+        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-success&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Warning (yellow)&lt;/p&gt;
+
+        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-warning&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Danger (red)&lt;/p&gt;
+        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-danger&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+      &lt;p&gt;If you wanna insert a block of math inside above boxes, don’t foget to wrap them inside a p tag.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quotes I like (hide/show)&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btTomTat&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsed&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-toggle=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#ndTomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;Highlights I like&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ndTomTat&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse multi-collapse ndTomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Contents.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Definition box&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;def-box&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;dn1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  Title
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  Content
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content of step 1.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content of step 2.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;fonts--texts&quot;&gt;Fonts &amp;amp; Texts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Info&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-more&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Information&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Marked texts: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;mark&amp;gt;texts&amp;lt;/mark&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Keyboard: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;kbd&amp;gt;B&amp;lt;/kbd&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;More link:
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include more.html content=&quot;[text](link)&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Subject: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sbj&amp;gt;Texts&amp;lt;/sbj&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hide/show description for links&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[**Title**](link){:target=&quot;_blank&quot;} other texts. [*(my comments)*](#des-1){:data-toggle=&quot;collapse&quot; .my-des}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;des&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;des-1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse multi-collapse&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;descriptions&lt;span class=&quot;nt&quot;&gt;&amp;lt;/des&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;math-expressions&quot;&gt;Math expressions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inline math, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$math-expression$&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Block of math, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$math block$$&lt;/code&gt; or&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you wanna insert some special characters, you must put &lt;code class=&quot;highlighter-rouge&quot;&gt;\&lt;/code&gt; before this character, for instance, &lt;code class=&quot;highlighter-rouge&quot;&gt;\\{ 1,2,3 \\}&lt;/code&gt; gives $\{ 1,2,3 \}$&lt;/li&gt;
+  &lt;li&gt;If you type inline maths which contain chatacters &lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt;, you must add &lt;code class=&quot;highlighter-rouge&quot;&gt;\&lt;/code&gt; before each of them, for example, &lt;code class=&quot;highlighter-rouge&quot;&gt;a\_1&lt;/code&gt; give $a_1$.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;||&lt;/code&gt; for absolute values, let’s use &lt;code class=&quot;highlighter-rouge&quot;&gt;\vert \vert&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;\left\| \right\|&lt;/code&gt; for norms, use &lt;code class=&quot;highlighter-rouge&quot;&gt;\Vert \Vert&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; for star symbols, use &lt;code class=&quot;highlighter-rouge&quot;&gt;\ast&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;If you wanna type &lt;code class=&quot;highlighter-rouge&quot;&gt;\\&lt;/code&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;\\\\&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you wanna type an inline matrix, e.g., $[A]=\begin{bmatrix}1 &amp;amp; 2 \\ 2 &amp;amp; 3.999 \end{bmatrix}$, type like below,&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\\\\&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In order to use &lt;code class=&quot;highlighter-rouge&quot;&gt;\label{}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\eqref{}&lt;/code&gt; like in latex, use&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+
+Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\eqref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$&lt;/span&gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You don’t need an enviroment &lt;code class=&quot;highlighter-rouge&quot;&gt;align&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;equation&lt;/code&gt; to use &lt;code class=&quot;highlighter-rouge&quot;&gt;\label&lt;/code&gt;, you can use it with &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt; only, for example,&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+
+Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\eqref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$&lt;/span&gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="tutorial" /><category term="admin" /><summary type="html">This post is only for the editors, please read other posts.</summary></entry><entry><title type="html">Math2IT</title><link href="http://localhost:4000/project/math2it" rel="alternate" type="text/html" title="Math2IT" /><published>2018-08-26T00:00:00+02:00</published><updated>2018-08-26T00:00:00+02:00</updated><id>http://localhost:4000/project/math2it</id><content type="html" xml:base="http://localhost:4000/project/math2it">&lt;p&gt;Xin chào các bạn.&lt;/p&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><summary type="html">Xin chào các bạn.</summary></entry><entry><title type="html">To Kill a Mockingbird</title><link href="http://localhost:4000/reading/to-kill-a-mockingbird" rel="alternate" type="text/html" title="To Kill a Mockingbird" /><published>2018-07-20T00:00:00+02:00</published><updated>2018-07-20T00:00:00+02:00</updated><id>http://localhost:4000/reading/to-kill-a-mockingbird</id><content type="html" xml:base="http://localhost:4000/reading/to-kill-a-mockingbird">&lt;h4 class=&quot;post-more&quot;&gt;Information&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Version I read&lt;/strong&gt;: Vietnamese.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Title in Vietnamese&lt;/strong&gt;: Giết con chim nhại.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Genre&lt;/strong&gt;: Southern Gothic, Bildungsroman.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Author&lt;/strong&gt;: &lt;a href=&quot;https://en.wikipedia.org/wiki/Harper_Lee&quot;&gt;Harper Lee&lt;/a&gt; (1926 - 2016).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Published&lt;/strong&gt;: 1960 (HarperCollins).&lt;/li&gt;
+  &lt;li&gt;This is Lee’s only published book.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+Below comments are in Vietnamese, please wait for an English version.
+&lt;/div&gt;
+
+&lt;p&gt;Tôi đã được nghe kể về quyển sách này rất nhiều lần. Đây là một trong những quyển mà có khi người ta chưa đọc nhưng cũng phải giả vờ là đã đọc rồi vì sự phổ biến và nổi tiếng của nó.&lt;/p&gt;
+
+&lt;p&gt;Nhìn tựa sách, tôi cứ nghĩ đây là một quyển tiểu thuyết trinh thám giật gân. Mãi đến tận hơn nửa thế kỷ sau khi được xuất bản (1960), tôi mới biết nội dung của nó nói về gì và tại sao mọi người lại cuồng quyển sách này đến vậy.&lt;/p&gt;
+
+&lt;div class=&quot;img-right&quot;&gt;
+  &lt;img src=&quot;/img/post/book/harper-lee.jpg&quot; alt=&quot;Hình: Harper Lee (Credit: polaris/eyevine).&quot; /&gt;
+  &lt;em&gt;Harper Lee (Credit: polaris/eyevine).&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Truyện gần như không liên quan nhiều đến con chim nhại - loài chim được lấy làm tựa đề quyển sách (thật ra, tôi cũng chưa biết đây là loài chim gì cho đến khi đọc sách này). Chim nhại là một loài chim phổ biến ở bang Texas, bang miền nam và lớn thứ hai cả về địa lý lẫn dân số ở Hoa Kỳ. Nó không có tiếng hót riêng và thường bắt chước tiếng gáy của các loài chim khác. Ở Texas, việc giết một con chim nhại là phạm pháp và mọi người xem việc ấy tượng trưng cho việc ác quỷ giết đi những người vô tội. Nhớ rõ điều này sẽ giúp bạn dễ hình dung và hiểu ngụ ý của tác giả hơn khi đọc truyện. Lưu ý, bối cảnh phim là ở thị trấn nhỏ Maycomb, bang Alabama, miền Nam Hoa Kỳ.&lt;/p&gt;
+
+&lt;p&gt;Nói riêng về Harper Lee, thật bất ngờ khi “Giết con chim nhại” là quyển sách được xuất bản duy nhất của bà. Lý do có lẽ vì bà quá cầu toàn và sống rất kỹ tính.&lt;/p&gt;
+
+&lt;p&gt;Quay lại với tác phẩm, truyện gần như không có cốt truyện và rất lạ! Nó giống như việc bạn đang đi trên đường, tình cờ quen một người bạn nhỏ và cũng tình cờ được người ấy kể về cuộc sống của mình, một cuộc sống hàng ngày, rất đỗi bình thường, rất chậm, rất chi tiết và rất thực. Truyện giống một quyển nhật ký riêng cho một giai đoạn của xã hội Mỹ lúc bấy giờ. Cái lớn nhất mà Harper Lee muốn nói cho người đọc biết chính là nạn phân biệt chủng tộc nặng nề thời ấy cũng như sự chuyển giao giữa tư tưởng và tâm lý con người từ chỗ phân biệt đến chỗ bình đẳng xã hội có được ngày hôm nay.&lt;/p&gt;
+
+&lt;div class=&quot;img-right&quot;&gt;
+  &lt;img src=&quot;/img/post/book/mockingbird.jpg&quot; alt=&quot;Hình: A mockingbird (Credit: Mimus polyglottos).&quot; /&gt;
+  &lt;em&gt;A mockingbird (Credit: Mimus polyglottos).&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Dù bà cho biết tiểu thuyết được sáng tác dựa trên những gì xảy ra xung quanh bà, một số nhân vật cũng dựa trên các mối quan hệ ngoài đời thực của bà nhưng phải công nhận một điều rằng Harper Lee có tài kể chuyện quá tài tình. Cách kể của bà nếu so sánh với phim võ thuật thì là kiểu của một người giỏi võ nhưng cứ giả bộ ta đây vụng về và đơn giản. Cách bà chọn cốt truyện, điểm thắt cũng như những nhân vật chịu ảnh hưởng bởi điểm thắt ấy rất hay. Khi nghiệm ra mới thấy đều có ngụ ý của bà.&lt;/p&gt;
+
+&lt;p&gt;Sẽ có đôi lúc bạn đọc mà nghĩ “Sao đoạn này nó dư thừa, lan man quá”, thế nhưng đến hết sách thì mới “À, thì ra không có dư”.&lt;/p&gt;
+
+&lt;p&gt;Sở dĩ nó phổ biến đến vậy có lẽ cũng vì nó giúp cho người đọc một phần nào đấy biết được bối cảnh xã hội của Mỹ ngày xưa, không phải định nghĩa giáo điều, lý thuyết mà thông qua góc nhìn của một đứa trẻ, kể thật, kể đúng.&lt;/p&gt;
+
+&lt;p&gt;Nói đi cũng phải nói lại, chính vì đã lớn nhưng lại kể thông qua một đứa trẻ nên có những khúc ta thấy chưa thật hợp lý. Tuy nhiên vẫn quyết định cho 4.5/5 sao sách này và kính mời bạn đọc thử.&lt;/p&gt;
+
+&lt;div class=&quot;tomTat&quot;&gt;
+&lt;div id=&quot;btTomTat&quot; class=&quot;collapsed&quot; data-toggle=&quot;collapse&quot; href=&quot;#ndTomTat&quot;&gt;&lt;span&gt;Highlights I like (in Vietnamese)&lt;/span&gt;&lt;/div&gt;
+&lt;div id=&quot;ndTomTat&quot; class=&quot;collapse multi-collapse&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;chẳng có gì để sợ ngoài chính nỗi sợ hãi&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Cô Caroline bắt gặp tôi viết và bảo tôi phải nói với bố tôi ngừng dạy tôi. “Với lại,” cô nói. “Chúng ta không viết trong lớp một, chúng ta chỉ tập đồ mẫu tự rời thôi. Em sẽ không học viết cho đến khi lên lớp ba.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Mình có nghèo như nhà Cunningham không?” “Không hẳn. Nhà Cunningham là dân nông thôn, là nông dân, và vụ sập tiệm chứng khoán giáng vào họ mạnh nhất&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Người nhà Cunningham không bao giờ nhận bất cứ thứ gì mà họ không thể trả&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Vì hạt Maycomb là hạt nông nghiệp, bác sĩ, nha sĩ và luật sư khó kiếm được những đồng năm xu và mười xu.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;ông Cunningham có thể kiếm được một việc làm ở WPA, nhưng đất đai của ông sẽ tàn lụi nếu ông rời bỏ nó,&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Có những loại người …. họ quá bận lo về thế giới bên kia đến độ không hề biết cách sống trong thế giới này,&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Scout, đơn giản bởi vì bản chất của mỗi công việc, mỗi luật sư trong đời mình ít nhất có một vụ tác động đến cá nhân ông ta.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Đơn giản bởi vì cho dù chúng ta đã bị đánh bại một trăm năm trước khi chúng ta bắt đầu thì đó cũng đâu phải là lý do khiến chúng ta không cố thắng,”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Ngôn ngữ bậy bạ là một chặng đường mà mọi trẻ con đều phải đi qua, và nó chết với thời gian khi chúng biết chúng không thu hút được sự chú ý bằng thứ ngôn ngữ đó. Thói nóng nảy cũng không.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Cứ bắn mọi con giẻ xanh mà con muốn, nếu con có thể bắn trúng, nhưng hãy nhớ giết một con chim nhại là tội lỗi.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Những con chim nhại chẳng làm gì ngoài việc đem tiếng hót đến cho ta thưởng thức. Chúng không phá hoại vườn tược của con người, không làm tổ trên những bẹ ngô, chúng không làm việc gì ngoài việc hót bằng cả trái tim cho chúng ta nghe. Điều đó lý giải tại sao giết một con chim nhại là tội lỗi.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Con người có đầu óc sáng suốt thì không bao giờ tự hào về tài năng của mình,”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;nhiều khi mình phải cố làm tốt trong mọi chuyện và cả trong cách chúng ta ứng xử vào những lúc khó khăn….&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;” Jem có vẻ bị mê hoặc bởi một đóa hoa hồng trên tấm thảm. “Bố Atticus,” Jem nói, “bà ấy muốn con đọc cho bà nghe.” “Đọc cho bà nghe?” “Vâng. Bà muốn con đến mỗi tối sau giờ đi học về và mỗi thứ Bảy để đọc to cho bà nghe trong hai giờ. Bố Atticus, con nên làm không?” “Chắc chắn rồi.” “Nhưng bà ấy muốn con làm vậy trong một tháng.” “Vậy con sẽ đọc trong một tháng.” Jem đặt ngón chân cái vào ngay&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Chắc chắn họ có quyền nghĩ vậy và họ có quyền nhận được sự tôn trọng dành cho ý kiến của họ,” bố Atticus nói, “nhưng trước khi bố sống được với người khác bố phải sống với chính mình. Có một thứ không tuân theo nguyên tắc đa số, đó là lương tâm của con người.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Bố muốn con thấy được điều gì đó ở bà, bố muốn con thấy lòng can đảm là gì, thay vì có ý nghĩ rằng can đảm là người đàn ông có khẩu súng trong tay. Đó là khi con biết thất bại trước khi con bắt đầu nhưng dù vậy con vẫn bắt đầu và con theo đuổi nó tới cùng dù cho có chuyện gì xảy ra. Con hiếm khi thắng, nhưng đôi khi con cũng thắng.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Zeebo là con trai lớn của Calpurnia.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Không, tôi bắt nó học mỗi ngày một trang Kinh Thánh, còn cô Buford thì dạy tôi theo một cuốn sách khác – tôi chắc là cô cậu không biết ở đâu mà tôi có được nó,”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Không cần thiết phải nói mọi điều mình biết. Như thế không đúng kiểu quý cô – thứ hai, người ta không thích xung quanh ai đó biết nhiều hơn họ. Nó làm cho họ bực thêm. Cô sẽ không thay đổi được bất kỳ ai trong số họ bằng việc nói đúng, tự họ phải cảm thấy muốn học hỏi, và khi họ không muốn học thì cô chẳng thể làm gì ngoài việc im miệng hoặc nói bằng thứ ngôn ngữ của họ.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Dù Maycomb đã bị bỏ quên suốt cuộc Nội chiến, nhưng sự suy thoái kinh tế và luật lệ Thời kỳ tái thiết[53] đã buộc Maycomb phát triển. Nó phát triển từ trong ra. Hiếm có người mới định cư ở đó, vẫn những dòng họ đó kết hôn với những dòng họ đó cho đến khi các thành viên của cộng đồng trông có vẻ hơi hơi giống nhau.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tôi mặc đồ ngủ vào, đọc sách một lát và thấy mình không mở mắt nổi nữa.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Đó không phải là lý do để bỏ trốn. Đến nửa số lần là người ta không có thời gian để làm những gì họ đã nói họ sẽ làm…..”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Bọn tao có đóng gì đâu.” Tôi chống khuỷu tay nhổm người lên, nhìn mặt Dill. “Đó không phải là lý do để bỏ trốn. Đến nửa số lần là người ta không có thời gian để làm những gì họ đã nói họ sẽ làm…..”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;người lên, nhìn mặt Dill. “Đó không phải là lý do để bỏ trốn. Đến nửa số lần là người ta không có thời gian để làm những gì họ đã nói họ sẽ làm…..”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tôi chống khuỷu tay nhổm người lên, nhìn mặt Dill. “Đó không phải là lý do để bỏ trốn. Đến nửa số lần là người ta không có thời gian để làm những gì họ đã nói họ sẽ làm…..”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Có lẽ ông ta không có chỗ nào để trốn đi…..”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Bố Atticus đã từng nói rằng lịch sự là nói với người khác về những gì họ quan tâm, chứ không nói về những gì mình quan tâm.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Dù gì đi nữa thì một đám đông hung hăng cũng gồm những con người đơn lẻ. Tối qua ông Cunningham chỉ là một phần của đám đông hung hăng đó, nhưng ông ta vẫn là một con người. Mọi đám đông hung hăng trong mọi thị trấn nhỏ bé ở miền Nam này luôn luôn gồm những người con đã biết……&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Kẻ đến trong phù hoa sẽ ra đi trong tăm tối!”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Nửa trắng, nửa màu. Em thấy tụi nó rồi mà, Scout. Em biết thằng nhỏ tóc đỏ kỳ cục giao hàng cho cửa hàng thực phẩm không? Nó lai trắng đấy. Tụi nó thật đáng buồn.” “Buồn, nghĩa là sao?” “Chúng không thuộc về bất cứ đâu. Người da màu không dung chứa chúng bởi vì chúng lai trắng; người da trắng không chấp nhận chúng bởi vì chúng lai da màu, vì vậy chúng chỉ đứng ở giữa, không thuộc về đâu cả.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Sợ bị bắt giữ, sợ bị đối mặt với những gì anh đã làm à?” “Không thưa ngài, sợ phải đối mặt với những gì tôi không hề làm.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Nó không trung thực nhưng nó hữu ích cho người ta. Bí mật nghen cô Finch, ta không phải là kẻ say sưa, nhưng cô thấy họ không thể nào, không thể nào hiểu rằng ta sống theo kiểu đó bởi vì đó là cách ta muốn sống.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Khóc về sự bất hạnh đơn giản mà người này gây ra cho người kia…. mà không hề suy nghĩ. Khóc về điều bất hạnh do người da trắng gây ra cho người da màu, mà không hề dừng lại để nghĩ rằng họ cũng là con người.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;vụ này không cần phải đưa ra xem xét. Vụ án này đơn giản như đen và trắng.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Cô ta không gây tội ác, cô ta chỉ phá vỡ một quy ước cứng ngắc và lâu đời của xã hội chúng ta, một quy ước quá khắt khe đến độ bất cứ ai phá vỡ nó đều sẽ bị loại khỏi cộng đồng chúng ta như một kẻ không thích hợp để sống chung.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Thomas Jefferson từng nói rằng tất cả con người sinh ra đều bình đẳng, một cụm từ mà bọn miền Bắc và cánh nữ của ngàng Hành pháp ở Washington[66] thích quát vào mặt chúng ta. Có một xu hướng trong năm nay, 1935, một số người thích sử dụng từ này tách khỏi ngữ cảnh, để thỏa đáp mọi tình huống. Ví dụ buồn cười nhất tôi có thể nghĩ đến là chuyện những nhà quản lý nền giáo dục công lập khuyến khích kẻ ngu ngốc và lười biếng học cùng với người siêng năng – bởi vì tất cả con người sinh ra đều bình đẳng, các nhà giáo dục sẽ long trọng nói với quý vị rằng những đứa trẻ bị bỏ lại đằng sau sẽ phải chịu đựng cảm giác khủng khiếp về sự kém cỏi. Chúng ta biết tất cả mọi người sinh ra không bình đẳng theo cái nghĩa mà một số người thường muốn chúng ta tin – rằng một số người thì thông minh hơn một số người khác, một số người có cơ hội hơn bởi vì họ sinh ra với nó, một số đàn ông kiếm ra nhiều tiền hơn những người đàn ông khác – một số người sinh ra có tài năng vượt quá mức bình thường của hầu hết con người.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Họ đã làm điều đó trước đây, họ đã làm điều đó tối nay, và họ sẽ còn làm vậy nữa khi họ làm vậy…. có lẽ chỉ có trẻ con là khóc thôi. Chúc ngủ ngon.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;ông ấy là người duy nhất có thể khiến bồi thẩm đoàn phải họp kín lâu đến mức đó trong một vụ xử giống như vậy. Và cô thầm nghĩ, chúng ta bước được một bước….. chỉ một bước ngắn, nhưng đó là một bước.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Atticus sẽ không thắng, ông ấy không thể thắng, nhưng ông ấy là người duy nhất có thể khiến bồi thẩm đoàn phải họp kín lâu đến mức đó trong một vụ xử giống như vậy. Và cô thầm nghĩ, chúng ta bước được một bước….. chỉ một bước ngắn, nhưng đó là một bước.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Những anh hề thường buồn, chính người ta mới cười lại họ.” “Vậy tớ sẽ làm một dạng hề mới. Tớ sẽ đứng ngay giữa vòng diễn và cười nhạo mọi người.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Bố nói với anh việc có một khẩu súng bên mình là khuyến khích một ai đó bắn mình.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;bất cứ khi nào một người da trắng làm điều đó với một người da đen, bất kể anh ta là ai, anh ta giàu cỡ nào, hoặc anh ta xuất thân từ một gia đình danh giá ra sao, thì người da trắng đó vẫn là thứ rác rưởi.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Anh muốn nói ở hạt Maycomb. Vấn đề là, loại như mình không thích loại nhà Cunningham, nhà Cunningham không thích người nhà Ewell, và người nhà Ewell ghét và coi thường người da màu.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Không, mọi người đều phải học, không ai sinh ra là đã biết. Thằng Walter cũng thông minh theo mức của nó, đôi khi nó bị cản trở vì nó phải ở nhà giúp đỡ bố nó. Chẳng có gì sai với nó. Không, Jem, em nghĩ chỉ có một hạng người. Đó là người.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nhưng tôi quen thuộc và thoải mái hơn trong thế giới của bố tôi. Những người giống ông Heck Tate không bẫy bạn với những câu hỏi vô hại để giễu cợt bạn; ngay cả Jem cũng không chê bai gì nhiều nếu như bạn không nói gì ngốc nghếch.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Em đoán Tom đã phát mệt với những cơ hội của người da trắng và thích chớp lấy cơ hội của anh ta hơn. Phải không, Cal?”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Mỗi học sinh có nhiệm vụ cắt một mẩu tin từ báo, nắm vững nội dung của nó và trình bày cho cả lớp nghe. Việc thực tập này được cho là nhằm khắc phục nhiều nhược điểm: việc đứng trước đám bạn kích thích tư thế đường hoàng và tạo cho trẻ sự tự tin; việc trình bày một bài nói ngắn làm trẻ có ý thức về ngôn từ; việc tìm hiểu sự kiện hiện nay củng cố ký ức của trẻ; việc bị chọn riêng ra khiến trẻ nóng lòng muốn quay trở lại với tổ nhóm của mình hơn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Bà đừng tự trách móc mình vì bất cứ chuyện gì nữa… ôi, nếu lúc nào chúng ta cũng đi theo những linh cảm của mình, thì ta sẽ giống những con mèo đuổi theo đuôi của chúng vậy.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="reading" /><category term="fiction" /><summary type="html">Information</summary></entry><entry><title type="html">Predictably Irrational</title><link href="http://localhost:4000/reading/predictably-irrational" rel="alternate" type="text/html" title="Predictably Irrational" /><published>2018-06-22T00:00:00+02:00</published><updated>2018-06-22T00:00:00+02:00</updated><id>http://localhost:4000/reading/predictably-irrational</id><content type="html" xml:base="http://localhost:4000/reading/predictably-irrational">&lt;h4 class=&quot;post-more&quot;&gt;Information&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Full title&lt;/strong&gt;: Predictably Irrational: The Hidden Forces That Shape Our Decisions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Version I read&lt;/strong&gt;: Vietnamese.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Title in Vietnamese&lt;/strong&gt;: Phy lý trí.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Genre&lt;/strong&gt;: Behavioral economics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Author&lt;/strong&gt;: &lt;a href=&quot;https://en.wikipedia.org/wiki/Dan_Ariely&quot;&gt;Dan Ariely&lt;/a&gt; (1967 - today).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Published&lt;/strong&gt;: 2008 (HarperCollins).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+Below comments are in Vietnamese, please wait for an English version.
+&lt;/div&gt;
+
+&lt;p&gt;Nhận xét hơi khác thường tí. Tôi là một người xuất thân từ sư phạm và cũng là một đứa hay nghĩ ngợi cũng như có thói quen quan sát mọi người nhiều. Có lẽ vậy mà khi đọc sách này (hay những sách kiểu này), tôi sẽ cảm nhận và hiểu nó theo một hướng tập trung vào những thứ ở trên.&lt;/p&gt;
+
+&lt;p&gt;Sách này không dễ đọc, quả thật là vậy, nhất là khi đọc nó, ta phải liên tưởng nhiều đến những việc chúng ta đã từng hoặc đang trải nghiệm. Có những chỗ Dan gợi mở cho ta thấy những hành động thường ngày của chúng ta là rất phi lý trí nhưng ông không giải thích gì thêm. Cũng có những chỗ ông gợi mở, giải thích và rút ra kết luận rõ ràng. Chung quy lại, ông thường đưa ra những lời khuyên cho chúng ta sau mỗi thí nghiệm và luận điểm ông đưa ra.&lt;/p&gt;
+
+&lt;div class=&quot;img-right&quot;&gt;
+  &lt;img src=&quot;/img/post/book/dan-ariely.jpg&quot; alt=&quot;Hình: Dan Ariely (Credit: Reboot).&quot; /&gt;
+  &lt;em&gt;Dan Ariely (Credit: Reboot).&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Sách này không thích hợp cho những ai chỉ thích đọc mà không nghĩ ngợi. Hơn hết, đọc xong sách này là ta có ngay ý nghĩ rằng ta phải đọc lại nó lần nữa nhưng không phải ngay lúc này mà là sau một giai đoạn cuộc sống khác. Để khi ấy chúng ta lại có những trải nghiệm, lại có thể liên tưởng và lại có thể chiêm nghiệm sách theo một ý khác.&lt;/p&gt;
+
+&lt;p&gt;Tôi thấy sách hay vì nó “chiều chuộng” ba thứ mà tôi thích: tâm lý con người trong đời sống, tâm lý con người trong kinh doanh và tâm lý con người trong giáo dục. Một giáo viên khi đọc quyển này chắc chắn sẽ rút ra được nhiều thứ và có thể áp dụng nó trong giảng dạy. Một chủ doanh nghiệp khi đọc sách có thể hiểu được cơ chế tâm lý của khách hàng cũng như biết được cần phải điều chỉnh một số thứ có vẻ lý trí nhưng lại phi lý trí để đem về lợi ích cao nhất. Và cuối cùng, một người bình thường có thể hiểu được những hành vi của người khác vốn “lạ với mình” nhưng lại “bình thường với họ”.&lt;/p&gt;
+
+&lt;p&gt;Nói về bố cục, cách viết thì Dan không tô vẻ, ông chỉ áp dụng đúng công thức mở bài + thân bài + kết luận rồi đưa mấy nghiên cứu khoa học của ông vào nhưng dưới dạng những câu từ dễ hiểu và gần gũi. Có những lúc chúng ta thấy thiếu thuyết phục với những thí nghiệm của ông vì số lượng nghiên cứu là không đủ lớn cũng như chưa đủ đa dạng. Ông là người Mỹ gốc Israel nên sách hơi thiên vị cho xã hội Mỹ cũng như Israel và có thể không đúng cho xã hội Đông Phương như Việt Nam.&lt;/p&gt;
+
+&lt;p&gt;Nếu bạn hỏi tôi có nên đọc không thì số điểm 4 sao/5 của tôi là câu trả lời (tôi rất ít khi cho 5 sao).&lt;/p&gt;
+
+&lt;p class=&quot;more-link&quot;&gt;
+  &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=wfcro5iM5vw&quot;&gt;Dan Ariely’s talk on TED.&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div class=&quot;tomTat&quot;&gt;
+&lt;div id=&quot;btTomTat&quot; class=&quot;collapsed&quot; data-toggle=&quot;collapse&quot; href=&quot;#ndTomTat&quot;&gt;&lt;span&gt;Highlights I like (in Vietnamese)&lt;/span&gt;&lt;/div&gt;
+&lt;div id=&quot;ndTomTat&quot; class=&quot;collapse multi-collapse&quot;&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tôi nói rằng thực tế mọi người sẽ cảm thấy đỡ đau đớn hơn nếu các bước điều trị (ví dụ: việc tháo băng sau khi tắm dung dịch khử trùng) được tiến hành với cường độ thấp hơn và trong thời gian dài hơn. Nói cách khác, mọi người sẽ cảm thấy đỡ đau đớn hơn nếu những tấm băng được kéo ra từ từ.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;chúng ta không chỉ phi lý trí mà còn phi lý trí có hệ thống – sự phi lý trí được lặp đi lặp lại.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;con người ít khi đưa ra lựa chọn cái gì đó theo một tiêu chuẩn tuyệt đối.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Chúng ta không có chiếc đồng hồ đo giá trị ở bên trong để nói cho chúng ta biết mỗi thứ có giá bao nhiêu. Thay vào đó, chúng ta tập trung vào ưu thế tương đối của vật này so với vật kia và ước tính giá trị của nó.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;hầu hết mọi người không biết họ muốn gì trừ khi họ nhìn thấy nó trong một ngữ cảnh nào đó.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;các món ăn có đơn giá cao trên thực đơn sẽ giúp tăng doanh thu cho nhà hàng – ngay cả khi không khách hàng nào lựa chọn món đó cả.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nhìn chung, thực khách sẽ không chọn món ăn đắt tiền nhất trên thực đơn, nhưng họ sẽ gọi món đắt thứ hai.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;chúng ta không chỉ có xu hướng so sánh mọi thứ với nhau, mà còn tập trung vào so sánh những thứ có thể dễ dàng so sánh và luôn tránh so sánh những thứ không dễ so sánh.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Hãy mang theo một người bạn đến lễ hội dành cho những người độc thân – một người không thể diễn đạt lưu loát và thông minh sắc sảo bằng bạn. Trong sự so sánh, người ta sẽ thấy bạn thật tuyệt vời.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Sự so sánh giúp bạn đưa ra quyết định trong cuộc sống. Nhưng nó cũng có thể khiến bạn gặp rắc rối.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Vì lòng đố kỵ và sự ghen ghét nảy sinh từ việc so sánh số phận của chúng ta với số phận của người khác. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;càng có nhiều thứ, chúng ta càng muốn có thêm nhiều hơn nữa. Và liều thuốc đặc trị duy nhất đó là hãy phá vỡ sự so sánh.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Mark Twain đã viết về Tom Sawyer: “Tom đã phát hiện ra một quy luật vĩ đại về hành động của con người, đó là, để khiến một người thèm thuồng thứ gì đó, chỉ cần làm cho việc đó trở nên khó khăn.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Và tác động của chiếc mỏ neo đầu tiên vẫn duy trì – nó chỉ ra rằng những chiếc mỏ neo có tác dụng lâu dài đối với mức giá hiện tại cũng như trong tương lai.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Điều này cho thấy những quyết định đầu tiên có sức lan tỏa tới một chuỗi dài các quyết định sau đó. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Chúng tôi gọi đây là hành vi bầy đàn. Nó xảy ra khi chúng ta cho rằng một điều gì đó tốt (hoặc xấu) căn cứ vào hành vi trước của người khác và chúng ta sẽ hành động theo sau cho phù hợp.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nhưng cũng có một loại hành vi bầy đàn khác, chúng tôi gọi là tự bầy đàn. Hành vi này xảy ra khi chúng ta tin rằng một điều gì đó là tốt (hoặc xấu) căn cứ vào hành vi trước đây của chính chúng ta.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Nếu Tom là một triết gia vĩ đại và khôn ngoan, thì cậu bé sẽ hiểu rằng công việc là những gì một người bắt buộc phải làm và chơi là những gì một người không bị buộc phải làm.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Chúng ta có thể cải thiện tích cực các hành vi phi lý trí của mình bằng việc chất vấn các thói quen hàng ngày.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Chúng ta cũng nên dành sự chú ý đặc biệt cho lần quyết định đầu tiên của mình. Trong thực tế, sức mạnh của quyết định đầu tiên có thể có ảnh hưởng lâu dài đến các quyết định trong tương lai.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;độ nhạy của chúng ta trước sự thay đổi của giá cả là kết quả của ký ức mà chúng ta có về mức giá trước đó – hoàn toàn không phản ánh mong muốn của chúng ta.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nguyên tắc này cũng đúng trong trường hợp chính phủ quyết định một mức thuế khiến giá xăng tăng gấp đôi.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;hầu hết các mặt hàng đều có ưu điểm và nhược điểm, nhưng khi một mặt hàng được MIỄN PHÍ!, thì chúng ta lại quên đi những nhược điểm của nó.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tôi không nghĩ nhà hoạch định chính sách nào cũng nhận ra rằng hàng MIỄN PHÍ! là một con át chủ bài trong tay họ, chưa nói đến việc họ biết phát huy nó như thế nào.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Khi một người được lựa chọn một và chỉ một trong số hai viên kẹo sô-cô-la, cái mà anh ta cần xem xét không phải là giá trị tuyệt đối của mỗi viên sô-cô-la mà là giá trị tương đối của nó&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tại sao chúng ta vui mừng khi làm một việc nào đó, nhưng lại không vui khi được trả tiền để làm việc đó?&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Như Margaret Clark, Judson Mills và Alan Fiske  đã đưa ra giả thuyết rằng chúng ta sống đồng thời trong hai thế giới khác nhau – một với các quy chuẩn xã hội chiếm ưu thế, và một với quy chuẩn thị trường tạo ra các quy tắc.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Khi chúng ta đặt các quy chuẩn xã hội và quy chuẩn thị trường trên hai con đường riêng biệt, cuộc sống trở nên tốt đẹp hơn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Khi các quy chuẩn xã hội và thị trường va chạm nhau, thì vấn đề sẽ nảy sinh.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;mọi người thường làm việc vì một lý do nào đó hơn là vì tiền bạc.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt; Vậy những người làm mà không có tiền thì sao? Kết quả cho thấy, trung bình, họ thả được 168 vòng, nhiều hơn rất nhiều so với những người được trả 50 xu. Họ đã làm việc dựa trên quy chuẩn xã hội chứ không phải vì sức nặng của đồng tiền.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Để biết quà tặng nằm ở đâu trong ranh giới giữa quy chuẩn xã hội và quy chuẩn thị trường,&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;không ai cảm thấy bị xúc phạm vì món quà nhỏ, vì ngay cả những món quà nhỏ cũng giữ cho chúng ta tránh xa khỏi các quy chuẩn thị trường.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;nghĩ về tiền khiến những người thuộc nhóm bài tập “lương” tự lực hơn và ít mong muốn yêu cầu giúp đỡ hơn. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nói chung, những người thuộc nhóm bài tập “lương” cho thấy nhiều đặc điểm thị trường: ích kỷ và tự lực hơn; họ muốn dành thời gian một mình nhiều hơn; họ có xu hướng chọn các bài tập đòi hỏi nguồn lực cá nhân hơn là đồng đội; và khi đang phải quyết định chọn chỗ ngồi, họ sẽ chọn chỗ ngồi cách xa khỏi người được yêu cầu phải làm việc cùng. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;khi chuẩn xã hội va chạm với chuẩn thị trường, nó sẽ ra đi trong một thời gian dài. Nói cách khác, các mối quan hệ xã hội không dễ để thiết lập lại. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nếu bạn là một công ty, lời khuyên của tôi là hãy nhớ bạn không thể gây dựng mối quan hệ với khách hàng theo cả hai cách. Bạn không thể lúc này đối xử với khách hàng của mình như gia đình, rồi lúc khác lại cư xử lạnh lùng với họ – hoặc coi họ là một nỗi phiền toái hay một đối thủ cạnh tranh.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Mặc dù một số công ty đã thành công trong việc tạo ra các quy chuẩn xã hội đối với các nhân viên của mình, nhưng nỗi ám ảnh về lợi nhuận ngắn hạn và việc cắt giảm chi phí đe dọa phá hoại tất cả những điều này. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Bạn nên tặng cho nhân viên một món quà trị giá 1.000 đô-la hay trả cho người đó 1.000 đô-la tiền mặt? Cách nào tốt hơn? Câu trả lời nhận được từ đa số nhân viên là họ thích tiền hơn quà.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Theo cảm nhận của tôi thì việc chuẩn hóa kiểm tra và trả lương dựa vào thành tích có khả năng đẩy nền giáo dục từ quy chuẩn xã hội sang quy chuẩn thị trường.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Thay vì tập trung chú ý vào giáo viên, phụ huynh, sinh viên, việc cần thiết là phải làm thấm nhuần trong tất cả chúng ta ý thức được mục đích, nhiệm vụ và niềm tự hào đối với giáo dục.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Trước hết, chúng ta nên suy nghĩ lại về các chương trình học tại trường và liên kết chúng với các mục tiêu xã hội (xóa đói giảm nghèo, giảm bớt tội phạm, nâng cao các quyền con người, v.v…), các mục tiêu công nghệ (đẩy mạnh bảo tồn năng lượng, khám phá vũ trụ, công nghệ Nanô, v.v…) và các mục tiêu y tế (chữa ung thư, tiểu đường, béo phì, v.v…).&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Kết quả cho thấy trong trạng thái không hưng phấn, họ không biết mình sẽ như thế nào khi hưng phấn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Bình thường chúng ta tưởng là đã hiểu được chính mình. Nhưng trong trạng thái phấn khích mãnh liệt, bỗng nhiên có một sự chuyển đổi nội tại nào đó và mọi thứ thay đổi.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Vậy điều gì sẽ xảy ra, khi cái tôi phi lý trí của chúng ta xuất hiện ở một trạng thái cảm xúc mà chúng ta nghĩ là quen thuộc nhưng thực tế không phải vậy?&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;tránh khỏi sự cám dỗ sẽ dễ hơn là vượt qua nó.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Một điều thật lạ là chúng ta đầu tư rất ít thời gian vào việc tìm hiểu hai con người trong chính bản thân mình.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Từ bỏ các mục tiêu lâu dài vì sự thỏa mãn tức thời chính là sự trì hoãn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Thứ nhất, các sinh viên thật sự có trì hoãn; thứ hai, việc hạn chế nghiêm ngặt quyền tự do của họ (các hạn nộp cách đều) là phương pháp tốt nhất để chữa trị căn bệnh trì hoãn của họ. Nhưng phát hiện lớn nhất của chúng tôi là chỉ cần trao cho các sinh viên một công cụ để họ có thể cam kết trước các thời hạn sẽ giúp họ đạt được kết quả tốt hơn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tại sao chúng ta lại liên tục thất bại trong việc đạt được các mục tiêu lâu dài của mình. Lý do là, không có các cam kết từ trước, chúng ta sẽ gục ngã trước cám dỗ.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;khi chúng ta sở hữu một thứ gì đó – cho dù đó là một chiếc xe ôtô hay một chiếc đàn viôlông, một con mèo hay một tấm vé bóng rổ – chúng ta coi trọng giá trị của nó hơn những người khác.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Thói quen thứ nhất, chúng ta thường yêu quý những gì chúng ta đã có. Thói quen thứ hai, chúng ta tập trung vào những gì chúng ta có thể bị mất hơn là những gì chúng ta có thể có. Thói quen thứ ba, chúng ta cho rằng người khác sẽ nhìn nhận sự giao dịch đó từ góc độ của chúng ta.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Thứ nhất, bạn bỏ càng nhiều công sức cho một việc gì đó, bạn càng cảm thấy sự sở hữu dành cho nó tăng lên.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Một đặc tính khác là chúng ta có thể cảm thấy quyền sở hữu ngay cả trước khi chúng ta sở hữu một cái gì đó.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;những người trả giá cao nhất, trong khoảng thời gian dài nhất, kết thúc phiên đấu giá với cảm giác mạnh mẽ nhất về quyền sở hữu ảo.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Có một cách khác để chúng ta đi sâu tìm hiểu về sở hữu. Các công ty thường có các đợt khuyến mãi “dùng thử”.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;trong nền dân chủ hiện đại, con người luôn lo lắng không phải bởi họ thiếu cơ hội mà là vì họ có quá nhiều cơ hội.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;vấn đề đặt ra là cách chúng ta thực hiện ước mơ của mình.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Bài học rút ra ở đây là nếu bạn nói cho mọi người biết một cái gì đó sẽ có hương vị rất khó chịu thì có nhiều khả năng sau đó họ sẽ đồng ý thử – không phải sự trải nghiệm nói với họ mà bởi vì kỳ vọng của họ.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;khi không gian uống cà phê trông sang trọng hơn thì người uống sẽ cảm thấy cà phê ngon hơn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Vì vậy, khi chúng ta tin rằng một cái gì đó tốt, thì nó sẽ tốt – và khi chúng ta nghĩ nó tệ thì nó sẽ tệ.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Liệu có thể là Pepsi có vị ngon hơn trong thí nghiệm bịt mắt nhưng Coca lại có vị ngon hơn trong thí nghiệm không bịt mắt (có nhìn thấy)?&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Lợi thế của Coca so với Pepsi là do thương hiệu của mình – kích hoạt các cơ chế não bộ bậc cao hơn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;hành vi của chúng ta cũng có thể bị ảnh hưởng bởi các định kiến của chính mình,&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Quan điểm của mỗi bên được trình bày mà không đưa ra quyết định cuối cùng là mình thuộc phe nào. Loại điều kiện “mù” này có thể giúp chúng ta nhận ra sự thật tốt hơn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nói chung, có hai cơ chế hình thành sự mong đợi khiến giả dược có tác dụng. Một là niềm tin.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Từ những thí nghiệm của về “các loại thuốc”, chúng ta đã thấy giá cả điều khiển hiệu quả trấn an như thế nào.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Có hai kiểu không trung thực. Kiểu thứ nhất gợi lên hình ảnh hai kẻ lưu manh đang đi vòng quanh một trạm xăng. Kiểu thứ hai là những người nghĩ mình là trung thực. Họ “mượn” một cây bút trong cuộc hội thảo, lấy thêm ngay cả khi chúng ta không hề có khả năng bị phát hiện, chúng ta vẫn không gian lận quá mức.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Ông nói rằng vì chúng ta lớn lên trong xã hội, nên chúng ta tiếp thu những phẩm chất xã hội. Sự tiếp thu này dẫn đến sự phát triển của cái siêu ta. Nói chung, cái siêu ta hài lòng khi chúng ta tuân theo đạo đức của xã hội và không hạnh phúc khi chúng ta không tuân theo.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;những người được yêu cầu nhớ lại 10 Lời răn của Chúa không gian lận chút nào.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;không phải những Lời răn của Chúa đã khuyến khích tính trung thực mà sự suy tưởng về một chuẩn mực đạo đức nào đó đã khuyến khích tính trung thực.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Hiện tượng suy thoái đạo đức nghề nghiệp diễn ra ở khắp nơi.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;con người thực hiện hành vi gian lận khi họ có cơ hội nhưng họ không gian lận nhiều như họ có thể. Hơn nữa, ngay khi họ nghĩ về sự trung thực – bằng cách nhớ lại 10 Lời răn của Chúa hay ký một lời cam kết đơn giản – họ sẽ dừng hành vi gian lận ngay lập tức. Nếu chúng ta được nhắc nhở về đạo đức vào thời điểm chúng ta bị lôi cuốn, thì khi đó chúng ta có nhiều khuynh hướng trung thực hơn.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;rõ ràng là lời thề và các quy tắc phải được nhớ lại vào trước thời điểm chúng ta bị cám dỗ.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;hầu hết những hành vi không trung thực mà chúng ta nhìn thấy đều không liên quan trực tiếp đến tiền mặt.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;gian lận sẽ dễ dàng hơn rất nhiều nếu nó không trực tiếp dính dáng đến tiền. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Vì chúng ta ngụy biện quá giỏi cho hành động gian lận của mình nên rất khó để phác thảo một bức tranh là làm thế nào các vật thể phi tiền tệ lại ảnh hưởng đến sự gian lận của chúng ta.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;không chỉ đồng tiền tượng trưng “giải phóng” con người khỏi ràng buộc đạo đức mà đối với một số ít người, quy mô của sự giải phóng này hoàn hảo đến nỗi họ gian lận hết mức có thể.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Wardrobing là hành động mua một món đồ nào đó, sử dụng một thời gian, rồi trả lại nó trong một hiện trạng buộc cửa hàng phải nhận lại nhưng không thể bán được nữa.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;cả những người tốt cũng không thể tránh khỏi những lúc bị chính suy nghĩ của mình làm cho mù quáng. Sự mù quáng này cho phép họ hành động để đạt lợi ích kinh tế mà bỏ qua các tiêu chuẩn đạo đức.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Chúng ta cần thức tỉnh mối liên kết giữa đồng tiền có hình thức phi tiền tệ và xu hướng gian lận của chúng ta. Chúng ta cần nhận ra là một khi tiền mặt cách chúng ta một bước chân, chúng ta sẽ gian lận bằng một cách lớn hơn mình có thể tưởng tượng. Chúng ta, với tư cách là một cá nhân hay một quốc gia, cần thức tỉnh về điều này.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;chúng ta không cao quý về mặt lý trí, không vô tận về mặt năng khiếu và khá yếu kém về trí tuệ.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nhưng khi các loại bia khác đã được “lấy”, những người tham gia nghĩ họ phải chọn một thứ gì đó khác đi để cho thấy họ có chính kiến riêng và không bắt chước người khác.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;đôi khi mọi người sẵn lòng hy sinh sự thoải mái mình có được để gây ấn tượng với mọi người.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;nghiên cứu trong kinh tế học hành vi chỉ ra nhiều lý do giải thích vì sao mọi người không tiết kiệm đủ cho giai đoạn nghỉ hưu. Trong đó, nguyên nhân chủ yếu là do sự trì hoãn. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;chúng ta là những quân tốt trong một trò chơi mà hầu như chúng ta không thể hiểu cách đi của nó. Chúng ta thường nghĩ mình đang ngồi ở vị trí người lái, với sự kiểm soát đối với những quyết định được đưa ra và hướng rẽ cuộc đời chúng ta lựa chọn; nhưng rất tiếc, nhận thức này liên quan nhiều tới mong muốn của chúng ta – với việc chúng ta muốn nhìn nhận bản thân ra sao – hơn là với thực tế. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Về bản chất, chúng ta bị giới hạn bởi các công cụ thiên nhiên trao tặng và con đường tự nhiên, trong đó chúng ta đưa ra các quyết định bị hạn chế bởi chất lượng và độ chính xác của các công cụ này. &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Hãy hình dung vật lý sẽ trở nên khó thế nào nếu các nguyên tử biết nghĩ.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="reading" /><category term="psychology" /><category term="economy" /><category term="non-fiction" /><summary type="html">Information</summary></entry><entry><title type="html">Gởi những người bạn thích sống một mình</title><link href="http://localhost:4000/thought/ban-co-the-song-mot-minh" rel="alternate" type="text/html" title="Gởi những người bạn thích sống một mình" /><published>2018-03-26T00:00:00+02:00</published><updated>2018-03-26T00:00:00+02:00</updated><id>http://localhost:4000/thought/ban-co-the-song-mot-minh</id><content type="html" xml:base="http://localhost:4000/thought/ban-co-the-song-mot-minh">&lt;p&gt;Cũng lâu rồi tôi không viết gì. Đây có thể nói là bài đầu tiên của năm 2018. Tôi đã trải qua một giai đoạn khá dài và nó vẫn đang tiếp tục diễn ra, một giai đoạn mà tôi thấy mình thật tĩnh lặng. Tôi không còn suy nghĩ nhiều như trước, mà đúng hơn là tôi không còn muốn chia sẻ nhiều như trước. Tôi chọn sống cho chính mình, trò chuyện với chính mình. Đó là lý do tôi đã từ bỏ việc chia sẻ status trên facebook và chuyển hẳn sang blog này để chỉ những ai thật sự quan tâm tôi mới có thể đọc được.&lt;/p&gt;
+
+&lt;p&gt;Sau khi cách tân lại giao diện trang web, trông nó có vẻ đẹp hơn và cũng khiến tôi muốn viết một cách “đàng hoàng” hơn. Có lẽ vì quá đề cao việc viết lách như thế nên tôi ít động vào con chữ. Bây giờ chắc tôi sẽ chọn cách viết dưới dạng tâm tình nhiều hơn. Các bài post sẽ ít có chủ đề riêng, thay vào đó sẽ là cuộc trò chuyện nhẹ nhàng của tôi dành cho bạn, nếu bạn muốn đọc và chia sẻ. Vậy nhé.&lt;/p&gt;
+
+&lt;p&gt;Quay lại vấn đề chính, gởi bạn, &lt;em&gt;những người bạn thích có một không gian riêng&lt;/em&gt;, như tôi.&lt;/p&gt;
+
+&lt;p&gt;Từ khi sang Pháp này, tôi quen cũng nhiều bạn mới lắm. Các bạn mới ở đủ mọi ngành nghề, đủ mọi lứa tuổi, đa phần đều là những người thành đạt, có ước mơ, có hoài bão và định hướng riêng. Một điểm tôi thấy &lt;em&gt;ta không nên chọn cách sống cách biệt&lt;/em&gt; rõ ràng nhất là ở &lt;strong&gt;những cuộc hẹn&lt;/strong&gt;. Các cuộc hẹn cho tôi thêm nhiều ý tưởng, nhiều thông tin và động lực hơn.&lt;/p&gt;
+
+&lt;p&gt;Có hôm tôi được gặp hội các anh chị bác sĩ đang sống và làm việc tại Pháp. Tôi thân với gia đình một anh chị trong hội ấy nên có cơ hội quen thêm với các anh chị khác nữa. Họ là những bác sĩ đa phần học xong văn bằng bên Việt Nam, sau đó sang Pháp học lên cao học, thi lấy bằng tương đương và làm việc tại đây luôn. Cũng có một số anh chị học lại từ đầu chương trình đào tạo bác sĩ bên Pháp này rồi sau đó xin việc và định cư. Trò chuyện với các anh chị cho tôi nhiều thông tin về cách thức làm việc của những người trong ngành y bên này, về những khó khăn mà không phải ai ngoài ngành cũng có thể hiểu, về những bí quyết giúp sống dễ hơn ở nơi đất khách quê người,… Anh chị cho tôi động lực học tiếng Pháp, động lực làm việc cũng như trao dồi thêm kỹ năng giao tiếp xã hội. Anh chị rất giỏi, bây giờ đa phần đều đã làm “sếp” hết cả. Một số anh chị đã lập gia đình, cuộc sống khá ổn định. Tôi ngưỡng mộ sự thành đạt và ổn định ấy.&lt;/p&gt;
+
+&lt;p&gt;Tôi có nhiều ấp ủ lắm nhưng không phải cái gì tôi cũng có thể làm được nhất là khoảng các trở ngại liên tục xuất hiện. Động lực là cái lúc ẩn lúc hiện và cũng là cái tôi cố gắng kiếm tìm liên tục. Động lực nó rất khác với mục tiêu. Bạn có thể biết mình muốn gì, cần làm gì nhưng để có được sức mạnh ý chí và tinh thần để tiến đến đó thì cần phải có động lực. Mục tiêu sinh ra động lực, động lực sẽ giúp bạn tiến từng bước một để đến được mục tiêu. Có rất nhiều cách để tạo động lực cho riêng mình, một trong những cách hữu hiệu nhất mà tôi nhận ra được chính là những buổi gặp gỡ và trò chuyện thế này.&lt;/p&gt;
+
+&lt;p&gt;Nói về cùng ngành, tôi gặp bế tắc trong công việc rất nhiều lần, thời gian để thực hiện dự định ấp ủ ngày càng ít đi và ngắn lại. Rồi tôi nhận được các cuộc gọi và cuộc hẹn với những anh chị bạn tôi quen. Các anh chị ấy cũng xuất phát điểm tương tự tôi, sau đó chuyển mình, cố gắng và trụ vững cho đến ngày nay ở nơi đất khách quê người. Bề ngoài thì thấy mấy anh chị ấy rất giỏi, rất may mắn khi lâu lâu lại nghe được những tin tốt về các anh chị. Nhưng chỉ khi chuyện trò mới thấy được sự cố gắng rất lớn, chỉ khi tìm hiểu mới biết được có rất rất nhiều khó khăn mà anh chị ấy phải gặp. Rồi anh chị nói tôi nghe phần nào những cách họ đã vượt qua, sẵn sàng góp ý cho dự định của tôi, sẵn sàng chia sẻ những gì có thể giúp tôi tiến tiếp. Từ cái khoảng thời gian ngập trong áp lực, chán nản của người giam mình giải quyết công việc, các cuộc chuyện trò vốn dĩ chỉ chiếm tầm vài chục phút đến vài tiếng thôi đã cho tôi tầm mắt rộng lớn hơn trong việc nhìn nhận mọi việc mình cần phải làm tiếp theo.&lt;/p&gt;
+
+&lt;p&gt;Bạn đừng trông chờ vào sự thay đổi lớn, bạn hãy hướng đến &lt;strong&gt;thái độ nhỏ&lt;/strong&gt; của bạn. Chính thái độ sẽ giúp bạn thay đổi cách thức và thói quen. Bạn không thể tự hình thành thái độ nếu thiếu động lực. Bạn sẽ dễ nhấn chìm mình trong hố sâu tiêu cực. Có thể tiêu cực theo cách bế tắc, tiêu cực theo cách chán nản. Bạn sẽ có cảm giác mình đã làm đủ mọi cách rồi, bạn nghĩ rằng có gặp ai cũng vậy thôi. Bạn thấy rằng các cuộc nói chuyện, các buổi hẹn chỉ sẽ khiến bạn tốn thêm thời gian thôi, thay vào đó giam mình suy nghĩ sẽ làm bạn có thể thêm nhiều thời gian giải quyết vấn đề hơn. Bạn sai rồi. Thật ra là, tôi sai rồi.&lt;/p&gt;
+
+&lt;p&gt;Tôi không nói ta phải thay đổi con người của ta, suy nghĩ thì cứ nên suy nghĩ. Thích có không gian riêng tư thì nên giữ như vậy. Bạn là bạn, bạn không thể biến mình từ người hướng nội sang người hướng ngoại được. Tuy nhiên &lt;em&gt;hướng nội không có nghĩa là sống tiêu cực&lt;/em&gt;, rất nhiều người hiểu nhầm điều này và cho phép mình cứ mãi như vậy.&lt;/p&gt;
+
+&lt;p&gt;Vậy thì, gởi những người bạn thích sống một mình, hãy cứ sống một mình nếu bạn muốn nhưng đừng quên có thêm những buổi gặp, các cuộc chuyện trò, cho dù là chuyện phiếm nhưng rồi đầu óc bạn sẽ rộng mở hơn, mắt bạn sẽ sáng hơn, tầm nhìn sẽ rộng lớn hơn. Tin tôi đi, vì tôi cũng là một phần của nhóm người các bạn.&lt;/p&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="thought" /><category term="cảm nhận" /><category term="paris" /><category term="hồi ký" /><summary type="html">Cũng lâu rồi tôi không viết gì. Đây có thể nói là bài đầu tiên của năm 2018. Tôi đã trải qua một giai đoạn khá dài và nó vẫn đang tiếp tục diễn ra, một giai đoạn mà tôi thấy mình thật tĩnh lặng. Tôi không còn suy nghĩ nhiều như trước, mà đúng hơn là tôi không còn muốn chia sẻ nhiều như trước. Tôi chọn sống cho chính mình, trò chuyện với chính mình. Đó là lý do tôi đã từ bỏ việc chia sẻ status trên facebook và chuyển hẳn sang blog này để chỉ những ai thật sự quan tâm tôi mới có thể đọc được. Sau khi cách tân lại giao diện trang web, trông nó có vẻ đẹp hơn và cũng khiến tôi muốn viết một cách “đàng hoàng” hơn. Có lẽ vì quá đề cao việc viết lách như thế nên tôi ít động vào con chữ. Bây giờ chắc tôi sẽ chọn cách viết dưới dạng tâm tình nhiều hơn. Các bài post sẽ ít có chủ đề riêng, thay vào đó sẽ là cuộc trò chuyện nhẹ nhàng của tôi dành cho bạn, nếu bạn muốn đọc và chia sẻ. Vậy nhé. Quay lại vấn đề chính, gởi bạn, những người bạn thích có một không gian riêng, như tôi. Từ khi sang Pháp này, tôi quen cũng nhiều bạn mới lắm. Các bạn mới ở đủ mọi ngành nghề, đủ mọi lứa tuổi, đa phần đều là những người thành đạt, có ước mơ, có hoài bão và định hướng riêng. Một điểm tôi thấy ta không nên chọn cách sống cách biệt rõ ràng nhất là ở những cuộc hẹn. Các cuộc hẹn cho tôi thêm nhiều ý tưởng, nhiều thông tin và động lực hơn. Có hôm tôi được gặp hội các anh chị bác sĩ đang sống và làm việc tại Pháp. Tôi thân với gia đình một anh chị trong hội ấy nên có cơ hội quen thêm với các anh chị khác nữa. Họ là những bác sĩ đa phần học xong văn bằng bên Việt Nam, sau đó sang Pháp học lên cao học, thi lấy bằng tương đương và làm việc tại đây luôn. Cũng có một số anh chị học lại từ đầu chương trình đào tạo bác sĩ bên Pháp này rồi sau đó xin việc và định cư. Trò chuyện với các anh chị cho tôi nhiều thông tin về cách thức làm việc của những người trong ngành y bên này, về những khó khăn mà không phải ai ngoài ngành cũng có thể hiểu, về những bí quyết giúp sống dễ hơn ở nơi đất khách quê người,… Anh chị cho tôi động lực học tiếng Pháp, động lực làm việc cũng như trao dồi thêm kỹ năng giao tiếp xã hội. Anh chị rất giỏi, bây giờ đa phần đều đã làm “sếp” hết cả. Một số anh chị đã lập gia đình, cuộc sống khá ổn định. Tôi ngưỡng mộ sự thành đạt và ổn định ấy. Tôi có nhiều ấp ủ lắm nhưng không phải cái gì tôi cũng có thể làm được nhất là khoảng các trở ngại liên tục xuất hiện. Động lực là cái lúc ẩn lúc hiện và cũng là cái tôi cố gắng kiếm tìm liên tục. Động lực nó rất khác với mục tiêu. Bạn có thể biết mình muốn gì, cần làm gì nhưng để có được sức mạnh ý chí và tinh thần để tiến đến đó thì cần phải có động lực. Mục tiêu sinh ra động lực, động lực sẽ giúp bạn tiến từng bước một để đến được mục tiêu. Có rất nhiều cách để tạo động lực cho riêng mình, một trong những cách hữu hiệu nhất mà tôi nhận ra được chính là những buổi gặp gỡ và trò chuyện thế này. Nói về cùng ngành, tôi gặp bế tắc trong công việc rất nhiều lần, thời gian để thực hiện dự định ấp ủ ngày càng ít đi và ngắn lại. Rồi tôi nhận được các cuộc gọi và cuộc hẹn với những anh chị bạn tôi quen. Các anh chị ấy cũng xuất phát điểm tương tự tôi, sau đó chuyển mình, cố gắng và trụ vững cho đến ngày nay ở nơi đất khách quê người. Bề ngoài thì thấy mấy anh chị ấy rất giỏi, rất may mắn khi lâu lâu lại nghe được những tin tốt về các anh chị. Nhưng chỉ khi chuyện trò mới thấy được sự cố gắng rất lớn, chỉ khi tìm hiểu mới biết được có rất rất nhiều khó khăn mà anh chị ấy phải gặp. Rồi anh chị nói tôi nghe phần nào những cách họ đã vượt qua, sẵn sàng góp ý cho dự định của tôi, sẵn sàng chia sẻ những gì có thể giúp tôi tiến tiếp. Từ cái khoảng thời gian ngập trong áp lực, chán nản của người giam mình giải quyết công việc, các cuộc chuyện trò vốn dĩ chỉ chiếm tầm vài chục phút đến vài tiếng thôi đã cho tôi tầm mắt rộng lớn hơn trong việc nhìn nhận mọi việc mình cần phải làm tiếp theo. Bạn đừng trông chờ vào sự thay đổi lớn, bạn hãy hướng đến thái độ nhỏ của bạn. Chính thái độ sẽ giúp bạn thay đổi cách thức và thói quen. Bạn không thể tự hình thành thái độ nếu thiếu động lực. Bạn sẽ dễ nhấn chìm mình trong hố sâu tiêu cực. Có thể tiêu cực theo cách bế tắc, tiêu cực theo cách chán nản. Bạn sẽ có cảm giác mình đã làm đủ mọi cách rồi, bạn nghĩ rằng có gặp ai cũng vậy thôi. Bạn thấy rằng các cuộc nói chuyện, các buổi hẹn chỉ sẽ khiến bạn tốn thêm thời gian thôi, thay vào đó giam mình suy nghĩ sẽ làm bạn có thể thêm nhiều thời gian giải quyết vấn đề hơn. Bạn sai rồi. Thật ra là, tôi sai rồi. Tôi không nói ta phải thay đổi con người của ta, suy nghĩ thì cứ nên suy nghĩ. Thích có không gian riêng tư thì nên giữ như vậy. Bạn là bạn, bạn không thể biến mình từ người hướng nội sang người hướng ngoại được. Tuy nhiên hướng nội không có nghĩa là sống tiêu cực, rất nhiều người hiểu nhầm điều này và cho phép mình cứ mãi như vậy. Vậy thì, gởi những người bạn thích sống một mình, hãy cứ sống một mình nếu bạn muốn nhưng đừng quên có thêm những buổi gặp, các cuộc chuyện trò, cho dù là chuyện phiếm nhưng rồi đầu óc bạn sẽ rộng mở hơn, mắt bạn sẽ sáng hơn, tầm nhìn sẽ rộng lớn hơn. Tin tôi đi, vì tôi cũng là một phần của nhóm người các bạn.</summary></entry><entry><title type="html">Man’s Search for Meaning</title><link href="http://localhost:4000/reading/man-s-search-for-meaning" rel="alternate" type="text/html" title="Man’s Search for Meaning" /><published>2017-09-14T00:00:00+02:00</published><updated>2017-09-14T00:00:00+02:00</updated><id>http://localhost:4000/reading/man-s-search-for-meaning</id><content type="html" xml:base="http://localhost:4000/reading/man-s-search-for-meaning">&lt;h4 class=&quot;post-more&quot;&gt;Information&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Version I read&lt;/strong&gt;: Vietnamese.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Title in Vietnamese&lt;/strong&gt;: Đi tìm lẽ sống.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Genre&lt;/strong&gt;: Psychology.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Author&lt;/strong&gt;: &lt;a href=&quot;https://en.wikipedia.org/wiki/Viktor_Frankl&quot;&gt;Viktor Frankl&lt;/a&gt; (Austrian, 1905 - 1997).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Published&lt;/strong&gt;: 1946 (Verlag für Jugend und Volk, Austria).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+Below comments are in Vietnamese, please wait for an English version.
+&lt;/div&gt;
+
+&lt;p&gt;Anh bạn cùng phòng bảo mấy thể loại kiểu này không nên đọc. Kiểu này là kiểu hạt giống tâm hồn, về cách sống. Anh quan niệm cách sống mỗi người mỗi khác, chỉ có tiến thân vào thực tế thì mới có thể cảm nhận được. Mấy sách này là kinh nghiệm của người ta, là “con người” của người ta chứ không phải “mình”. Thật ra, ảnh có cái lý của ảnh vì cùng thời gian đó, hãy đọc những thứ thiết thực hơn. Anh không nói sách này dở, anh chỉ bảo không nên đọc.&lt;/p&gt;
+
+&lt;p&gt;Tôi không nói anh sai mà cũng không nói anh đúng hoàn toàn. Cái tôi muốn nói là tại sao nên đọc sách naỳ.&lt;/p&gt;
+
+&lt;p&gt;Một điểm chung giữa quyển sách này (Đi tìm lẽ sống) với phim The Walking Dead, phim Breakinh bad, phim The last ship, cũng như hàng tá bộ phim đề tài tận thế khác không ở cách thế giới vận hành những thời khắc như thế mà ở cách thế giới nội tâm con người biến chuyển với sự vận hành ấy.&lt;/p&gt;
+
+&lt;p&gt;Ở quyển Đi tìm lẽ sống này, Victor Frankl kể lại những ngày tháng địa ngục ông ở trong trại tập trung Auschwitz của Đức quốc xã dành cho những người Do Thái.
+Có lẽ vốn là một bác sĩ tâm lý học nên cách ông cảm nhận về thế giới nội tâm của những người tù xung quanh ông và cũng là của chính ông hiện lên rất chân thật và hợp lý.
+Khi đọc cái tựa “Đi tìm lẽ sống” rất oách. Có lẽ nhiều người đã tự hiểu là “Giúp bạn… Đi tìm lẽ sống” nên khó trách có những cái nhìn như ông bạn của tôi. Quyển này rất khác với những quyển như “Quẳng gánh lo đi và vui sống” hay “Đắc nhân tâm” của Dale Canergie. Nó không cho ta lời khuyên (thật ra tôi chưa đọc hết tác phẩm, tôi chỉ dựa vào những gì tác giả nói lúc mở đầu cũng như vài chương đã đọc. Victor Frankl cũng biết thể nào bạn cũng hiểu lầm nên đã nhắc đi nhắc lại về mục đích thật sự của sách ở chương giới thiệu).&lt;/p&gt;
+
+&lt;p&gt;Tại sao phải “Đi tìm”? Tại vì ta đã mất. Mất mà không còn cái gì tương tự để mà sơ cua (secours). Trong tác phẩm, những tù nhân hoàn toàn bị tước đi mọi thứ, họ từ chỗ có 1 cuộc sống bình thường, no đủ bỗng chốc chẳng còn gì. Về mặt vật chất lẫn về tinh thần. Tuy nhiên mất mác không hẳn chỉ là tất cả mọi thứ. Có người mất đi tất cả trong 1 khía cạnh nào đó. Họ khánh kiệt, họ mất hy vọng, mất tất cả trong tình yêu, mất đi người mà họ thương nhất, mất đi công việc, sự nghiệp mà họ dành gần trọn cả đời theo đuổi. Với họ, đó là mất tất cả.&lt;/p&gt;
+
+&lt;p&gt;Qua những gì cảm nhận bước đầu, Victor Frankl không cố đi tìm cái mà người ta mất (lẽ sống) mà chính là phát hiện ra những thứ khác vẫn có ý nghĩa hơn vẫn đang hiện hữu.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Nói đọc xong tác phẩm là sai, thật ra chỉ đọc được 70% tác phẩm thôi và tôi quyết định dừng lại vì lý do đề cập bên dưới.&lt;/p&gt;
+
+&lt;p&gt;Tác phẩm này được chia ra làm 2 phần rõ rệt.&lt;/p&gt;
+
+&lt;p&gt;Một nói về quãng thời gian tác giả ở trong trại tập trung Auschwitz, về những khó khăn khủng khiếp mà những người “tù” nơi đây phải chịu đựng. Lồng ghép trong đó là cách kể chuyện thiên về hướng phát biểu cảm nghĩ của người tù hơn là hướng miêu tả thực trạng đàn áp của lính SS hay chế độ hà khắc của phát xít Đức.
+Phần còn lại nói về “Liệu pháp ý nghĩa” do chính tác giả đề xướng (ông là 1 bác sĩ tâm lý học). Qua những gì đã trải nghiệm ở trại Auschwitz, ông nhận thấy rằng việc điều trị tâm lý bình thường là chưa đủ với một bộ phận lớn người mắc các chứng bệnh về tâm lý mà qua đó, ông nhấn mạnh về việc làm cho con người hiểu rõ và biết được ý nghĩa cuộc sống họ cần đạt được để tồn tại. Hay nói khác đi, sống là phải có mục đích. Nếu không có mục đích, con người ta dễ dàng lạc vào “trạng thái chân không” (không biết mình cần làm gì, nên làm gì, chán nản và thậm chí có thể tuyệt vọng)&lt;/p&gt;
+
+&lt;p&gt;Tôi rất thích phần 1, phần vì nó giúp tôi có được cái nhìn về những trại tù giam người Do Thái thời thế chiến thứ II, phần vì tác giả quá hay khi dùng nó để miêu tả và giảng giải các triệu chứng tâm lý của những người phải chịu tổn thương cả về thể xác lẫn tinh thần trong 1 giai đoạn quá dài.&lt;/p&gt;
+
+&lt;p&gt;Ngược lại với phần 1, dù tác giả cố gắng khái quát hóa cho những người ở thời bình nhưng có vẻ nó quá hàn lâm về chuyên môn tâm lý học. Tuy ông có một cố gắng lớn khi bình dân hóa các thuật ngữ và phương pháp tâm lý nhưng khó lòng tạo niềm hứng thú khi đọc. Dù rằng rất thích tâm lý nhưng tôi phải dừng đọc khi còn tới 30% sách chưa đọc.&lt;/p&gt;
+
+&lt;div class=&quot;tomTat&quot;&gt;
+&lt;div id=&quot;btTomTat&quot; class=&quot;collapsed&quot; data-toggle=&quot;collapse&quot; href=&quot;#ndTomTat&quot;&gt;&lt;span&gt;Highlights I like (in Vietnamese)&lt;/span&gt;&lt;/div&gt;
+&lt;div id=&quot;ndTomTat&quot; class=&quot;collapse multi-collapse&quot;&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;bao đau đớn cùng cực. Chỉ có người trong trại mới hiểu được. Trong tác phẩm của mình, tôi cố gắng không áp đặt bất kỳ ý niệm chủ quan nào, và đó là điều thực sự khó khăn đối với một cuốn sách như thế này. Để nói lên&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tình yêu là mục đích cuối cùng và là mục đích cao cả nhất của nhân loại.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tình yêu không chỉ gắn liền với sự hiện hữu của thể xác. Tình yêu tìm thấy ý nghĩa sâu sắc nhất trong tâm trí, trong chính nội tâm của con người.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Những lúc rỗi rãi hiếm hoi, trí tưởng tượng của người tù thường trở về sống với quá khứ. Những điều họ nhớ nhiều nhất không phải là những sự kiện quan trọng mà là những sự việc bé nhỏ, vặt vãnh.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;bản ngã của con người cũng mất đi chân giá trị.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Dưới tác động của một thế giới đã không còn công nhận giá trị của cuộc sống và phẩm giá con người, một thế giới đã cướp đi ý chí của con người và biến họ&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nếu một người trong trại không đấu tranh chống lại điều này để giữ lấy phẩm giá của mình thì người ấy sẽ mất luôn cảm giác mình là con người&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;sự tồn tại của người đó rơi xuống cấp độ sống của loài thú.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Nếu một người trong trại không đấu tranh chống lại điều này để giữ lấy phẩm giá của mình thì người ấy sẽ mất luôn cảm giác mình là con người&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;tuân theo một trong các quy luật bắt buộc nhất để sinh tồn trong trại: Không được gây sự chú ý.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;tôi sẽ thành thật trả lời tất cả các câu hỏi và chỉ dừng lại ở đó, tuyệt đối không bàn về những việc không được hỏi tới.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Ngoài ra, sự vô cảm cũng góp phần không nhỏ trong việc tác động đến tâm lý của người tù. Có một số khoảnh khắc cần phải đưa ra quyết định thật nhanh, quyết định sẽ đem lại sự sống hoặc cái chết, thì người tù vẫn muốn để số phận định đoạt cho mình.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Có phải lý thuyết cho rằng con người chẳng qua chỉ là một sản phẩm của hoàn cảnh và môi trường là đúng?&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;rõ ràng người tù trở thành loại người nào là kết quả từ quyết định bên trong của họ, chứ không đơn thuần chỉ là kết quả từ ảnh hưởng của hoàn cảnh sống trong trại.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Cách một người chấp nhận số phận và những đau khổ của mình, cách một người dám vượt qua những thử thách đó đem lại cho người ấy nhiều cơ hội để hiểu được ý nghĩa sâu xa hơn của cuộc sống ngay cả trong những hoàn cảnh khắc nghiệt nhất.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Ở đâu con người cũng phải đương đầu với số phận và cũng có cơ hội đạt được điều gì đó từ chính nỗi đau của mình.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Một người không thể nhìn thấy sự kết thúc của việc “tồn tại tạm bợ” của mình thì không thể hướng tới một mục đích tối hậu trong đời.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Trong trại, một đơn vị thời gian nhỏ nhất, ví dụ một ngày, với sự tra tấn và mệt mỏi thì dường như kéo dài vô tận. Trong khi một đơn vị thời gian lớn hơn, có thể là một tuần, lại dường như trôi qua rất nhanh.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“Cuộc sống giống như việc bạn đang ở chỗ nha sĩ. Bạn luôn nghĩ rằng điều tồi tệ nhất vẫn còn đang đến, thế nhưng nó đã qua mất rồi”.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Tôi cảm thấy ghê sợ với việc mỗi ngày, mỗi giờ đều nghĩ về những việc tầm thường như thế.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Cảm giác đau khổ sẽ chấm dứt ngay khi chúng ta có được một bức tranh rõ ràng và chính xác về nó.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;điều đầu tiên là phải cho người đó thấy được mục tiêu của họ ở tương lai.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Thảm hoạ sẽ đến với những người không nhìn thấy được ý nghĩa cuộc sống của mình,&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;vấn đề không phải là chúng ta mong đợi gì từ cuộc sống, mà vấn đề là cuộc sống mong đợi gì ở chúng ta.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Trong trại có quy định nghiêm ngặt cấm bất kỳ hành vi nào cố gắng cứu một người đang cố tự sát.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;cuộc sống vẫn còn đang trông đợi ở họ một điều gì đó ở tương lai.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Khi nhận ra rằng không ai có thể thay thế được vị trí của mình, con người buộc phải có trách nhiệm cho sự tồn tại và tiếp tục cuộc sống của mình.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;chỉ có hai loại người ấy mà thôi: “loại” người tốt và “loại” người xấu. Cả hai loại người này đều có thể bắt gặp ở mọi nơi; họ có mặt trong tất cả các nhóm xã hội.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="reading" /><category term="autobiography" /><category term="history" /><category term="biography" /><category term="non-fiction" /><category term="psychology" /><summary type="html">Information</summary></entry><entry><title type="html">Niềm tin vào khoa học</title><link href="http://localhost:4000/thought/niem-tin-vao-khoa-hoc" rel="alternate" type="text/html" title="Niềm tin vào khoa học" /><published>2017-09-08T00:00:00+02:00</published><updated>2017-09-08T00:00:00+02:00</updated><id>http://localhost:4000/thought/niem-tin-vao-khoa-hoc</id><content type="html" xml:base="http://localhost:4000/thought/niem-tin-vao-khoa-hoc">&lt;p&gt;Truyện kể về hai cậu bé có niềm tin khác nhau. Một cậu chỉ tin khi đã thấy kết quả, một cậu tin vào quá trình cho dù chưa có kết quả.&lt;/p&gt;
+
+&lt;p&gt;Thầy giáo cho hai cậu chơi một trò chơi. Trò chơi ấy rất đơn giản. Trên một hành lang dài, hai bên là tường cao và đầy những vật cản trở. Hai cậu phải đi từ đầu này tới đầu kia của hành lang. Cuối con đường là những món quà có giá trị dành riêng cho mỗi cậu. Ai tới trước sẽ được quà tốt hơn.&lt;/p&gt;
+
+&lt;p&gt;Cậu bé chỉ tin vào kết quả phải nhắm mắt mà đi. Cậu bé còn lại thì có thể mở mắt và đi bình thường. Hai cậu bắt đầu tiến bước. Niềm tin ở hai cậu hiện lên rõ rệt lúc này.&lt;/p&gt;
+
+&lt;p&gt;Cậu bé mở mắt tự tin tiến từng bước một, cậu chưa từng chạm được vào bức tường cuối con đường, cũng chưa từng biết món quà kia là gì nhưng cậu rất tự tin tiến từng bước một, dựa vào những gì quan sát và phân tích được trên đường đi.&lt;/p&gt;
+
+&lt;p&gt;Cậu bé còn lại vốn chỉ tin khi đã chạm được bức tường cuối con đường, chỉ tin khi đã sờ vào được món quà ở đấy, giờ đây với cậu là một khoảng tối vô tận. Cậu sợ sệt lê từng bước một mà không dám tin là mình có đang tiến hay lùi, bước tiếp theo có vấp phải cái gì làm mình đau hay không.&lt;/p&gt;
+
+&lt;p&gt;Khi cả hai cậu đều về tới đích. Họ đều nhận được những món quà tương ứng. Tất nhiên bạn biết rõ ai sẽ nhận được món quà giá trị hơn.&lt;/p&gt;
+
+&lt;p&gt;Thầy giáo bảo, khoa học cũng như vậy đấy các em ạ, có em làm kinh tế thì xem việc thu được kết quả là quan trọng nhất, là thước đo của mọi quá trình. Làm khoa học tuy kết quả cũng quan trọng nhưng quá trình lại quan trọng hơn. Khi em chìm trong bóng tối, cho dù em cách bức tường chỉ là 1mm thì với em nó cũng như 1Km xa xôi vậy. Khi em có sự dẫn dắt và lý luận chặt chẽ của ánh sáng khoa học, cho dù em ở xa bao nhiêu thì niềm tin cũng sẽ dẫn em đến được đích, không quan trọng là 1Km hay 1mm.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Câu chuyện trên lấy cảm hứng từ một chi tiết nhỏ trong bộ phim Interstellar của đạo diễn tài ba Christopher Nolan. Cô giáo nói với cha đứa trẻ rằng nhà trường không khuyến khích con gái của ông ta nói về việc du hành vũ trụ cho bạn cùng lớp, rằng Nga đưa được người lên Mặt Trăng là một điều dối trá. Con người đang đổ dồn vào những nghiên cứu và máy móc vô bổ. Việc đáng quan tâm hàng đầu bây giờ là Trái Đất, là thức ăn đang ngày càng cạn kiệt. Người cha trả lời rằng “&lt;em&gt;Nếu như những bằng sáng chế vô dụng như MRI mà có sớm hơn thì có lẽ người đang nói chuyện với cô trong buổi họp phụ huynh vô bổ này là vợ tôi chứ không phải cái thằng khó ưa như tôi&lt;/em&gt;.”&lt;/p&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="thought" /><category term="toán học" /><category term="cảm nhận" /><category term="xem phim" /><summary type="html">Truyện kể về hai cậu bé có niềm tin khác nhau. Một cậu chỉ tin khi đã thấy kết quả, một cậu tin vào quá trình cho dù chưa có kết quả. Thầy giáo cho hai cậu chơi một trò chơi. Trò chơi ấy rất đơn giản. Trên một hành lang dài, hai bên là tường cao và đầy những vật cản trở. Hai cậu phải đi từ đầu này tới đầu kia của hành lang. Cuối con đường là những món quà có giá trị dành riêng cho mỗi cậu. Ai tới trước sẽ được quà tốt hơn. Cậu bé chỉ tin vào kết quả phải nhắm mắt mà đi. Cậu bé còn lại thì có thể mở mắt và đi bình thường. Hai cậu bắt đầu tiến bước. Niềm tin ở hai cậu hiện lên rõ rệt lúc này. Cậu bé mở mắt tự tin tiến từng bước một, cậu chưa từng chạm được vào bức tường cuối con đường, cũng chưa từng biết món quà kia là gì nhưng cậu rất tự tin tiến từng bước một, dựa vào những gì quan sát và phân tích được trên đường đi. Cậu bé còn lại vốn chỉ tin khi đã chạm được bức tường cuối con đường, chỉ tin khi đã sờ vào được món quà ở đấy, giờ đây với cậu là một khoảng tối vô tận. Cậu sợ sệt lê từng bước một mà không dám tin là mình có đang tiến hay lùi, bước tiếp theo có vấp phải cái gì làm mình đau hay không. Khi cả hai cậu đều về tới đích. Họ đều nhận được những món quà tương ứng. Tất nhiên bạn biết rõ ai sẽ nhận được món quà giá trị hơn. Thầy giáo bảo, khoa học cũng như vậy đấy các em ạ, có em làm kinh tế thì xem việc thu được kết quả là quan trọng nhất, là thước đo của mọi quá trình. Làm khoa học tuy kết quả cũng quan trọng nhưng quá trình lại quan trọng hơn. Khi em chìm trong bóng tối, cho dù em cách bức tường chỉ là 1mm thì với em nó cũng như 1Km xa xôi vậy. Khi em có sự dẫn dắt và lý luận chặt chẽ của ánh sáng khoa học, cho dù em ở xa bao nhiêu thì niềm tin cũng sẽ dẫn em đến được đích, không quan trọng là 1Km hay 1mm. Câu chuyện trên lấy cảm hứng từ một chi tiết nhỏ trong bộ phim Interstellar của đạo diễn tài ba Christopher Nolan. Cô giáo nói với cha đứa trẻ rằng nhà trường không khuyến khích con gái của ông ta nói về việc du hành vũ trụ cho bạn cùng lớp, rằng Nga đưa được người lên Mặt Trăng là một điều dối trá. Con người đang đổ dồn vào những nghiên cứu và máy móc vô bổ. Việc đáng quan tâm hàng đầu bây giờ là Trái Đất, là thức ăn đang ngày càng cạn kiệt. Người cha trả lời rằng “Nếu như những bằng sáng chế vô dụng như MRI mà có sớm hơn thì có lẽ người đang nói chuyện với cô trong buổi họp phụ huynh vô bổ này là vợ tôi chứ không phải cái thằng khó ưa như tôi.”</summary></entry><entry><title type="html">Thánh nhân đãi kẻ khù khờ</title><link href="http://localhost:4000/thought/thanh-nhan-dai-ke-khu-kho" rel="alternate" type="text/html" title="Thánh nhân đãi kẻ khù khờ" /><published>2017-07-18T00:00:00+02:00</published><updated>2017-07-18T00:00:00+02:00</updated><id>http://localhost:4000/thought/thanh-nhan-dai-ke-khu-kho</id><content type="html" xml:base="http://localhost:4000/thought/thanh-nhan-dai-ke-khu-kho">&lt;p&gt;Đang đọc quyển &lt;em&gt;&lt;a href=&quot;/reading/mat-ma&quot; target=&quot;_blank&quot;&gt;The code book&lt;/a&gt;&lt;/em&gt; của Simon Sign (tác giả quyển &lt;em&gt;Định lý cuối cùng của Fermat?&lt;/em&gt;), tôi tóm tắt một câu chuyện thế này.&lt;/p&gt;
+
+&lt;p&gt;Ngay từ thời cổ đại, con người ta đã ý thức được tầm quan trọng của thông tin liên lạc và thấy rằng cần phải làm sao ẩn đi nội dung các bức thư để tránh sự tò mò của kẻ khác. Tuy nhiên trình độ khoa học kỹ thuật, tri thức và con người thời đó chỉ cho phép họ giấu đi bức thư thay vì mã hóa nó. Giấu thư nghĩa là nội dung thư và hình thức thư không thay đổi, chỉ là làm sao cho kẻ tò mò không tìm thấy được bức thư mà thôi. Còn mã hóa thư có nghĩa là cho dù rơi vào tay kẻ tọc mạch, họ cũng không biết nội dung bức thư là gì.&lt;/p&gt;
+
+&lt;p&gt;Trải qua nhu cầu cấp thiết của chiến tranh, của sự thông tin nhanh nhại và cẩn trọng, sự giấu thư đã tiến hóa từng bước một để đến với mã hóa thư. Các bức thư được mã hóa từ cơ bản đến phức tạp. Mở đầu là sự hoán đổi hoặc thay thế các chữ cái này bởi chữ cái khác trong bức thư, điều mà hầu như các đứa trẻ nào ngày nay cũng có thể làm được nhưng với thời xưa, đó là một đột phá lớn.&lt;/p&gt;
+
+&lt;p&gt;Nhưng có sinh thì cũng có diệt, mã hóa thư hình thành và phát triển thì song song đó, giải mã thư cũng phát triển theo. Ẩn sâu sau hậu trường của các cuộc chiến khắc nghiệt và đau thương là sự đấu tranh qua lại vô cùng gay cấn giữa những người mã hóa và những kẻ phá mã. Người tạo mã phải nghĩ cách làm sao để có thể mã hóa bức thư với độ phức tạp nhiều nhất có thể để những kẻ phá mã tài năng không kém bên phía đối phương không thể giải được. Có lúc người chiến thắng là những kẻ tạo mã khi lần lượt các mã thay thế một bảng chữ cái, nhiều bảng chữ cái, mã Vigenère và máy Enigma của quân đội Đứa ra đời. Có lúc việc giải và phá vỡ các quy tắc tạo mã là điều gần như không thể làm được. Nhưng rồi nhờ sự kiên trì không điều kiện, các nhà phá mã cũng dần đánh đổ được chúng từ các phương pháp phân tích tần suất để phá mã thay thế một bảng chữ cái cũng như các phương pháp nâng cao hơn của nó đề phá các mã thay thế nhiều bảng chữ cái và mã Vigenère đến sự xuất hiện của các hệ máy cơ phát minh bởi Rejewski và sau đó được nâng cấp bởi nhà Toán học Alan Turing để phá đi mật mã tưởng chừng không thể phá nổi tạo bởi máy Enigma trong thế chiến thứ II.&lt;/p&gt;
+
+&lt;p&gt;Cho đến khi bóng bán dẫn được phát minh và ngành công nghiệp máy tính được hình thành thì việc mã hóa thông tin liên lạc trở thành một xu hướng bắt buộc phải có trong đời sống hàng ngày không chỉ của quân đội và chính phủ mà còn cả của các doanh nghiệp và cá nhân người dùng bình thường. Họ mong muốn các bức thư của mình được gởi đi dưới một vỏ bọc thật sự an toàn, để khi đến nơi nó chỉ được đích danh người nhận mở ra và có thể đọc được. Trước khi gởi, họ phải mã hóa bức thư kèm theo một chìa khóa để giải mã nó. Vấn đề trọng yếu là làm sao cho những kẻ tò mò không biết được chìa khóa đó nhưng người nhận thư phải biết được để mà giải mã ngược lại bức thư kia.&lt;/p&gt;
+
+&lt;p&gt;Chính việc đòi hỏi phải có chìa khóa và người nhận phái biết được nó làm cho quá trình mã hóa không còn quan trọng bậc nhất nữa mà tập trung vào việc làm sao để người nhận thư biết được chìa khóa kia. Nếu gọi điện nói cho nhau nghe chìa khóa thì những kẻ nghe lén cũng biết được. Do đó chỉ còn cách là gặp trực tiếp và thống nhất với nhau chiếc chìa khóa. Nhưng nếu chỉ sử dụng cùng một chìa khóa cho nhiều bức thư thì sớm muộn những kẻ phá bĩnh cũng tìm được nên điều cần thiết là phải thay đổi chìa khóa một cách thường xuyên hay nói cách khác là phải gặp mặt nhau thường xuyên.&lt;/p&gt;
+
+&lt;p&gt;Vấn đề sẽ thực sự lớn với một công ty có nhiều khách hàng, nhất là các công ty bảo hiểm, ngân hàng, tài chính. Họ sẽ phải liên lạc những thông tin mật với hàng ngàn, hàng vạn khách hàng trong một ngày và tất nhiên tất cả thư phải được mã hóa. Nhưng số lượng chìa khóa cũng là rất lớn và làm sao để khách hàng biết được chìa khóa mà công ty đã khóa? Không thể gặp trực tiếp từng khách hàng để nói cho họ nghe được vì số lượng và thời gian sẽ là cực lớn.&lt;/p&gt;
+
+&lt;p&gt;Một thời gian dài sau khi việc bình dân hóa việc mã hóa bùng nổ, vấn đề phân phát chìa khóa thư này là một vấn đề được xem là &lt;strong&gt;không thể giải nổi&lt;/strong&gt;. Cả thế giới chấp nhận nó và tìm cách khác để giảm thiểu sự bất tiện thay vì tìm cách phá vỡ sự bất tiện.&lt;/p&gt;
+
+&lt;p&gt;May mắn thay trong hàng triệu nhà khoa học đã chấp nhận sự thật phũ phàng kia, vẫn có những kẻ ngu ngơ và khù khờ dấn thân vào việc tìm cách giải quyết nó. Khởi nguồn là Whitfield Diffie (một nhà tạo mã), Martin Hellman (giáo sư trường ĐH Stanford) và Ralph Merkle (một người tị nạn về trí tuệ). Cả ba kẻ khù khờ này đã bỏ ngoài tai tất cả để dấn thân vào một điều không thể giải nổi.&lt;/p&gt;
+
+&lt;p&gt;Hellman đã từng nói “Cũng giống như tôi và Diffie, Ralph cũng là một thằng ngốc. Và con đường đạt tới đỉnh cao thông qua sự triển khai nghiên cứu lại từ đầu phải là của kẻ ngốc vì chỉ có ngốc mới kiên trì thử mãi như vậy. Anh có ý tưởng số 1, anh rất phấn khích, và rồi nó thất bại. Sau đó anh lại nảy ra ý tưởng số 2, anh rất hứng khởi nhưng rồi nó lại thất bại. Rồi anh có ý tưởng số 99, anh lại rất hứng khởi, nhưng nó cũng lại thất bại nốt. chỉ có kẻ ngốc mới hứng khởi đến ý tưởng thứ 100 nhưng rất có thể phải mất đến 100 ý tưởng thì người ta mới được đền đáp. Trừ khi anh đủ ngốc để tiếp tục hứng khởi, nếu không thì anh làm gì có động cơ, làm gì có năng lượng để đi tiếp. Quả là Chúa ban thưởng cho những thằng ngốc”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Tôi tạm dừng việc kể câu chuyện trên. Có rất nhiều điều mà bạn tưởng hiển nhiên trong cuộc sống này nhưng nó đã từng là những thứ bị xem là không thể phá vỡ. Bạn có được cuộc sống ngày nay có lẽ nhờ vào sự ngu ngơ của không biết bao nhiêu kẻ ngốc.&lt;/p&gt;
+
+&lt;p&gt;Đôi lúc bạn cũng nên ngốc nghếch đi 1 tí để có thể giải quyết các vấn đề mà bạn nghĩ là cuộc sống đang chơi khó mình. Rồi chúng cũng được giải quyết mà thôi, quan trọng là bạn có đủ ngốc để theo đuổi nó đến cùng hay không.&lt;/p&gt;
+
+&lt;p&gt;Có lẽ vậy mà Steve Jobs đã từng nói&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stay hungry, stay foolish.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>TaniaJekyll</name><email>dinhanhthi@gmail.com</email></author><category term="thought" /><category term="toán học" /><category term="cảm nhận" /><summary type="html">Đang đọc quyển The code book của Simon Sign (tác giả quyển Định lý cuối cùng của Fermat?), tôi tóm tắt một câu chuyện thế này. Ngay từ thời cổ đại, con người ta đã ý thức được tầm quan trọng của thông tin liên lạc và thấy rằng cần phải làm sao ẩn đi nội dung các bức thư để tránh sự tò mò của kẻ khác. Tuy nhiên trình độ khoa học kỹ thuật, tri thức và con người thời đó chỉ cho phép họ giấu đi bức thư thay vì mã hóa nó. Giấu thư nghĩa là nội dung thư và hình thức thư không thay đổi, chỉ là làm sao cho kẻ tò mò không tìm thấy được bức thư mà thôi. Còn mã hóa thư có nghĩa là cho dù rơi vào tay kẻ tọc mạch, họ cũng không biết nội dung bức thư là gì. Trải qua nhu cầu cấp thiết của chiến tranh, của sự thông tin nhanh nhại và cẩn trọng, sự giấu thư đã tiến hóa từng bước một để đến với mã hóa thư. Các bức thư được mã hóa từ cơ bản đến phức tạp. Mở đầu là sự hoán đổi hoặc thay thế các chữ cái này bởi chữ cái khác trong bức thư, điều mà hầu như các đứa trẻ nào ngày nay cũng có thể làm được nhưng với thời xưa, đó là một đột phá lớn. Nhưng có sinh thì cũng có diệt, mã hóa thư hình thành và phát triển thì song song đó, giải mã thư cũng phát triển theo. Ẩn sâu sau hậu trường của các cuộc chiến khắc nghiệt và đau thương là sự đấu tranh qua lại vô cùng gay cấn giữa những người mã hóa và những kẻ phá mã. Người tạo mã phải nghĩ cách làm sao để có thể mã hóa bức thư với độ phức tạp nhiều nhất có thể để những kẻ phá mã tài năng không kém bên phía đối phương không thể giải được. Có lúc người chiến thắng là những kẻ tạo mã khi lần lượt các mã thay thế một bảng chữ cái, nhiều bảng chữ cái, mã Vigenère và máy Enigma của quân đội Đứa ra đời. Có lúc việc giải và phá vỡ các quy tắc tạo mã là điều gần như không thể làm được. Nhưng rồi nhờ sự kiên trì không điều kiện, các nhà phá mã cũng dần đánh đổ được chúng từ các phương pháp phân tích tần suất để phá mã thay thế một bảng chữ cái cũng như các phương pháp nâng cao hơn của nó đề phá các mã thay thế nhiều bảng chữ cái và mã Vigenère đến sự xuất hiện của các hệ máy cơ phát minh bởi Rejewski và sau đó được nâng cấp bởi nhà Toán học Alan Turing để phá đi mật mã tưởng chừng không thể phá nổi tạo bởi máy Enigma trong thế chiến thứ II. Cho đến khi bóng bán dẫn được phát minh và ngành công nghiệp máy tính được hình thành thì việc mã hóa thông tin liên lạc trở thành một xu hướng bắt buộc phải có trong đời sống hàng ngày không chỉ của quân đội và chính phủ mà còn cả của các doanh nghiệp và cá nhân người dùng bình thường. Họ mong muốn các bức thư của mình được gởi đi dưới một vỏ bọc thật sự an toàn, để khi đến nơi nó chỉ được đích danh người nhận mở ra và có thể đọc được. Trước khi gởi, họ phải mã hóa bức thư kèm theo một chìa khóa để giải mã nó. Vấn đề trọng yếu là làm sao cho những kẻ tò mò không biết được chìa khóa đó nhưng người nhận thư phải biết được để mà giải mã ngược lại bức thư kia. Chính việc đòi hỏi phải có chìa khóa và người nhận phái biết được nó làm cho quá trình mã hóa không còn quan trọng bậc nhất nữa mà tập trung vào việc làm sao để người nhận thư biết được chìa khóa kia. Nếu gọi điện nói cho nhau nghe chìa khóa thì những kẻ nghe lén cũng biết được. Do đó chỉ còn cách là gặp trực tiếp và thống nhất với nhau chiếc chìa khóa. Nhưng nếu chỉ sử dụng cùng một chìa khóa cho nhiều bức thư thì sớm muộn những kẻ phá bĩnh cũng tìm được nên điều cần thiết là phải thay đổi chìa khóa một cách thường xuyên hay nói cách khác là phải gặp mặt nhau thường xuyên. Vấn đề sẽ thực sự lớn với một công ty có nhiều khách hàng, nhất là các công ty bảo hiểm, ngân hàng, tài chính. Họ sẽ phải liên lạc những thông tin mật với hàng ngàn, hàng vạn khách hàng trong một ngày và tất nhiên tất cả thư phải được mã hóa. Nhưng số lượng chìa khóa cũng là rất lớn và làm sao để khách hàng biết được chìa khóa mà công ty đã khóa? Không thể gặp trực tiếp từng khách hàng để nói cho họ nghe được vì số lượng và thời gian sẽ là cực lớn. Một thời gian dài sau khi việc bình dân hóa việc mã hóa bùng nổ, vấn đề phân phát chìa khóa thư này là một vấn đề được xem là không thể giải nổi. Cả thế giới chấp nhận nó và tìm cách khác để giảm thiểu sự bất tiện thay vì tìm cách phá vỡ sự bất tiện. May mắn thay trong hàng triệu nhà khoa học đã chấp nhận sự thật phũ phàng kia, vẫn có những kẻ ngu ngơ và khù khờ dấn thân vào việc tìm cách giải quyết nó. Khởi nguồn là Whitfield Diffie (một nhà tạo mã), Martin Hellman (giáo sư trường ĐH Stanford) và Ralph Merkle (một người tị nạn về trí tuệ). Cả ba kẻ khù khờ này đã bỏ ngoài tai tất cả để dấn thân vào một điều không thể giải nổi. Hellman đã từng nói “Cũng giống như tôi và Diffie, Ralph cũng là một thằng ngốc. Và con đường đạt tới đỉnh cao thông qua sự triển khai nghiên cứu lại từ đầu phải là của kẻ ngốc vì chỉ có ngốc mới kiên trì thử mãi như vậy. Anh có ý tưởng số 1, anh rất phấn khích, và rồi nó thất bại. Sau đó anh lại nảy ra ý tưởng số 2, anh rất hứng khởi nhưng rồi nó lại thất bại. Rồi anh có ý tưởng số 99, anh lại rất hứng khởi, nhưng nó cũng lại thất bại nốt. chỉ có kẻ ngốc mới hứng khởi đến ý tưởng thứ 100 nhưng rất có thể phải mất đến 100 ý tưởng thì người ta mới được đền đáp. Trừ khi anh đủ ngốc để tiếp tục hứng khởi, nếu không thì anh làm gì có động cơ, làm gì có năng lượng để đi tiếp. Quả là Chúa ban thưởng cho những thằng ngốc” Tôi tạm dừng việc kể câu chuyện trên. Có rất nhiều điều mà bạn tưởng hiển nhiên trong cuộc sống này nhưng nó đã từng là những thứ bị xem là không thể phá vỡ. Bạn có được cuộc sống ngày nay có lẽ nhờ vào sự ngu ngơ của không biết bao nhiêu kẻ ngốc. Đôi lúc bạn cũng nên ngốc nghếch đi 1 tí để có thể giải quyết các vấn đề mà bạn nghĩ là cuộc sống đang chơi khó mình. Rồi chúng cũng được giải quyết mà thôi, quan trọng là bạn có đủ ngốc để theo đuổi nó đến cùng hay không. Có lẽ vậy mà Steve Jobs đã từng nói Stay hungry, stay foolish.</summary></entry></feed>

@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  
+    
+    
+    
+    <link rel="alternate" hreflang="en" href="/tutorial/how-to-use-taniajekyll" />
+    <link rel="alternate" hreflang="vi" href="/tutorial/" />
+  
+
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+  <meta name="author" content="" />
+
+  <title>
+    
+      TaniaJekyll | How to use TaniaJekyll?
+    
+  </title>
+
+  
+
+  <!-- feed -->
+  <link rel="alternate" type="application/rss+xml" title="TaniaJekyll - Beautiful personal Jekyll theme" href="/feed.xml" />
+
+  <!-- page (external) -->
+  
+
+  <!-- page (internal) -->
+  
+
+  <!-- heading numbering -->
+  
+
+  <!-- layout (external) -->
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  <!-- layout (internal) -->
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap41/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+      <link rel="stylesheet" href="/css/header.css" />
+    
+      <link rel="stylesheet" href="/css/page.css" />
+    
+      <link rel="stylesheet" href="/css/rouge-monokai.css" />
+    
+  
+  
+    
+      <link rel="stylesheet" href="/css/post.css" />
+    
+      <link rel="stylesheet" href="/css/post-layout.css" />
+    
+      <link rel="stylesheet" href="/css/tag-page.css" />
+    
+  
+
+  <!-- layout (google font) -->
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans: 400,400i,600,600i,700,700i,800&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito: 400,600,700&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Baloo" />
+    
+  
+
+  <!-- page (google font) -->
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+
+  
+    <meta property="og:title" content="How to use TaniaJekyll?" />
+  
+
+  
+    <meta property="og:description" content="How to set up and use the components & layouts">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+    <meta property="og:url" content="http://localhost:4000/tutorial/how-to-use-taniajekyll" />
+    <link rel="canonical" href="http://localhost:4000/tutorial/how-to-use-taniajekyll" />
+  
+
+  <!-- page's cover -->
+  
+    <meta property="og:image" content="http://localhost:4000/img/defaultCoverPost.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1234">
+    <meta property="og:image:height" content="592">
+  
+
+  
+
+  
+
+  
+  
+    
+    
+
+    <script type="text/javascript">
+      var Titles = ["How to use TaniaJekyll?","How to install TaniaJekyll?","For the editor only"];
+      var Urls = ["/tutorial/how-to-use-taniajekyll","/tutorial/how-to-install-taniajekyll","/tutorial/for-the-editors-only"];
+      
+      
+        var Dates = ["17 Mar 2019","17 Mar 2019","27 Dec 2018"];
+      
+      
+        var Descriptions = ["How to set up and use the components & layouts","Install Jekyll website with Github Pages in general","Shortcuts for the editors on this site"];
+      
+      
+        var Imgs = ["usage.svg","jekyll.png","admin.svg"];
+      
+      
+
+      
+      
+      var Updates = ["false","false","false"];
+    </script>
+
+  
+
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  
+
+</head>
+
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '',
+      xfbml      : true,
+      version    : 'v3.1'
+    });
+  
+    FB.AppEvents.logPageView();
+  
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  <header>
+    
+<nav class="navbar navbar-dark nav-bg navbar-custom">
+  <div class="container">
+    
+    
+      
+      
+		<a class="nav-home " href="/">
+	  
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span>Home</span>
+      </a>
+    
+      
+      
+		<a class="nav-tutorial " href="/tutorial">
+	  
+        <i class="fa fa-map-o" aria-hidden="true"></i>
+        <span>Tutorial</span>
+      </a>
+    
+      
+      
+		<a class="nav-reading " href="/reading">
+	  
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <span>Reading</span>
+      </a>
+    
+      
+      
+		<a class="nav-about " href="/about">
+	  
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <span>Me</span>
+      </a>
+    
+      
+      
+		<a class="nav-sketch " href="/sketch">
+	  
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+        <span>Sketch</span>
+      </a>
+    
+      
+      
+		<a class="nav-thought " href="/thought">
+	  
+        <i class="fa fa-commenting-o" aria-hidden="true"></i>
+        <span>Thought</span>
+      </a>
+    
+    <div class="nav-search">
+        <form action="/search" method="get">
+          <input name="q" class="mr-sm-2 nav-search-input" type="search" placeholder="Search..." aria-label="Search...">
+          <button class="nav-search-submit" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+      <div class="nav-lang">
+        
+          <span class="en active">en</span>
+          <a href="http://vn.dinhanhthi.com" class="vn">vn</a>
+        
+      </div>
+  </div>
+</nav>
+
+  </header>
+
+  
+    
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+    <header id="post-header" class="bg-tutorial page-post-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-12 text-center">
+            
+              <div class="text-center header-tuto-img">
+                <img src="/img/tutorial/usage.svg">
+              </div>
+            
+            <h1>How to use TaniaJekyll?</h1>
+            <h3></h3>
+            <h3 class="header-date">17 Mar 2019</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+
+
+
+<div class="container post-container">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8 col-12">
+      <div class="post-content mb-4">
+        <p>In this tutorial, I suppose that you have already <a href="/how-to-install-taniajekyll">installed TaniaJekyll</a>, just follow the ones you need and don’t forget to leave a comment below.</p>
+
+<div class="alert alert-warning" role="alert">
+  I'm not a native English speaker, please ignore my bad expressions!
+</div>
+
+<p>Full list of usages can be found <a href="/tutorial/for-the-editors-only">here</a>. This post only shows <strong>some showcases</strong> of this theme.</p>
+
+<div id="toc">
+  <div class="toc-title">
+    <i class="fa fa-list-ul"></i><span>In this post</span>
+  </div>
+  <div class="toc-content">
+<ul id="markdown-toc">
+  <li><a href="#5-layouts-of-posts" id="markdown-toc-5-layouts-of-posts">5 layouts of posts</a>    <ul>
+      <li><a href="#project" id="markdown-toc-project">Project</a></li>
+      <li><a href="#reading-list" id="markdown-toc-reading-list">Reading list</a></li>
+      <li><a href="#tutorial" id="markdown-toc-tutorial">Tutorial</a></li>
+      <li><a href="#thought-layout-1" id="markdown-toc-thought-layout-1">Thought (layout 1)</a></li>
+      <li><a href="#thought-layout-2" id="markdown-toc-thought-layout-2">Thought (layout 2)</a></li>
+    </ul>
+  </li>
+  <li><a href="#front-matter" id="markdown-toc-front-matter">Front Matter</a></li>
+  <li><a href="#insert-figures" id="markdown-toc-insert-figures">Insert figures</a></li>
+  <li><a href="#side-by-side-figure-and-content" id="markdown-toc-side-by-side-figure-and-content">Side by side figure and content</a></li>
+  <li><a href="#insert-boxes" id="markdown-toc-insert-boxes">Insert boxes</a></li>
+  <li><a href="#steps" id="markdown-toc-steps">Steps</a></li>
+  <li><a href="#texts" id="markdown-toc-texts">Texts</a></li>
+</ul>
+
+  </div>
+</div>
+
+<h2 id="5-layouts-of-posts">5 layouts of posts</h2>
+
+<p>You can check on the <a href="/">index page</a>, there are 5 different layout of posts. If you wanna apply some layout, just indicate fields</p>
+
+<ul>
+  <li><strong>The source of elements</strong>: <code class="highlighter-rouge">element-source</code></li>
+  <li><strong>The type of layout</strong>: using included file <strong>post-layout.html</strong> with keyword <code class="highlighter-rouge">type</code> to indicate the layout. In this field, you also need to indicate <code class="highlighter-rouge">img-src</code> (the source of images), <code class="highlighter-rouge">offset</code> (from which element we show the list of elements) and <code class="highlighter-rouge">limit</code> (how many elements you wanna show).</li>
+</ul>
+
+<p>For example, below are the codes to show the projects (<code class="highlighter-rouge">type="project"</code>) I’ve done in the front page. In this field, I only show the first (<code class="highlighter-rouge">offset=0</code>) 4 projects (<code class="highlighter-rouge">limit=4</code>). The list of projects are stores in a data file called <strong>_data/project.yml</strong> (<code class="highlighter-rouge">site.data.project</code>). Please open file <strong>index.html</strong> in the repository and then step to section “<strong>project</strong>” to see an example of below descriptions</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign element-source = site.data.project %}
+{% include post-layout.html type="project" img-src="/img/project" source=element-source offset=0 limit=4 %}
+</code></pre></div></div>
+
+<h3 id="project">Project</h3>
+
+<ul>
+  <li><strong>Structure</strong>: <em>Photo - Title - Description</em>.</li>
+  <li>In this example page, I use this layout as the layout of my projects.</li>
+</ul>
+
+<div class="img-full">
+  <img src="/img/post/tutorial/project.png" alt="Hình: " />
+  <em></em>  
+</div>
+
+<p>In order to modify this, you can ()</p>
+
+<ul>
+  <li><strong>Source of elements</strong>: <code class="highlighter-rouge">site.data.project</code> (<em>_data/project.yml</em>). You can also use the sources as a list of posts like other below layouts.</li>
+  <li><strong>Type</strong>: <code class="highlighter-rouge">type="project"</code>.</li>
+  <li>Icons for the projects must be located in <strong>/img/project/</strong>.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign element-source = site.data.project %}
+{% include post-layout.html type="project" img-src="/img/project" source=element-source offset=0 limit=4 %}
+</code></pre></div></div>
+
+<h3 id="reading-list">Reading list</h3>
+
+<ul>
+  <li><strong>Structure</strong>: <em>Photo - Title - Author - Rating</em>.</li>
+  <li>Specifically used for the list of books.</li>
+</ul>
+
+<div class="img-full">
+  <img src="/img/post/tutorial/book.png" alt="Hình: " />
+  <em></em>  
+</div>
+
+<ul>
+  <li>Change the number of challenge books in <strong>_data/setting.yml</strong> (<code class="highlighter-rouge">ncb</code> for the amount and <code class="highlighter-rouge">ncb_year</code> for the considered year)</li>
+  <li>The theme will automatically determine how many book is read in that year.</li>
+  <li>Read more on the <a href="/tutorial/for-the-editors-only#front-matter" title="For the editors">front matter setting</a> to see the list of arguments used for this type of post.</li>
+  <li>All book covers must be stored in <strong>/img/bookimg/</strong>.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign element-source = site.categories.reading %}
+{% include post-layout.html type="reading" img-src="/img/bookimg" source=element-source offset=0 limit=4 %}
+</code></pre></div></div>
+
+<h3 id="tutorial">Tutorial</h3>
+
+<ul>
+  <li><strong>Structure</strong>: <em>Icon - Title - Descripton</em>.</li>
+  <li>Used for tutorial posts.</li>
+</ul>
+
+<div class="img-full">
+  <img src="/img/post/tutorial/tutorial.png" alt="Hình: " />
+  <em></em>  
+</div>
+
+<ul>
+  <li>Check some examples in <strong>_posts/tutorial/</strong>.</li>
+  <li>For the free icons, you can use <a href="https://www.flaticon.com/">this site</a>.</li>
+  <li>Icons must be located in <strong>/img/turorial/</strong>.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign element-source = site.categories.tutorial %}
+{% include post-layout.html type="tutorial" source=element-source offset=0 img-src="/img/tutorial" limit=6 %}
+</code></pre></div></div>
+
+<h3 id="thought-layout-1">Thought (layout 1)</h3>
+
+<ul>
+  <li><strong>Structure</strong>: <em>Title - Date</em>.</li>
+  <li>Very simple layout.</li>
+</ul>
+
+<div class="img-full">
+  <img src="/img/post/tutorial/thought-1.png" alt="Hình: " />
+  <em></em>  
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign element-source = site.categories.thought %}
+{% include post-layout.html type="thought" source=element-source offset=0 limit=6 %}
+</code></pre></div></div>
+
+<h3 id="thought-layout-2">Thought (layout 2)</h3>
+
+<ul>
+  <li><strong>Structure</strong>: <em>Photo - Title - Date</em>.</li>
+</ul>
+
+<div class="img-full">
+  <img src="/img/post/tutorial/thought-2.png" alt="Hình: " />
+  <em></em>  
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign element-source = site.categories.thought %}
+{% include post-layout.html type="thought2" source=element-source offset=0 limit=4 %}
+</code></pre></div></div>
+
+<h2 id="front-matter">Front Matter</h2>
+
+<p>Begin of each post, you need to be careful to choose the right <a href="https://jekyllrb.com/docs/frontmatter/">front matter</a> for that post. What’s front matter? Something like this</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+title: How to use TaniaJekyll?
+---
+</code></pre></div></div>
+
+<p>There are some already-defined components on TaniaJekyll that you could use (If you don’t want to use something, <strong>remember to REMOVE it</strong>). Check more in <a href="/tutorial/for-the-editors-only#front-matter" title="For the editors">this post</a>.</p>
+
+<h2 id="insert-figures">Insert figures</h2>
+
+<p>There are a lot of ways you can insert an image in a post. I imitate the idea of photo post in a Medium post so that they are really beautiful with this layout. All of usages can be seen in <a href="/tutorial/for-the-editors-only#inset-figures">this post</a>. Below are some examples,</p>
+
+<p>A full-width image</p>
+
+<div class="img-full">
+  <img src="/img/post/thought/palais.jpg" alt="Hình: A description of the image." />
+  <em>A description of the image.</em>  
+</div>
+
+<p>Or images can be float to the left or the right of the post,</p>
+
+<div class="img-right">
+  <img src="/img/post/thought/nghichden.jpg" alt="Hình: A description of the image." />
+  <em>A description of the image.</em>  
+</div>
+
+<p>This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it.</p>
+
+<h2 id="side-by-side-figure-and-content">Side by side figure and content</h2>
+
+<p>In the case you wanna create some tutorial posts with a figure on the left and some instructions on the right, you can use this type of shortcode. Please <a href="/tutorial/for-the-editors-only#side-by-side-figure-and-content">check this</a> to see how to use it.</p>
+
+<div class="row align-items-center img-aside">
+<p class="col-md-6">
+<img src="/img/post/tutorial/locate.jpg" alt="Description" />
+</p>
+<p class="col-md-6">
+This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning.
+</p>
+</div>
+
+<div class="row align-items-center img-aside">
+<p class="col-md-6 order-md-2">
+<img src="/img/post/tutorial/locate.jpg" alt="Description" />
+</p>
+<p class="col-md-6 order-md-1">
+This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning.
+</p>
+</div>
+
+<h2 id="insert-boxes">Insert boxes</h2>
+
+<p>I build this theme based on Boostrap, then you can use all of <a href="https://getbootstrap.com/docs/4.1/components/alerts/">its boxes</a> in this theme, for example,</p>
+
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+  A simple success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  A simple danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+  A simple warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+  A simple info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  A simple light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  A simple dark alert—check it out!
+</div>
+
+<p>Please <a href="/tutorial/for-the-editors-only#insert-boxes">check this</a> to see how to use it. I also add a <strong>hide/show box</strong></p>
+
+<div class="tomTat">
+<div id="btTomTat" class="collapsed" data-toggle="collapse" href="#ndTomTat">
+  <span>Highlights I like</span>
+</div>
+<div id="ndTomTat" class="collapse multi-collapse ndTomTat">
+    <p>Contents.</p>
+  </div>
+</div>
+
+<p>and <strong>definition box</strong></p>
+
+<div class="def-box" id="dn1">
+  <div class="box-title">
+    <p>Title</p>
+  </div>
+  <div class="box-content">
+    <p>Content</p>
+  </div>
+</div>
+
+<h2 id="steps">Steps</h2>
+
+<p>You even can add the steps. Please <a href="/tutorial/for-the-editors-only#steps">check this</a> to see how to use it.</p>
+
+<div class="thi-step">
+
+<div class="step">
+<div class="step-number"></div>
+<div class="step-content">
+      <p>Content of step 1.</p>
+    </div>
+</div>
+
+<div class="step">
+<div class="step-number"></div>
+<div class="step-content">
+      <p>Content of step 2.</p>
+    </div>
+</div>
+
+</div>
+
+<h2 id="texts">Texts</h2>
+
+<p>You can do many things with text like <mark>marked texts</mark> or a keyboard like <kbd>Ctrl</kbd> + <kbd>B</kbd>. You even can make a text be <sbj>more beautiful</sbj> with this.</p>
+
+      </div>
+      <div class="tag-list text-center">
+        
+          
+          
+          <a class="tag-chip" href="/tags/tutorial#how-to">
+            <i class="fa fa-tag"></i>
+            how to
+          </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="my-4 py-4">
+  <div class="container post-container">
+    
+
+
+    
+    
+    
+    
+    
+    
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>You may like?</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/tutorial">see full list</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="row row-eq-height justify-content-center">
+  <script type="text/javascript">
+
+    var class_col = 'col-6 col-md-4 col-lg-2 p-2';
+    var class_main = 'tutorial-main';
+    var class_photo = 'px-4 py-3';
+    var img_src = '/img/tutorial';
+
+    var randomIndexUsed = [];
+    var counter = 0;
+
+    if (Titles.length > 6){
+      var numberOfPosts = 6;
+    }else{
+      var numberOfPosts = Titles.length;
+    }
+
+    while (counter < numberOfPosts){
+      var randomIndex;
+      var ttitle;
+      var uurl, ssubtitle, ddate, ddescription, iimg, rrating, erating;
+      iimg = '';
+      ddate = '';
+      ssubtitle = '';
+      ddescription = '';
+      erating = '';
+      randomIndex = Math.floor(Math.random() * Titles.length);
+      if (randomIndexUsed.indexOf(randomIndex) == "-1"){
+        ttitle = Titles[randomIndex];
+        uurl = Urls[randomIndex];
+        
+        
+          ddate = Dates[randomIndex];
+        
+        
+          ddescription = Descriptions[randomIndex];
+        
+        
+          iimg = Imgs[randomIndex];
+        
+
+        
+        if (Updates[randomIndex] == 'true'){
+          uupdate = '<div class="ribbon">cập nhật</div>';
+        }else{
+          uupdate = '';
+        }
+
+        
+        document.write(
+          '<div class="' + class_col + '">' +
+            '<div class="' + class_main + ' layout-main">' +
+              '<a href="' + uurl + '">' +
+                uupdate +
+                '<div class="element-photo ' + class_photo + '">' +
+                  '<img src="' + img_src + '/' + iimg + '"/>' +
+                '</div>' +
+                '<div class="element-title">' +
+                  ttitle +
+                '</div>' +
+                '<div class="element-subtitle">' +
+                  ssubtitle +
+                '</div>' +
+                '<div class="element-date">' +
+                  ddate +
+                '</div>' +
+                '<div class="element-description">' +
+                  ddescription +
+                '</div>' +
+                '<div class="element-rating">' +
+                  erating +
+                '</div>' +
+              '</a>' +
+            '</div>' +
+          '</div>'
+        );
+        randomIndexUsed.push(randomIndex);
+        counter++;
+      }
+    }
+  </script>
+</div>
+
+  </div>
+</section>
+
+
+<div  class="container post-container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-12 my-4">
+      <div class="disqus-comments">
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'note-thi';
+            /* ensure that pages with query string get the same discussion */
+                var url_parts = window.location.href.split("?");
+                var disqus_url = url_parts[0];
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to see <a href="http://disqus.com/?ref_noscript">comments on Disqus system.</a></noscript>
+    </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <footer class="footer">
+    
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center p-4">
+      <div class="footer-info">
+        <a href="/about"></a>
+        &nbsp;&copy;&nbsp;
+        2021
+        &nbsp;&bull;&nbsp;
+        <a href="/about">About</a>
+      </div>
+      <div class="mission my-2 tyellow">
+        With the internet, people can learn anything. I'd like to share with you one of the best and useful stuffs so that you can save your time on a self-study path.
+      </div>
+      <div class="donate-me tgreen my-2">
+        <a target="_blank" href="https://www.paypal.me/DinhAnhThi">
+          <i class="fa fa-paypal"></i>
+          Support Thi
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  </footer>
+
+  
+
+
+
+
+
+
+
+
+  
+	  <script src="/js/bootstrap41/jquery-3.3.1.slim.min.js"></script>
+  
+	  <script src="/js/bootstrap41/popper.min.js"></script>
+  
+	  <script src="/js/bootstrap41/bootstrap.min.js"></script>
+  
+
+
+
+  
+	  <script src="/js/backtotop.js"></script>
+  
+
+
+
+</body>
+</html>

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  
+
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+  <meta name="author" content="" />
+
+  <title>
+    
+      TaniaJekyll | The Code Book
+    
+  </title>
+
+  
+    <meta name="description" content="Simon Singh">
+  
+
+  <!-- feed -->
+  <link rel="alternate" type="application/rss+xml" title="TaniaJekyll - Beautiful personal Jekyll theme" href="/feed.xml" />
+
+  <!-- page (external) -->
+  
+
+  <!-- page (internal) -->
+  
+
+  <!-- heading numbering -->
+  
+    <link rel="stylesheet" href="/css/notnumbering.css" />
+  
+
+  <!-- layout (external) -->
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  <!-- layout (internal) -->
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap41/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+      <link rel="stylesheet" href="/css/header.css" />
+    
+      <link rel="stylesheet" href="/css/page.css" />
+    
+      <link rel="stylesheet" href="/css/rouge-monokai.css" />
+    
+  
+  
+    
+      <link rel="stylesheet" href="/css/post.css" />
+    
+      <link rel="stylesheet" href="/css/post-layout.css" />
+    
+      <link rel="stylesheet" href="/css/tag-page.css" />
+    
+  
+
+  <!-- layout (google font) -->
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans: 400,400i,600,600i,700,700i,800&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito: 400,600,700&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Baloo" />
+    
+  
+
+  <!-- page (google font) -->
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+
+  
+    <meta property="og:title" content="The Code Book" />
+  
+
+  
+    <meta property="og:description" content="Simon Singh">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+    <meta property="og:url" content="http://localhost:4000/reading/the-code-book" />
+    <link rel="canonical" href="http://localhost:4000/reading/the-code-book" />
+  
+
+  <!-- page's cover -->
+  
+    <meta property="og:image" content="http://localhost:4000/img/defaultCoverPost.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1234">
+    <meta property="og:image:height" content="592">
+  
+
+  
+
+  
+
+  
+  
+    
+    
+
+    <script type="text/javascript">
+      var Titles = ["To Kill a Mockingbird","Predictably Irrational","Man's Search for Meaning","The Code Book","The Alchemist","Letters to a young mathematician","The call of the wild","White Fang"];
+      var Urls = ["/reading/to-kill-a-mockingbird","/reading/predictably-irrational","/reading/man-s-search-for-meaning","/reading/the-code-book","/reading/the-alchemist","/reading/letters-to-a-young-mathematician","/reading/tieng-goi-noi-hoang-da","/reading/nanh-trang"];
+      
+        var Subtitles = ["Harper Lee","Dan Ariely","Viktor Emil Frankl","Simon Singh","Paulo Coelho","Ian Stewart","Jack London","Jack London"];
+      
+      
+        var Dates = ["20 Jul 2018","22 Jun 2018","14 Sep 2017","03 Jul 2017","27 Mar 2017","01 Dec 2016","01 Jan 2016","01 Jan 2016"];
+      
+      
+      
+        var Imgs = ["s7_thumbnail.jpg","s22_thumbnail.jpg","s4_thumbnail.jpg","s16_thumbnail.jpg","s18_thumbnail.jpg","s27_thumbnail.jpg","s28_thumbnail.jpg","s17_thumbnail.jpg"];
+      
+      
+        var Ratings = ["4.5","3.5","4","4","3.5","3.5","4","3.5"];
+      
+
+      
+      
+      var Updates = ["false","false","false","false","false","false","false","false"];
+    </script>
+
+  
+
+  
+
+</head>
+
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '',
+      xfbml      : true,
+      version    : 'v3.1'
+    });
+  
+    FB.AppEvents.logPageView();
+  
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  <header>
+    
+<nav class="navbar navbar-dark nav-bg navbar-custom">
+  <div class="container">
+    
+    
+      
+      
+		<a class="nav-home " href="/">
+	  
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span>Home</span>
+      </a>
+    
+      
+      
+		<a class="nav-tutorial " href="/tutorial">
+	  
+        <i class="fa fa-map-o" aria-hidden="true"></i>
+        <span>Tutorial</span>
+      </a>
+    
+      
+      
+		<a class="nav-reading " href="/reading">
+	  
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <span>Reading</span>
+      </a>
+    
+      
+      
+		<a class="nav-about " href="/about">
+	  
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <span>Me</span>
+      </a>
+    
+      
+      
+		<a class="nav-sketch " href="/sketch">
+	  
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+        <span>Sketch</span>
+      </a>
+    
+      
+      
+		<a class="nav-thought " href="/thought">
+	  
+        <i class="fa fa-commenting-o" aria-hidden="true"></i>
+        <span>Thought</span>
+      </a>
+    
+    <div class="nav-search">
+        <form action="/search" method="get">
+          <input name="q" class="mr-sm-2 nav-search-input" type="search" placeholder="Search..." aria-label="Search...">
+          <button class="nav-search-submit" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+      <div class="nav-lang">
+        
+          <span class="en active">en</span>
+          <a href="http://vn.dinhanhthi.com" class="vn">vn</a>
+        
+      </div>
+  </div>
+</nav>
+
+  </header>
+
+  
+    
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+    <header id="post-header" class="bg-reading page-post-header">
+      <div class="container">
+        <div class="row justify-content-md-center align-items-center">
+          <div class="col-md-auto col-12">
+            <div class="book-cover">
+              <img alt="The Code Book" src="/img/bookimg/s16_thumbnail.jpg">
+            </div>
+          </div>
+          <div class="col-md-8 col-12 text-center mt-md-4">
+            <h1>The Code Book</h1>
+            <h3>
+              
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Simon_Singh">
+                  Simon Singh
+                </a>
+              
+            </h3>
+            
+              <div class="rating">
+                
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+    
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+  
+
+  
+
+<div class="container post-container">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8 col-12">
+      <div class="post-content mb-4">
+        <h4 class="post-more">Information</h4>
+
+<ul>
+  <li><strong>Full title</strong>: The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography.</li>
+  <li><strong>Version I read</strong>: Vietnamese.</li>
+  <li><strong>Title in Vietnamese</strong>: Mật mã: từ cổ điển đến lượng tử.</li>
+  <li><strong>Genre</strong>: Factual.</li>
+  <li><strong>Author</strong>: <a href="https://en.wikipedia.org/wiki/Simon_Singh">Simon Lehna Singh</a> (English, 1964 - today).</li>
+  <li><strong>Published</strong>: 1999 (Fourth Estate).</li>
+  <li>Simon is also the author of <em>The last theorem of Fermat</em> (1997).</li>
+</ul>
+
+<div class="alert alert-success" role="alert">
+Below comments are in Vietnamese, please wait for an English version.
+</div>
+
+<p>Đây là quyển sách thứ hai ngoài quyển <em>Chúa trời có phải là nhà toán học?</em> khiến tôi đọc đi đọc lại vài chương đầu nhiều lần. Lý do không phải vì chúng quá hay mà là bởi việc bỏ dở giữa chừng khi đang đọc các tác phẩm này. Tôi có thói quen mỗi lần bỏ lâu quá là phải đọc lại từ đầu tác phẩm. May mắn là lần này đủ kiên nhẫn để đọc hết.</p>
+
+<p>Quyển sách trong nguyên bản tiếng Anh dày hơn 250 trang nhưng khi được dịch ra tiếng Việt thì dày đến hơn 500 trang. Tuy nó dày như thế nhưng sức cuốn hút là khó tránh khỏi.</p>
+
+<p>Cái tài của tác giả là thổi một cốt truyện có chủ đích sắp xếp vào quá trình hình thành và phát triển thế giới mật mã. Từ lúc con người ta có nhu cầu gìn giữ bí mật trong liên lạc bằng những thứ rất thô sơ và đơn giản đến việc sử dụng nó hàng ngày bằng công nghệ hiện đại. Xuyên suốt tác phẩm là trận đánh không mệt mỏi giữa bên tạo mã và những nhà giải mã. Những thuật toán tài tình, những chiếc máy phức tạp lần lượt ra đời chỉ để phục vụ cho việc mã hóa và giải mã.</p>
+
+<p>Đọc tác phẩm cũng cho ta thấy được tầm quan trọng của những lý thuyết toán học thuần túy vốn tưởng chừng như vô dụng trong đời sống thực nay lại có ứng dụng tuyệt vời.</p>
+
+<p>Cũng giống như quyển Định lý cuối cùng của Fermat, Simon Sign một lần nữa cho thấy tầm hiểu biết sâu rộng và phong cách kể chuyện tài tình của mình. Bạn sẽ được đọc một tác phẩm khoa học dưới góc nhìn của một người đọc tiểu thuyết với cốt truyện rõ ràng và lôi cuốn.</p>
+
+<p>Ban đầu tôi đọc tới đâu ghi chú tới đó, tuy nhiên vì nhiều lý do nên các chương cuối của sách tôi chưa kịp viết tóm tắt. Sẽ bổ sung vào một ngày thuận tiện hơn.</p>
+
+<div class="tomTat">
+<div id="btTomTat" class="collapsed" data-toggle="collapse" href="#ndTomTat"><span>Highlights I like (in Vietnamese)</span></div>
+<div id="ndTomTat" class="collapse multi-collapse">
+
+    <h2 id="bn-mt-m-ca-n-hong-mary-x-scotland">Bản mật mã của Nữ hoàng Mary xứ Scotland</h2>
+
+    <h3 id="m-mu-babington">Âm mưu Babington</h3>
+
+    <p>1542, vua nước Anh là <a href="https://vi.wikipedia.org/wiki/Henry_VIII_c%E1%BB%A7a_Anh">Henry VIII</a> tiến đánh vua xứ Scotland là <a href="https://vi.wikipedia.org/wiki/James_V_c%E1%BB%A7a_Scotland">James V</a> và giành chiến thắng. Vua James V quá lo lắng và sợ hãi đã qua đời (3o tuổi) sau đó để lại đứa con gái mới sinh là <a href="https://vi.wikipedia.org/wiki/Mary,_N%E1%BB%AF_ho%C3%A0ng_Scotland">Mary</a>. Mary trở thành nữ hoàng xứ Scotland khi vừa chào đời. Vua Henry VIII không muốn ỷ thế đánh chiếm xứ Scotland mà muốn dụ dỗ để Mary cưới con của ông ta là <a href="https://vi.wikipedia.org/wiki/Edward_VI_c%E1%BB%A7a_Anh">Edward</a>, cũng là 1 đứa trẻ, để từ đó thống nhất Anh-Scotland. Tuy nhiên triều đình Scotland ko chịu và gả Mary cho Francis, con trai hoàng đế nước Pháp với mong muốn được Pháp giúp đỡ và cũng vì Pháp là một nước theo Thiên Chúa Giáo, còn Anh khi ấy là nước theo đạo Tin Lành.</p>
+
+    <p>Vua Henry VIII rất tức giận, đã tiến hành lấn chiếm, cướp bóc và ép xứ Scotland phải gả Mary cho con trai ông ta. Cho đến khi ông ta chết và con ông ta là vua <a href="https://vi.wikipedia.org/wiki/Edward_VI_c%E1%BB%A7a_Anh">Edward VI</a> vẫn tiếp tục chiến dịch này. Điều này dẫn đến việc triều đình Scotland phải chuyển Mary gấp sang Pháp lánh nạn khi cô chỉ mới 6 tuổi (1548).</p>
+
+    <p>Khi Mary tròn 16, bà lấy Francis như đã định và trở thành hoàng hậu nước Pháp. Tuy nhiên một năm sau Francis qua đời và bà trở thành quả phụ (1560). Bà trở lại Scotland, khi ấy đạo Tin Lành đang chiếm ưu thế. Bà tái giá với hai người khác nhưng đều làm cho thanh thế của bà giảm đi rất nhiều và bà bị nhóm quý tộc Tin Lành Scotland bắt giam. Con trai bà là <a href="https://vi.wikipedia.org/wiki/James_I_c%E1%BB%A7a_Anh">James VI</a> lên làm vua thay khi mới 14 tháng tuổi và bị điều khiển bởi bọn quý tộc.</p>
+
+    <p>Sau đó bà trốn thoát được và hy vọng sẽ lánh nạn được ở nước Anh, nơi mà người dì họ <a href="https://vi.wikipedia.org/wiki/Elizabeth_I_c%E1%BB%A7a_Anh">Elizabeth I</a> của mình đang làm nữ hoàng. Edward VI là em trai cùng cha khác mẹ với Elizabeth I. Tuy nhiên Elizabeth lại xem Mary là mối họa do những người Thiên Chúa giáo ở Anh xem Mary mới đích thị là nữ hoàng, thế nên Elizabeth I đã bắt giam lỏng Mary thay vì đối xử với Mary như Mary tưởng.</p>
+
+    <p>Đến 1586, sau 18 năm bị giam cầm, Mary được một người tên Anthony Babington mới chỉ 24 tuổi lên kế hoạch giải cứu bà (đồng thới giết Elizabeth I). Để mọi thứ có thể trót lọt, họ cần phải có sự liên lạc. Họ đã dùng mật thư để liên hệ với nhau. Loại mật thư họ sử dụng là <em>mã thay thế dùng một bảng chữ cái hỗn hợp</em> (tôi sẽ giải thích ở các đoạn sau). Âm mưu này ngay từ đầu đã bị thượng thư của nữ hoàng Elizabeth phát hiện và người đưa thư cầu nối giữa Mary và Babignton cũng chính là điệp viên hai mang do ông thượng thư này cài vào. Thế là Mary bị xử chặt đầu vì tội mưu phản của mình.</p>
+
+    <blockquote>
+      <p>Nói thêm về mối quan hệ giữa Elizabeth I và Mary (xứ Scotland). Vua Henry VIII có người em gái là Margaret lấy vua James IV xứ Scotland. Con của Margaret là James V. Mary là con của James V này trong khi Elizabeth I lại là con của Henry VIII, vốn là cậu của James V. Thế nên Elizabeth I là dì họ của Mary. Sách Mật Mã do nhà xuất bản dịch đã bị sai điểm này, họ dịch hai người họ là chị em họ.</p>
+    </blockquote>
+
+    <h3 id="s-tin-ha-ca-th-t-b-mt">Sự tiến hóa của thư từ bí mật</h3>
+
+    <p>Chính nghệ thuật viết thư bí mật đã cứu người Hy Lạp khỏi sự thống trị của tên vua bạo chúa Ba Tư là Xerxes. Tuy nhiên họ chọn cách “giấu thư” thay vì “mã hóa thư”. Mã hóa thư là việc che giấu nội dung thư chứ không phải giấu đi bức thư.</p>
+
+    <ul>
+      <li>Cạo lớp sáp bên ngoài hai thanh gỗ dày, viết lên đó rùi phủ lại lớp sáp.</li>
+      <li>Cạo tóc trên đầu người đưa tin, viết lên đó, chờ tóc mọc lại rùi gởi tin đi.</li>
+      <li>Dùng một loại mực đặc biệt viết lên vỏ một quả trứng đã luộc. Lộc quả trứng ra sẽ đọc được.</li>
+      <li>Mực vô hình.</li>
+    </ul>
+
+    <p>Mật mã có thể được chia làm 2 loại : <em>chuyển vị</em> và <em>thay thế</em>.</p>
+
+    <ul>
+      <li><strong>Chuyển vị</strong>: các chữ cái trong thư được sắp xếp lại. Một dạng chuyển vị đã từng được sử dụng phổ biến là <em>khúc gỗ bí mật (scytable)</em> của <a href="https://vi.wikipedia.org/wiki/Sparta">Sparta</a> có từ thế kỷ V TCN. Khi muốn xem nội dung thư, phải quấn thư xung quanh một khúc gỗ quy định trước kích thước.</li>
+      <li><strong>Thay thế</strong> : các chữ cái được thay thế  bởi một chữ khác trong bảng chữ cái. Khi các chữ cái được dịch chuyển đi một số vị trí, mã thay thế đó được gọi là <strong>mật mã dịch chuyển Caesar</strong> hay đơn giản là <em>mã Caesar</em> (ông vua Cộng Hòa La Mã này đã sử dụng mật mã rất thường xuyên). Tính đơn giản và khá vững chắc của mã thay thế đã giúp nó thống trị nghệ thuật thư tín bí mật trong suốt thiên niên kỷ thứ nhất sau CN.</li>
+    </ul>
+
+    <p>Mã chuyển vị thì các chữ cái vẫn giữ nguyên dạng chỉ thay đổi vị trí còn mã thay thế thì các chữ cái thay đổi dạng nhưng vị trí không thay đổi.</p>
+
+    <p>Một bức thư mã hóa sẽ bao gồm: <strong>thuật toán mã hóa</strong> + <strong>chìa khóa mã hóa</strong>. Ví dụ phát hiện ra bức thư có các chữ cái bị thay thế bởi các chữ cái khác, đó là thuật toán còn quy luật thay thế là như thế nào thì đó là chìa khóa mã hóa. <strong>Nguyên tắc Kerchhoffs</strong>: <em>sự an toàn của một hệ thống mã hóa không phụ thuộc vào việc giữ bí mật thuật toán mã hóa. Độ an toàn chỉ phụ thuộc vào việc giữ bí mật chìa khóa mã.</em></p>
+
+    <h3 id="cc-nh-phn-tch-m--rp">Các nhà phân tích mã Ả Rập</h3>
+
+    <p>Năm 610, ở tuổi 40, Muhammad thường lui tới 1 hang động bên ngoài thánh địa Mecca để suy ngẫm và ông được thiên thần Gabriel viếng thăm và tuyên bố ông là nhà tiên tri của Chúa. Ông mất đi, để lại những mặc khải rải rác. Vị vua Hồi giáo đầu tiên là Abu Bakr là người đầu tiên tập hợp chúng lại.</p>
+
+    <p>632-661 từ vị vua đầu tiên tới thứ 4, đạo Hồi được truyền bá rộng rãi đến mức một nửa thế giời nằm dưới sự cai trị của người Hồi giáo. Di sản khoa học Hồi giáo cũng không kém phần vĩ đại, bằng chứng là rất nhiều từ khoa học mượn từ tiếng Ả Rập như <em>algebra</em>, <em>alkaline</em>, <em>zenith</em>,…</p>
+
+    <p>Những người Ả Rập sử dụng mã hóa rất nhiều trong các văn bản của họ và họ cũng tình cờ có công phát hiện ra cách giải loại mật thư một bảng chữ cái bằng cách đếm tần suất xuất hiện của các chữ cái trong một văn bản mật mã rùi so sánh với tần suất bình thường của các chữ cái trong một văn bản bình thường cùng ngôn ngữ. Kết hợp với mối liên hệ giữa các chữ cái với nhau (th, en,…) để giải loại mật thư này.</p>
+
+    <h3 id="phc-hng--phng-ty">Phục hưng ở phương Tây</h3>
+
+    <p>800-1200, ở Ả Rập rất phát triển trong khi ở châu Âu đang chìm đắm trong thời Trung Cổ đen tối. Những người châu Âu chỉ chịu để ý đến mật mã vì trong Kinh Cựu Ước có chứa rất nhiều văn bản mã hóa, một dạng mã thay thế truyền thống của người Do Thái. Tuy nhiên các văn bản này nhằm làm tăng thêm sự huyền bí hơn là che giấu các bí mật.</p>
+
+    <p>Khoa học mật mã phát triển thịnh hành vào thời kỳ phục hưng ở châu Âu, trong đó đáng kể đến là ở Italia, trái tim của thời phục hưng.</p>
+
+    <p>Vào thời này, việc phụ thuộc quá nhiều vào mật mã cũng là một nhược điểm trong các mối quan hệ chính trị. Họ quá tin tưởng vào độ an toàn của mật mã nên dễ bị lợi dụng khi mà không biết rằng mật mã của họ đã bị giải. Nhà toán học Pháp <a href="https://vi.wikipedia.org/wiki/Fran%C3%A7ois_Vi%C3%A8te">Francois Viète</a> có lần bị cáo buộc là tà giáo vì đã giải được mật mã của người Tây Ban Nha khi mà họ đinh ninh rằng loại mật mã một bảng chữ cái này là loại không thể giải nổi.</p>
+
+    <p>Một cải tiến của <em>mật mã thay thế dùng một bảng chữ cái</em> là việc đưa vào ký tự rỗng (null). Đó là những ký tự không thay thế cho chữ cái thực mà chỉ là những chỗ trống không thay thế cho cái gì hết. Hoặc họ cố tình viết sai chính tả trước khi mã hóa thư.</p>
+
+    <p>Đến đây phân loại mật mã thay thế gồm 2 loại: <strong>mã chữ cái</strong> (một chữ cái thay cho một chữ cái) và <strong>mã từ</strong> (một ký hiệu thay cho một từ/cụm từ). Nhược điểm của mã từ là phải có một quyển “sổ mã” kèm theo, khó truyền bá cũng như lưu hành và đặc biệt là nếu lỡ bị lộ. Ngoài ra còn có một loại mã hỗn hợp của hai thứ này.</p>
+
+    <h3 id="mt-s-thng-tin-thm">Một số thông tin thêm</h3>
+
+    <ul>
+      <li><strong><a href="https://vi.wikipedia.org/wiki/Sparta">Sparta</a></strong> : thành bang nổi tiếng của Hy Lạp.Nhà nước quân phiệt khắt khe Sparta là một trong hai cường quốc hùng mạnh nhất trên lục địa Hy Lạp, cùng với Nhà nước dân chủ Athena.</li>
+      <li><strong><a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%BF_qu%E1%BB%91c_La_M%C3%A3">Đế Quốc La Mã</a></strong> : hay còn gọi là đế quốc Roma (Roman). Thế kỷ I TCN đến V hay VI SCN. Bao gồm những nước bao quanh Địa Trung Hải (hiện nay là địa phận của 54 quốc gia). Vị hoàng đế đầu tiên là Augustus (có liên quan đến một sự tích về tháng 8). Lưu ý trước Đế quốc La Mã là nước Cộng hòa La Mã. Trong đó hoàng đế Julius César đóng vai trò then chốt trong việc chuyển dịch hai thể chế chính trị này. Xem thêm <a href="http://math2it.com/tai-sao-thang-2-chi-co-28-ngay/">Tại sao tháng 2 có 28 ngày</a> và liên quan đến việc tháng 8 có 31 ngày.</li>
+      <li><strong><a href="https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Latinh">Tiếng Latinh</a></strong> là ngôn ngữ thuộc nhóm ngôn ngữ gốc Ý, được dùng lần đầu ở vùng xung quanh thành Roma (La Mã). Đây là ngôn ngữ chính thức của đế quốc La Mã. Đây là ngôn ngữ quốc tế trước khi bị thay thế bởi tiếng Pháp (thế kỷ 18) và sau đó là tiếng Anh (thế kỷ 19). Bảng chữ cái La Tinh là từ A-Z.</li>
+      <li><strong>Ba Tư</strong>: nay thuộc nước Iran (Persian) do Cyrus đại đế sáng lập. Đế quốc Ba Tư đầu tiên (Đế Quốc Achaemenes) là đế quốc đầu tiên trong lịch sử (550-330 TCN).</li>
+      <li><strong><a href="https://vi.wikipedia.org/wiki/Trung_C%E1%BB%95">Thời Trung Cổ</a></strong> : bắt đầu từ sự sụp đổ của đế quốc tây roma đến trước khi bắt đầu thời kỳ phục hưng. Đây là thời kỳ đen tối của châu Âu khi dân số bị suy giảm (<a href="https://vi.wikipedia.org/wiki/C%C3%A1i_ch%E1%BA%BFt_%C4%90en">Black Death</a>, dịch hạch làm suy giảm nửa dân số), các cuộc chiến tranh tôn giáo, nội chiến nổ ra khắp châu lục.</li>
+      <li><strong><a href="https://vi.wikipedia.org/wiki/Ph%E1%BB%A5c_H%C6%B0ng">Thời Phục Hưng</a></strong> : là một phong trào văn hóa thường được xem là bao phủ giai đoạn từ thế kỷ 15 đến thế kỷ 17, khởi đầu tại Ý sau đó lan rộng ra phần còn lại của châu Âu.</li>
+      <li><strong><a href="https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Do_Th%C3%A1i">Người Do Thái</a></strong> (Jews) : là một sắc tộc tôn giáo có nguồn gốc từ người Israel. Người Do Thái đã trải qua một lịch sử lâu dài bị đàn áp và thảm sát trên nhiều vùng đất khác nhau; dân số và phân bố dân cư của họ thay đổi qua nhiều thế kỷ.</li>
+    </ul>
+
+    <p><strong>Mật mã chuồng heo</strong> xem hình dưới. Các ký tự được mã hóa theo các “chuồng” mà chúng bị nhốt.</p>
+
+    <p><img src="/img/post/book/mat-ma/h8.png" alt="Mật mã chuồng heo" /></p>
+
+    <h2 id="le-chiffre-indchiffrable">Le chiffre indéchiffrable</h2>
+
+    <h3 id="hnh-vung-vigenre">Hình vuông Vigenère</h3>
+
+    <p>Mật mã thay thế dùng một bảng chữ cái đã không còn an toàn do phương pháp phân tích tần suất phát kiến bởi những người Ả Rập. Cuộc đấu tranh giữa người tạo và giải mã ngày càng gay cấn và đang nghiêng về người giải mã.</p>
+
+    <p>Vào những năm 1460, nhà họa sĩ, nhà thơ, soạn nhạc và triết gia người Ý, Leon Battista Alberti đã phát minh ra loại <strong>mật mã dùng nhiều bản chữ cái</strong>.</p>
+
+    <p><img src="/img/post/book/mat-ma/h1.png" alt="Mật mã thay thế hai bảng chữ cái" /></p>
+
+    <p>Sau đó có nhiều người khác đã đóng góp vào việc xây dựng loại mật mã nhiều bảng chữ cái này, tuy nhiên phải đến nhà ngoại giao người Pháp, Blaise Vigenère mới phát triển đến dạng hoàn thiện cuối cùng và cho ra đời <strong>hình vuông Vigenère</strong> như hình dưới. Sức mạnh của bảng mã này là nó sử dụng tới 26 bảng chữ cái để mã hóa thông tin. Công trình của Vigenère được trình bày tới công chúng vào năm 1586, đúng vào năm xử tử nữ hoàng Mary xứ Scotland.</p>
+
+    <p><img src="/img/post/book/mat-ma/h2.png" alt="Hình vuông Vigenère" /></p>
+
+    <p><strong>Cách sử dụng</strong>: Từ khóa là <code class="highlighter-rouge">WHITE</code> được viết liên tiếp nhau cho đến hết văn bản cần mã hóa. Nhìn vào hình vuông Vigenère, hàng <code class="highlighter-rouge">W</code> sẽ mã từ <code class="highlighter-rouge">d</code> bởi chữ <code class="highlighter-rouge">Z</code> là giao điểm của hàng <code class="highlighter-rouge">W</code> và cột <code class="highlighter-rouge">d</code>.</p>
+
+    <p><img src="/img/post/book/mat-ma/h3.png" alt="Ví dụ cách sử dụng hình vuông Vigenère" /></p>
+
+    <h3 id="t-s-lng-qun-vigenre-n-ngi-eo-mt-n-st">Từ sự lãng quên Vigenère đến Người đeo mặt nạ sắt</h3>
+
+    <p>Tuy mật mã Vigenère rất mạnh nhưng nó không được ưa chuộng như tưởng tượng. Lý do là bởi, nếu người sử dụng bình dân thì họ chỉ cần mật mã 1 bảng chữ cái là đủ, còn nếu mục đích sử dụng tối mật hơn thì sự rườm rà và lâu lắc trong quá trình mã hóa và giải mã Vigenère khiến nó không được chú ý đến vì người ta cần sự tiện dụng và phải nhanh.</p>
+
+    <p>Thay thế nó, yếu hơn, là <strong>mật mã thay thế đồng âm</strong>. Mỗi chữ cái được thay bởi nhiều lựa chọn khác nhau. Các lựa chọn này sẽ tỷ lệ thuận với tần suất của chữ cái đó trong văn bản thường. Điều này đảm bảo cho việc sau khi mã hóa, tất cả các chữ cái đều xuất hiện với tần suất như nhau, gần bằng 1%, khiến cho việc dùng tần suất để giải mã là bất khả thi. Thật ra loại mật mã này cũng là một dạng của <em>mã thay thế một bảng chữ cái</em> vì mỗi chữ cái được biểu thị bởi nhiều ký hiệu tuy nhiên các ký hiện này chỉ biểu thị cho duy nhất 1 chữ cái, khác với loại <em>nhiều bảng chữ cái</em>, một ký hiệu có thể biểu thị cho nhiều chữ cái khác nhau. <strong>Cách giải</strong>: Xét mối quan hệ giữa các chữ cái trong tiếng Anh, đặc biệt là những chữ hiếm gặp, ví dụ chữ <em>q</em>, chắc chắn nó chỉ được thay bởi 1 ký tự, theo sau nó luôn là <em>u</em>. Do đó để ý trong văn bản mã hóa, ký tự nào theo sau luôn là 1 số ký tự cố định thì đó nhất định là <em>q</em> và các ký tự kia là <em>u</em>.</p>
+
+    <p>Phải kể đến <strong>Mật mã vĩ đại của vua Louis XIV</strong> do hai cha con người Pháp Rossignol phát minh ra. Nó đã giữ bí mật cho các lá thư trong suốt 2 thế kỷ, trong đó có 1 bí mật về nhân vật Người đeo mặt nạ sắt bị vua bắt giam gây ra rất nhiều lời đồn đại. Đây không phải là <em>mật mã đồng âm</em>.</p>
+
+    <h3 id="phng-en">Phòng Đen</h3>
+
+    <p>Mỗi cường quốc châu Âu đều có một cơ quan gọi là <strong>Phòng Đen</strong>, một trung tâm của việc giải mã thông tin và tập hợp thông tin tình báo. Phòng Đen tốt nhất là ở Vien, Áo. Chính sự ra đời của các Phòng Đen mà không loại mật mã một bảng chữ cái nào đủ an toàn. Do đó người ta bắt đầu quay lại dùng mật mã nhiều bảng chữ cái Vigenère.</p>
+
+    <p>Vào thời kỳ này, việc thông tin liên lạc bằng điện và sóng vô tuyến đã bắt đầu hình thành và phát triển. Đầu tiên là hệ thống (cần có dây cáp) của Samuel Morse (hệ thống dấu gạch và chấm). Lưu ý, đây chỉ là việc hình thức hóa thông tin chứ không phải là một dạng mã hóa thông tin nên các thư trước khi chuyển vẫn phải được mã hóa.</p>
+
+    <p>Khi ấy bảng mật mã Vigenère là lựa chọn hoàn hảo và nó được đặt cho cái tên <strong>Le chiffre indéchiffrable</strong> (mật mã không thể phá nổi)</p>
+
+    <h3 id="babbage-v-mt-m-vigenre">Babbage và mật mã vigenère</h3>
+
+    <p>Nhân vật gợi sự hiếu kỳ nhất ở thế kỷ XIX trong việc phân tích mật mã là thiên tài lập dị người Anh, Charles Babbage, người nổi tiếng nhất với phát minh ra bản thiết kế máy tính hiện đại. Ông đã giải được mật mã Vigenère chỉ bằng sự khôn khéo.</p>
+
+    <p><strong>Cách giải mã Vigenère</strong> : Nếu dùng bảng Vigenère để mã hóa, ví dụ chữ <code class="highlighter-rouge">the</code>, thì các ký tự mã hóa nó, dù khác nhau nhưng chắc chắn sẽ có lúc phải lặp lại. Bước đầu tiên, ta xác định những chữ cái xuất hiện hơn một lần trong văn bản mật mã. Sau đó ta lập ra một bảng đại loại như bảng dưới đây</p>
+
+    <p><img src="/img/post/book/mat-ma/h4.png" alt="Số lần lặp và các khoản cách trong bảng mật mã dùng hình vuông Vigenère" /></p>
+
+    <p>Từ bảng trên, cho ta biết từ khóa là một từ có 5 chữ cái. Bước tiếp theo là tìm xem 5 chữ cái đó là gì. Ta tiến hành phân tích tần suất của từng chữ cái trong từ khóa, ứng với chữ cái này sẽ là các chữ cái cách nhau bởi 5 đơn vị từ trong văn bản mã hóa. Khi ấy ta có bảng tần suất tương tự như hình dưới</p>
+
+    <p><img src="/img/post/book/mat-ma/h5.png" alt="Phân tích tần suất ứng với một chữ cái trong từ khóa" /></p>
+
+    <p>Rồi đem so sánh hình dạng lên xuống với tần suất các chữ cái trong văn bản thường</p>
+
+    <p><img src="/img/post/book/mat-ma/h6.png" alt="Tần suất các chữ cái trong văn bản thường" /></p>
+
+    <p>Ta sẽ xê dịch các chữ cái trong biểu đồ ở trên-trên với biểu đồ ở trên để suy ra từ tương ứng.</p>
+
+    <p><img src="/img/post/book/mat-ma/h7.png" alt="So sánh hai biểu đồ" /></p>
+
+    <p>Phát minh của Babbage trong việc giải mật mã Vigenère chưa bao giờ được ông công bố mà nó chỉ được phát hiện sau này bởi các nhà phân tích tài liệu. Một phần có lẽ xuất phát từ tính nết không thích phô trương của ông, một phần có thể là yếu tố lịch sử và bị người Anh yêu cầu giữ bí mật chuyện này để giành lợi thế trong cuộc chiến với Nga.</p>
+
+    <h3 id="t-ct-nhn-tin-n-kho-bu-b-mt">Từ cột nhắn tin đến kho báu bí mật</h3>
+
+    <p>Nửa sau thế kỷ 19 chứng kiến sự nở rộ của mật mã với bình dân đại chúng khi mà người ta chú trọng hơn đến việc bí mật thông tin cá nhân. Tuy nhiên mật mã giai đoạn này cũng khá lộn xộn với việc các nhà giải mã đang chiếm ưu thế vì mật mã khó giải nhất lúc bấy giờ là mật mã Vigenère đã bị Babbage giải được.</p>
+
+    <p>Tuy phát triển nhưng chi phí để có thể mã hóa và truyền thư khá đắt. Người chọn cách đục lỗ cực nhỏ vào các tờ báo để ẩn bức thư của mình và gởi báo đi, việc gởi báo vốn được miễn phí thời này. Trong giới văn học thì mật mã xuất hiện trong tác phẩm <em>Hành trình tới tâm trái đất của Jules Verne</em> và mật mã <em>Hình nhân nhảy múa</em> trong <em>Sherlock Holmes</em> của nhà văn <em>Conan Doyle</em>.</p>
+
+    <p><img src="/img/post/book/mat-ma/h9.png" alt="Hình nhân nhảy múa" /></p>
+
+    <p><strong>Bảng mật mã của Beale</strong> : Một người tên Beale vốn là khách viễn chinh, một hôm ghé khách sạn Washington ở Lynchburg nghỉ ngơi. Ông ta quay lại đó 2-3 lần nữa, mỗi lần đều vào dịp nghỉ đông và ở khá lâu. Sau đó ông đưa cho chủ khác sạn, vốn là 1 người chính trực, một hộp bí mật và bảo rằng sau 1 khoảng thời gian định sẵn, nếu ông khôn quay lại, hãy mở nó ra. Sau một khoảng thời gian Beale không quay lại, ông chủ cũng chưa vội mở, mãi sau vài năm khi mất kiên nhẫn ông mới mở ra thì biết được cái hộp đó chứa ba bức thư viết về một kho báu chôn vàng, bạc quý giá mà Beale và các cộng sự kiếm được. Tuy nhiên ba bức thư ấy đã bị mã hóa. Ông chủ lao đầu vào giải nhưng bất lực cho đến khi ông già đi. Ông đã chuyển giao nó cho một người bạn, người bạn này cũng dồn tâm huyết, thời gian và việc giải nhưng chỉ giải được bức thư thứ 2, bức nói về số lượng vàng được chôn. Còn bức 1, vị trí chôn và bức 3, nhân thân của các người có liên quan trong kho báu cũng được chia chát, thì không thể giải được. Quá mệt mỏi với việc tốn tâm lực vào việc giải mã 2 bức này, ông quyết định viết 1 quyển sách kể lại tất cả và chia sẻ nó với tất cả mọi người. Tuy nhiên cho đến giờ vẫn chưa có ai thật sự giải được kho báo Beale. Bức thứ hai được mã hóa bằng cách đánh số hết các từ trong bảng tuyên ngôn độc lập, Các số đại diện cho các chữ cái đầu tiên của mỗi từ.</p>
+
+  </div>
+</div>
+
+      </div>
+      <div class="tag-list text-center">
+        
+          
+          
+          <a class="tag-chip" href="/tags/reading#math">
+            <i class="fa fa-tag"></i>
+            math
+          </a>
+        
+          
+          
+          <a class="tag-chip" href="/tags/reading#history">
+            <i class="fa fa-tag"></i>
+            history
+          </a>
+        
+          
+          
+          <a class="tag-chip" href="/tags/reading#non-fiction">
+            <i class="fa fa-tag"></i>
+            non-fiction
+          </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="my-4 py-4">
+  <div class="container post-container">
+    
+
+
+    
+    
+    
+    
+    
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>You may like?</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/reading">see other books</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+  
+
+<div class="row row-eq-height justify-content-center">
+  <script type="text/javascript">
+
+    var class_col = 'col-xs-6 col-sm-3 px-1 px-md-2';
+    var class_main = 'book-main';
+    var class_photo = 'p-3 p-md-4 px-lg-5 px-xl-6';
+    var img_src = '/img/bookimg';
+
+    var randomIndexUsed = [];
+    var counter = 0;
+
+    if (Titles.length > 4){
+      var numberOfPosts = 4;
+    }else{
+      var numberOfPosts = Titles.length;
+    }
+
+    while (counter < numberOfPosts){
+      var randomIndex;
+      var ttitle;
+      var uurl, ssubtitle, ddate, ddescription, iimg, rrating, erating;
+      iimg = '';
+      ddate = '';
+      ssubtitle = '';
+      ddescription = '';
+      erating = '';
+      randomIndex = Math.floor(Math.random() * Titles.length);
+      if (randomIndexUsed.indexOf(randomIndex) == "-1"){
+        ttitle = Titles[randomIndex];
+        uurl = Urls[randomIndex];
+        
+          ssubtitle = Subtitles[randomIndex];
+        
+        
+          ddate = Dates[randomIndex];
+        
+        
+        
+          iimg = Imgs[randomIndex];
+        
+
+        
+        if (Updates[randomIndex] == 'true'){
+          uupdate = '<div class="ribbon">cập nhật</div>';
+        }else{
+          uupdate = '';
+        }
+
+        
+          rrating = Ratings[randomIndex];
+          switch(rrating) {
+              case '1':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>';
+                  break;
+              case '1.5':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-half-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>';
+                  break;
+              case '2':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>';
+                  break;
+              case '2.5':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-half-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>';
+                  break;
+              case '3':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>';
+                  break;
+              case '3.5':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-half-o" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>';
+                  break;
+              case '4':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-o" aria-hidden="true"></i>';
+                  break;
+              case '4.5':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star-half-o" aria-hidden="true"></i>';
+                  break;
+              case '5':
+                  erating = '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>' +
+                    '<i class="fa fa-star" aria-hidden="true"></i>';
+          }
+        
+        document.write(
+          '<div class="' + class_col + '">' +
+            '<div class="' + class_main + ' layout-main">' +
+              '<a href="' + uurl + '">' +
+                uupdate +
+                '<div class="element-photo ' + class_photo + '">' +
+                  '<img src="' + img_src + '/' + iimg + '"/>' +
+                '</div>' +
+                '<div class="element-title">' +
+                  ttitle +
+                '</div>' +
+                '<div class="element-subtitle">' +
+                  ssubtitle +
+                '</div>' +
+                '<div class="element-date">' +
+                  ddate +
+                '</div>' +
+                '<div class="element-description">' +
+                  ddescription +
+                '</div>' +
+                '<div class="element-rating">' +
+                  erating +
+                '</div>' +
+              '</a>' +
+            '</div>' +
+          '</div>'
+        );
+        randomIndexUsed.push(randomIndex);
+        counter++;
+      }
+    }
+  </script>
+</div>
+
+  </div>
+</section>
+
+
+<div  class="container post-container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-12 my-4">
+      <div class="disqus-comments">
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'note-thi';
+            /* ensure that pages with query string get the same discussion */
+                var url_parts = window.location.href.split("?");
+                var disqus_url = url_parts[0];
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to see <a href="http://disqus.com/?ref_noscript">comments on Disqus system.</a></noscript>
+    </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <footer class="footer">
+    
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center p-4">
+      <div class="footer-info">
+        <a href="/about"></a>
+        &nbsp;&copy;&nbsp;
+        2021
+        &nbsp;&bull;&nbsp;
+        <a href="/about">About</a>
+      </div>
+      <div class="mission my-2 tyellow">
+        With the internet, people can learn anything. I'd like to share with you one of the best and useful stuffs so that you can save your time on a self-study path.
+      </div>
+      <div class="donate-me tgreen my-2">
+        <a target="_blank" href="https://www.paypal.me/DinhAnhThi">
+          <i class="fa fa-paypal"></i>
+          Support Thi
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  </footer>
+
+  
+
+
+
+
+
+
+
+
+  
+	  <script src="/js/bootstrap41/jquery-3.3.1.slim.min.js"></script>
+  
+	  <script src="/js/bootstrap41/popper.min.js"></script>
+  
+	  <script src="/js/bootstrap41/bootstrap.min.js"></script>
+  
+
+
+
+  
+	  <script src="/js/backtotop.js"></script>
+  
+
+
+
+</body>
+</html>

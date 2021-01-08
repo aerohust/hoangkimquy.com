@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  
+    
+    
+    
+    <link rel="alternate" hreflang="en" href="/tutorial/how-to-install-taniajekyll" />
+    <link rel="alternate" hreflang="vi" href="/tutorial/" />
+  
+
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+  <meta name="author" content="" />
+
+  <title>
+    
+      TaniaJekyll | How to install TaniaJekyll?
+    
+  </title>
+
+  
+
+  <!-- feed -->
+  <link rel="alternate" type="application/rss+xml" title="TaniaJekyll - Beautiful personal Jekyll theme" href="/feed.xml" />
+
+  <!-- page (external) -->
+  
+
+  <!-- page (internal) -->
+  
+
+  <!-- heading numbering -->
+  
+    <link rel="stylesheet" href="/css/notnumbering.css" />
+  
+
+  <!-- layout (external) -->
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  <!-- layout (internal) -->
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap41/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+      <link rel="stylesheet" href="/css/header.css" />
+    
+      <link rel="stylesheet" href="/css/page.css" />
+    
+      <link rel="stylesheet" href="/css/rouge-monokai.css" />
+    
+  
+  
+    
+      <link rel="stylesheet" href="/css/post.css" />
+    
+      <link rel="stylesheet" href="/css/post-layout.css" />
+    
+      <link rel="stylesheet" href="/css/tag-page.css" />
+    
+  
+
+  <!-- layout (google font) -->
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans: 400,400i,600,600i,700,700i,800&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito: 400,600,700&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Baloo" />
+    
+  
+
+  <!-- page (google font) -->
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+
+  
+    <meta property="og:title" content="How to install TaniaJekyll?" />
+  
+
+  
+    <meta property="og:description" content="Install Jekyll website with Github Pages in general">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+    <meta property="og:url" content="http://localhost:4000/tutorial/how-to-install-taniajekyll" />
+    <link rel="canonical" href="http://localhost:4000/tutorial/how-to-install-taniajekyll" />
+  
+
+  <!-- page's cover -->
+  
+    <meta property="og:image" content="http://localhost:4000/img/defaultCoverPost.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1234">
+    <meta property="og:image:height" content="592">
+  
+
+  
+
+  
+
+  
+  
+    
+    
+
+    <script type="text/javascript">
+      var Titles = ["How to use TaniaJekyll?","How to install TaniaJekyll?","For the editor only"];
+      var Urls = ["/tutorial/how-to-use-taniajekyll","/tutorial/how-to-install-taniajekyll","/tutorial/for-the-editors-only"];
+      
+      
+        var Dates = ["17 Mar 2019","17 Mar 2019","27 Dec 2018"];
+      
+      
+        var Descriptions = ["How to set up and use the components & layouts","Install Jekyll website with Github Pages in general","Shortcuts for the editors on this site"];
+      
+      
+        var Imgs = ["usage.svg","jekyll.png","admin.svg"];
+      
+      
+
+      
+      
+      var Updates = ["false","false","false"];
+    </script>
+
+  
+
+  
+
+</head>
+
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '',
+      xfbml      : true,
+      version    : 'v3.1'
+    });
+  
+    FB.AppEvents.logPageView();
+  
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  <header>
+    
+<nav class="navbar navbar-dark nav-bg navbar-custom">
+  <div class="container">
+    
+    
+      
+      
+		<a class="nav-home " href="/">
+	  
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span>Home</span>
+      </a>
+    
+      
+      
+		<a class="nav-tutorial " href="/tutorial">
+	  
+        <i class="fa fa-map-o" aria-hidden="true"></i>
+        <span>Tutorial</span>
+      </a>
+    
+      
+      
+		<a class="nav-reading " href="/reading">
+	  
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <span>Reading</span>
+      </a>
+    
+      
+      
+		<a class="nav-about " href="/about">
+	  
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <span>Me</span>
+      </a>
+    
+      
+      
+		<a class="nav-sketch " href="/sketch">
+	  
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+        <span>Sketch</span>
+      </a>
+    
+      
+      
+		<a class="nav-thought " href="/thought">
+	  
+        <i class="fa fa-commenting-o" aria-hidden="true"></i>
+        <span>Thought</span>
+      </a>
+    
+    <div class="nav-search">
+        <form action="/search" method="get">
+          <input name="q" class="mr-sm-2 nav-search-input" type="search" placeholder="Search..." aria-label="Search...">
+          <button class="nav-search-submit" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+      <div class="nav-lang">
+        
+          <span class="en active">en</span>
+          <a href="http://vn.dinhanhthi.com" class="vn">vn</a>
+        
+      </div>
+  </div>
+</nav>
+
+  </header>
+
+  
+    
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+    <header id="post-header" class="bg-tutorial page-post-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-12 text-center">
+            
+              <div class="text-center header-tuto-img">
+                <img src="/img/tutorial/jekyll.png">
+              </div>
+            
+            <h1>How to install TaniaJekyll?</h1>
+            <h3></h3>
+            <h3 class="header-date">17 Mar 2019</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+
+
+
+<div class="container post-container">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8 col-12">
+      <div class="post-content mb-4">
+        <p>In this tutorial, I suppose that you are new to <a href="https://pages.github.com/">Github Pages</a> and <a href="https://jekyllrb.com/">Jekyll</a>, just follow the ones you need and don’t forget to leave a comment below.</p>
+
+<div class="alert alert-warning" role="alert">
+  I'm not a native English speaker, please ignore my bad expressions!
+</div>
+
+<div id="toc">
+  <div class="toc-title">
+    <i class="fa fa-list-ul"></i><span>In this post</span>
+  </div>
+  <div class="toc-content">
+<ul id="markdown-toc">
+  <li><a href="#how-to-create-a-github-page" id="markdown-toc-how-to-create-a-github-page">How to create a Github Page?</a></li>
+  <li><a href="#how-to-apply-taniajekyll" id="markdown-toc-how-to-apply-taniajekyll">How to apply TaniaJekyll?</a></li>
+  <li><a href="#get-some-errors" id="markdown-toc-get-some-errors">Get some errors?</a></li>
+</ul>
+
+  </div>
+</div>
+
+<h2 id="how-to-create-a-github-page">How to create a Github Page?</h2>
+
+<p>In the case you don’t have any Github Page, follow following rules, otherwise please step to next steps. <strong>For Vietnameses</strong>, please read <a href="https://toituhoc.xyz/huong-dan-nhanh-tao-trang-web-github-page-dung-theme-co-san">this article</a>.</p>
+<ol>
+  <li><a href="https://github.com/join?source=header-home">Create</a> a Github account, don’t forget to verify your email before loging in. I suppose that you signed up with name <code class="highlighter-rouge">dinhanhthi</code>.</li>
+  <li>Login to your Github account.</li>
+  <li>Create a new repository by clicking <strong>New</strong> on the right side of <em>Repositories</em> section and naming your repo with <code class="highlighter-rouge">&lt;your-account&gt;.github.io</code>. For example, my Github account is “<em>dinhanhthi</em>”, so I name this repo “<em>dinhanhthi.github.io</em>”. We need to name the repo like this because your website will have an address like <strong>https://&lt;your-account&gt;.github.io</strong>.</li>
+  <li>Basically, you now have a place where you can put your website, you can choose either a built-in theme from Github or an external theme.
+    <ul>
+      <li>If you wanna apply <strong><a href="https://github.com/dinhanhthi/TaniaJekyll">TaniaJekyll</a></strong> (or <a href="http://jekyllthemes.org/">other external theme</a>), please step to next section (<a href="#how-to-apply-taniajekyll">How to apply TaniaJekyll</a>) and ignore following steps in this section.</li>
+      <li>If you wanna create immediately a buit-in theme from Github, please continue to step 5.</li>
+    </ul>
+  </li>
+  <li>On your repo on github, click on tab <strong>Settings</strong>, on the left hand side, choose tab <strong>Options</strong> (default) and then go to section <strong>Github Pages</strong>, click on <strong>Choose a theme</strong>.</li>
+  <li>Choose a theme you like and then click on <strong>Select theme</strong></li>
+  <li>A new page appears, write something on <strong>Commit changes</strong> and then click on <strong>Commit changes</strong>.</li>
+  <li>Done, now you have a page, check it out at <strong>https://&lt;your-account&gt;.github.io</strong></li>
+</ol>
+
+<div class="alert alert-success" role="alert">
+  Don't worry if you followed step 5-8 and you wanna apply other themes, just keep going to next section.
+</div>
+
+<h2 id="how-to-apply-taniajekyll">How to apply TaniaJekyll?</h2>
+
+<ol>
+  <li>Download and install <strong><a href="https://desktop.github.com/">Github Client</a></strong> (GC). GC helps you “upload” changes from local host (on your own computer) to your remote (on Github server).</li>
+  <li>Login to GC with the account created in step 1.</li>
+  <li>Clone the repo created in step 3 of previous section to your local computer:
+    <ol>
+      <li>Come back to the repo’s directory, click on <strong>Set up in Desktop</strong>, a popup appears to ask you “<em>Open Github Desktop?</em>”, choose <strong>Open Github Desktop</strong></li>
+      <li>This will open GC on your computer, click on button <strong>Clone</strong></li>
+      <li>Choose the location where you save your repo on your computer. A folder whose name is <strong>&lt;your-account&gt;.github.io</strong> will be created.</li>
+    </ol>
+  </li>
+  <li>From this step, you will apply a theme <a href="http://jekyllthemes.org">downloaded from the internet</a> for your Github page. In this case, you will apply <strong><a href="https://github.com/dinhanhthi/TaniaJekyll">TaniaJekyll</a></strong>.</li>
+  <li>Download <a href="https://github.com/dinhanhthi/TaniaJekyll">TaniaJekyll</a> to your local computer (a file .zip)</li>
+  <li>Delete all files and folders in folder <strong>&lt;your-account&gt;.github.io</strong> created in step 3.3.</li>
+  <li>Extract all files and folders from file .zip in step 5 to folder <strong>&lt;your-account&gt;.github.io</strong></li>
+  <li>Open file <strong>_config.yml</strong> and change some fields in this file
+    <ol>
+      <li><code class="highlighter-rouge">title</code>: your website’s name</li>
+      <li><code class="highlighter-rouge">description</code>: your website’s description</li>
+      <li><code class="highlighter-rouge">baseurl</code>: leave blank (i.e., <code class="highlighter-rouge">""</code>)</li>
+      <li><code class="highlighter-rouge">url</code>: <code class="highlighter-rouge">&lt;your-account&gt;.github.io</code></li>
+      <li><code class="highlighter-rouge">paginate</code>: number of posts on each page (default is 28)</li>
+      <li><code class="highlighter-rouge">banner</code>: directory to your website’s banner</li>
+      <li><code class="highlighter-rouge">favicon</code>: directory to your website’s favicon (icon appears on the left on browser’s tab)</li>
+      <li><code class="highlighter-rouge">user</code>: change all your personal information (<code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">email</code>, <code class="highlighter-rouge">website</code>, <code class="highlighter-rouge">avatar</code>,…)</li>
+      <li>Save and close <strong>_config.yml</strong></li>
+    </ol>
+  </li>
+  <li>Open Github Desktop to see the changes
+    <ol>
+      <li>Write something on field commit</li>
+      <li>Click on <strong>Commit to master</strong> and then <strong>Publish branch</strong></li>
+    </ol>
+  </li>
+  <li>All done! Go to <strong>https://&lt;your-account&gt;.github.io</strong> to see the changes, you may wait a little minutes to get the changes.</li>
+</ol>
+
+<h2 id="get-some-errors">Get some errors?</h2>
+
+<ul>
+  <li>If you have some unexpected errors, please tell me on the comment section below.</li>
+  <li>If you wanna config more on this theme, please read <a href="/how-to-use-taniajekyll">How to use TaniaJekyll</a>.</li>
+  <li>If you find something wrong on this post, please tell me to fix them.</li>
+</ul>
+
+<p>Thank you and good luck.</p>
+
+      </div>
+      <div class="tag-list text-center">
+        
+          
+          
+          <a class="tag-chip" href="/tags/tutorial#how-to">
+            <i class="fa fa-tag"></i>
+            how to
+          </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="my-4 py-4">
+  <div class="container post-container">
+    
+
+
+    
+    
+    
+    
+    
+    
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>You may like?</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/tutorial">see full list</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="row row-eq-height justify-content-center">
+  <script type="text/javascript">
+
+    var class_col = 'col-6 col-md-4 col-lg-2 p-2';
+    var class_main = 'tutorial-main';
+    var class_photo = 'px-4 py-3';
+    var img_src = '/img/tutorial';
+
+    var randomIndexUsed = [];
+    var counter = 0;
+
+    if (Titles.length > 6){
+      var numberOfPosts = 6;
+    }else{
+      var numberOfPosts = Titles.length;
+    }
+
+    while (counter < numberOfPosts){
+      var randomIndex;
+      var ttitle;
+      var uurl, ssubtitle, ddate, ddescription, iimg, rrating, erating;
+      iimg = '';
+      ddate = '';
+      ssubtitle = '';
+      ddescription = '';
+      erating = '';
+      randomIndex = Math.floor(Math.random() * Titles.length);
+      if (randomIndexUsed.indexOf(randomIndex) == "-1"){
+        ttitle = Titles[randomIndex];
+        uurl = Urls[randomIndex];
+        
+        
+          ddate = Dates[randomIndex];
+        
+        
+          ddescription = Descriptions[randomIndex];
+        
+        
+          iimg = Imgs[randomIndex];
+        
+
+        
+        if (Updates[randomIndex] == 'true'){
+          uupdate = '<div class="ribbon">cập nhật</div>';
+        }else{
+          uupdate = '';
+        }
+
+        
+        document.write(
+          '<div class="' + class_col + '">' +
+            '<div class="' + class_main + ' layout-main">' +
+              '<a href="' + uurl + '">' +
+                uupdate +
+                '<div class="element-photo ' + class_photo + '">' +
+                  '<img src="' + img_src + '/' + iimg + '"/>' +
+                '</div>' +
+                '<div class="element-title">' +
+                  ttitle +
+                '</div>' +
+                '<div class="element-subtitle">' +
+                  ssubtitle +
+                '</div>' +
+                '<div class="element-date">' +
+                  ddate +
+                '</div>' +
+                '<div class="element-description">' +
+                  ddescription +
+                '</div>' +
+                '<div class="element-rating">' +
+                  erating +
+                '</div>' +
+              '</a>' +
+            '</div>' +
+          '</div>'
+        );
+        randomIndexUsed.push(randomIndex);
+        counter++;
+      }
+    }
+  </script>
+</div>
+
+  </div>
+</section>
+
+
+<div  class="container post-container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-12 my-4">
+      <div class="disqus-comments">
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'note-thi';
+            /* ensure that pages with query string get the same discussion */
+                var url_parts = window.location.href.split("?");
+                var disqus_url = url_parts[0];
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to see <a href="http://disqus.com/?ref_noscript">comments on Disqus system.</a></noscript>
+    </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <footer class="footer">
+    
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center p-4">
+      <div class="footer-info">
+        <a href="/about"></a>
+        &nbsp;&copy;&nbsp;
+        2021
+        &nbsp;&bull;&nbsp;
+        <a href="/about">About</a>
+      </div>
+      <div class="mission my-2 tyellow">
+        With the internet, people can learn anything. I'd like to share with you one of the best and useful stuffs so that you can save your time on a self-study path.
+      </div>
+      <div class="donate-me tgreen my-2">
+        <a target="_blank" href="https://www.paypal.me/DinhAnhThi">
+          <i class="fa fa-paypal"></i>
+          Support Thi
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  </footer>
+
+  
+
+
+
+
+
+
+
+
+  
+	  <script src="/js/bootstrap41/jquery-3.3.1.slim.min.js"></script>
+  
+	  <script src="/js/bootstrap41/popper.min.js"></script>
+  
+	  <script src="/js/bootstrap41/bootstrap.min.js"></script>
+  
+
+
+
+  
+	  <script src="/js/backtotop.js"></script>
+  
+
+
+
+</body>
+</html>

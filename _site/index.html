@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  
+    
+    
+    
+    <link rel="alternate" hreflang="en" href="/" />
+    <link rel="alternate" hreflang="vi" href="/" />
+  
+
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+  <meta name="author" content="" />
+
+  <title>
+    
+      TaniaJekyll | Beautiful personal Jekyll theme
+    
+  </title>
+
+  
+    <meta name="description" content="A beautiful personal theme">
+  
+
+  <!-- feed -->
+  <link rel="alternate" type="application/rss+xml" title="TaniaJekyll - Beautiful personal Jekyll theme" href="/feed.xml" />
+
+  <!-- page (external) -->
+  
+
+  <!-- page (internal) -->
+  
+    
+      <link rel="stylesheet" href="/css/index.css" />
+    
+      <link rel="stylesheet" href="/css/sketch.css" />
+    
+      <link rel="stylesheet" href="/css/lightbox.min.css" />
+    
+      <link rel="stylesheet" href="/css/contact-form.css" />
+    
+      <link rel="stylesheet" href="/css/post-layout.css" />
+    
+      <link rel="stylesheet" href="/css/about.css" />
+    
+      <link rel="stylesheet" href="/css/thought.css" />
+    
+  
+
+  <!-- heading numbering -->
+  
+    <link rel="stylesheet" href="/css/notnumbering.css" />
+  
+
+  <!-- layout (external) -->
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  <!-- layout (internal) -->
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap41/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+      <link rel="stylesheet" href="/css/header.css" />
+    
+      <link rel="stylesheet" href="/css/page.css" />
+    
+      <link rel="stylesheet" href="/css/rouge-monokai.css" />
+    
+  
+  
+
+  <!-- layout (google font) -->
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans: 400,400i,600,600i,700,700i,800&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito: 400,600,700&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Baloo" />
+    
+  
+
+  <!-- page (google font) -->
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+
+  
+    <meta property="og:title" content="TaniaJekyll" />
+  
+
+  
+    <meta property="og:description" content="A beautiful personal theme">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+    <meta property="og:url" content="http://localhost:4000/" />
+    <link rel="canonical" href="http://localhost:4000/" />
+  
+
+  <!-- page's cover -->
+  
+    <meta property="og:image" content="http://localhost:4000/img/defaultCoverPost.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1234">
+    <meta property="og:image:height" content="592">
+  
+
+  
+
+  
+    <script type="text/javascript">
+      var quotesContent = ["Try not to become a man of success. Rather become a man of value","Give a man a fish, and you feed him for a day. Teach a man to fish, and you feed him for a lifetime.","Everyone you meet always asks if you have a career, are married or own a house as if life was some kind of grocery list. But nobody ever asks if you are happy.","Don't cry because it's over, smile because it happened.","I have not failed. I've just found 10,000 ways that won't work.","The secret of getting ahead is getting started.","Believe you can and you're halfway there.","Education is the most powerful weapon which you can use to change the world.","I think thus I am.","Stay hungry, stay foolish.","If you can't explain it simply, you don't understand it well enough.","Love is a better teacher than duty.","Everything should be made as simple as possible, but not simpler.","You can know the name of a bird in all the languages of the world, but when you're finished, you'll know absolutely nothing whatever about the bird… So let's look at the bird and see what it's doing — that's what counts. I learned very early the difference between knowing the name of something and knowing something.","When you understand something, then you can find the math to express that understanding. The math doesn't provide the understanding."];
+      var quotesAuthor = ["Albert Einstein","Lao-Tzu","Heath Ledger","Dr. Seuss","Thomas A. Edison","Mark Twain","Theodore Roosevelt","Nelson Mandela","René Descartes","Steve Jobs","Albert Einstein","Albert Einstein","Albert Einstein","Richard Feynman","Leslie Lamport"];
+      var quotesProfile = ["https://en.wikipedia.org/wiki/Albert_Einstein","https://en.wikipedia.org/wiki/Laozi","https://en.wikipedia.org/wiki/Heath_Ledger","https://en.wikipedia.org/wiki/Dr._Seuss","https://en.wikipedia.org/wiki/Thomas_Edison","https://en.wikipedia.org/wiki/Mark_Twain","https://en.wikipedia.org/wiki/Theodore_Roosevelt","https://en.wikipedia.org/wiki/Nelson_Mandela","https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes","https://en.wikipedia.org/wiki/Steve_Jobs","https://en.wikipedia.org/wiki/Albert_Einstein","https://en.wikipedia.org/wiki/Albert_Einstein","https://en.wikipedia.org/wiki/Albert_Einstein","https://en.wikipedia.org/wiki/Richard_Feynman","https://en.wikipedia.org/wiki/Leslie_Lamport"];
+      // var quotesVi = ["","","","","","","","","","","","","","",""];
+    </script>
+  
+
+  
+
+  
+
+</head>
+
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '',
+      xfbml      : true,
+      version    : 'v3.1'
+    });
+  
+    FB.AppEvents.logPageView();
+  
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  <header>
+    
+<nav class="navbar navbar-dark nav-bg navbar-custom">
+  <div class="container">
+    
+    
+      
+      
+		<a class="nav-home nav-current" href="/">
+	  
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span>Home</span>
+      </a>
+    
+      
+      
+		<a class="nav-tutorial " href="/tutorial">
+	  
+        <i class="fa fa-map-o" aria-hidden="true"></i>
+        <span>Tutorial</span>
+      </a>
+    
+      
+      
+		<a class="nav-reading " href="/reading">
+	  
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <span>Reading</span>
+      </a>
+    
+      
+      
+		<a class="nav-about " href="/about">
+	  
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <span>Me</span>
+      </a>
+    
+      
+      
+		<a class="nav-sketch " href="/sketch">
+	  
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+        <span>Sketch</span>
+      </a>
+    
+      
+      
+		<a class="nav-thought " href="/thought">
+	  
+        <i class="fa fa-commenting-o" aria-hidden="true"></i>
+        <span>Thought</span>
+      </a>
+    
+    <div class="nav-search">
+        <form action="/search" method="get">
+          <input name="q" class="mr-sm-2 nav-search-input" type="search" placeholder="Search..." aria-label="Search...">
+          <button class="nav-search-submit" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+      <div class="nav-lang">
+        
+          <span class="en active">en</span>
+          <a href="http://vn.dinhanhthi.com" class="vn">vn</a>
+        
+      </div>
+  </div>
+</nav>
+
+  </header>
+
+  
+
+
+  
+    
+    
+
+
+
+    
+    <header id="idx-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 offset-md-1">
+            <div class="img-avatar">
+              <img alt="Thi's avatar" src="/img/avatar.png">
+            </div>
+          </div>
+          <div class="col-md-6 text-center idx-abt">
+            <h1>TaniaJekyll</h1>
+            <p>Hi! I'm a beautiful jekyll template for your personal website. I have many layouts which are <span class="tgreen">flexible</span> & <span class="tgreen">clear</span> for different purposes.</p>
+            <p class="idx-social">
+              <a class="mr-s" href="/about"><i class="fa fa-heart"></i> About</a>
+              <a class="mr-s" target="_blank" href="/files/mycv.pdf"><i class="fa fa-user" aria-hidden="true"></i> My CV</a>
+              
+                <a href="http://vn.dinhanhthi.com">
+                  <i class="fa fa-globe"></i>
+                  Tiếng Việt
+                </a>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+<!-- quotes -->
+<section id="idx-quotes" class="alt-color section text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2 col-12">
+        <script type="text/javascript">
+          var randomIndex;
+          var quoteContent;
+          var quoteAuthor;
+          var quoteProfile;
+          randomIndex = Math.floor(Math.random() * quotesContent.length);
+          quoteContent = quotesContent[randomIndex];
+          quoteAuthor = quotesAuthor[randomIndex];
+          quoteProfile = quotesProfile[randomIndex];
+          document.write(
+            '<p class="quote-content">' + 
+              quoteContent +
+            '</p>'
+          );
+          if (quoteProfile != "nolink"){
+            document.write(
+              '<p class="quote-author mb-1">' + 
+                '<a target="_blank" href="' + quoteProfile + '"> &#x2015; ' +
+                  quoteAuthor +
+                ' &#x2015;</a>' +
+              '</p>'
+            );
+          } else{
+            document.write(
+              '<p class="quote-author mb-1">' + 
+                '<span>&#x2015; ' + quoteAuthor + ' &#x2015;</span>' +
+              '</p>'
+            );
+          }
+        </script>
+        <p class="quote-more">
+          (<a href="/quote">see other quotes</a>)
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- projects -->
+<section id="idx-project" class="alt-color section">
+  <div class="container mb-4">
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>Recent projects</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/project">see others</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+    <div class="row justify-content-center">
+      
+      <!--  
+  ** Options:
+    - type: type of layout whose each post contains: 
+        1. img, 
+        2. title, 
+        3. subtitle,
+        4. date,
+        5. description,
+      + project: 1,2,5
+      + book: 1,2,3 (3 = author)
+      + tutorial: 1,2,4,5
+      + thought: 2,4
+      + thought2: 1,2,4
+    - source: the source of posts/elements
+    - img-src: source of images
+    - offset: from which the posts are collected
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+
+
+
+
+
+
+  <div class="col-xs-6 col-sm-4 col-md-3 text-center">
+  <div class="project-main layout-main">
+    
+      <a href="https://github.com/dinhanhthi/TaniaJekyll">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/img/project/tania-jekyll.svg" />
+        </div>
+
+        <div class="element-title">
+          TaniaJekyll
+        </div>
+
+        
+
+        
+
+        
+          <div class="element-description">
+            A beautiful personal jekyll theme based on Bootstrap 4.1.
+          </div>
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-xs-6 col-sm-4 col-md-3 text-center">
+  <div class="project-main layout-main">
+    
+      <a href="https://github.com/dinhanhthi/NoteTheme">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/img/project/notetheme.svg" />
+        </div>
+
+        <div class="element-title">
+          NoteTheme
+        </div>
+
+        
+
+        
+
+        
+          <div class="element-description">
+            A Jekyll theme designed only for taking note.
+          </div>
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-xs-6 col-sm-4 col-md-3 text-center">
+  <div class="project-main layout-main">
+    
+      <a href="https://github.com/dinhanhthi/nxfem">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/img/project/nxfem.png" />
+        </div>
+
+        <div class="element-title">
+          NXFEM
+        </div>
+
+        
+
+        
+
+        
+          <div class="element-description">
+            A Matlab library for Nitsche - Extended Finite Element Method.
+          </div>
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-xs-6 col-sm-4 col-md-3 text-center">
+  <div class="project-main layout-main">
+    
+      <a href="http://math2it.com/gioi-thieu">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/img/project/math2it.gif" />
+        </div>
+
+        <div class="element-title">
+          Math2IT
+        </div>
+
+        
+
+        
+
+        
+          <div class="element-description">
+            A Vietnamese site for intuitive knowledge (Maths, LaTeX, Education and Technology).
+          </div>
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+  
+<div class="container">
+  <div class="row justify-content-center me-social">
+    <div class="col-12">
+      <!-- <hr /> -->
+      <h3 class="title text-center">&mdash; find me on &mdash;</h3>
+    </div>
+    
+      <div class="d-flex align-content-around flex-wrap item">
+        <a href="https://github.com/" target="_blank">
+          <div class="so-img">
+            <img style="opacity: 0.65;" src="/img/social/github-bw.png" />
+          </div>
+          <div class="so-name">
+            Github
+          </div>
+        </a>
+      </div>
+    
+      <div class="d-flex align-content-around flex-wrap item">
+        <a href="https://www.linkedin.com/" target="_blank">
+          <div class="so-img">
+            <img style="opacity: 0.65;" src="/img/social/linkedin-bw.png" />
+          </div>
+          <div class="so-name">
+            LinkedIn
+          </div>
+        </a>
+      </div>
+    
+      <div class="d-flex align-content-around flex-wrap item">
+        <a href="https://www.hackerrank.com" target="_blank">
+          <div class="so-img">
+            <img style="opacity: 0.65;" src="/img/social/hackerrank-bw.svg" />
+          </div>
+          <div class="so-name">
+            HackerRank
+          </div>
+        </a>
+      </div>
+    
+      <div class="d-flex align-content-around flex-wrap item">
+        <a href="https://www.dataquest.io" target="_blank">
+          <div class="so-img">
+            <img style="opacity: 1;" src="/img/social/dataquest-bw.png" />
+          </div>
+          <div class="so-name">
+            DataQuest
+          </div>
+        </a>
+      </div>
+    
+      <div class="d-flex align-content-around flex-wrap item">
+        <a href="https://stackexchange.com" target="_blank">
+          <div class="so-img">
+            <img style="opacity: 0.65;" src="/img/social/stackexchange.png" />
+          </div>
+          <div class="so-name">
+            StackExchange
+          </div>
+        </a>
+      </div>
+    
+      <div class="d-flex align-content-around flex-wrap item">
+        <a href="https://www.goodreads.com" target="_blank">
+          <div class="so-img">
+            <img style="opacity: 0.8;" src="/img/social/goodreads.svg" />
+          </div>
+          <div class="so-name">
+            Goodreads
+          </div>
+        </a>
+      </div>
+    
+      <div class="d-flex align-content-around flex-wrap item">
+        <a href="https://www.coursera.org" target="_blank">
+          <div class="so-img">
+            <img style="opacity: ;" src="/img/social/coursera.png" />
+          </div>
+          <div class="so-name">
+            Coursera
+          </div>
+        </a>
+      </div>
+    
+  </div>
+</div>
+</section>
+
+<!-- reading books -->
+<section class="alt-color section">
+  <div class="container">
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>Books I've just read</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/reading">see other books</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+     <!-- if there is a target -->
+      
+      
+      
+       <!-- there is some read book -->
+        
+        
+        
+        
+      
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-10" style="margin-bottom: 2rem;">
+              <div class="progress" style="height: 40px;">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning px-3" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                  <span>2 / 10 books in 2018</span>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    <div class="row row-eq-height justify-content-center">
+      
+      <!--  
+  ** Options:
+    - type: type of layout whose each post contains: 
+        1. img, 
+        2. title, 
+        3. subtitle,
+        4. date,
+        5. description,
+      + project: 1,2,5
+      + book: 1,2,3 (3 = author)
+      + tutorial: 1,2,4,5
+      + thought: 2,4
+      + thought2: 1,2,4
+    - source: the source of posts/elements
+    - img-src: source of images
+    - offset: from which the posts are collected
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+
+
+
+
+
+
+  <div class="col-xs-6 col-sm-3 px-1 px-md-2">
+  <div class="book-main layout-main">
+    
+      <a href="/reading/to-kill-a-mockingbird">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo p-3 p-md-4 px-lg-5 px-xl-6">
+          <img src="/img/bookimg/s7_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          To Kill a Mockingbird
+        </div>
+
+        
+          <div class="element-subtitle">
+            Harper Lee
+          </div>
+        
+
+        
+          <div class="element-date">
+            20 Jul 2018
+          </div>
+        
+
+        
+
+        
+          <div class="element-rating">
+            
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+    
+
+          </div>
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-xs-6 col-sm-3 px-1 px-md-2">
+  <div class="book-main layout-main">
+    
+      <a href="/reading/predictably-irrational">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo p-3 p-md-4 px-lg-5 px-xl-6">
+          <img src="/img/bookimg/s22_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Predictably Irrational
+        </div>
+
+        
+          <div class="element-subtitle">
+            Dan Ariely
+          </div>
+        
+
+        
+          <div class="element-date">
+            22 Jun 2018
+          </div>
+        
+
+        
+
+        
+          <div class="element-rating">
+            
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+    
+
+          </div>
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-xs-6 col-sm-3 px-1 px-md-2">
+  <div class="book-main layout-main">
+    
+      <a href="/reading/man-s-search-for-meaning">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo p-3 p-md-4 px-lg-5 px-xl-6">
+          <img src="/img/bookimg/s4_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Man's Search for Meaning
+        </div>
+
+        
+          <div class="element-subtitle">
+            Viktor Emil Frankl
+          </div>
+        
+
+        
+          <div class="element-date">
+            14 Sep 2017
+          </div>
+        
+
+        
+
+        
+          <div class="element-rating">
+            
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+    
+
+          </div>
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-xs-6 col-sm-3 px-1 px-md-2">
+  <div class="book-main layout-main">
+    
+      <a href="/reading/the-code-book">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo p-3 p-md-4 px-lg-5 px-xl-6">
+          <img src="/img/bookimg/s16_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          The Code Book
+        </div>
+
+        
+          <div class="element-subtitle">
+            Simon Singh
+          </div>
+        
+
+        
+          <div class="element-date">
+            03 Jul 2017
+          </div>
+        
+
+        
+
+        
+          <div class="element-rating">
+            
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star-o" aria-hidden="true"></i>
+    
+
+          </div>
+        
+      </a>
+    
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- tutorials -->
+<section class="alt-color section">
+  <div class="container mb-5">
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>Tutorials</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/tutorial">see full list</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+    <div class="row row-eq-height justify-content-center">
+      
+      <!--  
+  ** Options:
+    - type: type of layout whose each post contains: 
+        1. img, 
+        2. title, 
+        3. subtitle,
+        4. date,
+        5. description,
+      + project: 1,2,5
+      + book: 1,2,3 (3 = author)
+      + tutorial: 1,2,4,5
+      + thought: 2,4
+      + thought2: 1,2,4
+    - source: the source of posts/elements
+    - img-src: source of images
+    - offset: from which the posts are collected
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+
+
+
+
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="tutorial-main layout-main">
+    
+      <a href="/tutorial/how-to-use-taniajekyll">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo px-4 py-3">
+          <img src="/img/tutorial/usage.svg" />
+        </div>
+
+        <div class="element-title">
+          How to use TaniaJekyll?
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            17 Mar 2019
+          </div>
+        
+
+        
+          <div class="element-description">
+            How to set up and use the components & layouts
+          </div>
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="tutorial-main layout-main">
+    
+      <a href="/tutorial/how-to-install-taniajekyll">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo px-4 py-3">
+          <img src="/img/tutorial/jekyll.png" />
+        </div>
+
+        <div class="element-title">
+          How to install TaniaJekyll?
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            17 Mar 2019
+          </div>
+        
+
+        
+          <div class="element-description">
+            Install Jekyll website with Github Pages in general
+          </div>
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="tutorial-main layout-main">
+    
+      <a href="/tutorial/for-the-editors-only">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo px-4 py-3">
+          <img src="/img/tutorial/admin.svg" />
+        </div>
+
+        <div class="element-title">
+          For the editor only
+        </div>
+
+        
+          <div class="element-subtitle">
+            Dành riêng cho tác giả blog
+          </div>
+        
+
+        
+          <div class="element-date">
+            27 Dec 2018
+          </div>
+        
+
+        
+          <div class="element-description">
+            Shortcuts for the editors on this site
+          </div>
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- thought -->
+<section class="alt-color section">
+  <div class="container mb-5">
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>My thought 1</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/thought">see full list</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+    <div class="row row-eq-height justify-content-center">
+      
+      <!--  
+  ** Options:
+    - type: type of layout whose each post contains: 
+        1. img, 
+        2. title, 
+        3. subtitle,
+        4. date,
+        5. description,
+      + project: 1,2,5
+      + book: 1,2,3 (3 = author)
+      + tutorial: 1,2,4,5
+      + thought: 2,4
+      + thought2: 1,2,4
+    - source: the source of posts/elements
+    - img-src: source of images
+    - offset: from which the posts are collected
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+
+
+
+
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="thought-main layout-main">
+    
+      <a href="/thought/ban-co-the-song-mot-minh">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/s1_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Gởi những người bạn thích sống một mình
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            26 Mar 2018
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="thought-main layout-main">
+    
+      <a href="/thought/niem-tin-vao-khoa-hoc">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/s2_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Niềm tin vào khoa học
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            08 Sep 2017
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="thought-main layout-main">
+    
+      <a href="/thought/thanh-nhan-dai-ke-khu-kho">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/s3_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Thánh nhân đãi kẻ khù khờ
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            18 Jul 2017
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="thought-main layout-main">
+    
+      <a href="/thought/cai-tam-cho-giao-duc-viet-cua-nguoi-phap">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/s4_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Cái tâm cho giáo dục Việt của người Pháp
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            10 Jan 2017
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="thought-main layout-main">
+    
+      <a href="/thought/doc-sach-va-uoc-mo">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/s5_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Đọc sách và ước mơ
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            28 Nov 2016
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-md-4 col-lg-2 p-2">
+  <div class="thought-main layout-main">
+    
+      <a href="/thought/su-hoc-la-ca-doi">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/s6_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Sự học là cả đời
+        </div>
+
+        
+          <div class="element-subtitle">
+            Học, học nữa, học mãi
+          </div>
+        
+
+        
+          <div class="element-date">
+            08 Dec 2015
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- thought2 -->
+<section class="alt-color section">
+  <div class="container mb-5">
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>My thought 2</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/thought">see full list</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+    <div class="row row-eq-height justify-content-center">
+      
+      <!--  
+  ** Options:
+    - type: type of layout whose each post contains: 
+        1. img, 
+        2. title, 
+        3. subtitle,
+        4. date,
+        5. description,
+      + project: 1,2,5
+      + book: 1,2,3 (3 = author)
+      + tutorial: 1,2,4,5
+      + thought: 2,4
+      + thought2: 1,2,4
+    - source: the source of posts/elements
+    - img-src: source of images
+    - offset: from which the posts are collected
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+
+
+
+
+
+
+  <div class="col-6 col-sm-4 col-md-3 text-center mb-3">
+  <div class="thought2-main layout-main">
+    
+      <a href="/thought/ban-co-the-song-mot-minh">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/img/thought/s1_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Gởi những người bạn thích sống một mình
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            26 Mar 2018
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-sm-4 col-md-3 text-center mb-3">
+  <div class="thought2-main layout-main">
+    
+      <a href="/thought/niem-tin-vao-khoa-hoc">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/img/thought/s2_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Niềm tin vào khoa học
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            08 Sep 2017
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-sm-4 col-md-3 text-center mb-3">
+  <div class="thought2-main layout-main">
+    
+      <a href="/thought/thanh-nhan-dai-ke-khu-kho">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/img/thought/s3_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Thánh nhân đãi kẻ khù khờ
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            18 Jul 2017
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+  <div class="col-6 col-sm-4 col-md-3 text-center mb-3">
+  <div class="thought2-main layout-main">
+    
+      <a href="/thought/cai-tam-cho-giao-duc-viet-cua-nguoi-phap">
+
+        
+        
+        
+        
+
+        
+
+        <div class="element-photo ">
+          <img src="/img/thought/s4_thumbnail.jpg" />
+        </div>
+
+        <div class="element-title">
+          Cái tâm cho giáo dục Việt của người Pháp
+        </div>
+
+        
+
+        
+          <div class="element-date">
+            10 Jan 2017
+          </div>
+        
+
+        
+
+        
+      </a>
+    
+  </div>
+</div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- my notes -->
+<section class="section alt-color">
+  <div class="container">
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>My notes</h2>
+      
+        <h4 class="sec-more">
+          
+            You cannot remember everything.
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+    <div class="row align-items-center justify-content-center mynote">
+      <div class="col-12 col-md-4">
+        <div class="description">
+            <a href="https://note.dinhanhthi.com">
+              <span>note</span>.dinhanhthi.com
+            </a>
+            <div class="more">
+              I write this NoteTheme theme for noting all of what I have studied.
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-8">
+        <div class="showcase">
+          <img alt="My notes" src="/img/mynote.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- sketch -->
+<section id="idx-sketch" class="alt-color section">
+  <div class="container mb-5">
+    <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>Latest sketches</h2>
+      
+        <h4 class="sec-more">
+          
+            <a href="/sketch">see other ones</a>
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+    <div class="row justify-content-center">
+      
+      
+      
+
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    
+    
+    <a href="/img/sketch/s67_bigger.jpg" data-lightbox="gallery-set" data-title="photo 1">
+      <img src="/img/sketch/s67_thumbnail.jpg" class="img-fluid" alt="photo 1">
+    </a>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    
+    
+    <a href="/img/sketch/s66_bigger.jpg" data-lightbox="gallery-set" data-title="photo 2">
+      <img src="/img/sketch/s66_thumbnail.jpg" class="img-fluid" alt="photo 2">
+    </a>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    
+    
+    <a href="/img/sketch/s65_bigger.jpg" data-lightbox="gallery-set" data-title="photo 3">
+      <img src="/img/sketch/s65_thumbnail.jpg" class="img-fluid" alt="photo 3">
+    </a>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    
+    
+    <a href="/img/sketch/s64_bigger.jpg" data-lightbox="gallery-set" data-title="photo 4">
+      <img src="/img/sketch/s64_thumbnail.jpg" class="img-fluid" alt="photo 4">
+    </a>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    
+    
+    <a href="/img/sketch/s63_bigger.jpg" data-lightbox="gallery-set" data-title="photo 5">
+      <img src="/img/sketch/s63_thumbnail.jpg" class="img-fluid" alt="photo 5">
+    </a>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    
+    
+    <a href="/img/sketch/s62_bigger.jpg" data-lightbox="gallery-set" data-title="photo 6">
+      <img src="/img/sketch/s62_thumbnail.jpg" class="img-fluid" alt="photo 6">
+    </a>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    
+    
+    <a href="/img/sketch/s61_bigger.jpg" data-lightbox="gallery-set" data-title="photo 7">
+      <img src="/img/sketch/s61_thumbnail.jpg" class="img-fluid" alt="photo 7">
+    </a>
+  </div>
+</div>
+
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    
+    
+    <a href="/img/sketch/s60_bigger.jpg" data-lightbox="gallery-set" data-title="photo 8">
+      <img src="/img/sketch/s60_thumbnail.jpg" class="img-fluid" alt="photo 8">
+    </a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- contact -->
+<section class="alt-color section">
+  
+<div class="container">
+  <!--  
+  ** Options:
+    - title: Big title 
+    - more: description below the title 
+    - href: url of the "more" (optional)
+  ** Requirement:
+    Put above code inside a <div class="container">
+-->
+<div class="row justify-content-center">
+  <div class="col-12">
+    <div class="sec-title text-center">
+      <h2>Give me a talk</h2>
+      
+        <h4 class="sec-more">
+          
+            looking forward to getting your idea
+          
+        </h4>
+      
+    </div>
+  </div>
+</div>
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2 col-12">
+      <form name="name-contact-form" method="POST" action="https://formspree.io/dinhanhthimail@gmail.com">
+        <div class="form-group row contact-form">
+          <div class="col-sm-6 col-12 mb-3"><input onkeyup="enableButton()" type="text" name="name" placeholder="Your name"></div>
+          <div class="col-sm-6 col-12 mb-3"><input onkeyup="enableButton()" type="email" name="email" placeholder="Your email"></div>
+          <div class="col-12 textarea-container mb-3">
+            <textarea onkeyup="enableButton()" id="abc" name="message" placeholder="What you wanna say"></textarea>
+            <div class="textarea-size"></div>
+          </div>
+          <div id="contact-submit" class="col-12 text-center">
+            <button type="submit">Send it to me</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+
+  <footer class="footer">
+    
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center p-4">
+      <div class="footer-info">
+        <a href="/about"></a>
+        &nbsp;&copy;&nbsp;
+        2021
+        &nbsp;&bull;&nbsp;
+        <a href="/about">About</a>
+      </div>
+      <div class="mission my-2 tyellow">
+        With the internet, people can learn anything. I'd like to share with you one of the best and useful stuffs so that you can save your time on a self-study path.
+      </div>
+      <div class="donate-me tgreen my-2">
+        <a target="_blank" href="https://www.paypal.me/DinhAnhThi">
+          <i class="fa fa-paypal"></i>
+          Support Thi
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  </footer>
+
+  
+
+
+
+
+
+
+  
+	<script src="/js/lightbox-plus-jquery.min.js"></script>
+  
+	<script src="/js/contact-form.js"></script>
+  
+
+
+
+  
+	  <script src="/js/bootstrap41/jquery-3.3.1.slim.min.js"></script>
+  
+	  <script src="/js/bootstrap41/popper.min.js"></script>
+  
+	  <script src="/js/bootstrap41/bootstrap.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

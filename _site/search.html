@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  
+
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+  <meta name="author" content="" />
+
+  <title>
+    
+      TaniaJekyll | 
+    
+  </title>
+
+  
+
+  <!-- feed -->
+  <link rel="alternate" type="application/rss+xml" title="TaniaJekyll - Beautiful personal Jekyll theme" href="/feed.xml" />
+
+  <!-- page (external) -->
+  
+
+  <!-- page (internal) -->
+  
+    
+      <link rel="stylesheet" href="/css/search.css" />
+    
+  
+
+  <!-- heading numbering -->
+  
+    <link rel="stylesheet" href="/css/notnumbering.css" />
+  
+
+  <!-- layout (external) -->
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  <!-- layout (internal) -->
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap41/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+      <link rel="stylesheet" href="/css/header.css" />
+    
+      <link rel="stylesheet" href="/css/page.css" />
+    
+      <link rel="stylesheet" href="/css/rouge-monokai.css" />
+    
+  
+  
+
+  <!-- layout (google font) -->
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans: 400,400i,600,600i,700,700i,800&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lobster&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nunito: 400,600,700&amp;subset=vietnamese" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Baloo" />
+    
+  
+
+  <!-- page (google font) -->
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+
+  
+    <meta property="og:title" content="TaniaJekyll" />
+  
+
+  
+    <meta property="og:description" content="{% include header.html type=&quot;search&quot; %} {% if site.data.setting.lang.current == &quot;en&quot; %} {% assign re_loading = site.data.lang['search'].loading.en %} {% assign re_result = site.data.lang['search'].result.en %} {% assign re_forkey = site.data.lang['search'].for_key.en %} {% else %} {% assign re_loading = site.data.lang['search'].loading.vn %} {% assign re_result = site.data.lang['search'].result.vn %} {% assign re_forkey = site.data.lang['search'].for_key.vn %}...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+    <meta property="og:url" content="http://localhost:4000/search" />
+    <link rel="canonical" href="http://localhost:4000/search" />
+  
+
+  <!-- page's cover -->
+  
+    <meta property="og:image" content="http://localhost:4000/img/defaultCoverPost.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1234">
+    <meta property="og:image:height" content="592">
+  
+
+  
+
+  
+
+  
+
+  
+
+</head>
+
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '',
+      xfbml      : true,
+      version    : 'v3.1'
+    });
+  
+    FB.AppEvents.logPageView();
+  
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  <header>
+    
+<nav class="navbar navbar-dark nav-bg navbar-custom">
+  <div class="container">
+    
+    
+      
+      
+		<a class="nav-home " href="/">
+	  
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span>Home</span>
+      </a>
+    
+      
+      
+		<a class="nav-tutorial " href="/tutorial">
+	  
+        <i class="fa fa-map-o" aria-hidden="true"></i>
+        <span>Tutorial</span>
+      </a>
+    
+      
+      
+		<a class="nav-reading " href="/reading">
+	  
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <span>Reading</span>
+      </a>
+    
+      
+      
+		<a class="nav-about " href="/about">
+	  
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <span>Me</span>
+      </a>
+    
+      
+      
+		<a class="nav-sketch " href="/sketch">
+	  
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+        <span>Sketch</span>
+      </a>
+    
+      
+      
+		<a class="nav-thought " href="/thought">
+	  
+        <i class="fa fa-commenting-o" aria-hidden="true"></i>
+        <span>Thought</span>
+      </a>
+    
+    <div class="nav-search">
+        <form action="/search" method="get">
+          <input name="q" class="mr-sm-2 nav-search-input" type="search" placeholder="Search..." aria-label="Search...">
+          <button class="nav-search-submit" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+      <div class="nav-lang">
+        
+          <span class="en active">en</span>
+          <a href="http://vn.dinhanhthi.com" class="vn">vn</a>
+        
+      </div>
+  </div>
+</nav>
+
+  </header>
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+    
+    <header id="page-header" class="bg-default page-post-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-12 text-center">
+            <h1 class="mb-3">Search</h1>
+            
+<div class="search-div">
+    <form action="/search" method="get">
+        <input class="search-input" type="search" name="q"  placeholder="Type something..." autofocus>
+        <button class="search-submit" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+    </form>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+  
+
+
+
+
+<div class="container">
+	<div class="row justify-content-center mt-4 mb-4">
+		<div class="col-12 col-md-10">
+			<p class="result-title">
+				<span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for the keyword "<strong id="search-query"></strong>"</span>
+			</p>
+			<ul id="search-results"></ul>
+		</div>
+	</div>
+</div>
+
+<script>
+	window.data = {
+		
+			
+				
+					
+					
+					"tutorial-how-to-use-taniajekyll": {
+						"id": "tutorial-how-to-use-taniajekyll",
+						"title": "How to use TaniaJekyll?",
+						"categories": "tutorial",
+						"tags": "how to",
+						"url": " /tutorial/how-to-use-taniajekyll",
+						"content": "In this tutorial, I suppose that you have already installed TaniaJekyll, just follow the ones you need and don’t forget to leave a comment below.\n\n\n  I'm not a native English speaker, please ignore my bad expressions!\n\n\nFull list of usages can be found here. This post only shows some showcases of this theme.\n\n\n  \n    In this post\n  \n  \n\n  5 layouts of posts    \n      Project\n      Reading list\n      Tutorial\n      Thought (layout 1)\n      Thought (layout 2)\n    \n  \n  Front Matter\n  Insert figures\n  Side by side figure and content\n  Insert boxes\n  Steps\n  Texts\n\n\n  \n\n\n5 layouts of posts\n\nYou can check on the index page, there are 5 different layout of posts. If you wanna apply some layout, just indicate fields\n\n\n  The source of elements: element-source\n  The type of layout: using included file post-layout.html with keyword type to indicate the layout. In this field, you also need to indicate img-src (the source of images), offset (from which element we show the list of elements) and limit (how many elements you wanna show).\n\n\nFor example, below are the codes to show the projects (type=\"project\") I’ve done in the front page. In this field, I only show the first (offset=0) 4 projects (limit=4). The list of projects are stores in a data file called _data/project.yml (site.data.project). Please open file index.html in the repository and then step to section “project” to see an example of below descriptions\n\n{% assign element-source = site.data.project %}\n{% include post-layout.html type=\"project\" img-src=\"/img/project\" source=element-source offset=0 limit=4 %}\n\n\nProject\n\n\n  Structure: Photo - Title - Description.\n  In this example page, I use this layout as the layout of my projects.\n\n\n\n  \n    \n\n\nIn order to modify this, you can ()\n\n\n  Source of elements: site.data.project (_data/project.yml). You can also use the sources as a list of posts like other below layouts.\n  Type: type=\"project\".\n  Icons for the projects must be located in /img/project/.\n\n\n{% assign element-source = site.data.project %}\n{% include post-layout.html type=\"project\" img-src=\"/img/project\" source=element-source offset=0 limit=4 %}\n\n\nReading list\n\n\n  Structure: Photo - Title - Author - Rating.\n  Specifically used for the list of books.\n\n\n\n  \n    \n\n\n\n  Change the number of challenge books in _data/setting.yml (ncb for the amount and ncb_year for the considered year)\n  The theme will automatically determine how many book is read in that year.\n  Read more on the front matter setting to see the list of arguments used for this type of post.\n  All book covers must be stored in /img/bookimg/.\n\n\n{% assign element-source = site.categories.reading %}\n{% include post-layout.html type=\"reading\" img-src=\"/img/bookimg\" source=element-source offset=0 limit=4 %}\n\n\nTutorial\n\n\n  Structure: Icon - Title - Descripton.\n  Used for tutorial posts.\n\n\n\n  \n    \n\n\n\n  Check some examples in _posts/tutorial/.\n  For the free icons, you can use this site.\n  Icons must be located in /img/turorial/.\n\n\n{% assign element-source = site.categories.tutorial %}\n{% include post-layout.html type=\"tutorial\" source=element-source offset=0 img-src=\"/img/tutorial\" limit=6 %}\n\n\nThought (layout 1)\n\n\n  Structure: Title - Date.\n  Very simple layout.\n\n\n\n  \n    \n\n\n{% assign element-source = site.categories.thought %}\n{% include post-layout.html type=\"thought\" source=element-source offset=0 limit=6 %}\n\n\nThought (layout 2)\n\n\n  Structure: Photo - Title - Date.\n\n\n\n  \n    \n\n\n{% assign element-source = site.categories.thought %}\n{% include post-layout.html type=\"thought2\" source=element-source offset=0 limit=4 %}\n\n\nFront Matter\n\nBegin of each post, you need to be careful to choose the right front matter for that post. What’s front matter? Something like this\n\n---\nlayout: post\ntitle: How to use TaniaJekyll?\n---\n\n\nThere are some already-defined components on TaniaJekyll that you could use (If you don’t want to use something, remember to REMOVE it). Check more in this post.\n\nInsert figures\n\nThere are a lot of ways you can insert an image in a post. I imitate the idea of photo post in a Medium post so that they are really beautiful with this layout. All of usages can be seen in this post. Below are some examples,\n\nA full-width image\n\n\n  \n  A description of the image.  \n\n\nOr images can be float to the left or the right of the post,\n\n\n  \n  A description of the image.  \n\n\nThis is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it. This is an example of paragraph to see the effect of the image floating to the side of post. It has no meaning, please not to understand it.\n\nSide by side figure and content\n\nIn the case you wanna create some tutorial posts with a figure on the left and some instructions on the right, you can use this type of shortcode. Please check this to see how to use it.\n\n\n\n\n\n\nThis is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning.\n\n\n\n\n\n\n\n\nThis is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning. This is an example of paragraph to see the effect of side-by-side content and image. Is has no meaning.\n\n\n\nInsert boxes\n\nI build this theme based on Boostrap, then you can use all of its boxes in this theme, for example,\n\n\n  A simple primary alert—check it out!\n\n\n  A simple secondary alert—check it out!\n\n\n  A simple success alert—check it out!\n\n\n  A simple danger alert—check it out!\n\n\n  A simple warning alert—check it out!\n\n\n  A simple info alert—check it out!\n\n\n  A simple light alert—check it out!\n\n\n  A simple dark alert—check it out!\n\n\nPlease check this to see how to use it. I also add a hide/show box\n\n\n\n  Highlights I like\n\n\n    Contents.\n  \n\n\nand definition box\n\n\n  \n    Title\n  \n  \n    Content\n  \n\n\nSteps\n\nYou even can add the steps. Please check this to see how to use it.\n\n\n\n\n\n\n      Content of step 1.\n    \n\n\n\n\n\n      Content of step 2.\n    \n\n\n\n\nTexts\n\nYou can do many things with text like marked texts or a keyboard like Ctrl + B. You even can make a text be more beautiful with this."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"tutorial-how-to-install-taniajekyll": {
+						"id": "tutorial-how-to-install-taniajekyll",
+						"title": "How to install TaniaJekyll?",
+						"categories": "tutorial",
+						"tags": "how to",
+						"url": " /tutorial/how-to-install-taniajekyll",
+						"content": "In this tutorial, I suppose that you are new to Github Pages and Jekyll, just follow the ones you need and don’t forget to leave a comment below.\n\n\n  I'm not a native English speaker, please ignore my bad expressions!\n\n\n\n  \n    In this post\n  \n  \n\n  How to create a Github Page?\n  How to apply TaniaJekyll?\n  Get some errors?\n\n\n  \n\n\nHow to create a Github Page?\n\nIn the case you don’t have any Github Page, follow following rules, otherwise please step to next steps. For Vietnameses, please read this article.\n\n  Create a Github account, don’t forget to verify your email before loging in. I suppose that you signed up with name dinhanhthi.\n  Login to your Github account.\n  Create a new repository by clicking New on the right side of Repositories section and naming your repo with &lt;your-account&gt;.github.io. For example, my Github account is “dinhanhthi”, so I name this repo “dinhanhthi.github.io”. We need to name the repo like this because your website will have an address like https://&lt;your-account&gt;.github.io.\n  Basically, you now have a place where you can put your website, you can choose either a built-in theme from Github or an external theme.\n    \n      If you wanna apply TaniaJekyll (or other external theme), please step to next section (How to apply TaniaJekyll) and ignore following steps in this section.\n      If you wanna create immediately a buit-in theme from Github, please continue to step 5.\n    \n  \n  On your repo on github, click on tab Settings, on the left hand side, choose tab Options (default) and then go to section Github Pages, click on Choose a theme.\n  Choose a theme you like and then click on Select theme\n  A new page appears, write something on Commit changes and then click on Commit changes.\n  Done, now you have a page, check it out at https://&lt;your-account&gt;.github.io\n\n\n\n  Don't worry if you followed step 5-8 and you wanna apply other themes, just keep going to next section.\n\n\nHow to apply TaniaJekyll?\n\n\n  Download and install Github Client (GC). GC helps you “upload” changes from local host (on your own computer) to your remote (on Github server).\n  Login to GC with the account created in step 1.\n  Clone the repo created in step 3 of previous section to your local computer:\n    \n      Come back to the repo’s directory, click on Set up in Desktop, a popup appears to ask you “Open Github Desktop?”, choose Open Github Desktop\n      This will open GC on your computer, click on button Clone\n      Choose the location where you save your repo on your computer. A folder whose name is &lt;your-account&gt;.github.io will be created.\n    \n  \n  From this step, you will apply a theme downloaded from the internet for your Github page. In this case, you will apply TaniaJekyll.\n  Download TaniaJekyll to your local computer (a file .zip)\n  Delete all files and folders in folder &lt;your-account&gt;.github.io created in step 3.3.\n  Extract all files and folders from file .zip in step 5 to folder &lt;your-account&gt;.github.io\n  Open file _config.yml and change some fields in this file\n    \n      title: your website’s name\n      description: your website’s description\n      baseurl: leave blank (i.e., \"\")\n      url: &lt;your-account&gt;.github.io\n      paginate: number of posts on each page (default is 28)\n      banner: directory to your website’s banner\n      favicon: directory to your website’s favicon (icon appears on the left on browser’s tab)\n      user: change all your personal information (name, email, website, avatar,…)\n      Save and close _config.yml\n    \n  \n  Open Github Desktop to see the changes\n    \n      Write something on field commit\n      Click on Commit to master and then Publish branch\n    \n  \n  All done! Go to https://&lt;your-account&gt;.github.io to see the changes, you may wait a little minutes to get the changes.\n\n\nGet some errors?\n\n\n  If you have some unexpected errors, please tell me on the comment section below.\n  If you wanna config more on this theme, please read How to use TaniaJekyll.\n  If you find something wrong on this post, please tell me to fix them.\n\n\nThank you and good luck."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"tutorial-for-the-editors-only": {
+						"id": "tutorial-for-the-editors-only",
+						"title": "For the editor only",
+						"categories": "tutorial",
+						"tags": "admin",
+						"url": " /tutorial/for-the-editors-only",
+						"content": "This post is only for the editors, please read other posts.\n\n\n\n  Bài này chỉ dành cho tác giả blog, các bạn vui lòng đọc các bài khác nhé.\n\n\n\n  \n    In this post\n  \n  \n\n  Front matter\n  Inset figures\n  Side by side figure and content\n  Insert codes\n  Insert boxes\n  Steps\n  Fonts &amp; Texts\n  Math expressions\n\n\n  \n\n\nFront matter\n\n\n  If you don’t want to use any item below, don’t write it down. math: 0 will be considered similarly to math: 1 and jekyll understand that they are the same unless you don’t write either of them.\n\n\n\n  math: 1 : only add if you wanna use math equations inside post.\n  categories: categories among thought, reading, sketch, tutorial.\n  tags: add new tag in _data\\tags.yml before using it.\n  img: thumbnail of the post .\n  bigimg: background photo of the post (showing on shared post on facebook)\n  For tutorial posts\n    \n      snippet: 1: use if it post in category tutorial and you wanna pin it on top.\n      Thumbnail for posts in tutorial should be saved in /img/tutorial/\n    \n  \n  For reading posts\n    \n      subtitle: author\n      subtitle_link: author’s profile url\n      img: hnmkad.png: book cover (image’s url is img/bookimg/)\n      rating: 3.5: rating of the book, must be a number, not string\n    \n  \n  update: 1: if you just update the content of the post. Notice that, the badge “update” is only showed if the updated date is under 7 days.\n  notnumbering: 1: if you don’t want to number headings inside the post.\n    \n      In the case you don’t want to number certain of headings, use {:.nocount} before that heading.\n    \n  \n\n\nInset figures\n\n\n  Normal inserting: ![Describe](link/to/figures)\n  Full width: {% include img/full.html src=\"link/to/figures\" des=\"description\" %}\n  Full but modified: {% include img/full-normal.html src=\"link/to/figures\" des=\"description\" %}\n  Full but 50% width: {% include img/full-50.html src=\"link/to/figures\" des=\"description\" %}\n  Float to right: {% include img/right.html src=\"link/to/figures\" des=\"description\" %}\n  Float to left: {% include img/left.html src=\"link/to/figures\" des=\"description\" %}\n\n\nSide by side figure and content\n\n\n  \n    Figure on the left:\n\n    &lt;div class=\"row align-items-center img-aside\"&gt;\n&lt;p class=\"col-md-6\" markdown=\"1\"&gt;\n![Description](/link/to/figure)\n&lt;/p&gt;\n&lt;p class=\"col-md-6\" markdown=\"1\"&gt;\nContents\n&lt;/p&gt;\n&lt;/div&gt;\n    \n  \n  \n    Figure on the right (but above on a smaller view port):\n\n    &lt;div class=\"row align-items-center img-aside\"&gt;\n&lt;p class=\"col-md-6 order-md-2\" markdown=\"1\"&gt;\n![Description](/link/to/figure)\n&lt;/p&gt;\n&lt;p class=\"col-md-6 order-md-1\" markdown=\"1\"&gt;\nContents.\n&lt;/p&gt;\n&lt;/div&gt;\n    \n  \n\n\nInsert codes\n\n\n  If you wanna add tag {% this %}, use alert{{\"{% this \"}}%}.\n  If you like this {{ this }}, use {{\"{{ this \"}}}}.\n  The rule: use {{\" before the key-word and end with \"}} before the end of key-word.\n  \n    An easier way: use {% raw %} and {% endraw %} around the key-word. These two commands are also used for a block of codes,\n\n    ~~~ {% raw %}{% for %}\n// line of codes\n{% end for %}{% endraw %} ~~~\n    \n\n    Tips: For a beautiful display, put {% raw %} and {% endraw %} exactly like the above code.\n  \n\n\nInsert boxes\n\n\n  \n    Terminal box\n\n    &lt;div class=\"terminal\"&gt;\n$ sudo apt-get update\n&lt;/div&gt;\n    \n  \n  Warning bootstrap : here.\n    \n      \n        Success box (green):\n\n        &lt;div class=\"alert alert-success\" role=\"alert\" markdown=\"1\"&gt;\nContent\n&lt;/div&gt;\n        \n      \n      \n        Warning (yellow)\n\n        &lt;div class=\"alert alert-warning\" role=\"alert\" markdown=\"1\"&gt;\nContent\n&lt;/div&gt;\n        \n      \n      \n        Danger (red)\n        &lt;div class=\"alert alert-danger\" role=\"alert\" markdown=\"1\"&gt;\nContent\n&lt;/div&gt;\n        \n      \n    \n\n    \n      If you wanna insert a block of math inside above boxes, don’t foget to wrap them inside a p tag.\n    \n  \n  \n    Quotes I like (hide/show)\n\n    &lt;div class=\"tomTat\"&gt;\n&lt;div id=\"btTomTat\" class=\"collapsed\" data-toggle=\"collapse\" href=\"#ndTomTat\"&gt;\n  &lt;span&gt;Highlights I like&lt;/span&gt;\n&lt;/div&gt;\n&lt;div id=\"ndTomTat\" markdown=\"1\" class=\"collapse multi-collapse ndTomTat\"&gt;\nContents.\n&lt;/div&gt;\n&lt;/div&gt;\n    \n  \n  \n    Definition box\n\n      &lt;div class=\"def-box\" markdown=\"1\" id=\"dn1\"&gt;\n  &lt;div class=\"box-title\" markdown=\"1\"&gt;\n  Title\n  &lt;/div&gt;\n  &lt;div class=\"box-content\" markdown=\"1\"&gt;\n  Content\n  &lt;/div&gt;\n  &lt;/div&gt;\n    \n  \n\n\nSteps\n\n&lt;div  class=\"thi-step\"&gt;\n\n&lt;div class=\"step\"&gt;\n&lt;div class=\"step-number\"&gt;&lt;/div&gt;\n&lt;div class=\"step-content\" markdown=\"1\"&gt;\nContent of step 1.\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=\"step\"&gt;\n&lt;div class=\"step-number\"&gt;&lt;/div&gt;\n&lt;div class=\"step-content\" markdown=\"1\"&gt;\nContent of step 2.\n&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;/div&gt;\n\n\nFonts &amp; Texts\n\n\n  \n    Info\n\n    &lt;h4 class=\"post-more\"&gt;Information&lt;/h4&gt;\n    \n  \n  Marked texts: &lt;mark&gt;texts&lt;/mark&gt;\n  Keyboard: &lt;kbd&gt;B&lt;/kbd&gt;\n  More link:\n    {% include more.html content=\"[text](link)\" %}\n    \n  \n  Subject: &lt;sbj&gt;Texts&lt;/sbj&gt;\n  \n    Hide/show description for links\n\n    [**Title**](link){:target=\"_blank\"} other texts. [*(my comments)*](#des-1){:data-toggle=\"collapse\" .my-des}\n  &lt;des id=\"des-1\" class=\"collapse multi-collapse\"&gt;descriptions&lt;/des&gt;\n    \n  \n\n\nMath expressions\n\n\n  Inline math, use $math-expression$\n  \n    Block of math, use $$math block$$ or\n\n    $$\nx^n + y^n = z^n\n$$\n    \n  \n  If you wanna insert some special characters, you must put \\ before this character, for instance, \\\\{ 1,2,3 \\\\} gives $\\{ 1,2,3 \\}$\n  If you type inline maths which contain chatacters _, you must add \\ before each of them, for example, a\\_1 give $a_1$.\n  Don’t use || for absolute values, let’s use \\vert \\vert instead.\n  Don’t use \\left\\| \\right\\| for norms, use \\Vert \\Vert instead.\n  Don’t use * for star symbols, use \\ast instead.\n  If you wanna type \\\\, type \\\\\\\\ instead.\n  \n    If you wanna type an inline matrix, e.g., $[A]=\\begin{bmatrix}1 &amp; 2 \\\\ 2 &amp; 3.999 \\end{bmatrix}$, type like below,\n\n    $[A]=\\begin{bmatrix}1 &amp; 2 \\\\\\\\ 2 &amp; 3.999 \\end{bmatrix},$\n    \n  \n  \n    In order to use \\label{} and \\eqref{} like in latex, use\n\n    $$\n\\begin{align}\\tag{1}\\label{eq1}\nx^n + y^n = z^n\n\\end{align}\n$$\n\nCall again equation $\\eqref{eq1}$.\n    \n  \n  \n    You don’t need an enviroment align or equation to use \\label, you can use it with $$ only, for example,\n\n    $$\nx^n + y^n = z^n \\tag{1}\\label{eq1}\n$$\n\nCall again equation $\\eqref{eq1}$."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"project-math2it": {
+						"id": "project-math2it",
+						"title": "Math2IT",
+						"categories": "",
+						"tags": "",
+						"url": " /project/math2it",
+						"content": "Xin chào các bạn."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"reading-to-kill-a-mockingbird": {
+						"id": "reading-to-kill-a-mockingbird",
+						"title": "To Kill a Mockingbird",
+						"categories": "reading",
+						"tags": "fiction",
+						"url": " /reading/to-kill-a-mockingbird",
+						"content": "Information\n\n\n  Version I read: Vietnamese.\n  Title in Vietnamese: Giết con chim nhại.\n  Genre: Southern Gothic, Bildungsroman.\n  Author: Harper Lee (1926 - 2016).\n  Published: 1960 (HarperCollins).\n  This is Lee’s only published book.\n\n\n\nBelow comments are in Vietnamese, please wait for an English version.\n\n\nTôi đã được nghe kể về quyển sách này rất nhiều lần. Đây là một trong những quyển mà có khi người ta chưa đọc nhưng cũng phải giả vờ là đã đọc rồi vì sự phổ biến và nổi tiếng của nó.\n\nNhìn tựa sách, tôi cứ nghĩ đây là một quyển tiểu thuyết trinh thám giật gân. Mãi đến tận hơn nửa thế kỷ sau khi được xuất bản (1960), tôi mới biết nội dung của nó nói về gì và tại sao mọi người lại cuồng quyển sách này đến vậy.\n\n\n  \n  Harper Lee (Credit: polaris/eyevine).  \n\n\nTruyện gần như không liên quan nhiều đến con chim nhại - loài chim được lấy làm tựa đề quyển sách (thật ra, tôi cũng chưa biết đây là loài chim gì cho đến khi đọc sách này). Chim nhại là một loài chim phổ biến ở bang Texas, bang miền nam và lớn thứ hai cả về địa lý lẫn dân số ở Hoa Kỳ. Nó không có tiếng hót riêng và thường bắt chước tiếng gáy của các loài chim khác. Ở Texas, việc giết một con chim nhại là phạm pháp và mọi người xem việc ấy tượng trưng cho việc ác quỷ giết đi những người vô tội. Nhớ rõ điều này sẽ giúp bạn dễ hình dung và hiểu ngụ ý của tác giả hơn khi đọc truyện. Lưu ý, bối cảnh phim là ở thị trấn nhỏ Maycomb, bang Alabama, miền Nam Hoa Kỳ.\n\nNói riêng về Harper Lee, thật bất ngờ khi “Giết con chim nhại” là quyển sách được xuất bản duy nhất của bà. Lý do có lẽ vì bà quá cầu toàn và sống rất kỹ tính.\n\nQuay lại với tác phẩm, truyện gần như không có cốt truyện và rất lạ! Nó giống như việc bạn đang đi trên đường, tình cờ quen một người bạn nhỏ và cũng tình cờ được người ấy kể về cuộc sống của mình, một cuộc sống hàng ngày, rất đỗi bình thường, rất chậm, rất chi tiết và rất thực. Truyện giống một quyển nhật ký riêng cho một giai đoạn của xã hội Mỹ lúc bấy giờ. Cái lớn nhất mà Harper Lee muốn nói cho người đọc biết chính là nạn phân biệt chủng tộc nặng nề thời ấy cũng như sự chuyển giao giữa tư tưởng và tâm lý con người từ chỗ phân biệt đến chỗ bình đẳng xã hội có được ngày hôm nay.\n\n\n  \n  A mockingbird (Credit: Mimus polyglottos).  \n\n\nDù bà cho biết tiểu thuyết được sáng tác dựa trên những gì xảy ra xung quanh bà, một số nhân vật cũng dựa trên các mối quan hệ ngoài đời thực của bà nhưng phải công nhận một điều rằng Harper Lee có tài kể chuyện quá tài tình. Cách kể của bà nếu so sánh với phim võ thuật thì là kiểu của một người giỏi võ nhưng cứ giả bộ ta đây vụng về và đơn giản. Cách bà chọn cốt truyện, điểm thắt cũng như những nhân vật chịu ảnh hưởng bởi điểm thắt ấy rất hay. Khi nghiệm ra mới thấy đều có ngụ ý của bà.\n\nSẽ có đôi lúc bạn đọc mà nghĩ “Sao đoạn này nó dư thừa, lan man quá”, thế nhưng đến hết sách thì mới “À, thì ra không có dư”.\n\nSở dĩ nó phổ biến đến vậy có lẽ cũng vì nó giúp cho người đọc một phần nào đấy biết được bối cảnh xã hội của Mỹ ngày xưa, không phải định nghĩa giáo điều, lý thuyết mà thông qua góc nhìn của một đứa trẻ, kể thật, kể đúng.\n\nNói đi cũng phải nói lại, chính vì đã lớn nhưng lại kể thông qua một đứa trẻ nên có những khúc ta thấy chưa thật hợp lý. Tuy nhiên vẫn quyết định cho 4.5/5 sao sách này và kính mời bạn đọc thử.\n\n\nHighlights I like (in Vietnamese)\n\n    \n      chẳng có gì để sợ ngoài chính nỗi sợ hãi\n    \n\n    \n      Cô Caroline bắt gặp tôi viết và bảo tôi phải nói với bố tôi ngừng dạy tôi. “Với lại,” cô nói. “Chúng ta không viết trong lớp một, chúng ta chỉ tập đồ mẫu tự rời thôi. Em sẽ không học viết cho đến khi lên lớp ba.”\n    \n\n    \n      “Mình có nghèo như nhà Cunningham không?” “Không hẳn. Nhà Cunningham là dân nông thôn, là nông dân, và vụ sập tiệm chứng khoán giáng vào họ mạnh nhất\n    \n\n    \n      Người nhà Cunningham không bao giờ nhận bất cứ thứ gì mà họ không thể trả\n    \n\n    \n      Vì hạt Maycomb là hạt nông nghiệp, bác sĩ, nha sĩ và luật sư khó kiếm được những đồng năm xu và mười xu.\n    \n\n    \n      ông Cunningham có thể kiếm được một việc làm ở WPA, nhưng đất đai của ông sẽ tàn lụi nếu ông rời bỏ nó,\n    \n\n    \n      Có những loại người …. họ quá bận lo về thế giới bên kia đến độ không hề biết cách sống trong thế giới này,\n    \n\n    \n      Scout, đơn giản bởi vì bản chất của mỗi công việc, mỗi luật sư trong đời mình ít nhất có một vụ tác động đến cá nhân ông ta.\n    \n\n    \n      “Đơn giản bởi vì cho dù chúng ta đã bị đánh bại một trăm năm trước khi chúng ta bắt đầu thì đó cũng đâu phải là lý do khiến chúng ta không cố thắng,”\n    \n\n    \n      Ngôn ngữ bậy bạ là một chặng đường mà mọi trẻ con đều phải đi qua, và nó chết với thời gian khi chúng biết chúng không thu hút được sự chú ý bằng thứ ngôn ngữ đó. Thói nóng nảy cũng không.\n    \n\n    \n      Cứ bắn mọi con giẻ xanh mà con muốn, nếu con có thể bắn trúng, nhưng hãy nhớ giết một con chim nhại là tội lỗi.”\n    \n\n    \n      “Những con chim nhại chẳng làm gì ngoài việc đem tiếng hót đến cho ta thưởng thức. Chúng không phá hoại vườn tược của con người, không làm tổ trên những bẹ ngô, chúng không làm việc gì ngoài việc hót bằng cả trái tim cho chúng ta nghe. Điều đó lý giải tại sao giết một con chim nhại là tội lỗi.”\n    \n\n    \n      “Con người có đầu óc sáng suốt thì không bao giờ tự hào về tài năng của mình,”\n    \n\n    \n      nhiều khi mình phải cố làm tốt trong mọi chuyện và cả trong cách chúng ta ứng xử vào những lúc khó khăn….\n    \n\n    \n      ” Jem có vẻ bị mê hoặc bởi một đóa hoa hồng trên tấm thảm. “Bố Atticus,” Jem nói, “bà ấy muốn con đọc cho bà nghe.” “Đọc cho bà nghe?” “Vâng. Bà muốn con đến mỗi tối sau giờ đi học về và mỗi thứ Bảy để đọc to cho bà nghe trong hai giờ. Bố Atticus, con nên làm không?” “Chắc chắn rồi.” “Nhưng bà ấy muốn con làm vậy trong một tháng.” “Vậy con sẽ đọc trong một tháng.” Jem đặt ngón chân cái vào ngay\n    \n\n    \n      “Chắc chắn họ có quyền nghĩ vậy và họ có quyền nhận được sự tôn trọng dành cho ý kiến của họ,” bố Atticus nói, “nhưng trước khi bố sống được với người khác bố phải sống với chính mình. Có một thứ không tuân theo nguyên tắc đa số, đó là lương tâm của con người.”\n    \n\n    \n      Bố muốn con thấy được điều gì đó ở bà, bố muốn con thấy lòng can đảm là gì, thay vì có ý nghĩ rằng can đảm là người đàn ông có khẩu súng trong tay. Đó là khi con biết thất bại trước khi con bắt đầu nhưng dù vậy con vẫn bắt đầu và con theo đuổi nó tới cùng dù cho có chuyện gì xảy ra. Con hiếm khi thắng, nhưng đôi khi con cũng thắng.\n    \n\n    \n      Zeebo là con trai lớn của Calpurnia.\n    \n\n    \n      “Không, tôi bắt nó học mỗi ngày một trang Kinh Thánh, còn cô Buford thì dạy tôi theo một cuốn sách khác – tôi chắc là cô cậu không biết ở đâu mà tôi có được nó,”\n    \n\n    \n      “Không cần thiết phải nói mọi điều mình biết. Như thế không đúng kiểu quý cô – thứ hai, người ta không thích xung quanh ai đó biết nhiều hơn họ. Nó làm cho họ bực thêm. Cô sẽ không thay đổi được bất kỳ ai trong số họ bằng việc nói đúng, tự họ phải cảm thấy muốn học hỏi, và khi họ không muốn học thì cô chẳng thể làm gì ngoài việc im miệng hoặc nói bằng thứ ngôn ngữ của họ.”\n    \n\n    \n      Dù Maycomb đã bị bỏ quên suốt cuộc Nội chiến, nhưng sự suy thoái kinh tế và luật lệ Thời kỳ tái thiết[53] đã buộc Maycomb phát triển. Nó phát triển từ trong ra. Hiếm có người mới định cư ở đó, vẫn những dòng họ đó kết hôn với những dòng họ đó cho đến khi các thành viên của cộng đồng trông có vẻ hơi hơi giống nhau.\n    \n\n    \n      Tôi mặc đồ ngủ vào, đọc sách một lát và thấy mình không mở mắt nổi nữa.\n    \n\n    \n      “Đó không phải là lý do để bỏ trốn. Đến nửa số lần là người ta không có thời gian để làm những gì họ đã nói họ sẽ làm…..”\n    \n\n    \n      Bọn tao có đóng gì đâu.” Tôi chống khuỷu tay nhổm người lên, nhìn mặt Dill. “Đó không phải là lý do để bỏ trốn. Đến nửa số lần là người ta không có thời gian để làm những gì họ đã nói họ sẽ làm…..”\n    \n\n    \n      người lên, nhìn mặt Dill. “Đó không phải là lý do để bỏ trốn. Đến nửa số lần là người ta không có thời gian để làm những gì họ đã nói họ sẽ làm…..”\n    \n\n    \n      Tôi chống khuỷu tay nhổm người lên, nhìn mặt Dill. “Đó không phải là lý do để bỏ trốn. Đến nửa số lần là người ta không có thời gian để làm những gì họ đã nói họ sẽ làm…..”\n    \n\n    \n      “Có lẽ ông ta không có chỗ nào để trốn đi…..”\n    \n\n    \n      Bố Atticus đã từng nói rằng lịch sự là nói với người khác về những gì họ quan tâm, chứ không nói về những gì mình quan tâm.\n    \n\n    \n      Dù gì đi nữa thì một đám đông hung hăng cũng gồm những con người đơn lẻ. Tối qua ông Cunningham chỉ là một phần của đám đông hung hăng đó, nhưng ông ta vẫn là một con người. Mọi đám đông hung hăng trong mọi thị trấn nhỏ bé ở miền Nam này luôn luôn gồm những người con đã biết……\n    \n\n    \n      “Kẻ đến trong phù hoa sẽ ra đi trong tăm tối!”\n    \n\n    \n      “Nửa trắng, nửa màu. Em thấy tụi nó rồi mà, Scout. Em biết thằng nhỏ tóc đỏ kỳ cục giao hàng cho cửa hàng thực phẩm không? Nó lai trắng đấy. Tụi nó thật đáng buồn.” “Buồn, nghĩa là sao?” “Chúng không thuộc về bất cứ đâu. Người da màu không dung chứa chúng bởi vì chúng lai trắng; người da trắng không chấp nhận chúng bởi vì chúng lai da màu, vì vậy chúng chỉ đứng ở giữa, không thuộc về đâu cả.\n    \n\n    \n      “Sợ bị bắt giữ, sợ bị đối mặt với những gì anh đã làm à?” “Không thưa ngài, sợ phải đối mặt với những gì tôi không hề làm.”\n    \n\n    \n      “Nó không trung thực nhưng nó hữu ích cho người ta. Bí mật nghen cô Finch, ta không phải là kẻ say sưa, nhưng cô thấy họ không thể nào, không thể nào hiểu rằng ta sống theo kiểu đó bởi vì đó là cách ta muốn sống.”\n    \n\n    \n      “Khóc về sự bất hạnh đơn giản mà người này gây ra cho người kia…. mà không hề suy nghĩ. Khóc về điều bất hạnh do người da trắng gây ra cho người da màu, mà không hề dừng lại để nghĩ rằng họ cũng là con người.”\n    \n\n    \n      vụ này không cần phải đưa ra xem xét. Vụ án này đơn giản như đen và trắng.”\n    \n\n    \n      Cô ta không gây tội ác, cô ta chỉ phá vỡ một quy ước cứng ngắc và lâu đời của xã hội chúng ta, một quy ước quá khắt khe đến độ bất cứ ai phá vỡ nó đều sẽ bị loại khỏi cộng đồng chúng ta như một kẻ không thích hợp để sống chung.\n    \n\n    \n      Thomas Jefferson từng nói rằng tất cả con người sinh ra đều bình đẳng, một cụm từ mà bọn miền Bắc và cánh nữ của ngàng Hành pháp ở Washington[66] thích quát vào mặt chúng ta. Có một xu hướng trong năm nay, 1935, một số người thích sử dụng từ này tách khỏi ngữ cảnh, để thỏa đáp mọi tình huống. Ví dụ buồn cười nhất tôi có thể nghĩ đến là chuyện những nhà quản lý nền giáo dục công lập khuyến khích kẻ ngu ngốc và lười biếng học cùng với người siêng năng – bởi vì tất cả con người sinh ra đều bình đẳng, các nhà giáo dục sẽ long trọng nói với quý vị rằng những đứa trẻ bị bỏ lại đằng sau sẽ phải chịu đựng cảm giác khủng khiếp về sự kém cỏi. Chúng ta biết tất cả mọi người sinh ra không bình đẳng theo cái nghĩa mà một số người thường muốn chúng ta tin – rằng một số người thì thông minh hơn một số người khác, một số người có cơ hội hơn bởi vì họ sinh ra với nó, một số đàn ông kiếm ra nhiều tiền hơn những người đàn ông khác – một số người sinh ra có tài năng vượt quá mức bình thường của hầu hết con người.”\n    \n\n    \n      Họ đã làm điều đó trước đây, họ đã làm điều đó tối nay, và họ sẽ còn làm vậy nữa khi họ làm vậy…. có lẽ chỉ có trẻ con là khóc thôi. Chúc ngủ ngon.”\n    \n\n    \n      ông ấy là người duy nhất có thể khiến bồi thẩm đoàn phải họp kín lâu đến mức đó trong một vụ xử giống như vậy. Và cô thầm nghĩ, chúng ta bước được một bước….. chỉ một bước ngắn, nhưng đó là một bước.\n    \n\n    \n      Atticus sẽ không thắng, ông ấy không thể thắng, nhưng ông ấy là người duy nhất có thể khiến bồi thẩm đoàn phải họp kín lâu đến mức đó trong một vụ xử giống như vậy. Và cô thầm nghĩ, chúng ta bước được một bước….. chỉ một bước ngắn, nhưng đó là một bước.\n    \n\n    \n      “Những anh hề thường buồn, chính người ta mới cười lại họ.” “Vậy tớ sẽ làm một dạng hề mới. Tớ sẽ đứng ngay giữa vòng diễn và cười nhạo mọi người.\n    \n\n    \n      Bố nói với anh việc có một khẩu súng bên mình là khuyến khích một ai đó bắn mình.”\n    \n\n    \n      bất cứ khi nào một người da trắng làm điều đó với một người da đen, bất kể anh ta là ai, anh ta giàu cỡ nào, hoặc anh ta xuất thân từ một gia đình danh giá ra sao, thì người da trắng đó vẫn là thứ rác rưởi.”\n    \n\n    \n      “Anh muốn nói ở hạt Maycomb. Vấn đề là, loại như mình không thích loại nhà Cunningham, nhà Cunningham không thích người nhà Ewell, và người nhà Ewell ghét và coi thường người da màu.”\n    \n\n    \n      “Không, mọi người đều phải học, không ai sinh ra là đã biết. Thằng Walter cũng thông minh theo mức của nó, đôi khi nó bị cản trở vì nó phải ở nhà giúp đỡ bố nó. Chẳng có gì sai với nó. Không, Jem, em nghĩ chỉ có một hạng người. Đó là người.”\n    \n\n    \n      Nhưng tôi quen thuộc và thoải mái hơn trong thế giới của bố tôi. Những người giống ông Heck Tate không bẫy bạn với những câu hỏi vô hại để giễu cợt bạn; ngay cả Jem cũng không chê bai gì nhiều nếu như bạn không nói gì ngốc nghếch.\n    \n\n    \n      Em đoán Tom đã phát mệt với những cơ hội của người da trắng và thích chớp lấy cơ hội của anh ta hơn. Phải không, Cal?”\n    \n\n    \n      Mỗi học sinh có nhiệm vụ cắt một mẩu tin từ báo, nắm vững nội dung của nó và trình bày cho cả lớp nghe. Việc thực tập này được cho là nhằm khắc phục nhiều nhược điểm: việc đứng trước đám bạn kích thích tư thế đường hoàng và tạo cho trẻ sự tự tin; việc trình bày một bài nói ngắn làm trẻ có ý thức về ngôn từ; việc tìm hiểu sự kiện hiện nay củng cố ký ức của trẻ; việc bị chọn riêng ra khiến trẻ nóng lòng muốn quay trở lại với tổ nhóm của mình hơn.\n    \n\n    \n      Bà đừng tự trách móc mình vì bất cứ chuyện gì nữa… ôi, nếu lúc nào chúng ta cũng đi theo những linh cảm của mình, thì ta sẽ giống những con mèo đuổi theo đuôi của chúng vậy."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"reading-predictably-irrational": {
+						"id": "reading-predictably-irrational",
+						"title": "Predictably Irrational",
+						"categories": "reading",
+						"tags": "psychology, economy, non-fiction",
+						"url": " /reading/predictably-irrational",
+						"content": "Information\n\n\n  Full title: Predictably Irrational: The Hidden Forces That Shape Our Decisions\n  Version I read: Vietnamese.\n  Title in Vietnamese: Phy lý trí.\n  Genre: Behavioral economics.\n  Author: Dan Ariely (1967 - today).\n  Published: 2008 (HarperCollins).\n\n\n\nBelow comments are in Vietnamese, please wait for an English version.\n\n\nNhận xét hơi khác thường tí. Tôi là một người xuất thân từ sư phạm và cũng là một đứa hay nghĩ ngợi cũng như có thói quen quan sát mọi người nhiều. Có lẽ vậy mà khi đọc sách này (hay những sách kiểu này), tôi sẽ cảm nhận và hiểu nó theo một hướng tập trung vào những thứ ở trên.\n\nSách này không dễ đọc, quả thật là vậy, nhất là khi đọc nó, ta phải liên tưởng nhiều đến những việc chúng ta đã từng hoặc đang trải nghiệm. Có những chỗ Dan gợi mở cho ta thấy những hành động thường ngày của chúng ta là rất phi lý trí nhưng ông không giải thích gì thêm. Cũng có những chỗ ông gợi mở, giải thích và rút ra kết luận rõ ràng. Chung quy lại, ông thường đưa ra những lời khuyên cho chúng ta sau mỗi thí nghiệm và luận điểm ông đưa ra.\n\n\n  \n  Dan Ariely (Credit: Reboot).  \n\n\nSách này không thích hợp cho những ai chỉ thích đọc mà không nghĩ ngợi. Hơn hết, đọc xong sách này là ta có ngay ý nghĩ rằng ta phải đọc lại nó lần nữa nhưng không phải ngay lúc này mà là sau một giai đoạn cuộc sống khác. Để khi ấy chúng ta lại có những trải nghiệm, lại có thể liên tưởng và lại có thể chiêm nghiệm sách theo một ý khác.\n\nTôi thấy sách hay vì nó “chiều chuộng” ba thứ mà tôi thích: tâm lý con người trong đời sống, tâm lý con người trong kinh doanh và tâm lý con người trong giáo dục. Một giáo viên khi đọc quyển này chắc chắn sẽ rút ra được nhiều thứ và có thể áp dụng nó trong giảng dạy. Một chủ doanh nghiệp khi đọc sách có thể hiểu được cơ chế tâm lý của khách hàng cũng như biết được cần phải điều chỉnh một số thứ có vẻ lý trí nhưng lại phi lý trí để đem về lợi ích cao nhất. Và cuối cùng, một người bình thường có thể hiểu được những hành vi của người khác vốn “lạ với mình” nhưng lại “bình thường với họ”.\n\nNói về bố cục, cách viết thì Dan không tô vẻ, ông chỉ áp dụng đúng công thức mở bài + thân bài + kết luận rồi đưa mấy nghiên cứu khoa học của ông vào nhưng dưới dạng những câu từ dễ hiểu và gần gũi. Có những lúc chúng ta thấy thiếu thuyết phục với những thí nghiệm của ông vì số lượng nghiên cứu là không đủ lớn cũng như chưa đủ đa dạng. Ông là người Mỹ gốc Israel nên sách hơi thiên vị cho xã hội Mỹ cũng như Israel và có thể không đúng cho xã hội Đông Phương như Việt Nam.\n\nNếu bạn hỏi tôi có nên đọc không thì số điểm 4 sao/5 của tôi là câu trả lời (tôi rất ít khi cho 5 sao).\n\n\n   Dan Ariely’s talk on TED.\n\n\n\nHighlights I like (in Vietnamese)\n\n\n    \n      Tôi nói rằng thực tế mọi người sẽ cảm thấy đỡ đau đớn hơn nếu các bước điều trị (ví dụ: việc tháo băng sau khi tắm dung dịch khử trùng) được tiến hành với cường độ thấp hơn và trong thời gian dài hơn. Nói cách khác, mọi người sẽ cảm thấy đỡ đau đớn hơn nếu những tấm băng được kéo ra từ từ.\n    \n\n    \n      chúng ta không chỉ phi lý trí mà còn phi lý trí có hệ thống – sự phi lý trí được lặp đi lặp lại.\n    \n\n    \n      con người ít khi đưa ra lựa chọn cái gì đó theo một tiêu chuẩn tuyệt đối.\n    \n\n    \n      Chúng ta không có chiếc đồng hồ đo giá trị ở bên trong để nói cho chúng ta biết mỗi thứ có giá bao nhiêu. Thay vào đó, chúng ta tập trung vào ưu thế tương đối của vật này so với vật kia và ước tính giá trị của nó.\n    \n\n    \n      hầu hết mọi người không biết họ muốn gì trừ khi họ nhìn thấy nó trong một ngữ cảnh nào đó.\n    \n\n    \n      các món ăn có đơn giá cao trên thực đơn sẽ giúp tăng doanh thu cho nhà hàng – ngay cả khi không khách hàng nào lựa chọn món đó cả.\n    \n\n    \n      Nhìn chung, thực khách sẽ không chọn món ăn đắt tiền nhất trên thực đơn, nhưng họ sẽ gọi món đắt thứ hai.\n    \n\n    \n      chúng ta không chỉ có xu hướng so sánh mọi thứ với nhau, mà còn tập trung vào so sánh những thứ có thể dễ dàng so sánh và luôn tránh so sánh những thứ không dễ so sánh.\n    \n\n    \n      Hãy mang theo một người bạn đến lễ hội dành cho những người độc thân – một người không thể diễn đạt lưu loát và thông minh sắc sảo bằng bạn. Trong sự so sánh, người ta sẽ thấy bạn thật tuyệt vời.\n    \n\n    \n      Sự so sánh giúp bạn đưa ra quyết định trong cuộc sống. Nhưng nó cũng có thể khiến bạn gặp rắc rối.\n    \n\n    \n      Vì lòng đố kỵ và sự ghen ghét nảy sinh từ việc so sánh số phận của chúng ta với số phận của người khác. \n    \n\n    \n      càng có nhiều thứ, chúng ta càng muốn có thêm nhiều hơn nữa. Và liều thuốc đặc trị duy nhất đó là hãy phá vỡ sự so sánh.\n    \n\n    \n      Mark Twain đã viết về Tom Sawyer: “Tom đã phát hiện ra một quy luật vĩ đại về hành động của con người, đó là, để khiến một người thèm thuồng thứ gì đó, chỉ cần làm cho việc đó trở nên khó khăn.”\n    \n\n    \n      Và tác động của chiếc mỏ neo đầu tiên vẫn duy trì – nó chỉ ra rằng những chiếc mỏ neo có tác dụng lâu dài đối với mức giá hiện tại cũng như trong tương lai.\n    \n\n    \n      Điều này cho thấy những quyết định đầu tiên có sức lan tỏa tới một chuỗi dài các quyết định sau đó. \n    \n\n    \n      Chúng tôi gọi đây là hành vi bầy đàn. Nó xảy ra khi chúng ta cho rằng một điều gì đó tốt (hoặc xấu) căn cứ vào hành vi trước của người khác và chúng ta sẽ hành động theo sau cho phù hợp.\n    \n\n    \n      Nhưng cũng có một loại hành vi bầy đàn khác, chúng tôi gọi là tự bầy đàn. Hành vi này xảy ra khi chúng ta tin rằng một điều gì đó là tốt (hoặc xấu) căn cứ vào hành vi trước đây của chính chúng ta.\n    \n\n    \n      “Nếu Tom là một triết gia vĩ đại và khôn ngoan, thì cậu bé sẽ hiểu rằng công việc là những gì một người bắt buộc phải làm và chơi là những gì một người không bị buộc phải làm.”\n    \n\n    \n      Chúng ta có thể cải thiện tích cực các hành vi phi lý trí của mình bằng việc chất vấn các thói quen hàng ngày.\n    \n\n    \n      Chúng ta cũng nên dành sự chú ý đặc biệt cho lần quyết định đầu tiên của mình. Trong thực tế, sức mạnh của quyết định đầu tiên có thể có ảnh hưởng lâu dài đến các quyết định trong tương lai.\n    \n\n    \n      độ nhạy của chúng ta trước sự thay đổi của giá cả là kết quả của ký ức mà chúng ta có về mức giá trước đó – hoàn toàn không phản ánh mong muốn của chúng ta.\n    \n\n    \n      Nguyên tắc này cũng đúng trong trường hợp chính phủ quyết định một mức thuế khiến giá xăng tăng gấp đôi.\n    \n\n    \n      hầu hết các mặt hàng đều có ưu điểm và nhược điểm, nhưng khi một mặt hàng được MIỄN PHÍ!, thì chúng ta lại quên đi những nhược điểm của nó.\n    \n\n    \n      Tôi không nghĩ nhà hoạch định chính sách nào cũng nhận ra rằng hàng MIỄN PHÍ! là một con át chủ bài trong tay họ, chưa nói đến việc họ biết phát huy nó như thế nào.\n    \n\n    \n      Khi một người được lựa chọn một và chỉ một trong số hai viên kẹo sô-cô-la, cái mà anh ta cần xem xét không phải là giá trị tuyệt đối của mỗi viên sô-cô-la mà là giá trị tương đối của nó\n    \n\n    \n      Tại sao chúng ta vui mừng khi làm một việc nào đó, nhưng lại không vui khi được trả tiền để làm việc đó?\n    \n\n    \n      Như Margaret Clark, Judson Mills và Alan Fiske  đã đưa ra giả thuyết rằng chúng ta sống đồng thời trong hai thế giới khác nhau – một với các quy chuẩn xã hội chiếm ưu thế, và một với quy chuẩn thị trường tạo ra các quy tắc.\n    \n\n    \n      Khi chúng ta đặt các quy chuẩn xã hội và quy chuẩn thị trường trên hai con đường riêng biệt, cuộc sống trở nên tốt đẹp hơn.\n    \n\n    \n      Khi các quy chuẩn xã hội và thị trường va chạm nhau, thì vấn đề sẽ nảy sinh.\n    \n\n    \n      mọi người thường làm việc vì một lý do nào đó hơn là vì tiền bạc.\n    \n\n    \n       Vậy những người làm mà không có tiền thì sao? Kết quả cho thấy, trung bình, họ thả được 168 vòng, nhiều hơn rất nhiều so với những người được trả 50 xu. Họ đã làm việc dựa trên quy chuẩn xã hội chứ không phải vì sức nặng của đồng tiền.\n    \n\n    \n      Để biết quà tặng nằm ở đâu trong ranh giới giữa quy chuẩn xã hội và quy chuẩn thị trường,\n    \n\n    \n      không ai cảm thấy bị xúc phạm vì món quà nhỏ, vì ngay cả những món quà nhỏ cũng giữ cho chúng ta tránh xa khỏi các quy chuẩn thị trường.\n    \n\n    \n      nghĩ về tiền khiến những người thuộc nhóm bài tập “lương” tự lực hơn và ít mong muốn yêu cầu giúp đỡ hơn. \n    \n\n    \n      Nói chung, những người thuộc nhóm bài tập “lương” cho thấy nhiều đặc điểm thị trường: ích kỷ và tự lực hơn; họ muốn dành thời gian một mình nhiều hơn; họ có xu hướng chọn các bài tập đòi hỏi nguồn lực cá nhân hơn là đồng đội; và khi đang phải quyết định chọn chỗ ngồi, họ sẽ chọn chỗ ngồi cách xa khỏi người được yêu cầu phải làm việc cùng. \n    \n\n    \n      khi chuẩn xã hội va chạm với chuẩn thị trường, nó sẽ ra đi trong một thời gian dài. Nói cách khác, các mối quan hệ xã hội không dễ để thiết lập lại. \n    \n\n    \n      Nếu bạn là một công ty, lời khuyên của tôi là hãy nhớ bạn không thể gây dựng mối quan hệ với khách hàng theo cả hai cách. Bạn không thể lúc này đối xử với khách hàng của mình như gia đình, rồi lúc khác lại cư xử lạnh lùng với họ – hoặc coi họ là một nỗi phiền toái hay một đối thủ cạnh tranh.\n    \n\n    \n      Mặc dù một số công ty đã thành công trong việc tạo ra các quy chuẩn xã hội đối với các nhân viên của mình, nhưng nỗi ám ảnh về lợi nhuận ngắn hạn và việc cắt giảm chi phí đe dọa phá hoại tất cả những điều này. \n    \n\n    \n      Bạn nên tặng cho nhân viên một món quà trị giá 1.000 đô-la hay trả cho người đó 1.000 đô-la tiền mặt? Cách nào tốt hơn? Câu trả lời nhận được từ đa số nhân viên là họ thích tiền hơn quà.\n    \n\n    \n      Theo cảm nhận của tôi thì việc chuẩn hóa kiểm tra và trả lương dựa vào thành tích có khả năng đẩy nền giáo dục từ quy chuẩn xã hội sang quy chuẩn thị trường.\n    \n\n    \n      Thay vì tập trung chú ý vào giáo viên, phụ huynh, sinh viên, việc cần thiết là phải làm thấm nhuần trong tất cả chúng ta ý thức được mục đích, nhiệm vụ và niềm tự hào đối với giáo dục.\n    \n\n    \n      Trước hết, chúng ta nên suy nghĩ lại về các chương trình học tại trường và liên kết chúng với các mục tiêu xã hội (xóa đói giảm nghèo, giảm bớt tội phạm, nâng cao các quyền con người, v.v…), các mục tiêu công nghệ (đẩy mạnh bảo tồn năng lượng, khám phá vũ trụ, công nghệ Nanô, v.v…) và các mục tiêu y tế (chữa ung thư, tiểu đường, béo phì, v.v…).\n    \n\n    \n      Kết quả cho thấy trong trạng thái không hưng phấn, họ không biết mình sẽ như thế nào khi hưng phấn.\n    \n\n    \n      Bình thường chúng ta tưởng là đã hiểu được chính mình. Nhưng trong trạng thái phấn khích mãnh liệt, bỗng nhiên có một sự chuyển đổi nội tại nào đó và mọi thứ thay đổi.\n    \n\n    \n      Vậy điều gì sẽ xảy ra, khi cái tôi phi lý trí của chúng ta xuất hiện ở một trạng thái cảm xúc mà chúng ta nghĩ là quen thuộc nhưng thực tế không phải vậy?\n    \n\n    \n      tránh khỏi sự cám dỗ sẽ dễ hơn là vượt qua nó.\n    \n\n    \n      Một điều thật lạ là chúng ta đầu tư rất ít thời gian vào việc tìm hiểu hai con người trong chính bản thân mình.\n    \n\n    \n      Từ bỏ các mục tiêu lâu dài vì sự thỏa mãn tức thời chính là sự trì hoãn.\n    \n\n    \n      Thứ nhất, các sinh viên thật sự có trì hoãn; thứ hai, việc hạn chế nghiêm ngặt quyền tự do của họ (các hạn nộp cách đều) là phương pháp tốt nhất để chữa trị căn bệnh trì hoãn của họ. Nhưng phát hiện lớn nhất của chúng tôi là chỉ cần trao cho các sinh viên một công cụ để họ có thể cam kết trước các thời hạn sẽ giúp họ đạt được kết quả tốt hơn.\n    \n\n    \n      Tại sao chúng ta lại liên tục thất bại trong việc đạt được các mục tiêu lâu dài của mình. Lý do là, không có các cam kết từ trước, chúng ta sẽ gục ngã trước cám dỗ.\n    \n\n    \n      khi chúng ta sở hữu một thứ gì đó – cho dù đó là một chiếc xe ôtô hay một chiếc đàn viôlông, một con mèo hay một tấm vé bóng rổ – chúng ta coi trọng giá trị của nó hơn những người khác.\n    \n\n    \n      Thói quen thứ nhất, chúng ta thường yêu quý những gì chúng ta đã có. Thói quen thứ hai, chúng ta tập trung vào những gì chúng ta có thể bị mất hơn là những gì chúng ta có thể có. Thói quen thứ ba, chúng ta cho rằng người khác sẽ nhìn nhận sự giao dịch đó từ góc độ của chúng ta.\n    \n\n    \n      Thứ nhất, bạn bỏ càng nhiều công sức cho một việc gì đó, bạn càng cảm thấy sự sở hữu dành cho nó tăng lên.\n    \n\n    \n      Một đặc tính khác là chúng ta có thể cảm thấy quyền sở hữu ngay cả trước khi chúng ta sở hữu một cái gì đó.\n    \n\n    \n      những người trả giá cao nhất, trong khoảng thời gian dài nhất, kết thúc phiên đấu giá với cảm giác mạnh mẽ nhất về quyền sở hữu ảo.\n    \n\n    \n      Có một cách khác để chúng ta đi sâu tìm hiểu về sở hữu. Các công ty thường có các đợt khuyến mãi “dùng thử”.\n    \n\n    \n      trong nền dân chủ hiện đại, con người luôn lo lắng không phải bởi họ thiếu cơ hội mà là vì họ có quá nhiều cơ hội.\n    \n\n    \n      vấn đề đặt ra là cách chúng ta thực hiện ước mơ của mình.\n    \n\n    \n      Bài học rút ra ở đây là nếu bạn nói cho mọi người biết một cái gì đó sẽ có hương vị rất khó chịu thì có nhiều khả năng sau đó họ sẽ đồng ý thử – không phải sự trải nghiệm nói với họ mà bởi vì kỳ vọng của họ.\n    \n\n    \n      khi không gian uống cà phê trông sang trọng hơn thì người uống sẽ cảm thấy cà phê ngon hơn.\n    \n\n    \n      Vì vậy, khi chúng ta tin rằng một cái gì đó tốt, thì nó sẽ tốt – và khi chúng ta nghĩ nó tệ thì nó sẽ tệ.\n    \n\n    \n      Liệu có thể là Pepsi có vị ngon hơn trong thí nghiệm bịt mắt nhưng Coca lại có vị ngon hơn trong thí nghiệm không bịt mắt (có nhìn thấy)?\n    \n\n    \n      Lợi thế của Coca so với Pepsi là do thương hiệu của mình – kích hoạt các cơ chế não bộ bậc cao hơn.\n    \n\n    \n      hành vi của chúng ta cũng có thể bị ảnh hưởng bởi các định kiến của chính mình,\n    \n\n    \n      Quan điểm của mỗi bên được trình bày mà không đưa ra quyết định cuối cùng là mình thuộc phe nào. Loại điều kiện “mù” này có thể giúp chúng ta nhận ra sự thật tốt hơn.\n    \n\n    \n      Nói chung, có hai cơ chế hình thành sự mong đợi khiến giả dược có tác dụng. Một là niềm tin.\n    \n\n    \n      Từ những thí nghiệm của về “các loại thuốc”, chúng ta đã thấy giá cả điều khiển hiệu quả trấn an như thế nào.\n    \n\n    \n      Có hai kiểu không trung thực. Kiểu thứ nhất gợi lên hình ảnh hai kẻ lưu manh đang đi vòng quanh một trạm xăng. Kiểu thứ hai là những người nghĩ mình là trung thực. Họ “mượn” một cây bút trong cuộc hội thảo, lấy thêm ngay cả khi chúng ta không hề có khả năng bị phát hiện, chúng ta vẫn không gian lận quá mức.\n    \n\n    \n      Ông nói rằng vì chúng ta lớn lên trong xã hội, nên chúng ta tiếp thu những phẩm chất xã hội. Sự tiếp thu này dẫn đến sự phát triển của cái siêu ta. Nói chung, cái siêu ta hài lòng khi chúng ta tuân theo đạo đức của xã hội và không hạnh phúc khi chúng ta không tuân theo.\n    \n\n    \n      những người được yêu cầu nhớ lại 10 Lời răn của Chúa không gian lận chút nào.\n    \n\n    \n      không phải những Lời răn của Chúa đã khuyến khích tính trung thực mà sự suy tưởng về một chuẩn mực đạo đức nào đó đã khuyến khích tính trung thực.\n    \n\n    \n      Hiện tượng suy thoái đạo đức nghề nghiệp diễn ra ở khắp nơi.\n    \n\n    \n      con người thực hiện hành vi gian lận khi họ có cơ hội nhưng họ không gian lận nhiều như họ có thể. Hơn nữa, ngay khi họ nghĩ về sự trung thực – bằng cách nhớ lại 10 Lời răn của Chúa hay ký một lời cam kết đơn giản – họ sẽ dừng hành vi gian lận ngay lập tức. Nếu chúng ta được nhắc nhở về đạo đức vào thời điểm chúng ta bị lôi cuốn, thì khi đó chúng ta có nhiều khuynh hướng trung thực hơn.\n    \n\n    \n      rõ ràng là lời thề và các quy tắc phải được nhớ lại vào trước thời điểm chúng ta bị cám dỗ.\n    \n\n    \n      hầu hết những hành vi không trung thực mà chúng ta nhìn thấy đều không liên quan trực tiếp đến tiền mặt.\n    \n\n    \n      gian lận sẽ dễ dàng hơn rất nhiều nếu nó không trực tiếp dính dáng đến tiền. \n    \n\n    \n      Vì chúng ta ngụy biện quá giỏi cho hành động gian lận của mình nên rất khó để phác thảo một bức tranh là làm thế nào các vật thể phi tiền tệ lại ảnh hưởng đến sự gian lận của chúng ta.\n    \n\n    \n      không chỉ đồng tiền tượng trưng “giải phóng” con người khỏi ràng buộc đạo đức mà đối với một số ít người, quy mô của sự giải phóng này hoàn hảo đến nỗi họ gian lận hết mức có thể.\n    \n\n    \n      Wardrobing là hành động mua một món đồ nào đó, sử dụng một thời gian, rồi trả lại nó trong một hiện trạng buộc cửa hàng phải nhận lại nhưng không thể bán được nữa.\n    \n\n    \n      cả những người tốt cũng không thể tránh khỏi những lúc bị chính suy nghĩ của mình làm cho mù quáng. Sự mù quáng này cho phép họ hành động để đạt lợi ích kinh tế mà bỏ qua các tiêu chuẩn đạo đức.\n    \n\n    \n      Chúng ta cần thức tỉnh mối liên kết giữa đồng tiền có hình thức phi tiền tệ và xu hướng gian lận của chúng ta. Chúng ta cần nhận ra là một khi tiền mặt cách chúng ta một bước chân, chúng ta sẽ gian lận bằng một cách lớn hơn mình có thể tưởng tượng. Chúng ta, với tư cách là một cá nhân hay một quốc gia, cần thức tỉnh về điều này.\n    \n\n    \n      chúng ta không cao quý về mặt lý trí, không vô tận về mặt năng khiếu và khá yếu kém về trí tuệ.\n    \n\n    \n      Nhưng khi các loại bia khác đã được “lấy”, những người tham gia nghĩ họ phải chọn một thứ gì đó khác đi để cho thấy họ có chính kiến riêng và không bắt chước người khác.\n    \n\n    \n      đôi khi mọi người sẵn lòng hy sinh sự thoải mái mình có được để gây ấn tượng với mọi người.\n    \n\n    \n      nghiên cứu trong kinh tế học hành vi chỉ ra nhiều lý do giải thích vì sao mọi người không tiết kiệm đủ cho giai đoạn nghỉ hưu. Trong đó, nguyên nhân chủ yếu là do sự trì hoãn. \n    \n\n    \n      chúng ta là những quân tốt trong một trò chơi mà hầu như chúng ta không thể hiểu cách đi của nó. Chúng ta thường nghĩ mình đang ngồi ở vị trí người lái, với sự kiểm soát đối với những quyết định được đưa ra và hướng rẽ cuộc đời chúng ta lựa chọn; nhưng rất tiếc, nhận thức này liên quan nhiều tới mong muốn của chúng ta – với việc chúng ta muốn nhìn nhận bản thân ra sao – hơn là với thực tế. \n    \n\n    \n      Về bản chất, chúng ta bị giới hạn bởi các công cụ thiên nhiên trao tặng và con đường tự nhiên, trong đó chúng ta đưa ra các quyết định bị hạn chế bởi chất lượng và độ chính xác của các công cụ này. \n    \n\n    \n      “Hãy hình dung vật lý sẽ trở nên khó thế nào nếu các nguyên tử biết nghĩ.”"
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"thought-ban-co-the-song-mot-minh": {
+						"id": "thought-ban-co-the-song-mot-minh",
+						"title": "Gởi những người bạn thích sống một mình",
+						"categories": "thought",
+						"tags": "cảm nhận, paris, hồi ký",
+						"url": " /thought/ban-co-the-song-mot-minh",
+						"content": "Cũng lâu rồi tôi không viết gì. Đây có thể nói là bài đầu tiên của năm 2018. Tôi đã trải qua một giai đoạn khá dài và nó vẫn đang tiếp tục diễn ra, một giai đoạn mà tôi thấy mình thật tĩnh lặng. Tôi không còn suy nghĩ nhiều như trước, mà đúng hơn là tôi không còn muốn chia sẻ nhiều như trước. Tôi chọn sống cho chính mình, trò chuyện với chính mình. Đó là lý do tôi đã từ bỏ việc chia sẻ status trên facebook và chuyển hẳn sang blog này để chỉ những ai thật sự quan tâm tôi mới có thể đọc được.\n\nSau khi cách tân lại giao diện trang web, trông nó có vẻ đẹp hơn và cũng khiến tôi muốn viết một cách “đàng hoàng” hơn. Có lẽ vì quá đề cao việc viết lách như thế nên tôi ít động vào con chữ. Bây giờ chắc tôi sẽ chọn cách viết dưới dạng tâm tình nhiều hơn. Các bài post sẽ ít có chủ đề riêng, thay vào đó sẽ là cuộc trò chuyện nhẹ nhàng của tôi dành cho bạn, nếu bạn muốn đọc và chia sẻ. Vậy nhé.\n\nQuay lại vấn đề chính, gởi bạn, những người bạn thích có một không gian riêng, như tôi.\n\nTừ khi sang Pháp này, tôi quen cũng nhiều bạn mới lắm. Các bạn mới ở đủ mọi ngành nghề, đủ mọi lứa tuổi, đa phần đều là những người thành đạt, có ước mơ, có hoài bão và định hướng riêng. Một điểm tôi thấy ta không nên chọn cách sống cách biệt rõ ràng nhất là ở những cuộc hẹn. Các cuộc hẹn cho tôi thêm nhiều ý tưởng, nhiều thông tin và động lực hơn.\n\nCó hôm tôi được gặp hội các anh chị bác sĩ đang sống và làm việc tại Pháp. Tôi thân với gia đình một anh chị trong hội ấy nên có cơ hội quen thêm với các anh chị khác nữa. Họ là những bác sĩ đa phần học xong văn bằng bên Việt Nam, sau đó sang Pháp học lên cao học, thi lấy bằng tương đương và làm việc tại đây luôn. Cũng có một số anh chị học lại từ đầu chương trình đào tạo bác sĩ bên Pháp này rồi sau đó xin việc và định cư. Trò chuyện với các anh chị cho tôi nhiều thông tin về cách thức làm việc của những người trong ngành y bên này, về những khó khăn mà không phải ai ngoài ngành cũng có thể hiểu, về những bí quyết giúp sống dễ hơn ở nơi đất khách quê người,… Anh chị cho tôi động lực học tiếng Pháp, động lực làm việc cũng như trao dồi thêm kỹ năng giao tiếp xã hội. Anh chị rất giỏi, bây giờ đa phần đều đã làm “sếp” hết cả. Một số anh chị đã lập gia đình, cuộc sống khá ổn định. Tôi ngưỡng mộ sự thành đạt và ổn định ấy.\n\nTôi có nhiều ấp ủ lắm nhưng không phải cái gì tôi cũng có thể làm được nhất là khoảng các trở ngại liên tục xuất hiện. Động lực là cái lúc ẩn lúc hiện và cũng là cái tôi cố gắng kiếm tìm liên tục. Động lực nó rất khác với mục tiêu. Bạn có thể biết mình muốn gì, cần làm gì nhưng để có được sức mạnh ý chí và tinh thần để tiến đến đó thì cần phải có động lực. Mục tiêu sinh ra động lực, động lực sẽ giúp bạn tiến từng bước một để đến được mục tiêu. Có rất nhiều cách để tạo động lực cho riêng mình, một trong những cách hữu hiệu nhất mà tôi nhận ra được chính là những buổi gặp gỡ và trò chuyện thế này.\n\nNói về cùng ngành, tôi gặp bế tắc trong công việc rất nhiều lần, thời gian để thực hiện dự định ấp ủ ngày càng ít đi và ngắn lại. Rồi tôi nhận được các cuộc gọi và cuộc hẹn với những anh chị bạn tôi quen. Các anh chị ấy cũng xuất phát điểm tương tự tôi, sau đó chuyển mình, cố gắng và trụ vững cho đến ngày nay ở nơi đất khách quê người. Bề ngoài thì thấy mấy anh chị ấy rất giỏi, rất may mắn khi lâu lâu lại nghe được những tin tốt về các anh chị. Nhưng chỉ khi chuyện trò mới thấy được sự cố gắng rất lớn, chỉ khi tìm hiểu mới biết được có rất rất nhiều khó khăn mà anh chị ấy phải gặp. Rồi anh chị nói tôi nghe phần nào những cách họ đã vượt qua, sẵn sàng góp ý cho dự định của tôi, sẵn sàng chia sẻ những gì có thể giúp tôi tiến tiếp. Từ cái khoảng thời gian ngập trong áp lực, chán nản của người giam mình giải quyết công việc, các cuộc chuyện trò vốn dĩ chỉ chiếm tầm vài chục phút đến vài tiếng thôi đã cho tôi tầm mắt rộng lớn hơn trong việc nhìn nhận mọi việc mình cần phải làm tiếp theo.\n\nBạn đừng trông chờ vào sự thay đổi lớn, bạn hãy hướng đến thái độ nhỏ của bạn. Chính thái độ sẽ giúp bạn thay đổi cách thức và thói quen. Bạn không thể tự hình thành thái độ nếu thiếu động lực. Bạn sẽ dễ nhấn chìm mình trong hố sâu tiêu cực. Có thể tiêu cực theo cách bế tắc, tiêu cực theo cách chán nản. Bạn sẽ có cảm giác mình đã làm đủ mọi cách rồi, bạn nghĩ rằng có gặp ai cũng vậy thôi. Bạn thấy rằng các cuộc nói chuyện, các buổi hẹn chỉ sẽ khiến bạn tốn thêm thời gian thôi, thay vào đó giam mình suy nghĩ sẽ làm bạn có thể thêm nhiều thời gian giải quyết vấn đề hơn. Bạn sai rồi. Thật ra là, tôi sai rồi.\n\nTôi không nói ta phải thay đổi con người của ta, suy nghĩ thì cứ nên suy nghĩ. Thích có không gian riêng tư thì nên giữ như vậy. Bạn là bạn, bạn không thể biến mình từ người hướng nội sang người hướng ngoại được. Tuy nhiên hướng nội không có nghĩa là sống tiêu cực, rất nhiều người hiểu nhầm điều này và cho phép mình cứ mãi như vậy.\n\nVậy thì, gởi những người bạn thích sống một mình, hãy cứ sống một mình nếu bạn muốn nhưng đừng quên có thêm những buổi gặp, các cuộc chuyện trò, cho dù là chuyện phiếm nhưng rồi đầu óc bạn sẽ rộng mở hơn, mắt bạn sẽ sáng hơn, tầm nhìn sẽ rộng lớn hơn. Tin tôi đi, vì tôi cũng là một phần của nhóm người các bạn."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"reading-man-s-search-for-meaning": {
+						"id": "reading-man-s-search-for-meaning",
+						"title": "Man's Search for Meaning",
+						"categories": "reading",
+						"tags": "autobiography, history, biography, non-fiction, psychology",
+						"url": " /reading/man-s-search-for-meaning",
+						"content": "Information\n\n\n  Version I read: Vietnamese.\n  Title in Vietnamese: Đi tìm lẽ sống.\n  Genre: Psychology.\n  Author: Viktor Frankl (Austrian, 1905 - 1997).\n  Published: 1946 (Verlag für Jugend und Volk, Austria).\n\n\n\nBelow comments are in Vietnamese, please wait for an English version.\n\n\nAnh bạn cùng phòng bảo mấy thể loại kiểu này không nên đọc. Kiểu này là kiểu hạt giống tâm hồn, về cách sống. Anh quan niệm cách sống mỗi người mỗi khác, chỉ có tiến thân vào thực tế thì mới có thể cảm nhận được. Mấy sách này là kinh nghiệm của người ta, là “con người” của người ta chứ không phải “mình”. Thật ra, ảnh có cái lý của ảnh vì cùng thời gian đó, hãy đọc những thứ thiết thực hơn. Anh không nói sách này dở, anh chỉ bảo không nên đọc.\n\nTôi không nói anh sai mà cũng không nói anh đúng hoàn toàn. Cái tôi muốn nói là tại sao nên đọc sách naỳ.\n\nMột điểm chung giữa quyển sách này (Đi tìm lẽ sống) với phim The Walking Dead, phim Breakinh bad, phim The last ship, cũng như hàng tá bộ phim đề tài tận thế khác không ở cách thế giới vận hành những thời khắc như thế mà ở cách thế giới nội tâm con người biến chuyển với sự vận hành ấy.\n\nỞ quyển Đi tìm lẽ sống này, Victor Frankl kể lại những ngày tháng địa ngục ông ở trong trại tập trung Auschwitz của Đức quốc xã dành cho những người Do Thái.\nCó lẽ vốn là một bác sĩ tâm lý học nên cách ông cảm nhận về thế giới nội tâm của những người tù xung quanh ông và cũng là của chính ông hiện lên rất chân thật và hợp lý.\nKhi đọc cái tựa “Đi tìm lẽ sống” rất oách. Có lẽ nhiều người đã tự hiểu là “Giúp bạn… Đi tìm lẽ sống” nên khó trách có những cái nhìn như ông bạn của tôi. Quyển này rất khác với những quyển như “Quẳng gánh lo đi và vui sống” hay “Đắc nhân tâm” của Dale Canergie. Nó không cho ta lời khuyên (thật ra tôi chưa đọc hết tác phẩm, tôi chỉ dựa vào những gì tác giả nói lúc mở đầu cũng như vài chương đã đọc. Victor Frankl cũng biết thể nào bạn cũng hiểu lầm nên đã nhắc đi nhắc lại về mục đích thật sự của sách ở chương giới thiệu).\n\nTại sao phải “Đi tìm”? Tại vì ta đã mất. Mất mà không còn cái gì tương tự để mà sơ cua (secours). Trong tác phẩm, những tù nhân hoàn toàn bị tước đi mọi thứ, họ từ chỗ có 1 cuộc sống bình thường, no đủ bỗng chốc chẳng còn gì. Về mặt vật chất lẫn về tinh thần. Tuy nhiên mất mác không hẳn chỉ là tất cả mọi thứ. Có người mất đi tất cả trong 1 khía cạnh nào đó. Họ khánh kiệt, họ mất hy vọng, mất tất cả trong tình yêu, mất đi người mà họ thương nhất, mất đi công việc, sự nghiệp mà họ dành gần trọn cả đời theo đuổi. Với họ, đó là mất tất cả.\n\nQua những gì cảm nhận bước đầu, Victor Frankl không cố đi tìm cái mà người ta mất (lẽ sống) mà chính là phát hiện ra những thứ khác vẫn có ý nghĩa hơn vẫn đang hiện hữu.\n\n\n\nNói đọc xong tác phẩm là sai, thật ra chỉ đọc được 70% tác phẩm thôi và tôi quyết định dừng lại vì lý do đề cập bên dưới.\n\nTác phẩm này được chia ra làm 2 phần rõ rệt.\n\nMột nói về quãng thời gian tác giả ở trong trại tập trung Auschwitz, về những khó khăn khủng khiếp mà những người “tù” nơi đây phải chịu đựng. Lồng ghép trong đó là cách kể chuyện thiên về hướng phát biểu cảm nghĩ của người tù hơn là hướng miêu tả thực trạng đàn áp của lính SS hay chế độ hà khắc của phát xít Đức.\nPhần còn lại nói về “Liệu pháp ý nghĩa” do chính tác giả đề xướng (ông là 1 bác sĩ tâm lý học). Qua những gì đã trải nghiệm ở trại Auschwitz, ông nhận thấy rằng việc điều trị tâm lý bình thường là chưa đủ với một bộ phận lớn người mắc các chứng bệnh về tâm lý mà qua đó, ông nhấn mạnh về việc làm cho con người hiểu rõ và biết được ý nghĩa cuộc sống họ cần đạt được để tồn tại. Hay nói khác đi, sống là phải có mục đích. Nếu không có mục đích, con người ta dễ dàng lạc vào “trạng thái chân không” (không biết mình cần làm gì, nên làm gì, chán nản và thậm chí có thể tuyệt vọng)\n\nTôi rất thích phần 1, phần vì nó giúp tôi có được cái nhìn về những trại tù giam người Do Thái thời thế chiến thứ II, phần vì tác giả quá hay khi dùng nó để miêu tả và giảng giải các triệu chứng tâm lý của những người phải chịu tổn thương cả về thể xác lẫn tinh thần trong 1 giai đoạn quá dài.\n\nNgược lại với phần 1, dù tác giả cố gắng khái quát hóa cho những người ở thời bình nhưng có vẻ nó quá hàn lâm về chuyên môn tâm lý học. Tuy ông có một cố gắng lớn khi bình dân hóa các thuật ngữ và phương pháp tâm lý nhưng khó lòng tạo niềm hứng thú khi đọc. Dù rằng rất thích tâm lý nhưng tôi phải dừng đọc khi còn tới 30% sách chưa đọc.\n\n\nHighlights I like (in Vietnamese)\n\n\n    \n      bao đau đớn cùng cực. Chỉ có người trong trại mới hiểu được. Trong tác phẩm của mình, tôi cố gắng không áp đặt bất kỳ ý niệm chủ quan nào, và đó là điều thực sự khó khăn đối với một cuốn sách như thế này. Để nói lên\n    \n\n    \n      Tình yêu là mục đích cuối cùng và là mục đích cao cả nhất của nhân loại.\n    \n\n    \n      Tình yêu không chỉ gắn liền với sự hiện hữu của thể xác. Tình yêu tìm thấy ý nghĩa sâu sắc nhất trong tâm trí, trong chính nội tâm của con người.\n    \n\n    \n      Những lúc rỗi rãi hiếm hoi, trí tưởng tượng của người tù thường trở về sống với quá khứ. Những điều họ nhớ nhiều nhất không phải là những sự kiện quan trọng mà là những sự việc bé nhỏ, vặt vãnh.\n    \n\n    \n      bản ngã của con người cũng mất đi chân giá trị.\n    \n\n    \n      Dưới tác động của một thế giới đã không còn công nhận giá trị của cuộc sống và phẩm giá con người, một thế giới đã cướp đi ý chí của con người và biến họ\n    \n\n    \n      Nếu một người trong trại không đấu tranh chống lại điều này để giữ lấy phẩm giá của mình thì người ấy sẽ mất luôn cảm giác mình là con người\n    \n\n    \n      sự tồn tại của người đó rơi xuống cấp độ sống của loài thú.\n    \n\n    \n      Nếu một người trong trại không đấu tranh chống lại điều này để giữ lấy phẩm giá của mình thì người ấy sẽ mất luôn cảm giác mình là con người\n    \n\n    \n      tuân theo một trong các quy luật bắt buộc nhất để sinh tồn trong trại: Không được gây sự chú ý.\n    \n\n    \n      tôi sẽ thành thật trả lời tất cả các câu hỏi và chỉ dừng lại ở đó, tuyệt đối không bàn về những việc không được hỏi tới.\n    \n\n    \n      Ngoài ra, sự vô cảm cũng góp phần không nhỏ trong việc tác động đến tâm lý của người tù. Có một số khoảnh khắc cần phải đưa ra quyết định thật nhanh, quyết định sẽ đem lại sự sống hoặc cái chết, thì người tù vẫn muốn để số phận định đoạt cho mình.\n    \n\n    \n      Có phải lý thuyết cho rằng con người chẳng qua chỉ là một sản phẩm của hoàn cảnh và môi trường là đúng?\n    \n\n    \n      rõ ràng người tù trở thành loại người nào là kết quả từ quyết định bên trong của họ, chứ không đơn thuần chỉ là kết quả từ ảnh hưởng của hoàn cảnh sống trong trại.\n    \n\n    \n      Cách một người chấp nhận số phận và những đau khổ của mình, cách một người dám vượt qua những thử thách đó đem lại cho người ấy nhiều cơ hội để hiểu được ý nghĩa sâu xa hơn của cuộc sống ngay cả trong những hoàn cảnh khắc nghiệt nhất.\n    \n\n    \n      Ở đâu con người cũng phải đương đầu với số phận và cũng có cơ hội đạt được điều gì đó từ chính nỗi đau của mình.\n    \n\n    \n      Một người không thể nhìn thấy sự kết thúc của việc “tồn tại tạm bợ” của mình thì không thể hướng tới một mục đích tối hậu trong đời.\n    \n\n    \n      Trong trại, một đơn vị thời gian nhỏ nhất, ví dụ một ngày, với sự tra tấn và mệt mỏi thì dường như kéo dài vô tận. Trong khi một đơn vị thời gian lớn hơn, có thể là một tuần, lại dường như trôi qua rất nhanh.\n    \n\n    \n      “Cuộc sống giống như việc bạn đang ở chỗ nha sĩ. Bạn luôn nghĩ rằng điều tồi tệ nhất vẫn còn đang đến, thế nhưng nó đã qua mất rồi”.\n    \n\n    \n      Tôi cảm thấy ghê sợ với việc mỗi ngày, mỗi giờ đều nghĩ về những việc tầm thường như thế.\n    \n\n    \n      Cảm giác đau khổ sẽ chấm dứt ngay khi chúng ta có được một bức tranh rõ ràng và chính xác về nó.\n    \n\n    \n      điều đầu tiên là phải cho người đó thấy được mục tiêu của họ ở tương lai.\n    \n\n    \n      Thảm hoạ sẽ đến với những người không nhìn thấy được ý nghĩa cuộc sống của mình,\n    \n\n    \n      vấn đề không phải là chúng ta mong đợi gì từ cuộc sống, mà vấn đề là cuộc sống mong đợi gì ở chúng ta.\n    \n\n    \n      Trong trại có quy định nghiêm ngặt cấm bất kỳ hành vi nào cố gắng cứu một người đang cố tự sát.\n    \n\n    \n      cuộc sống vẫn còn đang trông đợi ở họ một điều gì đó ở tương lai.\n    \n\n    \n      Khi nhận ra rằng không ai có thể thay thế được vị trí của mình, con người buộc phải có trách nhiệm cho sự tồn tại và tiếp tục cuộc sống của mình.\n    \n\n    \n      chỉ có hai loại người ấy mà thôi: “loại” người tốt và “loại” người xấu. Cả hai loại người này đều có thể bắt gặp ở mọi nơi; họ có mặt trong tất cả các nhóm xã hội."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"thought-niem-tin-vao-khoa-hoc": {
+						"id": "thought-niem-tin-vao-khoa-hoc",
+						"title": "Niềm tin vào khoa học",
+						"categories": "thought",
+						"tags": "toán học, cảm nhận, xem phim",
+						"url": " /thought/niem-tin-vao-khoa-hoc",
+						"content": "Truyện kể về hai cậu bé có niềm tin khác nhau. Một cậu chỉ tin khi đã thấy kết quả, một cậu tin vào quá trình cho dù chưa có kết quả.\n\nThầy giáo cho hai cậu chơi một trò chơi. Trò chơi ấy rất đơn giản. Trên một hành lang dài, hai bên là tường cao và đầy những vật cản trở. Hai cậu phải đi từ đầu này tới đầu kia của hành lang. Cuối con đường là những món quà có giá trị dành riêng cho mỗi cậu. Ai tới trước sẽ được quà tốt hơn.\n\nCậu bé chỉ tin vào kết quả phải nhắm mắt mà đi. Cậu bé còn lại thì có thể mở mắt và đi bình thường. Hai cậu bắt đầu tiến bước. Niềm tin ở hai cậu hiện lên rõ rệt lúc này.\n\nCậu bé mở mắt tự tin tiến từng bước một, cậu chưa từng chạm được vào bức tường cuối con đường, cũng chưa từng biết món quà kia là gì nhưng cậu rất tự tin tiến từng bước một, dựa vào những gì quan sát và phân tích được trên đường đi.\n\nCậu bé còn lại vốn chỉ tin khi đã chạm được bức tường cuối con đường, chỉ tin khi đã sờ vào được món quà ở đấy, giờ đây với cậu là một khoảng tối vô tận. Cậu sợ sệt lê từng bước một mà không dám tin là mình có đang tiến hay lùi, bước tiếp theo có vấp phải cái gì làm mình đau hay không.\n\nKhi cả hai cậu đều về tới đích. Họ đều nhận được những món quà tương ứng. Tất nhiên bạn biết rõ ai sẽ nhận được món quà giá trị hơn.\n\nThầy giáo bảo, khoa học cũng như vậy đấy các em ạ, có em làm kinh tế thì xem việc thu được kết quả là quan trọng nhất, là thước đo của mọi quá trình. Làm khoa học tuy kết quả cũng quan trọng nhưng quá trình lại quan trọng hơn. Khi em chìm trong bóng tối, cho dù em cách bức tường chỉ là 1mm thì với em nó cũng như 1Km xa xôi vậy. Khi em có sự dẫn dắt và lý luận chặt chẽ của ánh sáng khoa học, cho dù em ở xa bao nhiêu thì niềm tin cũng sẽ dẫn em đến được đích, không quan trọng là 1Km hay 1mm.\n\n\n\nCâu chuyện trên lấy cảm hứng từ một chi tiết nhỏ trong bộ phim Interstellar của đạo diễn tài ba Christopher Nolan. Cô giáo nói với cha đứa trẻ rằng nhà trường không khuyến khích con gái của ông ta nói về việc du hành vũ trụ cho bạn cùng lớp, rằng Nga đưa được người lên Mặt Trăng là một điều dối trá. Con người đang đổ dồn vào những nghiên cứu và máy móc vô bổ. Việc đáng quan tâm hàng đầu bây giờ là Trái Đất, là thức ăn đang ngày càng cạn kiệt. Người cha trả lời rằng “Nếu như những bằng sáng chế vô dụng như MRI mà có sớm hơn thì có lẽ người đang nói chuyện với cô trong buổi họp phụ huynh vô bổ này là vợ tôi chứ không phải cái thằng khó ưa như tôi.”"
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"thought-thanh-nhan-dai-ke-khu-kho": {
+						"id": "thought-thanh-nhan-dai-ke-khu-kho",
+						"title": "Thánh nhân đãi kẻ khù khờ",
+						"categories": "thought",
+						"tags": "toán học, cảm nhận",
+						"url": " /thought/thanh-nhan-dai-ke-khu-kho",
+						"content": "Đang đọc quyển The code book của Simon Sign (tác giả quyển Định lý cuối cùng của Fermat?), tôi tóm tắt một câu chuyện thế này.\n\nNgay từ thời cổ đại, con người ta đã ý thức được tầm quan trọng của thông tin liên lạc và thấy rằng cần phải làm sao ẩn đi nội dung các bức thư để tránh sự tò mò của kẻ khác. Tuy nhiên trình độ khoa học kỹ thuật, tri thức và con người thời đó chỉ cho phép họ giấu đi bức thư thay vì mã hóa nó. Giấu thư nghĩa là nội dung thư và hình thức thư không thay đổi, chỉ là làm sao cho kẻ tò mò không tìm thấy được bức thư mà thôi. Còn mã hóa thư có nghĩa là cho dù rơi vào tay kẻ tọc mạch, họ cũng không biết nội dung bức thư là gì.\n\nTrải qua nhu cầu cấp thiết của chiến tranh, của sự thông tin nhanh nhại và cẩn trọng, sự giấu thư đã tiến hóa từng bước một để đến với mã hóa thư. Các bức thư được mã hóa từ cơ bản đến phức tạp. Mở đầu là sự hoán đổi hoặc thay thế các chữ cái này bởi chữ cái khác trong bức thư, điều mà hầu như các đứa trẻ nào ngày nay cũng có thể làm được nhưng với thời xưa, đó là một đột phá lớn.\n\nNhưng có sinh thì cũng có diệt, mã hóa thư hình thành và phát triển thì song song đó, giải mã thư cũng phát triển theo. Ẩn sâu sau hậu trường của các cuộc chiến khắc nghiệt và đau thương là sự đấu tranh qua lại vô cùng gay cấn giữa những người mã hóa và những kẻ phá mã. Người tạo mã phải nghĩ cách làm sao để có thể mã hóa bức thư với độ phức tạp nhiều nhất có thể để những kẻ phá mã tài năng không kém bên phía đối phương không thể giải được. Có lúc người chiến thắng là những kẻ tạo mã khi lần lượt các mã thay thế một bảng chữ cái, nhiều bảng chữ cái, mã Vigenère và máy Enigma của quân đội Đứa ra đời. Có lúc việc giải và phá vỡ các quy tắc tạo mã là điều gần như không thể làm được. Nhưng rồi nhờ sự kiên trì không điều kiện, các nhà phá mã cũng dần đánh đổ được chúng từ các phương pháp phân tích tần suất để phá mã thay thế một bảng chữ cái cũng như các phương pháp nâng cao hơn của nó đề phá các mã thay thế nhiều bảng chữ cái và mã Vigenère đến sự xuất hiện của các hệ máy cơ phát minh bởi Rejewski và sau đó được nâng cấp bởi nhà Toán học Alan Turing để phá đi mật mã tưởng chừng không thể phá nổi tạo bởi máy Enigma trong thế chiến thứ II.\n\nCho đến khi bóng bán dẫn được phát minh và ngành công nghiệp máy tính được hình thành thì việc mã hóa thông tin liên lạc trở thành một xu hướng bắt buộc phải có trong đời sống hàng ngày không chỉ của quân đội và chính phủ mà còn cả của các doanh nghiệp và cá nhân người dùng bình thường. Họ mong muốn các bức thư của mình được gởi đi dưới một vỏ bọc thật sự an toàn, để khi đến nơi nó chỉ được đích danh người nhận mở ra và có thể đọc được. Trước khi gởi, họ phải mã hóa bức thư kèm theo một chìa khóa để giải mã nó. Vấn đề trọng yếu là làm sao cho những kẻ tò mò không biết được chìa khóa đó nhưng người nhận thư phải biết được để mà giải mã ngược lại bức thư kia.\n\nChính việc đòi hỏi phải có chìa khóa và người nhận phái biết được nó làm cho quá trình mã hóa không còn quan trọng bậc nhất nữa mà tập trung vào việc làm sao để người nhận thư biết được chìa khóa kia. Nếu gọi điện nói cho nhau nghe chìa khóa thì những kẻ nghe lén cũng biết được. Do đó chỉ còn cách là gặp trực tiếp và thống nhất với nhau chiếc chìa khóa. Nhưng nếu chỉ sử dụng cùng một chìa khóa cho nhiều bức thư thì sớm muộn những kẻ phá bĩnh cũng tìm được nên điều cần thiết là phải thay đổi chìa khóa một cách thường xuyên hay nói cách khác là phải gặp mặt nhau thường xuyên.\n\nVấn đề sẽ thực sự lớn với một công ty có nhiều khách hàng, nhất là các công ty bảo hiểm, ngân hàng, tài chính. Họ sẽ phải liên lạc những thông tin mật với hàng ngàn, hàng vạn khách hàng trong một ngày và tất nhiên tất cả thư phải được mã hóa. Nhưng số lượng chìa khóa cũng là rất lớn và làm sao để khách hàng biết được chìa khóa mà công ty đã khóa? Không thể gặp trực tiếp từng khách hàng để nói cho họ nghe được vì số lượng và thời gian sẽ là cực lớn.\n\nMột thời gian dài sau khi việc bình dân hóa việc mã hóa bùng nổ, vấn đề phân phát chìa khóa thư này là một vấn đề được xem là không thể giải nổi. Cả thế giới chấp nhận nó và tìm cách khác để giảm thiểu sự bất tiện thay vì tìm cách phá vỡ sự bất tiện.\n\nMay mắn thay trong hàng triệu nhà khoa học đã chấp nhận sự thật phũ phàng kia, vẫn có những kẻ ngu ngơ và khù khờ dấn thân vào việc tìm cách giải quyết nó. Khởi nguồn là Whitfield Diffie (một nhà tạo mã), Martin Hellman (giáo sư trường ĐH Stanford) và Ralph Merkle (một người tị nạn về trí tuệ). Cả ba kẻ khù khờ này đã bỏ ngoài tai tất cả để dấn thân vào một điều không thể giải nổi.\n\nHellman đã từng nói “Cũng giống như tôi và Diffie, Ralph cũng là một thằng ngốc. Và con đường đạt tới đỉnh cao thông qua sự triển khai nghiên cứu lại từ đầu phải là của kẻ ngốc vì chỉ có ngốc mới kiên trì thử mãi như vậy. Anh có ý tưởng số 1, anh rất phấn khích, và rồi nó thất bại. Sau đó anh lại nảy ra ý tưởng số 2, anh rất hứng khởi nhưng rồi nó lại thất bại. Rồi anh có ý tưởng số 99, anh lại rất hứng khởi, nhưng nó cũng lại thất bại nốt. chỉ có kẻ ngốc mới hứng khởi đến ý tưởng thứ 100 nhưng rất có thể phải mất đến 100 ý tưởng thì người ta mới được đền đáp. Trừ khi anh đủ ngốc để tiếp tục hứng khởi, nếu không thì anh làm gì có động cơ, làm gì có năng lượng để đi tiếp. Quả là Chúa ban thưởng cho những thằng ngốc”\n\n\n\nTôi tạm dừng việc kể câu chuyện trên. Có rất nhiều điều mà bạn tưởng hiển nhiên trong cuộc sống này nhưng nó đã từng là những thứ bị xem là không thể phá vỡ. Bạn có được cuộc sống ngày nay có lẽ nhờ vào sự ngu ngơ của không biết bao nhiêu kẻ ngốc.\n\nĐôi lúc bạn cũng nên ngốc nghếch đi 1 tí để có thể giải quyết các vấn đề mà bạn nghĩ là cuộc sống đang chơi khó mình. Rồi chúng cũng được giải quyết mà thôi, quan trọng là bạn có đủ ngốc để theo đuổi nó đến cùng hay không.\n\nCó lẽ vậy mà Steve Jobs đã từng nói\n\n\n  Stay hungry, stay foolish."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"reading-the-code-book": {
+						"id": "reading-the-code-book",
+						"title": "The Code Book",
+						"categories": "reading",
+						"tags": "math, history, non-fiction",
+						"url": " /reading/the-code-book",
+						"content": "Information\n\n\n  Full title: The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography.\n  Version I read: Vietnamese.\n  Title in Vietnamese: Mật mã: từ cổ điển đến lượng tử.\n  Genre: Factual.\n  Author: Simon Lehna Singh (English, 1964 - today).\n  Published: 1999 (Fourth Estate).\n  Simon is also the author of The last theorem of Fermat (1997).\n\n\n\nBelow comments are in Vietnamese, please wait for an English version.\n\n\nĐây là quyển sách thứ hai ngoài quyển Chúa trời có phải là nhà toán học? khiến tôi đọc đi đọc lại vài chương đầu nhiều lần. Lý do không phải vì chúng quá hay mà là bởi việc bỏ dở giữa chừng khi đang đọc các tác phẩm này. Tôi có thói quen mỗi lần bỏ lâu quá là phải đọc lại từ đầu tác phẩm. May mắn là lần này đủ kiên nhẫn để đọc hết.\n\nQuyển sách trong nguyên bản tiếng Anh dày hơn 250 trang nhưng khi được dịch ra tiếng Việt thì dày đến hơn 500 trang. Tuy nó dày như thế nhưng sức cuốn hút là khó tránh khỏi.\n\nCái tài của tác giả là thổi một cốt truyện có chủ đích sắp xếp vào quá trình hình thành và phát triển thế giới mật mã. Từ lúc con người ta có nhu cầu gìn giữ bí mật trong liên lạc bằng những thứ rất thô sơ và đơn giản đến việc sử dụng nó hàng ngày bằng công nghệ hiện đại. Xuyên suốt tác phẩm là trận đánh không mệt mỏi giữa bên tạo mã và những nhà giải mã. Những thuật toán tài tình, những chiếc máy phức tạp lần lượt ra đời chỉ để phục vụ cho việc mã hóa và giải mã.\n\nĐọc tác phẩm cũng cho ta thấy được tầm quan trọng của những lý thuyết toán học thuần túy vốn tưởng chừng như vô dụng trong đời sống thực nay lại có ứng dụng tuyệt vời.\n\nCũng giống như quyển Định lý cuối cùng của Fermat, Simon Sign một lần nữa cho thấy tầm hiểu biết sâu rộng và phong cách kể chuyện tài tình của mình. Bạn sẽ được đọc một tác phẩm khoa học dưới góc nhìn của một người đọc tiểu thuyết với cốt truyện rõ ràng và lôi cuốn.\n\nBan đầu tôi đọc tới đâu ghi chú tới đó, tuy nhiên vì nhiều lý do nên các chương cuối của sách tôi chưa kịp viết tóm tắt. Sẽ bổ sung vào một ngày thuận tiện hơn.\n\n\nHighlights I like (in Vietnamese)\n\n\n    Bản mật mã của Nữ hoàng Mary xứ Scotland\n\n    Âm mưu Babington\n\n    1542, vua nước Anh là Henry VIII tiến đánh vua xứ Scotland là James V và giành chiến thắng. Vua James V quá lo lắng và sợ hãi đã qua đời (3o tuổi) sau đó để lại đứa con gái mới sinh là Mary. Mary trở thành nữ hoàng xứ Scotland khi vừa chào đời. Vua Henry VIII không muốn ỷ thế đánh chiếm xứ Scotland mà muốn dụ dỗ để Mary cưới con của ông ta là Edward, cũng là 1 đứa trẻ, để từ đó thống nhất Anh-Scotland. Tuy nhiên triều đình Scotland ko chịu và gả Mary cho Francis, con trai hoàng đế nước Pháp với mong muốn được Pháp giúp đỡ và cũng vì Pháp là một nước theo Thiên Chúa Giáo, còn Anh khi ấy là nước theo đạo Tin Lành.\n\n    Vua Henry VIII rất tức giận, đã tiến hành lấn chiếm, cướp bóc và ép xứ Scotland phải gả Mary cho con trai ông ta. Cho đến khi ông ta chết và con ông ta là vua Edward VI vẫn tiếp tục chiến dịch này. Điều này dẫn đến việc triều đình Scotland phải chuyển Mary gấp sang Pháp lánh nạn khi cô chỉ mới 6 tuổi (1548).\n\n    Khi Mary tròn 16, bà lấy Francis như đã định và trở thành hoàng hậu nước Pháp. Tuy nhiên một năm sau Francis qua đời và bà trở thành quả phụ (1560). Bà trở lại Scotland, khi ấy đạo Tin Lành đang chiếm ưu thế. Bà tái giá với hai người khác nhưng đều làm cho thanh thế của bà giảm đi rất nhiều và bà bị nhóm quý tộc Tin Lành Scotland bắt giam. Con trai bà là James VI lên làm vua thay khi mới 14 tháng tuổi và bị điều khiển bởi bọn quý tộc.\n\n    Sau đó bà trốn thoát được và hy vọng sẽ lánh nạn được ở nước Anh, nơi mà người dì họ Elizabeth I của mình đang làm nữ hoàng. Edward VI là em trai cùng cha khác mẹ với Elizabeth I. Tuy nhiên Elizabeth lại xem Mary là mối họa do những người Thiên Chúa giáo ở Anh xem Mary mới đích thị là nữ hoàng, thế nên Elizabeth I đã bắt giam lỏng Mary thay vì đối xử với Mary như Mary tưởng.\n\n    Đến 1586, sau 18 năm bị giam cầm, Mary được một người tên Anthony Babington mới chỉ 24 tuổi lên kế hoạch giải cứu bà (đồng thới giết Elizabeth I). Để mọi thứ có thể trót lọt, họ cần phải có sự liên lạc. Họ đã dùng mật thư để liên hệ với nhau. Loại mật thư họ sử dụng là mã thay thế dùng một bảng chữ cái hỗn hợp (tôi sẽ giải thích ở các đoạn sau). Âm mưu này ngay từ đầu đã bị thượng thư của nữ hoàng Elizabeth phát hiện và người đưa thư cầu nối giữa Mary và Babignton cũng chính là điệp viên hai mang do ông thượng thư này cài vào. Thế là Mary bị xử chặt đầu vì tội mưu phản của mình.\n\n    \n      Nói thêm về mối quan hệ giữa Elizabeth I và Mary (xứ Scotland). Vua Henry VIII có người em gái là Margaret lấy vua James IV xứ Scotland. Con của Margaret là James V. Mary là con của James V này trong khi Elizabeth I lại là con của Henry VIII, vốn là cậu của James V. Thế nên Elizabeth I là dì họ của Mary. Sách Mật Mã do nhà xuất bản dịch đã bị sai điểm này, họ dịch hai người họ là chị em họ.\n    \n\n    Sự tiến hóa của thư từ bí mật\n\n    Chính nghệ thuật viết thư bí mật đã cứu người Hy Lạp khỏi sự thống trị của tên vua bạo chúa Ba Tư là Xerxes. Tuy nhiên họ chọn cách “giấu thư” thay vì “mã hóa thư”. Mã hóa thư là việc che giấu nội dung thư chứ không phải giấu đi bức thư.\n\n    \n      Cạo lớp sáp bên ngoài hai thanh gỗ dày, viết lên đó rùi phủ lại lớp sáp.\n      Cạo tóc trên đầu người đưa tin, viết lên đó, chờ tóc mọc lại rùi gởi tin đi.\n      Dùng một loại mực đặc biệt viết lên vỏ một quả trứng đã luộc. Lộc quả trứng ra sẽ đọc được.\n      Mực vô hình.\n    \n\n    Mật mã có thể được chia làm 2 loại : chuyển vị và thay thế.\n\n    \n      Chuyển vị: các chữ cái trong thư được sắp xếp lại. Một dạng chuyển vị đã từng được sử dụng phổ biến là khúc gỗ bí mật (scytable) của Sparta có từ thế kỷ V TCN. Khi muốn xem nội dung thư, phải quấn thư xung quanh một khúc gỗ quy định trước kích thước.\n      Thay thế : các chữ cái được thay thế  bởi một chữ khác trong bảng chữ cái. Khi các chữ cái được dịch chuyển đi một số vị trí, mã thay thế đó được gọi là mật mã dịch chuyển Caesar hay đơn giản là mã Caesar (ông vua Cộng Hòa La Mã này đã sử dụng mật mã rất thường xuyên). Tính đơn giản và khá vững chắc của mã thay thế đã giúp nó thống trị nghệ thuật thư tín bí mật trong suốt thiên niên kỷ thứ nhất sau CN.\n    \n\n    Mã chuyển vị thì các chữ cái vẫn giữ nguyên dạng chỉ thay đổi vị trí còn mã thay thế thì các chữ cái thay đổi dạng nhưng vị trí không thay đổi.\n\n    Một bức thư mã hóa sẽ bao gồm: thuật toán mã hóa + chìa khóa mã hóa. Ví dụ phát hiện ra bức thư có các chữ cái bị thay thế bởi các chữ cái khác, đó là thuật toán còn quy luật thay thế là như thế nào thì đó là chìa khóa mã hóa. Nguyên tắc Kerchhoffs: sự an toàn của một hệ thống mã hóa không phụ thuộc vào việc giữ bí mật thuật toán mã hóa. Độ an toàn chỉ phụ thuộc vào việc giữ bí mật chìa khóa mã.\n\n    Các nhà phân tích mã Ả Rập\n\n    Năm 610, ở tuổi 40, Muhammad thường lui tới 1 hang động bên ngoài thánh địa Mecca để suy ngẫm và ông được thiên thần Gabriel viếng thăm và tuyên bố ông là nhà tiên tri của Chúa. Ông mất đi, để lại những mặc khải rải rác. Vị vua Hồi giáo đầu tiên là Abu Bakr là người đầu tiên tập hợp chúng lại.\n\n    632-661 từ vị vua đầu tiên tới thứ 4, đạo Hồi được truyền bá rộng rãi đến mức một nửa thế giời nằm dưới sự cai trị của người Hồi giáo. Di sản khoa học Hồi giáo cũng không kém phần vĩ đại, bằng chứng là rất nhiều từ khoa học mượn từ tiếng Ả Rập như algebra, alkaline, zenith,…\n\n    Những người Ả Rập sử dụng mã hóa rất nhiều trong các văn bản của họ và họ cũng tình cờ có công phát hiện ra cách giải loại mật thư một bảng chữ cái bằng cách đếm tần suất xuất hiện của các chữ cái trong một văn bản mật mã rùi so sánh với tần suất bình thường của các chữ cái trong một văn bản bình thường cùng ngôn ngữ. Kết hợp với mối liên hệ giữa các chữ cái với nhau (th, en,…) để giải loại mật thư này.\n\n    Phục hưng ở phương Tây\n\n    800-1200, ở Ả Rập rất phát triển trong khi ở châu Âu đang chìm đắm trong thời Trung Cổ đen tối. Những người châu Âu chỉ chịu để ý đến mật mã vì trong Kinh Cựu Ước có chứa rất nhiều văn bản mã hóa, một dạng mã thay thế truyền thống của người Do Thái. Tuy nhiên các văn bản này nhằm làm tăng thêm sự huyền bí hơn là che giấu các bí mật.\n\n    Khoa học mật mã phát triển thịnh hành vào thời kỳ phục hưng ở châu Âu, trong đó đáng kể đến là ở Italia, trái tim của thời phục hưng.\n\n    Vào thời này, việc phụ thuộc quá nhiều vào mật mã cũng là một nhược điểm trong các mối quan hệ chính trị. Họ quá tin tưởng vào độ an toàn của mật mã nên dễ bị lợi dụng khi mà không biết rằng mật mã của họ đã bị giải. Nhà toán học Pháp Francois Viète có lần bị cáo buộc là tà giáo vì đã giải được mật mã của người Tây Ban Nha khi mà họ đinh ninh rằng loại mật mã một bảng chữ cái này là loại không thể giải nổi.\n\n    Một cải tiến của mật mã thay thế dùng một bảng chữ cái là việc đưa vào ký tự rỗng (null). Đó là những ký tự không thay thế cho chữ cái thực mà chỉ là những chỗ trống không thay thế cho cái gì hết. Hoặc họ cố tình viết sai chính tả trước khi mã hóa thư.\n\n    Đến đây phân loại mật mã thay thế gồm 2 loại: mã chữ cái (một chữ cái thay cho một chữ cái) và mã từ (một ký hiệu thay cho một từ/cụm từ). Nhược điểm của mã từ là phải có một quyển “sổ mã” kèm theo, khó truyền bá cũng như lưu hành và đặc biệt là nếu lỡ bị lộ. Ngoài ra còn có một loại mã hỗn hợp của hai thứ này.\n\n    Một số thông tin thêm\n\n    \n      Sparta : thành bang nổi tiếng của Hy Lạp.Nhà nước quân phiệt khắt khe Sparta là một trong hai cường quốc hùng mạnh nhất trên lục địa Hy Lạp, cùng với Nhà nước dân chủ Athena.\n      Đế Quốc La Mã : hay còn gọi là đế quốc Roma (Roman). Thế kỷ I TCN đến V hay VI SCN. Bao gồm những nước bao quanh Địa Trung Hải (hiện nay là địa phận của 54 quốc gia). Vị hoàng đế đầu tiên là Augustus (có liên quan đến một sự tích về tháng 8). Lưu ý trước Đế quốc La Mã là nước Cộng hòa La Mã. Trong đó hoàng đế Julius César đóng vai trò then chốt trong việc chuyển dịch hai thể chế chính trị này. Xem thêm Tại sao tháng 2 có 28 ngày và liên quan đến việc tháng 8 có 31 ngày.\n      Tiếng Latinh là ngôn ngữ thuộc nhóm ngôn ngữ gốc Ý, được dùng lần đầu ở vùng xung quanh thành Roma (La Mã). Đây là ngôn ngữ chính thức của đế quốc La Mã. Đây là ngôn ngữ quốc tế trước khi bị thay thế bởi tiếng Pháp (thế kỷ 18) và sau đó là tiếng Anh (thế kỷ 19). Bảng chữ cái La Tinh là từ A-Z.\n      Ba Tư: nay thuộc nước Iran (Persian) do Cyrus đại đế sáng lập. Đế quốc Ba Tư đầu tiên (Đế Quốc Achaemenes) là đế quốc đầu tiên trong lịch sử (550-330 TCN).\n      Thời Trung Cổ : bắt đầu từ sự sụp đổ của đế quốc tây roma đến trước khi bắt đầu thời kỳ phục hưng. Đây là thời kỳ đen tối của châu Âu khi dân số bị suy giảm (Black Death, dịch hạch làm suy giảm nửa dân số), các cuộc chiến tranh tôn giáo, nội chiến nổ ra khắp châu lục.\n      Thời Phục Hưng : là một phong trào văn hóa thường được xem là bao phủ giai đoạn từ thế kỷ 15 đến thế kỷ 17, khởi đầu tại Ý sau đó lan rộng ra phần còn lại của châu Âu.\n      Người Do Thái (Jews) : là một sắc tộc tôn giáo có nguồn gốc từ người Israel. Người Do Thái đã trải qua một lịch sử lâu dài bị đàn áp và thảm sát trên nhiều vùng đất khác nhau; dân số và phân bố dân cư của họ thay đổi qua nhiều thế kỷ.\n    \n\n    Mật mã chuồng heo xem hình dưới. Các ký tự được mã hóa theo các “chuồng” mà chúng bị nhốt.\n\n    \n\n    Le chiffre indéchiffrable\n\n    Hình vuông Vigenère\n\n    Mật mã thay thế dùng một bảng chữ cái đã không còn an toàn do phương pháp phân tích tần suất phát kiến bởi những người Ả Rập. Cuộc đấu tranh giữa người tạo và giải mã ngày càng gay cấn và đang nghiêng về người giải mã.\n\n    Vào những năm 1460, nhà họa sĩ, nhà thơ, soạn nhạc và triết gia người Ý, Leon Battista Alberti đã phát minh ra loại mật mã dùng nhiều bản chữ cái.\n\n    \n\n    Sau đó có nhiều người khác đã đóng góp vào việc xây dựng loại mật mã nhiều bảng chữ cái này, tuy nhiên phải đến nhà ngoại giao người Pháp, Blaise Vigenère mới phát triển đến dạng hoàn thiện cuối cùng và cho ra đời hình vuông Vigenère như hình dưới. Sức mạnh của bảng mã này là nó sử dụng tới 26 bảng chữ cái để mã hóa thông tin. Công trình của Vigenère được trình bày tới công chúng vào năm 1586, đúng vào năm xử tử nữ hoàng Mary xứ Scotland.\n\n    \n\n    Cách sử dụng: Từ khóa là WHITE được viết liên tiếp nhau cho đến hết văn bản cần mã hóa. Nhìn vào hình vuông Vigenère, hàng W sẽ mã từ d bởi chữ Z là giao điểm của hàng W và cột d.\n\n    \n\n    Từ sự lãng quên Vigenère đến Người đeo mặt nạ sắt\n\n    Tuy mật mã Vigenère rất mạnh nhưng nó không được ưa chuộng như tưởng tượng. Lý do là bởi, nếu người sử dụng bình dân thì họ chỉ cần mật mã 1 bảng chữ cái là đủ, còn nếu mục đích sử dụng tối mật hơn thì sự rườm rà và lâu lắc trong quá trình mã hóa và giải mã Vigenère khiến nó không được chú ý đến vì người ta cần sự tiện dụng và phải nhanh.\n\n    Thay thế nó, yếu hơn, là mật mã thay thế đồng âm. Mỗi chữ cái được thay bởi nhiều lựa chọn khác nhau. Các lựa chọn này sẽ tỷ lệ thuận với tần suất của chữ cái đó trong văn bản thường. Điều này đảm bảo cho việc sau khi mã hóa, tất cả các chữ cái đều xuất hiện với tần suất như nhau, gần bằng 1%, khiến cho việc dùng tần suất để giải mã là bất khả thi. Thật ra loại mật mã này cũng là một dạng của mã thay thế một bảng chữ cái vì mỗi chữ cái được biểu thị bởi nhiều ký hiệu tuy nhiên các ký hiện này chỉ biểu thị cho duy nhất 1 chữ cái, khác với loại nhiều bảng chữ cái, một ký hiệu có thể biểu thị cho nhiều chữ cái khác nhau. Cách giải: Xét mối quan hệ giữa các chữ cái trong tiếng Anh, đặc biệt là những chữ hiếm gặp, ví dụ chữ q, chắc chắn nó chỉ được thay bởi 1 ký tự, theo sau nó luôn là u. Do đó để ý trong văn bản mã hóa, ký tự nào theo sau luôn là 1 số ký tự cố định thì đó nhất định là q và các ký tự kia là u.\n\n    Phải kể đến Mật mã vĩ đại của vua Louis XIV do hai cha con người Pháp Rossignol phát minh ra. Nó đã giữ bí mật cho các lá thư trong suốt 2 thế kỷ, trong đó có 1 bí mật về nhân vật Người đeo mặt nạ sắt bị vua bắt giam gây ra rất nhiều lời đồn đại. Đây không phải là mật mã đồng âm.\n\n    Phòng Đen\n\n    Mỗi cường quốc châu Âu đều có một cơ quan gọi là Phòng Đen, một trung tâm của việc giải mã thông tin và tập hợp thông tin tình báo. Phòng Đen tốt nhất là ở Vien, Áo. Chính sự ra đời của các Phòng Đen mà không loại mật mã một bảng chữ cái nào đủ an toàn. Do đó người ta bắt đầu quay lại dùng mật mã nhiều bảng chữ cái Vigenère.\n\n    Vào thời kỳ này, việc thông tin liên lạc bằng điện và sóng vô tuyến đã bắt đầu hình thành và phát triển. Đầu tiên là hệ thống (cần có dây cáp) của Samuel Morse (hệ thống dấu gạch và chấm). Lưu ý, đây chỉ là việc hình thức hóa thông tin chứ không phải là một dạng mã hóa thông tin nên các thư trước khi chuyển vẫn phải được mã hóa.\n\n    Khi ấy bảng mật mã Vigenère là lựa chọn hoàn hảo và nó được đặt cho cái tên Le chiffre indéchiffrable (mật mã không thể phá nổi)\n\n    Babbage và mật mã vigenère\n\n    Nhân vật gợi sự hiếu kỳ nhất ở thế kỷ XIX trong việc phân tích mật mã là thiên tài lập dị người Anh, Charles Babbage, người nổi tiếng nhất với phát minh ra bản thiết kế máy tính hiện đại. Ông đã giải được mật mã Vigenère chỉ bằng sự khôn khéo.\n\n    Cách giải mã Vigenère : Nếu dùng bảng Vigenère để mã hóa, ví dụ chữ the, thì các ký tự mã hóa nó, dù khác nhau nhưng chắc chắn sẽ có lúc phải lặp lại. Bước đầu tiên, ta xác định những chữ cái xuất hiện hơn một lần trong văn bản mật mã. Sau đó ta lập ra một bảng đại loại như bảng dưới đây\n\n    \n\n    Từ bảng trên, cho ta biết từ khóa là một từ có 5 chữ cái. Bước tiếp theo là tìm xem 5 chữ cái đó là gì. Ta tiến hành phân tích tần suất của từng chữ cái trong từ khóa, ứng với chữ cái này sẽ là các chữ cái cách nhau bởi 5 đơn vị từ trong văn bản mã hóa. Khi ấy ta có bảng tần suất tương tự như hình dưới\n\n    \n\n    Rồi đem so sánh hình dạng lên xuống với tần suất các chữ cái trong văn bản thường\n\n    \n\n    Ta sẽ xê dịch các chữ cái trong biểu đồ ở trên-trên với biểu đồ ở trên để suy ra từ tương ứng.\n\n    \n\n    Phát minh của Babbage trong việc giải mật mã Vigenère chưa bao giờ được ông công bố mà nó chỉ được phát hiện sau này bởi các nhà phân tích tài liệu. Một phần có lẽ xuất phát từ tính nết không thích phô trương của ông, một phần có thể là yếu tố lịch sử và bị người Anh yêu cầu giữ bí mật chuyện này để giành lợi thế trong cuộc chiến với Nga.\n\n    Từ cột nhắn tin đến kho báu bí mật\n\n    Nửa sau thế kỷ 19 chứng kiến sự nở rộ của mật mã với bình dân đại chúng khi mà người ta chú trọng hơn đến việc bí mật thông tin cá nhân. Tuy nhiên mật mã giai đoạn này cũng khá lộn xộn với việc các nhà giải mã đang chiếm ưu thế vì mật mã khó giải nhất lúc bấy giờ là mật mã Vigenère đã bị Babbage giải được.\n\n    Tuy phát triển nhưng chi phí để có thể mã hóa và truyền thư khá đắt. Người chọn cách đục lỗ cực nhỏ vào các tờ báo để ẩn bức thư của mình và gởi báo đi, việc gởi báo vốn được miễn phí thời này. Trong giới văn học thì mật mã xuất hiện trong tác phẩm Hành trình tới tâm trái đất của Jules Verne và mật mã Hình nhân nhảy múa trong Sherlock Holmes của nhà văn Conan Doyle.\n\n    \n\n    Bảng mật mã của Beale : Một người tên Beale vốn là khách viễn chinh, một hôm ghé khách sạn Washington ở Lynchburg nghỉ ngơi. Ông ta quay lại đó 2-3 lần nữa, mỗi lần đều vào dịp nghỉ đông và ở khá lâu. Sau đó ông đưa cho chủ khác sạn, vốn là 1 người chính trực, một hộp bí mật và bảo rằng sau 1 khoảng thời gian định sẵn, nếu ông khôn quay lại, hãy mở nó ra. Sau một khoảng thời gian Beale không quay lại, ông chủ cũng chưa vội mở, mãi sau vài năm khi mất kiên nhẫn ông mới mở ra thì biết được cái hộp đó chứa ba bức thư viết về một kho báu chôn vàng, bạc quý giá mà Beale và các cộng sự kiếm được. Tuy nhiên ba bức thư ấy đã bị mã hóa. Ông chủ lao đầu vào giải nhưng bất lực cho đến khi ông già đi. Ông đã chuyển giao nó cho một người bạn, người bạn này cũng dồn tâm huyết, thời gian và việc giải nhưng chỉ giải được bức thư thứ 2, bức nói về số lượng vàng được chôn. Còn bức 1, vị trí chôn và bức 3, nhân thân của các người có liên quan trong kho báu cũng được chia chát, thì không thể giải được. Quá mệt mỏi với việc tốn tâm lực vào việc giải mã 2 bức này, ông quyết định viết 1 quyển sách kể lại tất cả và chia sẻ nó với tất cả mọi người. Tuy nhiên cho đến giờ vẫn chưa có ai thật sự giải được kho báo Beale. Bức thứ hai được mã hóa bằng cách đánh số hết các từ trong bảng tuyên ngôn độc lập, Các số đại diện cho các chữ cái đầu tiên của mỗi từ."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"reading-the-alchemist": {
+						"id": "reading-the-alchemist",
+						"title": "The Alchemist",
+						"categories": "reading",
+						"tags": "self-help, fiction",
+						"url": " /reading/the-alchemist",
+						"content": "Information\n\n\n  Original: O Alquimista (Portuguese).\n  Version I read: Vietnamese (translated from German version).\n  Title in Vietnamese: Nhà giả kim.\n  Genre: Quest, adventure, fantasy.\n  Author: Paulo Coelho (người Brazil, 1947 - today).\n  Published: 1988.\n\n\n\nBelow comments are in Vietnamese, please wait for an English version.\n\n\nTrước kia đi đâu cũng nghe người ta bảo về cuốn này. Ai cũng bảo nó hay nhưng không biết hay làm sao. Trong đầu thì cứ tưởng tượng dựa vào cái tựa đề quyển sách rằng đây chắc hẳn là một tiểu thuyết giả tưởng, phiêu lưu ký ly kỳ. Chắc nó dày lắm.\n\nĐến hôm sinh nhật lần thứ 27, một người bạn tặng cho cuốn này dù vẫn còn ở Pháp. Bản dịch tiếng Việt.\n\nBất ngờ vì quyển sách khá mỏng, chỉ 225 trang khổ A5. Cái đập vào mắt đầu tiên chính là câu giới thiệu hoành tráng “Cuốn sách bán chạy chỉ sau kinh thánh”. Độ tò mò tăng cao.\n\nBây giờ đã đọc xong tác phẩm. Kiểm chứng lại so với trước khi đọc nó thì đúng là một quyển tiểu thuyết giả tưởng, cũng kể về một chuyến phiêu lưu thật nhưng không phải là một loại tiểu thuyết thông thường. Đọc nó cho ta cảm giác ta không bị cuốn hút bởi tình tiết câu chuyện mà bị cuốn hút bởi câu chuyện của chính chúng ta được quyển tiểu thuyết giúp cho gợi mở và làm rõ ràng hơn. Câu chuyện mà chúng ta đã lỡ quên hoặc không tự mình nhận ra được nó đã ở đấy. Chuyện về ước mơ của mỗi con người.\n\nCó nhiều người bạn khi thấy mình cầm cuốn này đã phán ngay rằng “Quyển này viết nhảm lắm, nội dung không có gì hết, nhiều khi phi logic”. Giờ mình đã hiểu vì sao họ nói vậy. Nếu đọc nó dưới góc nhìn của một người đọc như đọc Harry Potter thì có lẽ đây là quyển sách dành cho các cháu mẫu giáo, thậm chí chúng còn không thèm đọc vì tình tiết quá dở. Nếu mang tâm lý của một người trông chờ vào cốt truyện thì có lẽ bạn sẽ bỏ cuộc ngay sau chương đầu tiên.\n\nNếu thật sự đọc được một cách không gượng ép đến trang cuối cùng thì có lẽ bạn phải đồng ý với mình rằng tác giả quá tài tình khi lồng ghép những triết lý sâu sắc về cuộc sống những tưởng rất rời rạc vào chung một cốt truyện thống nhất.\n\nQuyển sách viết về ước mơ nhưng không hẳn là một quyển truyện hạt giống tâm hồn hay kiểu dạy con làm giàu. Nó rất khác.\n\nNếu là một người thích suy ngẫm chuyện đời. Nếu là một người đang phân vân về con đường mình đang chọn. Nếu là một người vẫn còn đau đáu về ước mơ thầm kín chưa công thành. Hãy thử đọc Nhà giả kim của Paulo Coelho.\n\n\n  Maybe God created the desert so that man could appreciate the date trees.\n\n\n\nPlot summary (via Wikipedia)\n\n\n    The Alchemist follows the journey of an Andalusian shepherd boy named Santiago. Believing a recurring dream to be prophetic, he asks a Romani fortune teller in a nearby town about its meaning. The woman interprets the dream as a prophecy telling the boy that he will discover a treasure at the Egyptian pyramids.\n\n    Early into his journey, he meets an old king named Melchizedek or the king of Salem, who tells him to sell his sheep so as to travel to Egypt and introduces the idea of a Personal Legend. Your Personal Legend “is what you have always wanted to accomplish. Everyone, when they are young, knows what their Personal Legend is.”\n\n    Early in his arrival to Africa a man who claims to be able to take Santiago to the pyramids instead robs him of what money he had made from selling his sheep. Santiago then embarks on a long path of working for a crystal merchant so as to make enough money to fulfil his personal legend and go to the pyramids.\n\n    Along the way, the boy meets an Englishman who has come in search of an alchemist and continues his travels in his new companion’s company. When they reach an oasis, Santiago meets and falls in love with an Arabian girl named Fatima, to whom he proposes marriage. She promises to do so only after he completes his journey. Frustrated at first, he later learns that true love will not stop nor must one sacrifice to it one’s personal destiny, since to do so robs it of truth.\n\n    The boy then encounters a wise alchemist who also teaches him to realize his true self. Finally they[who?] risk a journey through the territory of warring tribes, where the boy is forced to demonstrate his oneness with “the soul of the world” by turning himself into a simoom before he is allowed to proceed. When he begins digging within sight of the pyramids, he is robbed yet again but learns accidentally from the leader of the thieves that the treasure he seeks was all the time in the ruined church where he had his original dream."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"thought-cai-tam-cho-giao-duc-viet-cua-nguoi-phap": {
+						"id": "thought-cai-tam-cho-giao-duc-viet-cua-nguoi-phap",
+						"title": "Cái tâm cho giáo dục Việt của người Pháp",
+						"categories": "thought",
+						"tags": "giáo dục, hồi ký, cảm nhận",
+						"url": " /thought/cai-tam-cho-giao-duc-viet-cua-nguoi-phap",
+						"content": "Hôm qua gặp thầy Pascal. Thầy tuần này lên trường chắc có công chuyện. Hai thầy trò gặp nhau, hẹn đi về chung ra trạm xe bus.\n\nThầy đứng chờ tôi thu xếp đồ đạc để ra về, thấy tôi xách theo cục rubik 4x4, thầy bảo “Em cũng chơi cái này nữa hả?”, rồi thầy cười. Thầy bảo ngày xưa, hồi thầy mới 9 tuổi, thầy có chơi cái này nhưng chỉ là 3x3 thôi. Khi ấy thầy giải chỉ trong vòng gần 1 phút, mấy bạn và thầy của thầy trố mắt nhìn làm thầy tự hào lắm lắm.\n\nHai thầy trò nói cả buổi xung quanh chủ đề rubik này rồi chợt thầy sực nhớ một chuyện. Thầy khoe là thầy có gọi cho thầy Adel của tôi (thầy hướng dẫn chính), bảo rằng đã “xin” được 3 vị trí thực tập cho sinh viên VN tại trường Rouen (trường mà thầy Adel đang dạy). Thầy mừng lắm. Bảo “Hên thật”.\n\nNói thêm, chương trình master thầy đang quản lý có khoảng 20-25 sinh viên VN tham dự (tôi là cựu). Cái khó là tìm được đủ nơi chịu nhận hết lượng học sinh này để sang Pháp làm thực tập 3-4 tháng trước khi tốt nghiệp. Nơi = bao gồm tiền + giáo sư chịu đứng ra hướng dẫn + đề tài hướng dẫn. Việc thừa sinh viên và thiếu người hướng dẫn là nỗi lo lớn nhất của các thầy quản lý như thầy Pascal. Đó là lý do vì sao thầy rất mừng về việc kia.\n\nThấy niềm vui của thầy Pacal, một người Pháp, hoàn toàn không dính dáng gì tới Việt Nam cả, tôi thầm ngưỡng mộ và cảm phục. Các thầy như thầy, hoàn toàn dựa vào sự quý mến người Việt Nam mà giúp đỡ tận tình. Tạo ra chương trình master liên kết mà hầu như mọi chi phí đều do Pháp chi trả.\n\nCó lúc các thầy bên VN hiểu lầm các thầy bên này, làm cho uy tín các thầy bên này bị giảm và có lúc thậm chí chạm đến lòng tự trọng của các thầy Pháp nhưng các thầy vẫn không từ bỏ sinh viên VN. Thầy Pascal có lần bảo “Thầy lo là không có ai bên VN sẽ đứng ra tuyển sinh viên VN cho chương trình nữa”.\n\nRồi nhớ lại ngày xưa khi tôi và hai đứa nữa sang Pháp làm thực tập, phải xin VISA. Thầy và một số thầy khác trong trường đã chạy đôn chạy đáo xin đủ giấy tờ cho chúng tôi (phải nói thêm giấy tờ bên Pháp cực kỳ phức tạp và nhiêu khê).\n\nCác thầy tổ chức hội nghị kỷ niệm 10 năm chương trình master vừa qua ở Quy Nhơn cũng là để góp ý tìm ra giải pháp tối ưu giúp đỡ cho việc nghiên cứu và giáo dục ở VN. Giúp cho SV VN có cơ hội đi ra ngoài biển lớn. Nhìn thấy các thầy Pháp đâm chiêu suy nghĩ, bàn bạc và tâm huyết với nền giáo dục nước VN của mình mà thấy hổ thẹn giúp nhiều người Việt Nam khác."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"reading-letters-to-a-young-mathematician": {
+						"id": "reading-letters-to-a-young-mathematician",
+						"title": "Letters to a young mathematician",
+						"categories": "reading",
+						"tags": "math, non-fiction",
+						"url": " /reading/letters-to-a-young-mathematician",
+						"content": "Information\n\n\n  Version I read: Vietnamese.\n  Title in Vietnamese: Thư gửi một nhà toán học trẻ.\n  Author: Ian Stewart (1945 - today).\n\n\n\nBelow comments are in Vietnamese, please wait for an English version.\n\n\nĐã xong. Một quyển sách ngắn tập hợp gần 20 bức thư của Ian Stewart gởi cho cô cháu gái giả định Meg. Những bức thư trải dài từ lúc cô bé chưa biết gì về thế giới toán học cho đến khi trở thành một phó giáo sư. Các bức thư là tâm sự cũng như trải nghiệm chân thành của tác giả khi bước chân vào thế giới toán học. Chúng không chỉ dành cho dân toán mà còn dành cho những ai còn lạ lẫm với thế giới Toán học rộng lớn. Là lời tâm tình, động viên cũng như định hướng của 1 người đi trước dành cho thế hệ kế cận. Thêm một quyển sách nữa rất đáng đọc của Ian Stewart.\n\nSách này tôi không ghi tóm tắt được. Một phần vì nó ngắn, bạn không cần phải nhớ quá nhiều nội dung về nó, phần khác thì đây là một thư truyền cảm hứng và định hướng mang thiên hướng khoa học. Những bức thư không quá dài, mỗi bức mang một ý nghĩa riêng nhưng xét tổng thể mang đến cho ta một điều nhắn nhủ về những gì mà một nhà Toán học nên bắt đầu, những gì mà họ đã đang và sẽ làm.\n\nDù cho ta có thật sự mong muốn trở thành một nhà toán học trong tương lai hay không thì quyển sách cũng cho ta biết được những thông tin thú vị bên lề về những người đưa đò trong thế giới toán học rộng lớn."
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"thought-doc-sach-va-uoc-mo": {
+						"id": "thought-doc-sach-va-uoc-mo",
+						"title": "Đọc sách và ước mơ",
+						"categories": "thought",
+						"tags": "cảm nhận, giáo dục",
+						"url": " /thought/doc-sach-va-uoc-mo",
+						"content": "Rất quan trọng những người biết tưởng tượng, biết cầu tiến. Tuy nhiên bạn sẽ không làm được gì nếu như chỉ có ý tưởng, chỉ có mục tiêu mà không có được gì trong tay để hiện thực hóa ý tưởng và mục tiêu ấy.\n\nSteve Jobs đã từng nói rằng bằng cấp không hề quan trọng nhưng để thành công thì không thể không học. Học ở đây mà không liên quan đến bằng cấp thì thường là học từ đường đời, học từ những kinh nghiệm của người đi trước, kinh nghiệm của chính bản thân mình.\n\nMột người bạn đã nói với tôi khi thấy tôi đọc sách rằng hãy bỏ sách xuống và lao vào thực tế đi Bo. Tôi chỉ thầm cười thôi. Bạn ấy cũng có lý của bạn ấy. Cũng không thể trách.\n\nSách là kinh nghiệm đã được đúc kết của những người viết nên nó, là sự chia sẻ quý báo, là những ghi chú thiết thực của họ dành cho những người muốn học hỏi. Ta không thể trải nghiệm hết mọi điều, ta cũng không thể chờ đến việc làm tốt một việc chỉ sau khi ta đã trải nghiệm chúng. Ta cần phải biết trước khi gặp một vấn đề gì đó.\n\nViệc nuôi dưỡng ước mơ, hoài bão thông qua trang sách rất quan trọng. Nó cho ta đủ kiến thức và phương tiện cần thiết để hiện thực hóa mục tiêu của mình.\n\nSẽ có một lúc bạn sẽ cảm thấy bơ vơ, thấy rõ hòn đảo với đầy đủ thức ăn và nước uống trước mắt mình. Tuy nhiên bạn đang ở trên một chiếc thuyền mà không có gì khác có thể giúp bạn tiến vào bờ. Bạn không biết bơi, thuyền không có chèo, trời không gió, thức ăn cũng không đủ cho bạn tồn tại. Đó là cảm giác bất lực của người lười tự học trên con đường hiện thực hóa mọi điều mình nghĩ.\n\n“Đọc sách, chưa bao giờ là thừa.” Câu trả lời tôi nói với người bạn kia. “Tuy nhiên, chỉ đọc và học thì cũng như việc nấu một bữa ăn thịnh soạn mà không cho ai ăn cả”.\n\nCảm xúc có được khi tìm được tựa sách “Mathematics for the nonmathematician” (Toán học cho những người không phải là nhà toán học)"
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"reading-tieng-goi-noi-hoang-da": {
+						"id": "reading-tieng-goi-noi-hoang-da",
+						"title": "The call of the wild",
+						"categories": "reading",
+						"tags": "fiction",
+						"url": " /reading/tieng-goi-noi-hoang-da",
+						"content": "Below comments are in Vietnamese, please wait for an English version.\n\n\nTôi bắt đầu đọc quyển sách này khi đang nhập viện điều trị bệnh viêm màng bồ đào sau chuyến đi chơi Hà Lan. Thật ra tôi nghe sách nói chứ không trực tiếp đọc bằng mắt tác phẩm này, lý do cũng bởi vì căn bệnh phát sinh ngay ở mắt.\n\nCùng lúc ấy tôi cũng thử “nghe” nhiều tác phẩm khác, trong đó có tác phẩm “Giết con chim nhại” của nhà văn Harper Lee nhưng không thành vì tôi không theo kịp nhịp đọc của người đọc. Tuy nhiên hai tác phẩm của Jack London thì hoàn toàn ngược lại, tôi có thể nghe được và cảm nhận được. Lý do theo tôi nghĩ là cốt truyện khá rõ ràng, dễ hình dung và nhịp truyện cũng không quá nhanh.\n\nBài cảm nhận này có thể dành chung cho cả hai tác phẩm “Tiếng gọi nơi hoang dã” và “Nanh trắng”. Với tác phẩm đầu tiên, Jack miêu tả hành trình từ một con thú nuôi về với mẹ thiên nhiên của một chú chó thì ở tác phẩm thứ hai là điều ngược lại.\n\nCái tài của Jack là ở chỗ ông thổi cái hồn con người vào trong thân xác một chú chó nhưng các suy nghĩ, hành động được ông miêu tả không làm cho ta có cảm giác quá con người, ta cảm giác như đây thực sự là một con vật, nó chỉ khác các con vật trong thực tế ở chỗ là có thể suy nghĩ và nói tiếng người được thôi.\n\nCảm nhận rằng Jack giống như một ông “trùm chó” thực thụ khi các miêu tả về hành động, cử chỉ của các chú chó, loài vật xuất hiện trong hai tác phẩm của ông rất chân thực. Cảm nhận ông rất am hiểu về tâm tư, tình cảm của các loài vật cũng như mong muốn của chúng. Một nhận xét ngắn gọn khi nghĩ đến hai tác phẩm này của ông là “rất tự nhiên”.\n\nNhược điểm duy nhất, theo tôi, ở hai tác phẩm của ông chính là hai nhân vật chính của hai truyện quá ư mạnh mẽ và “bất khả xâm phạm”. Nếu như Jack có thể làm cho việc này bớt hiển nhiên hơn thì có lẽ sẽ thuyết phục hơn rất nhiều. Tuy nhiên, như đã nói, ông đã quá tài tình hơn mức bình thường rồi.\n\nNói riêng về Tiếng gọi nơi hoang dã. Cốt truyện kể về một con chó tên là Buck đã được thuần hóa, cưng chiều. Nhưng một loạt các sự kiện xảy ra khi Buck bị bắt khỏi trang trại để trở thành chó kéo xe ở khu vực Alaska lạnh giá, trong giai đoạn mọi người đổ xô đi tìm vàng thế kỷ 19, thiên nhiên nguyên thủy đã đánh thức bản năng của Buck. Buck trở lại cuộc sống hoang dã. Buck trở về rừng, và sống chung với lũ sói. (Trích lời giới thiệu ở Wikipedia)"
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"reading-nanh-trang": {
+						"id": "reading-nanh-trang",
+						"title": "White Fang",
+						"categories": "reading",
+						"tags": "fiction",
+						"url": " /reading/nanh-trang",
+						"content": "Below comments are in Vietnamese, please wait for an English version.\n\n\nTôi bắt đầu đọc quyển sách này khi đang nhập viện điều trị bệnh viêm màng bồ đào sau chuyến đi chơi Hà Lan. Thật ra tôi nghe sách nói chứ không trực tiếp đọc bằng mắt tác phẩm này, lý do cũng bởi vì căn bệnh phát sinh ngay ở mắt.\n\nCùng lúc ấy tôi cũng thử “nghe” nhiều tác phẩm khác, trong đó có tác phẩm “Giết con chim nhại” của nhà văn Harper Lee nhưng không thành vì tôi không theo kịp nhịp đọc của người đọc. Tuy nhiên hai tác phẩm của Jack London thì hoàn toàn ngược lại, tôi có thể nghe được và cảm nhận được. Lý do theo tôi nghĩ là cốt truyện khá rõ ràng, dễ hình dung và nhịp truyện cũng không quá nhanh.\n\nBài cảm nhận này có thể dành chung cho cả hai tác phẩm “Tiếng gọi nơi hoang dã” và “Nanh trắng”. Với tác phẩm đầu tiên, Jack miêu tả hành trình từ một con thú nuôi về với mẹ thiên nhiên của một chú chó thì ở tác phẩm thứ hai là điều ngược lại.\n\nCái tài của Jack là ở chỗ ông thổi cái hồn con người vào trong thân xác một chú chó nhưng các suy nghĩ, hành động được ông miêu tả không làm cho ta có cảm giác quá con người, ta cảm giác như đây thực sự là một con vật, nó chỉ khác các con vật trong thực tế ở chỗ là có thể suy nghĩ và nói tiếng người được thôi.\n\nCảm nhận rằng Jack giống như một ông “trùm chó” thực thụ khi các miêu tả về hành động, cử chỉ của các chú chó, loài vật xuất hiện trong hai tác phẩm của ông rất chân thực. Cảm nhận ông rất am hiểu về tâm tư, tình cảm của các loài vật cũng như mong muốn của chúng. Một nhận xét ngắn gọn khi nghĩ đến hai tác phẩm này của ông là “rất tự nhiên”.\n\nNhược điểm duy nhất, theo tôi, ở hai tác phẩm của ông chính là hai nhân vật chính của hai truyện quá ư mạnh mẽ và “bất khả xâm phạm”. Nếu như Jack có thể làm cho việc này bớt hiển nhiên hơn thì có lẽ sẽ thuyết phục hơn rất nhiều. Tuy nhiên, như đã nói, ông đã quá tài tình hơn mức bình thường rồi.\n\nNói riêng về Nanh trắng. Tác phẩm là một câu chuyện về cuộc hành trình của một con chó sói lai chó nhà tên là Nanh Trắng, sống trong vùng Yukon của Canada trong thời kỳ đổ xô đi tìm vàng Klondike cuối thế kỷ 19. Nanh Trắng đã được thuần hóa bằng lòng yêu thương của con người. (Trích lời giới thiệu ở Wikipedia)"
+					}
+					
+				
+			
+		
+			
+				
+					,
+					
+					"thought-su-hoc-la-ca-doi": {
+						"id": "thought-su-hoc-la-ca-doi",
+						"title": "Sự học là cả đời",
+						"categories": "thought",
+						"tags": "giáo dục, cảm nhận",
+						"url": " /thought/su-hoc-la-ca-doi",
+						"content": "Mới dạo facebook, vào nick một đứa, xem hình nó khi nó chụp nhận bằng tốt nghiệp và ghi caption thế này “Kết thúc 16 năm đèn sách. Bay cái vèo!”. Nghĩ lại sinh viên và đa phần mọi người giờ chỉ nghĩ học như là một bổn phận, là một viên gạch “cần-phải-có” trong cuộc đời chứ không phải học để bổ sung kiến thức và hỗ trợ cuộc sống.\n\n\n  Học sinh đi học vì ba mẹ bắt, vì đến trường “vui hơn” ở nhà, có nhiều bạn.\n  Sinh viên thì đi học vì chả biết làm gì ở cái xã hội Việt Nam này, đua nhau vào các trường cao đẳng đại học, phải có cái mác “đậu đại học” thì mới chịu. Đến năm 4 thì bắt đầu thấy lo là sẽ làm gì khi không còn “cớ” để đi học nữa. Rồi lao đầu vào tìm “tiền” chứ không dám nói tìm việc vì tìm việc vốn dĩ là tìm cái nghề mà ta đã học và tích lũy 4 năm đèn sách kia, đăng này giờ đây họ mới nghiêm túc suy nghĩ về câu hỏi “Ta phù hợp với nghề gì đây?”\n  Người vừa đi làm thì thở phào nhẹ nhõm vì đã có nơi cho họ không bị chết đói và không phải hổ thẹn mỗi khi người khác hỏi “con đang làm gì?”\n\n\nXem các bộ phim nước ngoài, ở các nước tiên tiến, dù biết rằng nó “ảo” cũng phần nào đó nhưng cũng thể hiện được những kiến thức mà học sinh, sinh viên bên ấy học được áp dụng rất tốt vào cuộc sống và công việc của họ.\n\nRồi đi lại bên này mới thấy rằng người phương Tây họ đọc sách, báo chí, học hỏi kinh nghiệm nhau ở những buổi séminaire, thuyết trình, hội thảo rất rất là nhiều không chỉ trong giới khoa học.\n\nĐi làm là sẽ dừng học ư? Bạn có dám nhìn nhận lại rằng đi làm chính là lúc bạn mới bắt đầu học thật sự không? Bạn học hỏi kinh nghiệm ở nơi làm việc mới, điều mà không có bất cứ giảng đường đại học nào dạy bạn. Học hỏi kiến thức chuyên môn mang tính thực hành còn hơn cả các kiến thức hàn lâm bạn đạt được con điểm 10 ở trường đại học. Bạn bắt đầu tìm tòi những thuật ngữ, những cách làm nhanh hơn, tiến bộ hơn phục vụ cho công việc của bạn. Đấy không là học chứ làm gì?\n\nHọc không phải là lấy cuốn vở, cây viết, đeo cái cặp lên vai và đi đến trường. Bạn đừng nghĩ học chỉ dành cho tụi trẻ con, còn bạn đã đi làm, đã trở thành người lớn rồi thì chả việc gì phải học nữa. Việc học là cả đời, không chỉ học cho bạn, học còn để cho con bạn, cho cháu bạn, cho gia đình mà bạn chưa và phải gánh vác sau này."
+					}
+					
+				
+			
+		
+	};
+</script>
+<script src="/js/lunr.min.js"></script>
+<script src="/js/search.js"></script>
+
+
+  <footer class="footer">
+    
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center p-4">
+      <div class="footer-info">
+        <a href="/about"></a>
+        &nbsp;&copy;&nbsp;
+        2021
+        &nbsp;&bull;&nbsp;
+        <a href="/about">About</a>
+      </div>
+      <div class="mission my-2 tyellow">
+        With the internet, people can learn anything. I'd like to share with you one of the best and useful stuffs so that you can save your time on a self-study path.
+      </div>
+      <div class="donate-me tgreen my-2">
+        <a target="_blank" href="https://www.paypal.me/DinhAnhThi">
+          <i class="fa fa-paypal"></i>
+          Support Thi
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+  </footer>
+
+  
+
+
+
+
+
+
+
+
+  
+	  <script src="/js/bootstrap41/jquery-3.3.1.slim.min.js"></script>
+  
+	  <script src="/js/bootstrap41/popper.min.js"></script>
+  
+	  <script src="/js/bootstrap41/bootstrap.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>
