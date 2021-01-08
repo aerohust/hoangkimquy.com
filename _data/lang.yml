@@ -3,10 +3,10 @@ update:
   vn: "cập nhật"
 mycv:
   en: "My CV"
-  vn: "CV của Thi"
+  vn: "CV của Quý"
 mynote:
   en: "My Notes"
-  vn: "Ghi chú của Thi"
+  vn: "Ghi chú của Quý"
 nav:
   home:
     en: "Home"
@@ -25,8 +25,8 @@ nav:
     vn: "Tạp ghi"
 index:
   intro:
-    en: "Hi! I'm a beautiful jekyll template for your personal website. I have many layouts which are <span class=\"tgreen\">flexible</span> & <span class=\"tgreen\">clear</span> for different purposes."
-    vn: "Chào bạn! Tôi là <span style=\"color: #fff;\">Thi</span>, một người thích Toán, thích lập trình và không ngừng tự học. Trên trang này, tôi muốn chia sẻ với bạn những thứ <span class=\"tgreen\">hay ho</span> và <span class=\"tgreen\">bổ ích</span> tôi biết được."
+    en: "Hi! I'm <span style=\"color: #fff;\">Quy</span>."
+    vn: "Chào bạn! <span class=\"tgreen\">hay ho</span> và <span class=\"tgreen\">bổ ích</span> tôi biết được."
   about:
     en: "About"
     vn: "Về tôi"
@@ -67,11 +67,11 @@ section:
       vn: "xem thêm nhiều hơn"
 footer:
   support_text:
-    en: "With the internet, people can learn anything. I'd like to share with you one of the best and useful stuffs so that you can save your time on a self-study path."
+    en: "You may say I'm a dreamer, but I'm not the only one."
     vn: "Với internet, con người có thể học được mọi thứ. Tôi muốn chia sẻ với bạn một trong những tài nguyên hữu dụng và hiệu quả nhất để bạn có thể tiết kiệm thời gian của mình trên con đường tự học hỏi."
   support_button:
-    en: "Support Thi"
-    vn: "Ủng hộ Thi"
+    en: "Support Quy"
+    vn: "Ủng hộ Quý"
   about:
     en: "About"
     vn: "Giới thiệu"
