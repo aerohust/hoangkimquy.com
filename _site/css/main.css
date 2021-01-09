@@ -63,6 +63,10 @@
 
 #idx-header .idx-abt p { font-size: 0.9rem; color: #fff; }
 
+.nav-search .nav-search-input { font-size: 1rem; width: 200px; }
+
+.navbar { padding: 0; }
+
 .navbar-custom span { margin-top: 5px; }
 
 .section { padding: 1rem 10px; }
