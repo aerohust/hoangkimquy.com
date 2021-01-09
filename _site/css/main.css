@@ -67,6 +67,8 @@
 
 .navbar { padding: 0; }
 
+.container { max-width: 960px; }
+
 .navbar-custom span { margin-top: 5px; }
 
 .section { padding: 1rem 10px; }
