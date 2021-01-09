@@ -1,4 +1,5 @@
 .nav-bg { background: #272a34; }
+.container {max-width: 960px;}
 
 @media (max-width: 599px) { .nav-home, .nav-about { text-align: left !important; }
   .nav-reading, .nav-thought { text-align: right !important; }
