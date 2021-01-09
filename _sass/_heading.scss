@@ -1,4 +1,6 @@
-
+h1+h3, h2+h3, h2:first-child, h3:first-child{
+  margin-top: unset!important;
+}
 
 .post-content{
   // margin

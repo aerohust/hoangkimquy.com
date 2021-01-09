@@ -104,6 +104,8 @@ li > .tomTat { margin-top: 1rem; }
 #toc-content li::before { content: counters(item,".") ". "; counter-increment: item; }
 #toc-content li a { display: contents; }
 
+h1 + h3, h2 + h3, h2:first-child, h3:first-child { margin-top: unset !important; }
+
 .post-content h2 { font-weight: 700; font-size: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #729fda; padding-bottom: 5px; overflow: hidden; color: #266ac1; margin-top: 4rem; }
 .post-content h2 + h3 { margin-top: 2rem !important; }
 .post-content h2:first-of-type { margin-top: 2rem; }
