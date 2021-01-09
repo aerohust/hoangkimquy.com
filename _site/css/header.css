@@ -31,7 +31,7 @@
 .idx-abt b { color: #ffeead; font-size: 2.5rem; }
 .idx-abt b:hover { text-decoration: none; color: #fbe17d; }
 @media screen and (max-width: 400px) { .idx-abt b { font-weight: normal; } }
-.idx-abt p { font-size: 1rem; }
+.idx-abt p { font-size: 1.2rem; }
 
 @media screen and (max-width: 400px) { .idx-social { font-size: 1rem; } }
 .idx-social .mr-s { margin-right: 1.5rem; }
