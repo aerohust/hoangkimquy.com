@@ -61,6 +61,8 @@
 
 .navbar a { font-size: 1rem; font-weight: bold; }
 
+#idx-header .idx-abt p { font-size: 0.9rem; color: #fff; }
+
 .navbar-custom span { margin-top: 5px; }
 
 .section { padding: 1rem 10px; }
