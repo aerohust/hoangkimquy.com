@@ -59,13 +59,13 @@
 
 .fa { font-size: 1.3rem; }
 
-.navbar a { font-size: 1rem; font-weight: bold; }
+.navbar a { font-size: 1rem; font-weight: bold; text-align: center; }
 
 #idx-header .idx-abt p { font-size: 0.9rem; color: #fff; }
 
 .nav-search .nav-search-input { font-size: 1rem; width: 200px; }
 
-.navbar { padding: 0; }
+.navbar { padding: 0.5rem inherit; align-items: center; }
 
 .container { max-width: 960px; }
 
