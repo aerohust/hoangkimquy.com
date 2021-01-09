@@ -48,8 +48,6 @@
   color: hsla(0,0%,100%,.8);
   padding: 1rem 0 1rem 0;
 
-  position: relative;
-  overflow-x: hidden;
 
 }
 .img-avatar{
@@ -131,19 +129,14 @@
 // page
 #page-header{
 
-  position: relative;
-  overflow-x: hidden;
+
 
   &:after {
     content: "";
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     width: 0;
     height: 0;
-    border-left: 50vw solid white;
-    border-right: 50vw solid white;
     border-top: 6vw solid transparent;
   }
 
