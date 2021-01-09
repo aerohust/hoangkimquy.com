@@ -43,6 +43,7 @@ $f-extra-bold: 800;
   }
 {% endfor %}
 
+@import 'icon';
 // only for vn site
 @import 'thi-vn'; // _thi-vn.scss
 @import 'tsection'; // _tsection.scss

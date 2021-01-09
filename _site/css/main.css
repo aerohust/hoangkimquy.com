@@ -57,6 +57,10 @@
 
 .nav-sketch.nav-current { color: #fff; text-decoration: none; }
 
+.fa { font-size: 1.3rem; }
+
+.navbar a { font-size: 1rem; font-weight: bold; }
+
 .navbar-custom span { margin-top: 5px; }
 
 .section { padding: 1rem 10px; }
