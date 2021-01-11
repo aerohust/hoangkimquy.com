@@ -65,6 +65,8 @@
 
 .navbar { padding: 0.5rem inherit; align-items: center; }
 
+.navbar a { font-size: 0.95rem; text-align: center; font-weight: bold; }
+
 .container { max-width: 960px; }
 
 .navbar-custom span { margin-top: 5px; }
