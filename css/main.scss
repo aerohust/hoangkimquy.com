@@ -23,8 +23,8 @@ $s-lg: 992px;
 $s-xl: 1200px;
 
 // font
-$f-main: 'Open Sans', sans-serif;
-$f-size: 1.1rem;
+$f-main: 'Comfortaa';
+$f-size: 1rem;
 $f-size-small: 0.9rem;
 
 $f-semi-bold: 600;
@@ -43,6 +43,7 @@ $f-extra-bold: 800;
   }
 {% endfor %}
 
+@import 'icon';
 // only for vn site
 @import 'thi-vn'; // _thi-vn.scss
 @import 'tsection'; // _tsection.scss
