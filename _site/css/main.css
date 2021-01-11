@@ -106,7 +106,7 @@
 
 @media (min-width: 350px) and (max-width: 575px) { .col-xs-6 { -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; position: relative; width: 100%; min-height: 1px; padding-right: 15px; padding-left: 15px; }
   .col-xs-4 { -ms-flex: 0 0 30%; flex: 0 0 30%; max-width: 30%; position: relative; width: 100%; min-height: 1px; padding-right: 10px; padding-left: 10px; } }
-body { font-family: "Comfortaa"; font-weight: bold; font-size: 1rem; }
+body { font-family: "Open Sans", sans-serif; font-size: 1.1rem; }
 
 a { color: #2f74bd; }
 
