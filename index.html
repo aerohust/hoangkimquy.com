@@ -19,7 +19,7 @@ js:
 
 {% include header.html type="index" %}
 
-<!-- thought2 -->
+<!-- thought -->
 <section class="alt-color section">
   <div class="container mb-5">
     {% include sec-title.html title="My thoughts" href="/thought" more="see full list" %}
@@ -29,8 +29,6 @@ js:
     </div>
   </div>
 </section>
-
-
 
 <!-- reading books -->
 <section class="alt-color section">
@@ -68,10 +66,21 @@ js:
   </div>
 </section>
 
-<!-- tutorials -->
+<!-- simulation -->
 <section class="alt-color section">
   <div class="container mb-5">
-    {% include sec-title.html title="Tutorials" href="/tutorial" more="see full list" %}
+    {% include sec-title.html title="My simulation" href="/simulation" more="see full list" %}
+    <div class="row row-eq-height justify-content-center">
+      {% assign element-source = site.categories.simulation %}
+      {% include post-layout.html type="thought2" source=element-source offset=0 img-src="/img/thought" limit=4 %}
+    </div>
+  </div>
+</section>
+
+<!-- note -->
+<section class="alt-color section">
+  <div class="container mb-5">
+    {% include sec-title.html title="My notes" href="/note" more="see full list" %}
     <div class="row row-eq-height justify-content-center">
       {% assign element-source = site.categories.tutorial %}
       {% include post-layout.html type="tutorial" source=element-source offset=0 img-src="/img/tutorial" limit=6 %}
@@ -79,33 +88,33 @@ js:
   </div>
 </section>
 
-<!-- thought -->
-<section class="alt-color section">
-  <div class="container mb-5">
-    {% include sec-title.html title="My thought 1" href="/thought" more="see full list" %}
-    <div class="row row-eq-height justify-content-center">
-      {% assign element-source = site.categories.thought %}
-      {% include post-layout.html type="thought" source=element-source offset=0 limit=6 %}
+<!-- more info -->
+<section class="section alt-color a-diff">
+  <div class="container">
+    {% include sec-title.html title="More information" %}
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 col-md-8 more-info">
+        <div class="item">
+			<i class="fa fa-map-marker" aria-hidden="true"></i>
+			<span class="info-title">Current</span> : Hanoi, Vietnam.
+		</div>
+		<div class="item">
+			<i class="fa fa-briefcase" aria-hidden="true"></i>
+			<span class="info-title">Current job</span> : Autodidact, reader, writer.
+		</div>
+		<div class="item">
+			<i class="fa fa-leanpub" aria-hidden="true"></i>
+			<span class="info-title">I'm studying</span> : XYZ.
+		</div>
+		<div class="item">
+			<i class="fa fa-book" aria-hidden="true"></i>
+			<span class="info-title">I'm reading</span> : ABC.
+		</div>
+		<div class="item">
+			<i class="fa fa-envelope" aria-hidden="true"></i>
+			<span class="info-title">Email</span> : <a href="mailto:{{site.author.email}}">{{site.author.email}}</a>
+		</div>
+      </div>
     </div>
   </div>
-</section>
-
-<!-- my notes -->
-{% include mynote.html %}
-
-<!-- sketch -->
-<section id="idx-sketch" class="alt-color section">
-  <div class="container mb-5">
-    {% include sec-title.html title="Latest sketches" href="/sketch" more="see other ones" %}
-    <div class="row justify-content-center">
-      {% assign nb_photos = site.data.setting.nsketch %}
-      {% assign nb_photos = nb_photos | plus: 0 %}
-      {% include sketch.html offset=0 limit=8 nbphotos = nb_photos %}
-    </div>
-  </div>
-</section>
-
-<!-- contact -->
-<section class="alt-color section">
-  {% include sec-form-contact.html %}
 </section>
