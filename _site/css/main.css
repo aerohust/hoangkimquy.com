@@ -49,13 +49,13 @@
 
 .nav-about.nav-current { color: #fff; text-decoration: none; }
 
-.nav-tutorial:hover .fa, .nav-tutorial.nav-current .fa { color: #fc5d76; }
+.nav-simulation:hover .fa, .nav-simulation.nav-current .fa { color: #fc5d76; }
 
-.nav-tutorial.nav-current { color: #fff; text-decoration: none; }
+.nav-simulation.nav-current { color: #fff; text-decoration: none; }
 
-.nav-sketch:hover .fa, .nav-sketch.nav-current .fa { color: #fdb54b; }
+.nav-note:hover .fa, .nav-note.nav-current .fa { color: #fdb54b; }
 
-.nav-sketch.nav-current { color: #fff; text-decoration: none; }
+.nav-note.nav-current { color: #fff; text-decoration: none; }
 
 .fa { font-size: 1.3rem; }
 

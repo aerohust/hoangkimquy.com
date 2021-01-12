@@ -20,13 +20,13 @@
   name: about
   color: 3292f6
 - title: Simulation
-  url: /tutorial
+  url: /simulation
   icon: fa-map-o
-  name: tutorial
+  name: simulation
   color: fc5d76
 - title: Notes
-  url: /sketch
-  icon: fa-pencil
-  name: sketch
+  url: /note
+  icon: fa-sticky-note
+  name: note
   color: fdb54b
 
