@@ -1,8 +1,8 @@
 ---
 layout: post
 header: reading
-title: "White Fang"
-subtitle: Jack London
+title: "Di tron"
+subtitle: Binh Ca
 subtitle_link: https://en.wikipedia.org/wiki/Jack_London
 tags: [fiction]
 img: s17_thumbnail.jpg
