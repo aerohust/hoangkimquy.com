@@ -45,11 +45,6 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 offset-md-2 col-12 text-center">
-            {% if page.nav == 'about' %}
-              <div class="img-avatar mb-3">
-                <img src="{{site.baseurl}}{{site.data.setting.author.avatar}}">
-              </div>
-            {% endif %}
             <h1>{{ page.title }}</h1>
             <h3>{{ page.subtitle }}</h3>
             {% if page.nav == 'about' %}
@@ -60,8 +55,9 @@
                 {% assign abt-cv = site.data.lang['mycv'].vn %}
                 {% assign abt-note = site.data.lang['mynote'].vn %}
               {% endif %}      
-              <a target="_blank" href="{{site.data.setting.author.cv}}" class="btn btn-primary btn-warning mt-3 font-weight-bold" role="button" style="color: #80357c;">{{abt-cv}}</a>
-              <a target="_blank" href="{{site.data.setting.author.mynote.url}}" class="btn btn-primary btn-success mt-3 font-weight-bold" role="button">{{ abt-note }}</a>
+              <a target="_blank" href="{{site.data.setting.author.fb}}" class="fa fa-facebook-square"></a>
+              <a target="_blank" href="{{site.data.setting.author.ins}}" class="fa fa-instagram"></a>
+              <a target="_blank" href="{{site.data.setting.author.yt}}" class="fa fa-youtube-square"></a>
             {% endif %}
           </div>
         </div>
@@ -115,17 +111,9 @@
           <div class="col-md-6 text-center idx-abt">
             
             <p>{{ idx-intro }}</p>
-            <p>
-                <b href="https://www.youtube.com/channel/UC0Vmv24itMFPBj839Mxht9w">
-                  <i class="fa fa-youtube-square"></i>
-                </b>
-                <b href="https://www.facebook.com/jesuisQuy.Aero/">
-                  <i class="fa fa-facebook-square"></i>
-                </b>
-                <b href="https://www.instagram.com/quyhk.in.hanoi/">
-                  <i class="fa fa-instagram"></i>
-                </b>
-            </p>
+              <a target="_blank" href="{{site.data.setting.author.fb}}" class="fa fa-facebook-square"></a>
+              <a target="_blank" href="{{site.data.setting.author.ins}}" class="fa fa-instagram"></a>
+              <a target="_blank" href="{{site.data.setting.author.yt}}" class="fa fa-youtube-square"></a>
           </div>
         </div>
       </div>
