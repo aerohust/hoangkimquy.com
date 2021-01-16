@@ -1,4 +1,287 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-16T17:22:23+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">Sự học là cả đời</title><link href="http://localhost:4000/simulation/su-hoc-la-ca-doi" rel="alternate" type="text/html" title="Sự học là cả đời" /><published>2021-01-11T00:00:00+01:00</published><updated>2021-01-11T00:00:00+01:00</updated><id>http://localhost:4000/simulation/su-hoc-la-ca-doi</id><content type="html" xml:base="http://localhost:4000/simulation/su-hoc-la-ca-doi">&lt;p&gt;Mới dạo facebook, vào nick một đứa, xem hình nó khi nó chụp nhận bằng tốt nghiệp và ghi caption thế này “&lt;em&gt;Kết thúc 16 năm đèn sách. Bay cái vèo!&lt;/em&gt;”. Nghĩ lại sinh viên và đa phần mọi người giờ chỉ nghĩ học như là một bổn phận, là một viên gạch “&lt;em&gt;cần-phải-có&lt;/em&gt;” trong cuộc đời chứ không phải học để bổ sung kiến thức và hỗ trợ cuộc sống.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-16T17:39:02+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">For the editor only</title><link href="http://localhost:4000/tutorial/for-the-editors-only" rel="alternate" type="text/html" title="For the editor only" /><published>2021-01-16T00:00:00+01:00</published><updated>2021-01-16T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/for-the-editors-only</id><content type="html" xml:base="http://localhost:4000/tutorial/for-the-editors-only">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  &lt;p&gt;This post is only for the editors, please read &lt;a href=&quot;/tutorial&quot;&gt;&lt;strong&gt;other posts&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  &lt;p&gt;Bài này chỉ dành cho tác giả blog, các bạn vui lòng đọc &lt;strong&gt;&lt;a href=&quot;/tutorial&quot;&gt;các bài khác&lt;/a&gt;&lt;/strong&gt; nhé.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;fa fa-list-ul&quot;&gt;&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;toc-content&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#front-matter&quot; id=&quot;markdown-toc-front-matter&quot;&gt;Front matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#inset-figures&quot; id=&quot;markdown-toc-inset-figures&quot;&gt;Inset figures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#side-by-side-figure-and-content&quot; id=&quot;markdown-toc-side-by-side-figure-and-content&quot;&gt;Side by side figure and content&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-codes&quot; id=&quot;markdown-toc-insert-codes&quot;&gt;Insert codes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-boxes&quot; id=&quot;markdown-toc-insert-boxes&quot;&gt;Insert boxes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#steps&quot; id=&quot;markdown-toc-steps&quot;&gt;Steps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#fonts--texts&quot; id=&quot;markdown-toc-fonts--texts&quot;&gt;Fonts &amp;amp; Texts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#math-expressions&quot; id=&quot;markdown-toc-math-expressions&quot;&gt;Math expressions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;front-matter&quot;&gt;Front matter&lt;/h2&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  &lt;p&gt;If you don’t want to use any item below, don’t write it down. &lt;code class=&quot;highlighter-rouge&quot;&gt;math: 0&lt;/code&gt; will be considered similarly to &lt;code class=&quot;highlighter-rouge&quot;&gt;math: 1&lt;/code&gt; and jekyll understand that they are the same unless you don’t write either of them.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;math: 1&lt;/code&gt; : only add if you wanna use math equations inside post.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt;: categories among &lt;code class=&quot;highlighter-rouge&quot;&gt;thought&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;reading&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;sketch&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt;: add new tag in &lt;code class=&quot;highlighter-rouge&quot;&gt;_data\tags.yml&lt;/code&gt; before using it.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt;: thumbnail of the post .&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bigimg&lt;/code&gt;: background photo of the post (showing on shared post on facebook)&lt;/li&gt;
+  &lt;li&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt; posts
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;snippet: 1&lt;/code&gt;: use if it post in category &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt; and you wanna pin it on top.&lt;/li&gt;
+      &lt;li&gt;Thumbnail for posts in tutorial should be saved in &lt;code class=&quot;highlighter-rouge&quot;&gt;/img/tutorial/&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;reading&lt;/code&gt; posts
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;subtitle&lt;/code&gt;: author&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;subtitle_link&lt;/code&gt;: author’s profile url&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;img: hnmkad.png&lt;/code&gt;: book cover (image’s url is &lt;em&gt;img/bookimg/&lt;/em&gt;)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rating: 3.5&lt;/code&gt;: rating of the book, must be a number, not string&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;update: 1&lt;/code&gt;: if you just update the content of the post. Notice that, the badge “update” is only showed if the updated date is under 7 days.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;notnumbering: 1&lt;/code&gt;: if you don’t want to number headings inside the post.
+    &lt;ul&gt;
+      &lt;li&gt;In the case you don’t want to number certain of headings, use &lt;code class=&quot;highlighter-rouge&quot;&gt;{:.nocount}&lt;/code&gt; before that heading.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;inset-figures&quot;&gt;Inset figures&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Normal inserting: &lt;code class=&quot;highlighter-rouge&quot;&gt;![Describe](link/to/figures)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Full width: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Full but modified: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full-normal.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Full but 50% width: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full-50.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Float to right: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/right.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Float to left: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/left.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;side-by-side-figure-and-content&quot;&gt;Side by side figure and content&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Figure on the left:&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row align-items-center img-aside&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+![Description](/link/to/figure)
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Contents
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Figure on the right (but above on a smaller view port):&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row align-items-center img-aside&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6 order-md-2&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+![Description](/link/to/figure)
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6 order-md-1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Contents.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;insert-codes&quot;&gt;Insert codes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you wanna add tag &lt;code class=&quot;highlighter-rouge&quot;&gt;{% this %}&lt;/code&gt;, use alert&lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;{% this &quot;}}%}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If you like this &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ this }}&lt;/code&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;{{ this &quot;}}}}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The rule&lt;/strong&gt;: use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;&lt;/code&gt; before the key-word and end with &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;}}&lt;/code&gt; before the end of key-word.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;An easier way&lt;/strong&gt;: use &lt;code class=&quot;highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; around the key-word. These two commands are also used for a block of codes,&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~~ {% raw %}{% for %}
+// line of codes
+{% end for %}{% endraw %} ~~~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;: For a beautiful display, put &lt;code class=&quot;highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; exactly like the above code.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;insert-boxes&quot;&gt;Insert boxes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Terminal box&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;terminal&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+$ sudo apt-get update
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Warning bootstrap : &lt;a href=&quot;https://getbootstrap.com/docs/4.1/components/alerts/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Success box (green):&lt;/p&gt;
+
+        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-success&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Warning (yellow)&lt;/p&gt;
+
+        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-warning&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Danger (red)&lt;/p&gt;
+        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-danger&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+      &lt;p&gt;If you wanna insert a block of math inside above boxes, don’t foget to wrap them inside a p tag.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quotes I like (hide/show)&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btTomTat&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsed&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-toggle=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#ndTomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;Highlights I like&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ndTomTat&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse multi-collapse ndTomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Contents.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Definition box&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;def-box&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;dn1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  Title
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  Content
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content of step 1.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content of step 2.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;fonts--texts&quot;&gt;Fonts &amp;amp; Texts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Info&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-more&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Information&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Marked texts: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;mark&amp;gt;texts&amp;lt;/mark&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Keyboard: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;kbd&amp;gt;B&amp;lt;/kbd&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;More link:
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include more.html content=&quot;[text](link)&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Subject: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sbj&amp;gt;Texts&amp;lt;/sbj&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hide/show description for links&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[**Title**](link){:target=&quot;_blank&quot;} other texts. [*(my comments)*](#des-1){:data-toggle=&quot;collapse&quot; .my-des}
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;des&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;des-1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse multi-collapse&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;descriptions&lt;span class=&quot;nt&quot;&gt;&amp;lt;/des&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;math-expressions&quot;&gt;Math expressions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inline math, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$math-expression$&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Block of math, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$math block$$&lt;/code&gt; or&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you wanna insert some special characters, you must put &lt;code class=&quot;highlighter-rouge&quot;&gt;\&lt;/code&gt; before this character, for instance, &lt;code class=&quot;highlighter-rouge&quot;&gt;\\{ 1,2,3 \\}&lt;/code&gt; gives $\{ 1,2,3 \}$&lt;/li&gt;
+  &lt;li&gt;If you type inline maths which contain chatacters &lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt;, you must add &lt;code class=&quot;highlighter-rouge&quot;&gt;\&lt;/code&gt; before each of them, for example, &lt;code class=&quot;highlighter-rouge&quot;&gt;a\_1&lt;/code&gt; give $a_1$.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;||&lt;/code&gt; for absolute values, let’s use &lt;code class=&quot;highlighter-rouge&quot;&gt;\vert \vert&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;\left\| \right\|&lt;/code&gt; for norms, use &lt;code class=&quot;highlighter-rouge&quot;&gt;\Vert \Vert&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; for star symbols, use &lt;code class=&quot;highlighter-rouge&quot;&gt;\ast&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;If you wanna type &lt;code class=&quot;highlighter-rouge&quot;&gt;\\&lt;/code&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;\\\\&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you wanna type an inline matrix, e.g., $[A]=\begin{bmatrix}1 &amp;amp; 2 \\ 2 &amp;amp; 3.999 \end{bmatrix}$, type like below,&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\\\\&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In order to use &lt;code class=&quot;highlighter-rouge&quot;&gt;\label{}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\eqref{}&lt;/code&gt; like in latex, use&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+
+Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\eqref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$&lt;/span&gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You don’t need an enviroment &lt;code class=&quot;highlighter-rouge&quot;&gt;align&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;equation&lt;/code&gt; to use &lt;code class=&quot;highlighter-rouge&quot;&gt;\label&lt;/code&gt;, you can use it with &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt; only, for example,&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+
+Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\eqref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$&lt;/span&gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="tutorial" /><category term="admin" /><summary type="html">This post is only for the editors, please read other posts.</summary></entry><entry><title type="html">Sự học là cả đời</title><link href="http://localhost:4000/simulation/su-hoc-la-ca-doi" rel="alternate" type="text/html" title="Sự học là cả đời" /><published>2021-01-11T00:00:00+01:00</published><updated>2021-01-11T00:00:00+01:00</updated><id>http://localhost:4000/simulation/su-hoc-la-ca-doi</id><content type="html" xml:base="http://localhost:4000/simulation/su-hoc-la-ca-doi">&lt;p&gt;Mới dạo facebook, vào nick một đứa, xem hình nó khi nó chụp nhận bằng tốt nghiệp và ghi caption thế này “&lt;em&gt;Kết thúc 16 năm đèn sách. Bay cái vèo!&lt;/em&gt;”. Nghĩ lại sinh viên và đa phần mọi người giờ chỉ nghĩ học như là một bổn phận, là một viên gạch “&lt;em&gt;cần-phải-có&lt;/em&gt;” trong cuộc đời chứ không phải học để bổ sung kiến thức và hỗ trợ cuộc sống.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Học sinh đi học vì ba mẹ bắt, vì đến trường “vui hơn” ở nhà, có nhiều bạn.&lt;/li&gt;
@@ -323,290 +606,7 @@ Below comments are in Vietnamese, please wait for an English version.
 
 &lt;p&gt;&lt;em&gt;09/08/2019&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;H.K.Q&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="cảm nhận" /><category term="paris" /><category term="Hà Nội" /><category term="hồi ký" /><summary type="html">Rời quán café trên phố Nguyễn Biểu, chúng tôi lặng lẽ chia tay nhau giữa dòng người đông đúc. Đầu tôi vương lại câu hỏi ngỏ của Bảo Ngọc: “Liệu chúng mình còn có thể gặp nhau bên trời Âu được không nhỉ?” Tôi cười, không trả lời cô, nhưng trong lòng thì lại không ngừng mong chờ ngày ấy. Hôm nay, Paris giảm một độ. Mùa hạ sắp qua. Mưa rả rích. Lưa thưa vài người. Công ty. Tôi. Màn hình máy tính. E-mail của sếp. Một đống ngổn ngang. Điện thoại rung… “Này Quý, mong ước của chúng mình sắp thực hiện được rồi. Cuối tháng 8 này tớ qua Lyon học M2. Không những là trời Âu mà còn cùng là Pháp nữa nhé!” Tôi không giấu nổi niềm vui lúc này. Cô nàng Ngoại Thương tôi tình cờ quen biết đã chạm tay đến giấc mơ của cô ấy. “Ừ, mảnh đất lục lăng luôn chờ đón cậu!”, “và tớ cũng như vậy!”. Nhưng tôi chỉ nói vế đầu của câu kia. Điện thoại rung… “Thứ 6 tuần sau tao bay sang Mỹ rồi!” Dù biết trước là nó sẽ đi nhưng trong lòng tôi vẫn còn chút vương vấn. “Tối đi làm về tao call.” Tôi trả lời nó. “Tao giờ bận lắm. Nhiều thứ phải chuẩn bị. Qua đó, tao sẽ call cho mày ngay.” Cái thằng ngày nào vẫn còn hậm hực mỗi lúc tôi nhờ nó chuyển nhà. Rồi thuốc thang, nấu nướng, giặt giũ lúc tôi ốm. Giờ đây, nó cũng chạm tới giấc mơ mà nó hằng mong ước rồi. Điện thoại rung… “Anh về với em luôn được không?!” Giọng em có vẻ nhõng nhẽo. “Ít nhất thì anh cũng phải hoàn thành xong chương trình đang học đã chứ!” “Không cần! Về đây đi!” “Anh chưa đủ tự tin để về bên em!” Dòng tin nhắn này tôi viết rồi lại xoá đi. Thay vào đó, tôi gửi: “Về em nuôi anh à? =)))” “Không! Bảo mẹ em nuôi =)))!” Tôi không tập trung được nữa. Lướt qua vài trang báo tôi hay đọc và mục điểm sách tôi hay xem. Tôi dừng lại ở dòng tin “Nhã Nam Books N’ Coffee Times City sẽ dừng hoạt động.” Mưa vẫn rơi. Những giọt nước đọng trên cửa kính như đầy luyến lưu. Nhắm mắt… Sấu chín, giấu điều thầm kín, ngọt rồi lại chua. Trở về phố xưa, thơm lừng hoa sữa. Thêm điều nhỏ nữa… Những chiều nhớ mong những gánh hàng rong, đôi vai nặng trĩu, mang phần bận bịu góc nhỏ đìu hiu. Tôi. Mở mắt… “Rồi Hà Nội sẽ còn lại những điều chi?” 09/08/2019 H.K.Q</summary></entry><entry><title type="html">For the editor only</title><link href="http://localhost:4000/tutorial/for-the-editors-only" rel="alternate" type="text/html" title="For the editor only" /><published>2018-12-27T00:00:00+01:00</published><updated>2018-12-27T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/for-the-editors-only</id><content type="html" xml:base="http://localhost:4000/tutorial/for-the-editors-only">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
-  &lt;p&gt;This post is only for the editors, please read &lt;a href=&quot;/tutorial&quot;&gt;&lt;strong&gt;other posts&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
-  &lt;p&gt;Bài này chỉ dành cho tác giả blog, các bạn vui lòng đọc &lt;strong&gt;&lt;a href=&quot;/tutorial&quot;&gt;các bài khác&lt;/a&gt;&lt;/strong&gt; nhé.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;toc&quot;&gt;
-  &lt;div class=&quot;toc-title&quot;&gt;
-    &lt;i class=&quot;fa fa-list-ul&quot;&gt;&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;toc-content&quot;&gt;
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#front-matter&quot; id=&quot;markdown-toc-front-matter&quot;&gt;Front matter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#inset-figures&quot; id=&quot;markdown-toc-inset-figures&quot;&gt;Inset figures&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#side-by-side-figure-and-content&quot; id=&quot;markdown-toc-side-by-side-figure-and-content&quot;&gt;Side by side figure and content&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#insert-codes&quot; id=&quot;markdown-toc-insert-codes&quot;&gt;Insert codes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#insert-boxes&quot; id=&quot;markdown-toc-insert-boxes&quot;&gt;Insert boxes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#steps&quot; id=&quot;markdown-toc-steps&quot;&gt;Steps&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#fonts--texts&quot; id=&quot;markdown-toc-fonts--texts&quot;&gt;Fonts &amp;amp; Texts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#math-expressions&quot; id=&quot;markdown-toc-math-expressions&quot;&gt;Math expressions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;front-matter&quot;&gt;Front matter&lt;/h2&gt;
-
-&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
-  &lt;p&gt;If you don’t want to use any item below, don’t write it down. &lt;code class=&quot;highlighter-rouge&quot;&gt;math: 0&lt;/code&gt; will be considered similarly to &lt;code class=&quot;highlighter-rouge&quot;&gt;math: 1&lt;/code&gt; and jekyll understand that they are the same unless you don’t write either of them.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;math: 1&lt;/code&gt; : only add if you wanna use math equations inside post.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt;: categories among &lt;code class=&quot;highlighter-rouge&quot;&gt;thought&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;reading&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;sketch&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt;: add new tag in &lt;code class=&quot;highlighter-rouge&quot;&gt;_data\tags.yml&lt;/code&gt; before using it.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt;: thumbnail of the post .&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bigimg&lt;/code&gt;: background photo of the post (showing on shared post on facebook)&lt;/li&gt;
-  &lt;li&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt; posts
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;snippet: 1&lt;/code&gt;: use if it post in category &lt;code class=&quot;highlighter-rouge&quot;&gt;tutorial&lt;/code&gt; and you wanna pin it on top.&lt;/li&gt;
-      &lt;li&gt;Thumbnail for posts in tutorial should be saved in &lt;code class=&quot;highlighter-rouge&quot;&gt;/img/tutorial/&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;For &lt;code class=&quot;highlighter-rouge&quot;&gt;reading&lt;/code&gt; posts
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;subtitle&lt;/code&gt;: author&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;subtitle_link&lt;/code&gt;: author’s profile url&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;img: hnmkad.png&lt;/code&gt;: book cover (image’s url is &lt;em&gt;img/bookimg/&lt;/em&gt;)&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rating: 3.5&lt;/code&gt;: rating of the book, must be a number, not string&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;update: 1&lt;/code&gt;: if you just update the content of the post. Notice that, the badge “update” is only showed if the updated date is under 7 days.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;notnumbering: 1&lt;/code&gt;: if you don’t want to number headings inside the post.
-    &lt;ul&gt;
-      &lt;li&gt;In the case you don’t want to number certain of headings, use &lt;code class=&quot;highlighter-rouge&quot;&gt;{:.nocount}&lt;/code&gt; before that heading.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;inset-figures&quot;&gt;Inset figures&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Normal inserting: &lt;code class=&quot;highlighter-rouge&quot;&gt;![Describe](link/to/figures)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Full width: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Full but modified: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full-normal.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Full but 50% width: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/full-50.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Float to right: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/right.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Float to left: &lt;code class=&quot;highlighter-rouge&quot;&gt;{% include img/left.html src=&quot;link/to/figures&quot; des=&quot;description&quot; %}&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;side-by-side-figure-and-content&quot;&gt;Side by side figure and content&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Figure on the left:&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row align-items-center img-aside&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-![Description](/link/to/figure)
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-Contents
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Figure on the right (but above on a smaller view port):&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row align-items-center img-aside&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6 order-md-2&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-![Description](/link/to/figure)
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col-md-6 order-md-1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-Contents.
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;insert-codes&quot;&gt;Insert codes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you wanna add tag &lt;code class=&quot;highlighter-rouge&quot;&gt;{% this %}&lt;/code&gt;, use alert&lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;{% this &quot;}}%}&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;If you like this &lt;code class=&quot;highlighter-rouge&quot;&gt;{{ this }}&lt;/code&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;{{ this &quot;}}}}&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;The rule&lt;/strong&gt;: use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{&quot;&lt;/code&gt; before the key-word and end with &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;}}&lt;/code&gt; before the end of key-word.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;An easier way&lt;/strong&gt;: use &lt;code class=&quot;highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; around the key-word. These two commands are also used for a block of codes,&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~~ {% raw %}{% for %}
-// line of codes
-{% end for %}{% endraw %} ~~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;: For a beautiful display, put &lt;code class=&quot;highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; exactly like the above code.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;insert-boxes&quot;&gt;Insert boxes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Terminal box&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;terminal&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-$ sudo apt-get update
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Warning bootstrap : &lt;a href=&quot;https://getbootstrap.com/docs/4.1/components/alerts/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Success box (green):&lt;/p&gt;
-
-        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-success&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-Content
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Warning (yellow)&lt;/p&gt;
-
-        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-warning&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-Content
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Danger (red)&lt;/p&gt;
-        &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert alert-danger&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alert&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-Content
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
-      &lt;p&gt;If you wanna insert a block of math inside above boxes, don’t foget to wrap them inside a p tag.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Quotes I like (hide/show)&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btTomTat&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsed&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-toggle=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#ndTomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;Highlights I like&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ndTomTat&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse multi-collapse ndTomTat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-Contents.
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Definition box&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;def-box&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;dn1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  Title
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  Content
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-Content of step 1.
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-Content of step 2.
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;fonts--texts&quot;&gt;Fonts &amp;amp; Texts&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Info&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-more&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Information&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Marked texts: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;mark&amp;gt;texts&amp;lt;/mark&amp;gt;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Keyboard: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;kbd&amp;gt;B&amp;lt;/kbd&amp;gt;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;More link:
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include more.html content=&quot;[text](link)&quot; %}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Subject: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sbj&amp;gt;Texts&amp;lt;/sbj&amp;gt;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Hide/show description for links&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[**Title**](link){:target=&quot;_blank&quot;} other texts. [*(my comments)*](#des-1){:data-toggle=&quot;collapse&quot; .my-des}
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;des&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;des-1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapse multi-collapse&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;descriptions&lt;span class=&quot;nt&quot;&gt;&amp;lt;/des&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;math-expressions&quot;&gt;Math expressions&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Inline math, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$math-expression$&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Block of math, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$math block$$&lt;/code&gt; or&lt;/p&gt;
-
-    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
-x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;If you wanna insert some special characters, you must put &lt;code class=&quot;highlighter-rouge&quot;&gt;\&lt;/code&gt; before this character, for instance, &lt;code class=&quot;highlighter-rouge&quot;&gt;\\{ 1,2,3 \\}&lt;/code&gt; gives $\{ 1,2,3 \}$&lt;/li&gt;
-  &lt;li&gt;If you type inline maths which contain chatacters &lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt;, you must add &lt;code class=&quot;highlighter-rouge&quot;&gt;\&lt;/code&gt; before each of them, for example, &lt;code class=&quot;highlighter-rouge&quot;&gt;a\_1&lt;/code&gt; give $a_1$.&lt;/li&gt;
-  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;||&lt;/code&gt; for absolute values, let’s use &lt;code class=&quot;highlighter-rouge&quot;&gt;\vert \vert&lt;/code&gt; instead.&lt;/li&gt;
-  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;\left\| \right\|&lt;/code&gt; for norms, use &lt;code class=&quot;highlighter-rouge&quot;&gt;\Vert \Vert&lt;/code&gt; instead.&lt;/li&gt;
-  &lt;li&gt;Don’t use &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; for star symbols, use &lt;code class=&quot;highlighter-rouge&quot;&gt;\ast&lt;/code&gt; instead.&lt;/li&gt;
-  &lt;li&gt;If you wanna type &lt;code class=&quot;highlighter-rouge&quot;&gt;\\&lt;/code&gt;, type &lt;code class=&quot;highlighter-rouge&quot;&gt;\\\\&lt;/code&gt; instead.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you wanna type an inline matrix, e.g., $[A]=\begin{bmatrix}1 &amp;amp; 2 \\ 2 &amp;amp; 3.999 \end{bmatrix}$, type like below,&lt;/p&gt;
-
-    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\\\\&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In order to use &lt;code class=&quot;highlighter-rouge&quot;&gt;\label{}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\eqref{}&lt;/code&gt; like in latex, use&lt;/p&gt;
-
-    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
-x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n
-&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
-
-Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\eqref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$&lt;/span&gt;.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You don’t need an enviroment &lt;code class=&quot;highlighter-rouge&quot;&gt;align&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;equation&lt;/code&gt; to use &lt;code class=&quot;highlighter-rouge&quot;&gt;\label&lt;/code&gt;, you can use it with &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt; only, for example,&lt;/p&gt;
-
-    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
-x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
-
-Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\eqref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$&lt;/span&gt;.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="tutorial" /><category term="admin" /><summary type="html">This post is only for the editors, please read other posts.</summary></entry><entry><title type="html">Math2IT</title><link href="http://localhost:4000/project/math2it" rel="alternate" type="text/html" title="Math2IT" /><published>2018-08-26T00:00:00+02:00</published><updated>2018-08-26T00:00:00+02:00</updated><id>http://localhost:4000/project/math2it</id><content type="html" xml:base="http://localhost:4000/project/math2it">&lt;p&gt;Xin chào các bạn.&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><summary type="html">Xin chào các bạn.</summary></entry><entry><title type="html">Predictably Irrational</title><link href="http://localhost:4000/reading/predictably-irrational" rel="alternate" type="text/html" title="Predictably Irrational" /><published>2018-06-22T00:00:00+02:00</published><updated>2018-06-22T00:00:00+02:00</updated><id>http://localhost:4000/reading/predictably-irrational</id><content type="html" xml:base="http://localhost:4000/reading/predictably-irrational">&lt;h4 class=&quot;post-more&quot;&gt;Information&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;H.K.Q&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="cảm nhận" /><category term="paris" /><category term="Hà Nội" /><category term="hồi ký" /><summary type="html">Rời quán café trên phố Nguyễn Biểu, chúng tôi lặng lẽ chia tay nhau giữa dòng người đông đúc. Đầu tôi vương lại câu hỏi ngỏ của Bảo Ngọc: “Liệu chúng mình còn có thể gặp nhau bên trời Âu được không nhỉ?” Tôi cười, không trả lời cô, nhưng trong lòng thì lại không ngừng mong chờ ngày ấy. Hôm nay, Paris giảm một độ. Mùa hạ sắp qua. Mưa rả rích. Lưa thưa vài người. Công ty. Tôi. Màn hình máy tính. E-mail của sếp. Một đống ngổn ngang. Điện thoại rung… “Này Quý, mong ước của chúng mình sắp thực hiện được rồi. Cuối tháng 8 này tớ qua Lyon học M2. Không những là trời Âu mà còn cùng là Pháp nữa nhé!” Tôi không giấu nổi niềm vui lúc này. Cô nàng Ngoại Thương tôi tình cờ quen biết đã chạm tay đến giấc mơ của cô ấy. “Ừ, mảnh đất lục lăng luôn chờ đón cậu!”, “và tớ cũng như vậy!”. Nhưng tôi chỉ nói vế đầu của câu kia. Điện thoại rung… “Thứ 6 tuần sau tao bay sang Mỹ rồi!” Dù biết trước là nó sẽ đi nhưng trong lòng tôi vẫn còn chút vương vấn. “Tối đi làm về tao call.” Tôi trả lời nó. “Tao giờ bận lắm. Nhiều thứ phải chuẩn bị. Qua đó, tao sẽ call cho mày ngay.” Cái thằng ngày nào vẫn còn hậm hực mỗi lúc tôi nhờ nó chuyển nhà. Rồi thuốc thang, nấu nướng, giặt giũ lúc tôi ốm. Giờ đây, nó cũng chạm tới giấc mơ mà nó hằng mong ước rồi. Điện thoại rung… “Anh về với em luôn được không?!” Giọng em có vẻ nhõng nhẽo. “Ít nhất thì anh cũng phải hoàn thành xong chương trình đang học đã chứ!” “Không cần! Về đây đi!” “Anh chưa đủ tự tin để về bên em!” Dòng tin nhắn này tôi viết rồi lại xoá đi. Thay vào đó, tôi gửi: “Về em nuôi anh à? =)))” “Không! Bảo mẹ em nuôi =)))!” Tôi không tập trung được nữa. Lướt qua vài trang báo tôi hay đọc và mục điểm sách tôi hay xem. Tôi dừng lại ở dòng tin “Nhã Nam Books N’ Coffee Times City sẽ dừng hoạt động.” Mưa vẫn rơi. Những giọt nước đọng trên cửa kính như đầy luyến lưu. Nhắm mắt… Sấu chín, giấu điều thầm kín, ngọt rồi lại chua. Trở về phố xưa, thơm lừng hoa sữa. Thêm điều nhỏ nữa… Những chiều nhớ mong những gánh hàng rong, đôi vai nặng trĩu, mang phần bận bịu góc nhỏ đìu hiu. Tôi. Mở mắt… “Rồi Hà Nội sẽ còn lại những điều chi?” 09/08/2019 H.K.Q</summary></entry><entry><title type="html">Math2IT</title><link href="http://localhost:4000/project/math2it" rel="alternate" type="text/html" title="Math2IT" /><published>2018-08-26T00:00:00+02:00</published><updated>2018-08-26T00:00:00+02:00</updated><id>http://localhost:4000/project/math2it</id><content type="html" xml:base="http://localhost:4000/project/math2it">&lt;p&gt;Xin chào các bạn.&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><summary type="html">Xin chào các bạn.</summary></entry><entry><title type="html">Predictably Irrational</title><link href="http://localhost:4000/reading/predictably-irrational" rel="alternate" type="text/html" title="Predictably Irrational" /><published>2018-06-22T00:00:00+02:00</published><updated>2018-06-22T00:00:00+02:00</updated><id>http://localhost:4000/reading/predictably-irrational</id><content type="html" xml:base="http://localhost:4000/reading/predictably-irrational">&lt;h4 class=&quot;post-more&quot;&gt;Information&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Full title&lt;/strong&gt;: Predictably Irrational: The Hidden Forces That Shape Our Decisions&lt;/li&gt;
