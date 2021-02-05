@@ -49,6 +49,18 @@
 .snippet .thought-main .element-date { display: none; }
 .snippet .thought-main .element-subtitle { display: none; }
 
+.simulation-main a:hover .element-date { opacity: .9; color: #222; }
+.simulation-main:hover img { transform: scale(1.1); }
+.simulation-main .element-subtitle { display: none; }
+.simulation-main .element-description { display: none; }
+.simulation-main .element-photo { height: 100px; margin: 0 auto 10px auto; overflow: hidden; border-radius: 7px; }
+.simulation-main .element-photo img { width: 100%; height: 100%; transition: transform .2s; object-fit: cover; }
+@media (min-width: 992px) { .simulation-main .element-photo { height: 120px; } }
+@media (min-width: 1200px) { .simulation-main .element-photo { height: 150px; } }
+.simulation-main .element-title { font-size: 1.1rem; }
+.simulation-main .element-date { font-size: 0.8rem; opacity: 0.8; margin-top: 5px; }
+.simulation-main .ribbon { top: 18px; right: -46px; }
+
 .thought2-main a:hover .element-date { opacity: .9; color: #222; }
 .thought2-main:hover img { transform: scale(1.1); }
 .thought2-main .element-subtitle { display: none; }

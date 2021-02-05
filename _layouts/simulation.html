@@ -1,12 +1,12 @@
 ---
 layout: page
 more-css:
-  - "/css/thought.css"
+  - "/css/simulation.css"
   - "/css/tag-page.css"
 ---
 
 {% assign cpage = page.current_page %}
-{% for post in site.categories.thought %}
+{% for post in site.categories.simulation %}
   {% assign nbposts = forloop.length %}
   {% break %}
 {% endfor %}
@@ -24,7 +24,7 @@ more-css:
           Post by tags
         </h4>
         <hr class="mt-1">
-        {% include tag-list.html src="/tags/thought" %}
+        {% include tag-list.html src="/tags/simulation" %}
       </div>
     </div>
   </div>
@@ -34,16 +34,16 @@ more-css:
   <div class="container">
     {% if total_page > 1 %}
       <div class="mb-2">
-        {% include pagination.html type="thought" %}
+        {% include pagination.html type="simulation" %}
       </div>
     {% endif %}
     <div class="row justify-content-center">
       {% assign element-source = site.categories.simulation %}
-      {% include post-layout.html type="thought2" source=element-source offset=off_set limit=16 img-src="/img/thought"%}
+      {% include post-layout.html type="simulation" source=element-source offset=off_set limit=16 img-src="/img/simulation"%}
     </div>
     {% if total_page > 1 %}
       <div class="my-2">
-        {% include pagination.html type="thought" %}
+        {% include pagination.html type="simulation" %}
       </div>
     {% endif %}
   </div>

@@ -2,11 +2,13 @@
   {% assign more_title = site.data.lang['more_post'].title.en %}
   {% assign more_reading = site.data.lang['section'].reading.more.en %}
   {% assign more_thought = site.data.lang['section'].thought.more.en %}
+  {% assign more_simulation = site.data.lang['section'].simulation.more.en %}
   {% assign more_tutorial = site.data.lang['section'].tutorial.more.en %}
 {% else %}
   {% assign more_title = site.data.lang['more_post'].title.vn %}
   {% assign more_reading = site.data.lang['section'].reading.more.vn %}
   {% assign more_thought = site.data.lang['section'].thought.more.vn %}
+  {% assign more_simulation = site.data.lang['section'].simulation.more.vn %}
   {% assign more_tutorial = site.data.lang['section'].tutorial.more.vn %}
 {% endif %}
 
@@ -24,6 +26,12 @@
     {% assign img-src = '/img/thought' | prepend: site.baseurl %}
     {% assign limit = 4 %}
     {% include sec-title.html title=more_title href="/thought" more=more_thought %}
+  {% when "simulation" %}
+    {% assign class-col = 'col-6 col-sm-4 col-md-3 text-center mb-3' %}
+    {% assign class-main = 'thought2-main text-center' %}
+    {% assign img-src = '/img/simulation' | prepend: site.baseurl %}
+    {% assign limit = 4 %}
+    {% include sec-title.html title=more_title href="/simulation" more=more_simulation %}
   {% when "tutorial" %}
     {% assign class-main = 'tutorial-main' %}
     {% assign class-col = 'col-6 col-md-4 col-lg-2 p-2' %}
