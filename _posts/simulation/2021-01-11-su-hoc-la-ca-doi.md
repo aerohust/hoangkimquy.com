@@ -2,7 +2,7 @@
 layout: post
 title: "Sự học là cả đời"
 subtitle: "Học, học nữa, học mãi"
-tags: [giáo dục, cảm nhận]
+tags: [simulation]
 img: s6_thumbnail.jpg
 categories: simulation
 ---

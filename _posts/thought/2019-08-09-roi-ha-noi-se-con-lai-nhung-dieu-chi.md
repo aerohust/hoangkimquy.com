@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rồi Hà Nội sẽ còn lại những điều chi?"
-tags: [cảm nhận,paris,Hà Nội,hồi ký]
+tags: [feeling,paris,hanoi,memoirs]
 categories: thought
 img: ho-tay-ha-noi.jpg
 ---
