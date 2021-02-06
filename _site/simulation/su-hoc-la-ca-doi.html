@@ -14,12 +14,12 @@
 
   <title>
     
-      Quy Bookrista | Sự học là cả đời
+      Quy Bookrista | Thermal analysis of teapot
     
   </title>
 
   
-    <meta name="description" content="Học, học nữa, học mãi">
+    <meta name="description" content="Steady State Thermal Analysis">
   
 
   <!-- feed -->
@@ -93,11 +93,11 @@
   
 
   
-    <meta property="og:title" content="Sự học là cả đời" />
+    <meta property="og:title" content="Thermal analysis of teapot" />
   
 
   
-    <meta property="og:description" content="Học, học nữa, học mãi">
+    <meta property="og:description" content="Steady State Thermal Analysis">
   
 
 
@@ -126,27 +126,34 @@
     
 
     <script type="text/javascript">
-      var Titles = ["Sự học là cả đời"];
+      var Titles = ["Thermal analysis of teapot"];
       var Urls = ["/simulation/su-hoc-la-ca-doi"];
       
-        var Subtitles = ["Học, học nữa, học mãi"];
+        var Subtitles = ["Steady State Thermal Analysis"];
       
       
-        var Dates = ["11 Jan 2021"];
+        var Dates = ["01 Feb 2021"];
       
       
       
-        var Imgs = ["s6_thumbnail.jpg"];
+        var Imgs = ["teapot.png"];
       
       
 
       
       
-      var Updates = ["false"];
+      var Updates = ["true"];
     </script>
 
   
 
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
   
 
 </head>
@@ -263,9 +270,9 @@
         <div class="row">
           <div class="col-md-8 offset-md-2 col-12 text-center">
             
-            <h1>Sự học là cả đời</h1>
-            <h3>Học, học nữa, học mãi</h3>
-            <h3 class="header-date">11 Jan 2021</h3>
+            <h1>Thermal analysis of teapot</h1>
+            <h3>Steady State Thermal Analysis</h3>
+            <h3 class="header-date">01 Feb 2021</h3>
           </div>
         </div>
       </div>
@@ -278,21 +285,40 @@
   <div class="row justify-content-center">
     <div class="col-md-10 col-lg-8 col-12">
       <div class="post-content mb-4">
-        <p>Mới dạo facebook, vào nick một đứa, xem hình nó khi nó chụp nhận bằng tốt nghiệp và ghi caption thế này “<em>Kết thúc 16 năm đèn sách. Bay cái vèo!</em>”. Nghĩ lại sinh viên và đa phần mọi người giờ chỉ nghĩ học như là một bổn phận, là một viên gạch “<em>cần-phải-có</em>” trong cuộc đời chứ không phải học để bổ sung kiến thức và hỗ trợ cuộc sống.</p>
+        <div class="alert alert-success" role="alert">
+  <p>This example is reproduced from <a href="https://www.ansys.com/"><strong>ANSYS</strong></a>.</p>
+</div>
 
-<ul>
-  <li>Học sinh đi học vì ba mẹ bắt, vì đến trường “vui hơn” ở nhà, có nhiều bạn.</li>
-  <li>Sinh viên thì đi học vì chả biết làm gì ở cái xã hội Việt Nam này, đua nhau vào các trường cao đẳng đại học, phải có cái mác “đậu đại học” thì mới chịu. Đến năm 4 thì bắt đầu thấy lo là sẽ làm gì khi không còn “cớ” để đi học nữa. Rồi lao đầu vào tìm “tiền” chứ không dám nói tìm việc vì tìm việc vốn dĩ là tìm cái nghề mà ta đã học và tích lũy 4 năm đèn sách kia, đăng này giờ đây họ mới nghiêm túc suy nghĩ về câu hỏi “<em>Ta phù hợp với nghề gì đây?</em>”</li>
-  <li>Người vừa đi làm thì thở phào nhẹ nhõm vì đã có nơi cho họ không bị chết đói và không phải hổ thẹn mỗi khi người khác hỏi “con đang làm gì?”</li>
+<div id="toc">
+  <div class="toc-title">
+    <i class="fa fa-list-ul"></i><span>In this post</span>
+  </div>
+  <div class="toc-content">
+<ul id="markdown-toc">
+  <li><a href="#overview" id="markdown-toc-overview">Overview</a></li>
+  <li><a href="#goal" id="markdown-toc-goal">Goal</a></li>
+  <li><a href="#modeling-steps" id="markdown-toc-modeling-steps">Modeling Steps</a></li>
+  <li><a href="#summary" id="markdown-toc-summary">Summary</a></li>
 </ul>
 
-<p>Xem các bộ phim nước ngoài, ở các nước tiên tiến, dù biết rằng nó “ảo” cũng phần nào đó nhưng cũng thể hiện được những kiến thức mà học sinh, sinh viên bên ấy học được áp dụng rất tốt vào cuộc sống và công việc của họ.</p>
+  </div>
+</div>
 
-<p>Rồi đi lại bên này mới thấy rằng người phương Tây họ đọc sách, báo chí, học hỏi kinh nghiệm nhau ở những buổi séminaire, thuyết trình, hội thảo rất rất là nhiều không chỉ trong giới khoa học.</p>
+<h2 id="overview">Overview</h2>
+<p>In this example we intend to perform thermal analysis of a tea pot and indicate the temperature distribution in a steady state and transient analysis for steel material and for porcelain material.</p>
 
-<p>Đi làm là sẽ <strong>dừng học</strong> ư? Bạn có dám nhìn nhận lại rằng đi làm chính là lúc bạn mới bắt đầu <strong>học thật sự</strong> không? Bạn học hỏi kinh nghiệm ở nơi làm việc mới, điều mà không có bất cứ giảng đường đại học nào dạy bạn. Học hỏi kiến thức chuyên môn mang tính thực hành còn hơn cả các kiến thức hàn lâm bạn đạt được con điểm 10 ở trường đại học. Bạn bắt đầu tìm tòi những thuật ngữ, những cách làm nhanh hơn, tiến bộ hơn phục vụ cho công việc của bạn. Đấy không là học chứ làm gì?</p>
+<h2 id="goal">Goal</h2>
+<p>To perform steady state and transient thermal analysis for steel and porcelain tea pot.</p>
 
-<p>Học không phải là lấy cuốn vở, cây viết, đeo cái cặp lên vai và đi đến trường. Bạn đừng nghĩ học chỉ dành cho tụi trẻ con, còn bạn đã đi làm, đã trở thành người lớn rồi thì chả việc gì phải học nữa. Việc học là cả đời, không chỉ học cho bạn, học còn để cho con bạn, cho cháu bạn, cho gia đình mà bạn chưa và phải gánh vác sau này.</p>
+<h2 id="modeling-steps">Modeling Steps</h2>
+<p><strong>3.1.</strong> Open Ansys workbench, create a “Steady State Thermal System” system</p>
+
+<p><strong>3.2.</strong> Define material property for the parts. Steel and Porcelain are used here just for demonstration purpose, but proper material property should be used.</p>
+
+<p><strong>3.3.</strong> Import model and suppress half-symmetric portion of the model. After suppressing the half portion, the model will look like as indicated in Figure 1.</p>
+
+<h2 id="summary">Summary</h2>
+<p>Summarize the results succinctly and tie them closely with the modeling goals outlined above.</p>
 
       </div>
       <div class="tag-list text-center">
@@ -379,7 +405,7 @@
 
         
         if (Updates[randomIndex] == 'true'){
-          uupdate = '<div class="ribbon">cập nhật</div>';
+          uupdate = '<div class="ribbon">updated</div>';
         }else{
           uupdate = '';
         }
