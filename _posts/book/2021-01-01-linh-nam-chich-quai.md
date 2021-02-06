@@ -1,13 +1,13 @@
 ---
 layout: post
 header: reading
-title: "To Kill a Mockingbird"
-subtitle: Harper Lee
+title: "Lĩnh Nam Chích Quái"
+subtitle: Trần Thế Pháp
 subtitle_link: https://en.wikipedia.org/wiki/Harper_Lee
 tags: [fiction]
 img: s7_thumbnail.jpg
 categories: reading
-rating: 4.5
+rating: 4
 ---
 
 <h4 class="post-more">Information</h4>
