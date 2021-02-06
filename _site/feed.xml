@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-06T08:27:01+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">For the editor only</title><link href="http://localhost:4000/tutorial/for-the-editors-only" rel="alternate" type="text/html" title="For the editor only" /><published>2021-01-16T00:00:00+01:00</published><updated>2021-01-16T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/for-the-editors-only</id><content type="html" xml:base="http://localhost:4000/tutorial/for-the-editors-only">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-06T09:45:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">For the editor only</title><link href="http://localhost:4000/tutorial/for-the-editors-only" rel="alternate" type="text/html" title="For the editor only" /><published>2021-01-16T00:00:00+01:00</published><updated>2021-01-16T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/for-the-editors-only</id><content type="html" xml:base="http://localhost:4000/tutorial/for-the-editors-only">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
   &lt;p&gt;This post is only for the editors, please read &lt;a href=&quot;/tutorial&quot;&gt;&lt;strong&gt;other posts&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 
@@ -419,7 +419,105 @@ Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class
 
 &lt;p&gt;&lt;em&gt;And you, what is your favorite music?&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><summary type="html">Khi tôi muốn viết vài câu về thể loại nhạc mình thích, có một mẩu chuyện nhỏ hiện ngay lên trong đầu tôi. Cách đây vài tháng, tại “Bar Le Monsieur”, tôi ngồi uống cùng Joe và Anthony. Cô gái bồi bàn tới gần hỏi chuyện và có vẻ thích thú khi thấy ba đứa tôi ngồi cùng nhau (nó làm tôi liên tưởng đến cuốn “Ba gã cùng thuyền” của Jerome, một cuốn sách hài hước, hóm hỉnh mà bạn có thể đọc). Đơn giản là vì Anthony, chàng trai người Pháp lịch lãm, có một điệu cười rất giống Vũ - bạn đại học của tôi; và Joe, một chàng điển trai người Mỹ đang ngồi say sưa tám chuyện với một tên nhỏ con người Việt. Nhìn cái không khí ấy, hẳn sẽ có người so sánh với hình ảnh chiến tranh mấy chục năm về trước.</summary></entry><entry><title type="html">Mẩu chuyện nhỏ với dì Chíp</title><link href="http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip" rel="alternate" type="text/html" title="Mẩu chuyện nhỏ với dì Chíp" /><published>2018-09-30T00:00:00+02:00</published><updated>2018-09-30T00:00:00+02:00</updated><id>http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip</id><content type="html" xml:base="http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip">&lt;p&gt;Buổi tối trước khi xa nhà lần thứ hai, tôi nói chuyện với dì Chíp. Chia sẻ kế hoạch tương lai rồi lại quay sang nói chuyện quá khứ…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><summary type="html">Khi tôi muốn viết vài câu về thể loại nhạc mình thích, có một mẩu chuyện nhỏ hiện ngay lên trong đầu tôi. Cách đây vài tháng, tại “Bar Le Monsieur”, tôi ngồi uống cùng Joe và Anthony. Cô gái bồi bàn tới gần hỏi chuyện và có vẻ thích thú khi thấy ba đứa tôi ngồi cùng nhau (nó làm tôi liên tưởng đến cuốn “Ba gã cùng thuyền” của Jerome, một cuốn sách hài hước, hóm hỉnh mà bạn có thể đọc). Đơn giản là vì Anthony, chàng trai người Pháp lịch lãm, có một điệu cười rất giống Vũ - bạn đại học của tôi; và Joe, một chàng điển trai người Mỹ đang ngồi say sưa tám chuyện với một tên nhỏ con người Việt. Nhìn cái không khí ấy, hẳn sẽ có người so sánh với hình ảnh chiến tranh mấy chục năm về trước.</summary></entry><entry><title type="html">Le Marché de Noël de la Défense</title><link href="http://localhost:4000/thought/la-defense" rel="alternate" type="text/html" title="Le Marché de Noël de la Défense" /><published>2018-12-01T00:00:00+01:00</published><updated>2018-12-01T00:00:00+01:00</updated><id>http://localhost:4000/thought/la-defense</id><content type="html" xml:base="http://localhost:4000/thought/la-defense">&lt;p&gt;Một buổi tối cuối tuần như mọi khi, chúng tôi lại tìm đến nhau sau một tuần học đầy căng thẳng và mệt mỏi. Hôm nay, ngày đầu tiên của tháng cuối cùng năm 2018, vi vu tại &lt;em&gt;La Defense&lt;/em&gt;, chúng tôi đã tìm đến chợ Noel.&lt;/p&gt;
+
+&lt;div class=&quot;img-full-normal&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/defence/IMG_4390.jpg&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Có thể bạn đã biết (hoặc chưa), La Défense là một khu vực đô thị nằm ở ngoại ô thành phố Paris. Đây là khu phố văn phòng quan trọng bậc nhất châu Âu, với nhiều nhà chọc trời, tập trung những công ty lớn hàng đầu Pháp cũng như thế giới. Nằm ở Neuilly-sur-Seine thuộc Hauts-de-Seine, La Défense là điểm kéo dài của Axe Historique được bắt đầu từ bảo tàng Louvre trong trung tâm Paris, tới đại lộ Champs-Élysées, Khải Hoàn Môn rồi thẳng đến Grande Arche.&lt;/p&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4383.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4387.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4386.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Cũng như mọi chợ truyền thống khác, gian hàng không thể thiếu được đó là gian hàng bày bán &lt;em&gt;“fromage”&lt;/em&gt;. Thú thực mà nói, tôi chẳng khoái gì cái mùi vị của nó. Nhưng giống như người Việt thích ăn &lt;em&gt;“bún đậu mắm tôm”&lt;/em&gt; thì &lt;em&gt;“fromage”&lt;/em&gt; cũng đã ăn sâu vào tiềm thức của người Pháp.&lt;/p&gt;
+
+&lt;div class=&quot;img-full-normal&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/defence/IMG_4393.jpg&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Chợ Noel đẹp như những gì tôi từng mong đợi. Bởi trong cái thời tiết mưa gió và giá lạnh ở Paris, người ta vẫn tìm đến bên nhau và chia sẻ với nhau những điều tốt đẹp trong tháng cuối cùng của năm cũ. Những gian hàng đầy màu sắc và cũng đầy đủ những thứ chúng ta cần. Đơn giản thì là bánh kẹo, đồ ăn nhanh (chúng tôi đã móc hết những đồng xu cuối cùng còn sót lại để mua được vài miếng gà quay, vài thanh phô mai que và một hộp bánh ăn &lt;em&gt;sống dở, chết dở&lt;/em&gt;). Tiện lợi thì là quần áo, giầy dép đủ loại đáng yêu. Hừm. Phức tạp hơn thì là một chút nghệ thuật mà chúng tôi cũng chẳng hiểu rõ về chúng.&lt;/p&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4395.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4403.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4399.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Nói đến Pháp mà không nhắc đến những quán ăn nhanh cùng một chút rượu nhâm nhi thì thật là uổng phí. Không nhiều nhưng gian hàng này cũng làm nổi thêm cho hội chợ Noel.&lt;/p&gt;
+
+&lt;div class=&quot;img-full-normal&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/defence/IMG_4445.jpg&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Hình ảnh đầu tiên hiện ra khi tôi chụp bức ảnh này đó là Hà Nội - một chút sâu lắng, một chút nhẹ nhàng nhưng đôi phần bình dị.&lt;/p&gt;
+
+&lt;div class=&quot;img-full-normal&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/defence/IMG_4438.jpg&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Và nhắc đến Noel thì không thể thiếu hình tượng đáng yêu này rồi. Ai lấy trộm mấy chú tuần lộc thì trả cho ông già Noel còn đi phát quà. =)))&lt;/p&gt;
+
+&lt;div class=&quot;img-full-normal&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/defence/IMG_4444.jpg&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;À đấy, cứ nói linh tinh mà quên mất chưa giới thiệu ba người bạn đồng hành cùng tôi hôm nay.&lt;/p&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4408.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4417.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-4&quot;&gt;
+&lt;img src=&quot;/img/post/thought/defence/IMG_4435.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Có thể đôi lúc, mọi thứ không được như ý bạn mong muốn như việc người ta chỉ chú ý đến toàn thể bức ảnh mà quên mất có ba gương mặt xinh xắn xuất hiện trong đó. Nhưng thôi đừng buồn, cuộc sống cũng vậy, có lúc &lt;em&gt;rõ ràng&lt;/em&gt;, có lúc &lt;em&gt;mờ ảo&lt;/em&gt;; thay vì ngán ngẩm với nó, tại sao ta lại không nghĩ đến những điều tốt đẹp hơn cơ chứ?&lt;/p&gt;
+
+&lt;div class=&quot;img-full-normal&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/defence/IMG_2331.jpg&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Và hãy nhớ rằng, dù có chuyện gì xảy ra đi nữa, hãy luôn giữ mãi nụ cười này trên môi nhé bạn của tôi.&lt;/p&gt;
+
+&lt;div class=&quot;img-full-normal&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/defence/IMG_2298.jpg&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;P/s. Không hiểu sao tôi lại quay thêm cái video này nữa, nó chẳng có ý nghĩa gì cả (và thực tế thì chúng ta đã rất nhiều lần làm những điều vô nghĩa đó thôi).&lt;/p&gt;
+
+&lt;div class=&quot;youtube-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/kTr5aZKE6B8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; class=&quot;youtube-video&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;youtube-des&quot;&gt;
+    
+&lt;/div&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="paris" /><summary type="html">Một buổi tối cuối tuần như mọi khi, chúng tôi lại tìm đến nhau sau một tuần học đầy căng thẳng và mệt mỏi. Hôm nay, ngày đầu tiên của tháng cuối cùng năm 2018, vi vu tại La Defense, chúng tôi đã tìm đến chợ Noel.</summary></entry><entry><title type="html">Mẩu chuyện nhỏ với dì Chíp</title><link href="http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip" rel="alternate" type="text/html" title="Mẩu chuyện nhỏ với dì Chíp" /><published>2018-09-30T00:00:00+02:00</published><updated>2018-09-30T00:00:00+02:00</updated><id>http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip</id><content type="html" xml:base="http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip">&lt;p&gt;Buổi tối trước khi xa nhà lần thứ hai, tôi nói chuyện với dì Chíp. Chia sẻ kế hoạch tương lai rồi lại quay sang nói chuyện quá khứ…&lt;/p&gt;
 
 &lt;p&gt;– Chẹp! Ngày ấy sướng nhể! Hứng lên là quán xá! Lại còn cà phê nghe nhạc! Nhắc đến cứ như là quá khứ của thế kỉ trước! Dì Phù Thuỷ mày đã 30 tuổi rồi! Dì Chíp nói một hồi.&lt;/p&gt;
 
