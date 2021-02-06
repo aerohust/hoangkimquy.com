@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-06T09:45:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">For the editor only</title><link href="http://localhost:4000/tutorial/for-the-editors-only" rel="alternate" type="text/html" title="For the editor only" /><published>2021-01-16T00:00:00+01:00</published><updated>2021-01-16T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/for-the-editors-only</id><content type="html" xml:base="http://localhost:4000/tutorial/for-the-editors-only">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-06T10:05:12+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">For the editor only</title><link href="http://localhost:4000/tutorial/for-the-editors-only" rel="alternate" type="text/html" title="For the editor only" /><published>2021-01-16T00:00:00+01:00</published><updated>2021-01-16T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/for-the-editors-only</id><content type="html" xml:base="http://localhost:4000/tutorial/for-the-editors-only">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
   &lt;p&gt;This post is only for the editors, please read &lt;a href=&quot;/tutorial&quot;&gt;&lt;strong&gt;other posts&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 
@@ -419,7 +419,66 @@ Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class
 
 &lt;p&gt;&lt;em&gt;And you, what is your favorite music?&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><summary type="html">Khi tôi muốn viết vài câu về thể loại nhạc mình thích, có một mẩu chuyện nhỏ hiện ngay lên trong đầu tôi. Cách đây vài tháng, tại “Bar Le Monsieur”, tôi ngồi uống cùng Joe và Anthony. Cô gái bồi bàn tới gần hỏi chuyện và có vẻ thích thú khi thấy ba đứa tôi ngồi cùng nhau (nó làm tôi liên tưởng đến cuốn “Ba gã cùng thuyền” của Jerome, một cuốn sách hài hước, hóm hỉnh mà bạn có thể đọc). Đơn giản là vì Anthony, chàng trai người Pháp lịch lãm, có một điệu cười rất giống Vũ - bạn đại học của tôi; và Joe, một chàng điển trai người Mỹ đang ngồi say sưa tám chuyện với một tên nhỏ con người Việt. Nhìn cái không khí ấy, hẳn sẽ có người so sánh với hình ảnh chiến tranh mấy chục năm về trước.</summary></entry><entry><title type="html">Le Marché de Noël de la Défense</title><link href="http://localhost:4000/thought/la-defense" rel="alternate" type="text/html" title="Le Marché de Noël de la Défense" /><published>2018-12-01T00:00:00+01:00</published><updated>2018-12-01T00:00:00+01:00</updated><id>http://localhost:4000/thought/la-defense</id><content type="html" xml:base="http://localhost:4000/thought/la-defense">&lt;p&gt;Một buổi tối cuối tuần như mọi khi, chúng tôi lại tìm đến nhau sau một tuần học đầy căng thẳng và mệt mỏi. Hôm nay, ngày đầu tiên của tháng cuối cùng năm 2018, vi vu tại &lt;em&gt;La Defense&lt;/em&gt;, chúng tôi đã tìm đến chợ Noel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><summary type="html">Khi tôi muốn viết vài câu về thể loại nhạc mình thích, có một mẩu chuyện nhỏ hiện ngay lên trong đầu tôi. Cách đây vài tháng, tại “Bar Le Monsieur”, tôi ngồi uống cùng Joe và Anthony. Cô gái bồi bàn tới gần hỏi chuyện và có vẻ thích thú khi thấy ba đứa tôi ngồi cùng nhau (nó làm tôi liên tưởng đến cuốn “Ba gã cùng thuyền” của Jerome, một cuốn sách hài hước, hóm hỉnh mà bạn có thể đọc). Đơn giản là vì Anthony, chàng trai người Pháp lịch lãm, có một điệu cười rất giống Vũ - bạn đại học của tôi; và Joe, một chàng điển trai người Mỹ đang ngồi say sưa tám chuyện với một tên nhỏ con người Việt. Nhìn cái không khí ấy, hẳn sẽ có người so sánh với hình ảnh chiến tranh mấy chục năm về trước.</summary></entry><entry><title type="html">Midnight in Paris</title><link href="http://localhost:4000/thought/midnight-in-paris" rel="alternate" type="text/html" title="Midnight in Paris" /><published>2018-12-21T00:00:00+01:00</published><updated>2018-12-21T00:00:00+01:00</updated><id>http://localhost:4000/thought/midnight-in-paris</id><content type="html" xml:base="http://localhost:4000/thought/midnight-in-paris">&lt;p&gt;Người ta vẫn nói Paris là kinh đô ánh sáng, vậy nên chắc hẳn Paris về đêm chắc sẽ đẹp lắm nhỉ? Tôi thích dùng các từ kiểu như “lãng mạn”, “nhẹ nhàng” thay vì “sexy” khi nói đến Paris về đêm. Cảm giác đứng trên &lt;strong&gt;Khải Hoàn Môn (L’arc de triomphe de l’Étoile)&lt;/strong&gt;, lúc trăng đã lên cao để ngắm nhìn Paris thơ mộng thật là tuyệt. Lúc chúng tôi chụp bức ảnh này cũng là khi có một đôi bên cạnh đang trao nhau những nụ hôn thắm thiết. Tôi cũng muốn một lần trong đời thử cảm giác ấy, nhưng không phải ở Khải Hoàn Môn mà là ở tháp Eiffel.&lt;/p&gt;
+
+&lt;div class=&quot;img-full-normal&quot;&gt;
+  &lt;img src=&quot;/img/post/thought/parisbynight/20181221_193333.jpg&quot; alt=&quot;Hình: &quot; /&gt;
+  &lt;em&gt;&lt;/em&gt;  
+&lt;/div&gt;
+
+&lt;p&gt;Một số video và ảnh tại hội chợ Noel tại Jardin des Tuileries (gần bảo tàng Louvre).&lt;/p&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/thought/parisbynight/IMG_4503.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/thought/parisbynight/IMG_4508.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/thought/parisbynight/IMG_4513.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/thought/parisbynight/IMG_4515.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/thought/parisbynight/IMG_4523.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/thought/parisbynight/IMG_4530.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row align-items-center img-aside&quot;&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/thought/parisbynight/IMG_4541.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p class=&quot;col-md-6&quot;&gt;
+&lt;img src=&quot;/img/post/thought/parisbynight/IMG_4553.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;youtube-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/33X1vkRD4Bk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; class=&quot;youtube-video&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;youtube-des&quot;&gt;
+    
+&lt;/div&gt;
+
+&lt;div class=&quot;youtube-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/ICfRTSTpK2s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; class=&quot;youtube-video&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;youtube-des&quot;&gt;
+    
+&lt;/div&gt;
+
+&lt;p&gt;P/s. Cảm ơn các bạn đã đi cùng mình và đặc biệt cảm ơn tới Trang đã chụp bức ảnh tháp Eiffel rất đẹp nhìn từ Khải Hoàn Môn.&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="paris" /><category term="vivu" /><summary type="html">Người ta vẫn nói Paris là kinh đô ánh sáng, vậy nên chắc hẳn Paris về đêm chắc sẽ đẹp lắm nhỉ? Tôi thích dùng các từ kiểu như “lãng mạn”, “nhẹ nhàng” thay vì “sexy” khi nói đến Paris về đêm. Cảm giác đứng trên Khải Hoàn Môn (L’arc de triomphe de l’Étoile), lúc trăng đã lên cao để ngắm nhìn Paris thơ mộng thật là tuyệt. Lúc chúng tôi chụp bức ảnh này cũng là khi có một đôi bên cạnh đang trao nhau những nụ hôn thắm thiết. Tôi cũng muốn một lần trong đời thử cảm giác ấy, nhưng không phải ở Khải Hoàn Môn mà là ở tháp Eiffel.</summary></entry><entry><title type="html">Le Marché de Noël de la Défense</title><link href="http://localhost:4000/thought/la-defense" rel="alternate" type="text/html" title="Le Marché de Noël de la Défense" /><published>2018-12-01T00:00:00+01:00</published><updated>2018-12-01T00:00:00+01:00</updated><id>http://localhost:4000/thought/la-defense</id><content type="html" xml:base="http://localhost:4000/thought/la-defense">&lt;p&gt;Một buổi tối cuối tuần như mọi khi, chúng tôi lại tìm đến nhau sau một tuần học đầy căng thẳng và mệt mỏi. Hôm nay, ngày đầu tiên của tháng cuối cùng năm 2018, vi vu tại &lt;em&gt;La Defense&lt;/em&gt;, chúng tôi đã tìm đến chợ Noel.&lt;/p&gt;
 
 &lt;div class=&quot;img-full-normal&quot;&gt;
   &lt;img src=&quot;/img/post/thought/defence/IMG_4390.jpg&quot; alt=&quot;Hình: &quot; /&gt;
@@ -517,7 +576,7 @@ Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class
 &lt;/div&gt;
 &lt;div class=&quot;youtube-des&quot;&gt;
     
-&lt;/div&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="paris" /><summary type="html">Một buổi tối cuối tuần như mọi khi, chúng tôi lại tìm đến nhau sau một tuần học đầy căng thẳng và mệt mỏi. Hôm nay, ngày đầu tiên của tháng cuối cùng năm 2018, vi vu tại La Defense, chúng tôi đã tìm đến chợ Noel.</summary></entry><entry><title type="html">Mẩu chuyện nhỏ với dì Chíp</title><link href="http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip" rel="alternate" type="text/html" title="Mẩu chuyện nhỏ với dì Chíp" /><published>2018-09-30T00:00:00+02:00</published><updated>2018-09-30T00:00:00+02:00</updated><id>http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip</id><content type="html" xml:base="http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip">&lt;p&gt;Buổi tối trước khi xa nhà lần thứ hai, tôi nói chuyện với dì Chíp. Chia sẻ kế hoạch tương lai rồi lại quay sang nói chuyện quá khứ…&lt;/p&gt;
+&lt;/div&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="paris" /><category term="vivu" /><summary type="html">Một buổi tối cuối tuần như mọi khi, chúng tôi lại tìm đến nhau sau một tuần học đầy căng thẳng và mệt mỏi. Hôm nay, ngày đầu tiên của tháng cuối cùng năm 2018, vi vu tại La Defense, chúng tôi đã tìm đến chợ Noel.</summary></entry><entry><title type="html">Mẩu chuyện nhỏ với dì Chíp</title><link href="http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip" rel="alternate" type="text/html" title="Mẩu chuyện nhỏ với dì Chíp" /><published>2018-09-30T00:00:00+02:00</published><updated>2018-09-30T00:00:00+02:00</updated><id>http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip</id><content type="html" xml:base="http://localhost:4000/thought/mau-chuyen-vun-vat-voi-di-chip">&lt;p&gt;Buổi tối trước khi xa nhà lần thứ hai, tôi nói chuyện với dì Chíp. Chia sẻ kế hoạch tương lai rồi lại quay sang nói chuyện quá khứ…&lt;/p&gt;
 
 &lt;p&gt;– Chẹp! Ngày ấy sướng nhể! Hứng lên là quán xá! Lại còn cà phê nghe nhạc! Nhắc đến cứ như là quá khứ của thế kỉ trước! Dì Phù Thuỷ mày đã 30 tuổi rồi! Dì Chíp nói một hồi.&lt;/p&gt;
 
@@ -575,26 +634,4 @@ Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class
 
 &lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;P/s: Tặng bạn bài hát này: &lt;a href=&quot;https://soundcloud.com/hoangkimquy246129/ghet-thi-yeu-thoi-ost&quot;&gt;Ghét thì yêu thôi OST&lt;/a&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="hanoi" /><category term="memoirs" /><summary type="html">Tôi vẫn còn nhớ. Năm ấy, Hà Nội, một ngày cuối tháng 9, có một chàng trai phóng bạt mạng trên đường để kịp hẹn với một cô gái. Ngày ấy, cũng chàng trai này, khi thấy mọi người đi đều rẽ dọc, rẽ ngang (để tránh “chốt”) thì cậu ấy vẫn cứ đi thẳng (với suy nghĩ mình đi đúng luật thì lo gì chứ). Và cuối cùng, vẫn chàng trai đó đã được các chú công an giao thông hỏi thăm.</summary></entry><entry><title type="html">Một cảm nhận nho nhỏ về sự cô đơn</title><link href="http://localhost:4000/thought/mot-cam-nhan-nho-nho-ve-su-co-don" rel="alternate" type="text/html" title="Một cảm nhận nho nhỏ về sự cô đơn" /><published>2017-02-09T00:00:00+01:00</published><updated>2017-02-09T00:00:00+01:00</updated><id>http://localhost:4000/thought/mot-cam-nhan-nho-nho-ve-su-co-don</id><content type="html" xml:base="http://localhost:4000/thought/mot-cam-nhan-nho-nho-ve-su-co-don">&lt;p&gt;Tôi đã từng bảo là không viết thêm gì nữa, nhưng khi nhìn cây bút đã bám bụi, những trang giấy trắng nằm buồn một góc trên giá sách như đợi chờ người quan tâm thì lòng tôi lại chẳng thể yên.&lt;/p&gt;
-
-&lt;p&gt;Ừ thì tôi lại lảm nhảm…&lt;/p&gt;
-
-&lt;p&gt;Nếu bạn đọc blog của tôi, thì hẳn sẽ biết đến bài “Viết cho những kẻ nghiện cô đơn”. Hôm nay vẫn chủ đề cũ thôi, đơn giản vì tôi lại thèm nó - cô đơn.&lt;/p&gt;
-
-&lt;p&gt;Cô đơn là cảm giác mà ai cũng phải trải qua trong cuộc đời. Là khi chia tay với mối tình đáng nhớ. Là lạc lõng giữa lũ bạn thành công. Là một mình trên con đường đi tới… Nhưng chỉ có cô đơn mới là lúc biết được trong thâm tâm mình muốn sống như thế nào nhất.&lt;/p&gt;
-
-&lt;p&gt;Bởi thế mà bây giờ, thay vì inbox “Đi xem phim không mày?” thì tôi lại thích đến rạp xem phim một mình, bên cạnh những đôi đang hạnh phúc tay trong tay. Tôi thích ngồi xem đến tận cuối, khi mọi người đã đứng dậy hết, khi màn chiếu chuẩn bị đến những dòng chữ cuối cùng. Và hôm nay, bộ phim tôi xem là xXx: Return of Xander Cage, một mình và tận hưởng những giây phút tuyệt vời của nó: “Trái đất có những thứ thật tuyệt vời, cháu hãy luôn giữ chặt nó trong tim nhé!” - Cage nói. (Không nhớ rõ câu này lắm và còn nhiều câu hay khác mà chưa kịp note trong đầu - trí nhớ kém).&lt;/p&gt;
-
-&lt;p&gt;Cũng bởi thế mà bây giờ, thay vì inbox “Đi cà phê không mày?” thì tôi lại thích tự pha cho mình một ly cà phê bên cạnh cuốn sách và đồng minh của nó là quyển sổ. Tôi thích việc ghi chép khi đọc sách, thích tóm tắt từng chương một, rồi tìm một câu hay nhất để nói về toàn bộ cuốn sách. Thử đi, bạn sẽ khám phá ra nhiều điều hay lắm.&lt;/p&gt;
-
-&lt;p&gt;Bất kể đi đâu, trong ba lô tôi luôn có một cuốn sổ và một quyển sách. Nó chẳng có gì to tát cả, nhưng mỗi khi có cơ hội, tôi lại phóng xe đến vài nơi ưa thích, dạo quanh những ngóc ngách, đọc vài trang sách và ngọ nguậy viết lách. Tôi chẳng phải nhà báo, càng chẳng phải nhà văn nên tôi chỉ cười mỗi khi có người hỏi tôi viết gì, và cũng chẳng bận tâm người ta nghĩ sao. Nhưng thường thì tôi viết những gì tôi nghĩ bên cạnh nội dung của cuốn sách đang đọc.&lt;/p&gt;
-
-&lt;p&gt;Rồi đấy, mỗi khi nhìn giá sách nặng thêm một chút, những tờ giấy đầy chữ vo trong sọt rác, cuốn sổ ít trang trống hơn là tôi biết mình đã có thêm những điều quý giá, đã thông thạo những gì đã nghĩ và biết cách sắp xếp, nối những thứ tưởng chừng như chẳng liên quan gì đến nhau, biến chúng trở nên thật sống động. Nhưng cùng lúc đấy, tôi cũng biết rằng, mình lại phải chuẩn bị một khoản tiền nữa cho kẻ nghiện cà phê.&lt;/p&gt;
-
-&lt;p&gt;Viết lách, đọc sách, xem phim một mình là những cô quạnh, là những khoảng lặng trong tôi, là những phút giây để tôi hiểu hơn về bản thân mình, là thêm trân trọng những gì mình đang có. Yên bình! Nhấc điện thoại lên: “Mẹ ơi, cuối tuần con về nhà!”&lt;/p&gt;
-
-&lt;p&gt;Hà Nội hôm nay giảm vài độ, hợp với những cái ôm thật chặt, phóng xe qua con phố nhỏ thấy thơm lừng hương bưởi trên vai cô hàng hoa.&lt;/p&gt;
-
-&lt;p&gt;Cũng Hà Nội, có những ngày như thế…&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="hanoi" /><category term="memoirs" /><summary type="html">Tôi đã từng bảo là không viết thêm gì nữa, nhưng khi nhìn cây bút đã bám bụi, những trang giấy trắng nằm buồn một góc trên giá sách như đợi chờ người quan tâm thì lòng tôi lại chẳng thể yên.</summary></entry></feed>
+&lt;p&gt;P/s: Tặng bạn bài hát này: &lt;a href=&quot;https://soundcloud.com/hoangkimquy246129/ghet-thi-yeu-thoi-ost&quot;&gt;Ghét thì yêu thôi OST&lt;/a&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="hanoi" /><category term="memoirs" /><summary type="html">Tôi vẫn còn nhớ. Năm ấy, Hà Nội, một ngày cuối tháng 9, có một chàng trai phóng bạt mạng trên đường để kịp hẹn với một cô gái. Ngày ấy, cũng chàng trai này, khi thấy mọi người đi đều rẽ dọc, rẽ ngang (để tránh “chốt”) thì cậu ấy vẫn cứ đi thẳng (với suy nghĩ mình đi đúng luật thì lo gì chứ). Và cuối cùng, vẫn chàng trai đó đã được các chú công an giao thông hỏi thăm.</summary></entry></feed>

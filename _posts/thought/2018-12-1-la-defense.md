@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Le Marché de Noël de la Défense"
-tags: [feeling,paris]
+tags: [feeling,paris,vivu]
 categories: thought
 img: defense.jpg
 ---
