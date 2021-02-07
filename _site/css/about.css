@@ -5,8 +5,8 @@
 .me-social .item:hover img { transform: scale(1.1); }
 .me-social .item:hover .so-name { color: #4682b4; }
 .me-social .so-img { height: 100px; text-align: center; padding: 10px; }
-.me-social .so-img img { height: 100%; transition: transform .2s; }
-.me-social .so-name { font-size: 1.1rem; font-weight: 600; color: #555; text-align: center; margin-top: .5rem; }
+.me-social .so-img img { height: 75%; transition: transform .2s; }
+.me-social .so-name { font-size: 1.1rem; font-weight: 600; color: #555; text-align: center; margin-top: -1.5rem; }
 
 .field-header { background: #fff; border: #ddd solid 1px; border-radius: 7px; transition: transform .2s; padding: 2rem 15px 15px 15px; width: 100%; text-align: center; }
 .field-header:hover { transform: scale(1.05); box-shadow: 0 0 6px 4px #e3e3e3; }
