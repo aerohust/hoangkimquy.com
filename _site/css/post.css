@@ -113,7 +113,7 @@ h1 + h3, h2 + h3, h2:first-child, h3:first-child { margin-top: unset !important;
 .post-content h3 { font-size: 1.5rem; color: #000; font-weight: 600; border-radius: 3px; margin-bottom: 2rem; margin-top: 3rem; }
 @media (min-width: 768px) { .post-content h3 { margin-left: -2rem; } }
 
-.post-container .sec-title h2 { font-size: 2rem !important; }
+.post-container .sec-title h2 { font-size: 1.8rem !important; }
 .post-container .tag-list { margin-top: 3rem; margin-bottom: 1rem; }
 
 .post-content { margin: 4rem 0; font-family: 'Nunito', sans-serif; font-weight: 400; }
