@@ -25,6 +25,10 @@ permalink: /:categories/:title
 # Facebook App ID
 # fb_app_id: ""
 
+google_analytics: UA-136699132-1
+
+fb_app_id: "2125469960824092"
+
 sass:
   style: compact
 
