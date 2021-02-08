@@ -1,6 +1,6 @@
 // section
 .section{
-  padding: 1rem 10px;
+  padding: 1rem;
 }
 
 // section background
@@ -39,10 +39,10 @@
   margin-bottom: 1.5rem;
   h2{
     font-weight: $f-extra-bold;
-    color: $c-blue-text;
+    color: chocolate;
     font-size: 1.8rem;
     @media (max-width: $s-sm){
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
   h4{

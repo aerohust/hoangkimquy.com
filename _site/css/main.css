@@ -73,7 +73,7 @@
 
 .navbar-custom span { margin-top: 5px; }
 
-.section { padding: 1rem 10px; }
+.section { padding: 1rem; }
 
 .alt-color:nth-child(odd) { padding: 1rem 10px; background: #f1f1f1; position: relative; overflow-x: hidden; }
 @media (max-width: 575px) { .alt-color:nth-child(odd) { padding-bottom: 1rem; } }
@@ -82,8 +82,8 @@
 @media (max-width: 575px) { .alt-color-top { padding-bottom: 1rem; } }
 
 .sec-title { margin-bottom: 1.5rem; }
-.sec-title h2 { font-weight: 800; color: #4682b4; font-size: 1.8rem; }
-@media (max-width: 576px) { .sec-title h2 { font-size: 2rem; } }
+.sec-title h2 { font-weight: 800; color: chocolate; font-size: 1.8rem; }
+@media (max-width: 576px) { .sec-title h2 { font-size: 1.8rem; } }
 .sec-title h4 { font-style: italic; font-weight: normal; font-size: 1rem; }
 
 .sec-more { color: #778899; }
