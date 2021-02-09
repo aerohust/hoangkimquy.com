@@ -9,7 +9,6 @@ img: linh-nam-trich-quai-bia.jpg
 categories: reading
 rating: 4
 ---
-
 <h4 class="post-more">Information</h4>
 
 - **Version I read**: Vietnamese
