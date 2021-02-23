@@ -13,11 +13,11 @@ date: 2021-01-18
 ---
 
 <div class="alert alert-success" role="alert" markdown="1">
-This post is only for the editors, please read [**other posts**](/tutorial).
+This post is only for the editors, please read [**other posts**](/note).
 </div>
 
 <div class="alert alert-warning" role="alert" markdown="1">
-Bài này chỉ dành cho tác giả blog, các bạn vui lòng đọc **[các bài khác](/tutorial)** nhé.
+Bài này chỉ dành cho tác giả blog, các bạn vui lòng đọc **[các bài khác](/note)** nhé.
 </div>
 
 {% include toc.html %}
