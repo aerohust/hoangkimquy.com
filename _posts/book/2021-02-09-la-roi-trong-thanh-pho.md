@@ -4,7 +4,7 @@ header: reading
 title: "Lá rơi trong thành phố"
 subtitle: Lê Xuân Khoa
 subtitle_link: https://www.goodreads.com/book/show/18744762-l-r-i-trong-th-nh-ph
-tags: [fiction]
+tags: [short story]
 img: la-roi-trong-thanh-pho.jpg
 categories: reading
 rating: 5
