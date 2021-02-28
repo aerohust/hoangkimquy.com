@@ -28,7 +28,7 @@ more-css:
 {% if is_snippet == true %}
   <section class="section alt-color">
     <div class="container">
-      {% include sec-title.html title="Snippets" more="You need them more than once" %}
+      {% include sec-title.html title="Snippets" more="All tricks for you and me" %}
       <div class="row row-eq-height justify-content-center snippet">
         {% for element in site.categories.tutorial %}
           {% if element.snippet %}
@@ -54,7 +54,7 @@ more-css:
 <!-- all tutorials -->
 <section class="section alt-color-top">
   <div class="container">
-    {% include sec-title.html title="All tricks" %}
+    {% include sec-title.html title="All notes" %}
     {% if total_page > 1 %}
       <div class="mb-2">
         {% include pagination.html type="tutorial" %}
