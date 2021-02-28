@@ -21,7 +21,7 @@ An efficient hybrid model is presented for sound propagation in situations with 
 
 ## FDTD Method
 
-### Linearized Euler Equations (LEEs)
+**1.1. Linearized Euler Equations (LEEs)**
 
 Set of 2 coupled equations to solve:
 
@@ -33,12 +33,10 @@ $$\begin{align}\tag{1}\label{eq1}
 \end{align}
 $$
 
-### Conservative form of the LEEs in 2D with source terms
-
+**1.2. Conservative form of the LEEs in 2D with source terms**
 $$\tag{2}\label{eq2}\frac { \partial U }{ \partial t } +\frac { \partial E }{ \partial x } +\frac { \partial G }{ \partial z } +H=S$$
 
-### Discretization in time and space:
-
+**1.3. Discretization in time and space**
 - Set the initial conditions $$U\left( t=0 \right)$$
 - Compute the spatial derivatives of the Eulerian fluxes to evaluate $$K\left( U \right)$$
 - Advance the solution in time to obtain $$U\left( t=\Delta t \right)$$

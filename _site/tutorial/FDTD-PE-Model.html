@@ -110,7 +110,7 @@
   
 
   
-    <meta property="og:description" content="I’m not a native English speaker, please ignore my bad expressions. This post is not complete, it will be improved later. In this post FDTD Method Linearized Euler Equations (LEEs) Conservative form of the LEEs in 2D with source terms Discretization in time and space: PE Method FDTD-PE Method In...">
+    <meta property="og:description" content="I’m not a native English speaker, please ignore my bad expressions. This post is not complete, it will be improved later. In this post FDTD Method PE Method FDTD-PE Method In this post, I will show you the basic hybrid model: FDTD-PE. You can also see details in the artical...">
   
 
 
@@ -309,12 +309,7 @@
   </div>
   <div class="toc-content">
 <ul id="markdown-toc">
-  <li><a href="#fdtd-method" id="markdown-toc-fdtd-method">FDTD Method</a>    <ul>
-      <li><a href="#linearized-euler-equations-lees" id="markdown-toc-linearized-euler-equations-lees">Linearized Euler Equations (LEEs)</a></li>
-      <li><a href="#conservative-form-of-the-lees-in-2d-with-source-terms" id="markdown-toc-conservative-form-of-the-lees-in-2d-with-source-terms">Conservative form of the LEEs in 2D with source terms</a></li>
-      <li><a href="#discretization-in-time-and-space" id="markdown-toc-discretization-in-time-and-space">Discretization in time and space:</a></li>
-    </ul>
-  </li>
+  <li><a href="#fdtd-method" id="markdown-toc-fdtd-method">FDTD Method</a></li>
   <li><a href="#pe-method" id="markdown-toc-pe-method">PE Method</a></li>
   <li><a href="#fdtd-pe-method" id="markdown-toc-fdtd-pe-method">FDTD-PE Method</a></li>
 </ul>
@@ -330,7 +325,7 @@
 
 <h2 id="fdtd-method">FDTD Method</h2>
 
-<h3 id="linearized-euler-equations-lees">Linearized Euler Equations (LEEs)</h3>
+<p><strong>1.1. Linearized Euler Equations (LEEs)</strong></p>
 
 <p>Set of 2 coupled equations to solve:</p>
 
@@ -341,12 +336,10 @@
 \end{cases}
 \end{align}</script>
 
-<h3 id="conservative-form-of-the-lees-in-2d-with-source-terms">Conservative form of the LEEs in 2D with source terms</h3>
+<p><strong>1.2. Conservative form of the LEEs in 2D with source terms</strong>
+<script type="math/tex">\tag{2}\label{eq2}\frac { \partial U }{ \partial t } +\frac { \partial E }{ \partial x } +\frac { \partial G }{ \partial z } +H=S</script></p>
 
-<script type="math/tex; mode=display">\tag{2}\label{eq2}\frac { \partial U }{ \partial t } +\frac { \partial E }{ \partial x } +\frac { \partial G }{ \partial z } +H=S</script>
-
-<h3 id="discretization-in-time-and-space">Discretization in time and space:</h3>
-
+<p><strong>1.3. Discretization in time and space</strong></p>
 <ul>
   <li>Set the initial conditions <script type="math/tex">U\left( t=0 \right)</script></li>
   <li>Compute the spatial derivatives of the Eulerian fluxes to evaluate <script type="math/tex">K\left( U \right)</script></li>
