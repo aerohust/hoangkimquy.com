@@ -27,12 +27,10 @@
 
   <title>
     
-      Quy Bookrista | Shortcuts for Mac OS's Users
+      Quy Bookrista | Finite-Difference Time-Domain Method
     
   </title>
 
-  
-    <meta name="description" content="Mac OS">
   
 
   <!-- feed -->
@@ -108,19 +106,19 @@
   
 
   
-    <meta property="og:title" content="Shortcuts for Mac OS's Users" />
+    <meta property="og:title" content="Finite-Difference Time-Domain Method" />
   
 
   
-    <meta property="og:description" content="Useful shortcuts for macbook users">
+    <meta property="og:description" content="I’m not a native English speaker, please ignore my bad expressions. This post is not complete, it will be improved later. In this post FDTD Method Linearized Euler Equations (LEEs) Conservative form of the LEEs in 2D with source terms Discretization in time and space: PE Method FDTD-PE Method In...">
   
 
 
   <meta property="og:type" content="website" />
 
   
-    <meta property="og:url" content="http://localhost:4000/tutorial/shortcut-for-mac-os" />
-    <link rel="canonical" href="http://localhost:4000/tutorial/shortcut-for-mac-os" />
+    <meta property="og:url" content="http://localhost:4000/tutorial/FDTD-PE-Model" />
+    <link rel="canonical" href="http://localhost:4000/tutorial/FDTD-PE-Model" />
   
 
   <!-- page's cover -->
@@ -144,13 +142,9 @@
       var Titles = ["How to type French accents on a Mac","Finite-Difference Time-Domain Method","Shortcuts for Mac OS's Users"];
       var Urls = ["/tutorial/how-to-type-french-accents-on-a-mac","/tutorial/FDTD-PE-Model","/tutorial/shortcut-for-mac-os"];
       
-        var Subtitles = ["Mac OS","","Mac OS"];
-      
       
         var Dates = ["12 Feb 2020","20 Nov 2018","01 Sep 2018"];
       
-      
-        var Descriptions = ["","","Useful shortcuts for macbook users"];
       
       
         var Imgs = ["france-with-eiffel-tower.jpg","fdtd-method.png","mac-os-shortcut.jpg"];
@@ -288,12 +282,12 @@
           <div class="col-md-8 offset-md-2 col-12 text-center">
             
               <div class="text-center header-tuto-img">
-                <img src="/img/tutorial/mac-os-shortcut.jpg">
+                <img src="/img/tutorial/fdtd-method.png">
               </div>
             
-            <h1>Shortcuts for Mac OS's Users</h1>
-            <h3>Mac OS</h3>
-            <h3 class="header-date">01 Sep 2018</h3>
+            <h1>Finite-Difference Time-Domain Method</h1>
+            <h3></h3>
+            <h3 class="header-date">20 Nov 2018</h3>
           </div>
         </div>
       </div>
@@ -306,131 +300,70 @@
   <div class="row justify-content-center">
     <div class="col-md-10 col-lg-8 col-12">
       <div class="post-content mb-4">
-        <div class="alert alert-success" role="alert">
-This post is in Vietnamese, please wait for an English version.
+        <div class="alert alert-warning" role="alert">
+  <p>I’m not a native English speaker, please ignore my bad expressions. This post is not complete, it will be improved later.</p>
 </div>
-
 <div id="toc">
   <div class="toc-title">
     <i class="fa fa-list-ul"></i><span>In this post</span>
   </div>
   <div class="toc-content">
 <ul id="markdown-toc">
-  <li><a href="#app-and-window" id="markdown-toc-app-and-window">App and Window</a></li>
-  <li><a href="#app-bị-kẹt-đơ" id="markdown-toc-app-bị-kẹt-đơ">App bị kẹt, đơ</a></li>
-  <li><a href="#chuyển-giữa-các-app-đang-chạy" id="markdown-toc-chuyển-giữa-các-app-đang-chạy">Chuyển giữa các app đang chạy</a></li>
-  <li><a href="#copy-cut-paste-select-all-undo-redo" id="markdown-toc-copy-cut-paste-select-all-undo-redo">Copy, cut, paste, select all, undo, redo</a></li>
-  <li><a href="#cut-đổi-tên-và-xoá-file" id="markdown-toc-cut-đổi-tên-và-xoá-file">Cut, đổi tên và xoá file</a></li>
-  <li><a href="#tab" id="markdown-toc-tab">Tab</a></li>
-  <li><a href="#nhảy-lên-đầu-hoặc-cuối-của-tài-liệu" id="markdown-toc-nhảy-lên-đầu-hoặc-cuối-của-tài-liệu">Nhảy lên đầu hoặc cuối của tài liệu</a></li>
-  <li><a href="#mở-options--settings--preferences-của-bất-kì-ứng-dụng-nào" id="markdown-toc-mở-options--settings--preferences-của-bất-kì-ứng-dụng-nào">Mở Options / Settings / Preferences của bất kì ứng dụng nào</a></li>
-  <li><a href="#tìm-kiếm-tất-cả-mọi-thứ" id="markdown-toc-tìm-kiếm-tất-cả-mọi-thứ">Tìm kiếm tất cả mọi thứ</a></li>
-  <li><a href="#chuyển-giữa-các-desktop-với-nhau" id="markdown-toc-chuyển-giữa-các-desktop-với-nhau">Chuyển giữa các desktop với nhau</a></li>
-  <li><a href="#screenshot" id="markdown-toc-screenshot">Screenshot</a></li>
-  <li><a href="#lock-máy-nhanh" id="markdown-toc-lock-máy-nhanh">Lock máy nhanh</a></li>
+  <li><a href="#fdtd-method" id="markdown-toc-fdtd-method">FDTD Method</a>    <ul>
+      <li><a href="#linearized-euler-equations-lees" id="markdown-toc-linearized-euler-equations-lees">Linearized Euler Equations (LEEs)</a></li>
+      <li><a href="#conservative-form-of-the-lees-in-2d-with-source-terms" id="markdown-toc-conservative-form-of-the-lees-in-2d-with-source-terms">Conservative form of the LEEs in 2D with source terms</a></li>
+      <li><a href="#discretization-in-time-and-space" id="markdown-toc-discretization-in-time-and-space">Discretization in time and space:</a></li>
+    </ul>
+  </li>
+  <li><a href="#pe-method" id="markdown-toc-pe-method">PE Method</a></li>
+  <li><a href="#fdtd-pe-method" id="markdown-toc-fdtd-pe-method">FDTD-PE Method</a></li>
 </ul>
 
   </div>
 </div>
 
-<p>Một số shortcut hữu dụng khi sử dụng Mac OS.</p>
+<p>In this post, I will show you the basic hybrid model: FDTD-PE.</p>
 
-<h2 id="app-and-window">App and Window</h2>
+<p>You can also see details in the artical of <a href="https://www.ingentaconnect.com/content/dav/aaua/2005/00000091/00000004/art00006">Timothy Van Renterghem</a>.</p>
 
-<ul>
-  <li><kbd>command</kbd> + <kbd>W</kbd>: Đóng cửa sổ của ứng dụng đang chạy nhưng không thoát hẳn.</li>
-  <li><kbd>command</kbd> + <kbd>Q</kbd>: Thoát hẳn ứng dụng đang chạy, mọi thứ chưa lưu sẽ mất.</li>
-  <li><kbd>command</kbd> + <kbd>H</kbd>: Ẩn cửa sổ khỏi màn hình. Bấm vào icon trên dock để hiện lại.</li>
-  <li><kbd>command</kbd> + <kbd>M</kbd>: Thu nhỏ cửa sổ, chạy lại bằng cách bấm vào nó trên thanh dock.</li>
-</ul>
+<p>An efficient hybrid model is presented for sound propagation in situations with several reflecting obstacles near the source. A Finite-Difference Time-Domain (FDTD) model is used in the complex source region, while a Parabolic Equation (PE) model is used for propagation to a distant receiver. The models are coupled by transformation of FDTD results at the boundary of the source region from the time domain to the frequency domain. The FDTD-PE model takes into account multiple reflections of sound waves in the source region, and interaction of sound waves with complex wind fields near the obstacles. It is shown that the FDTD-PE model is accurate, and requires considerably smaller computer times and memory than FDTD does.</p>
 
-<h2 id="app-bị-kẹt-đơ">App bị kẹt, đơ</h2>
+<h2 id="fdtd-method">FDTD Method</h2>
 
-<p>Nếu app không phản hồi ngay cả khi bạn đã nhấn <kbd>command</kbd> + <kbd>Q</kbd>, app đã bị đơ.</p>
+<h3 id="linearized-euler-equations-lees">Linearized Euler Equations (LEEs)</h3>
 
-<ul>
-  <li>Nhấn <kbd>command</kbd> + <kbd>option</kbd> + <kbd>esc</kbd> để hiển thị <strong>Force Quite Applications</strong>.</li>
-  <li>Chọn đóng app nào đó đang bị đơ.</li>
-</ul>
+<p>Set of 2 coupled equations to solve:</p>
 
-<h2 id="chuyển-giữa-các-app-đang-chạy">Chuyển giữa các app đang chạy</h2>
+<script type="math/tex; mode=display">\begin{align}\tag{1}\label{eq1}
+\begin{cases}
+\left( \frac { \partial  }{ \partial t } +\underline { { v }_{ 0 } } .\nabla  \right) \underline { v } +\left( \underline { v } .\nabla  \right) \underline { { v }_{ 0 } } +\frac { \nabla p }{ { \rho  }_{ 0 } } =0\\
+\left( \frac { \partial  }{ \partial t } +\underline { { v }_{ 0 } } .\nabla  \right) p+{ \rho  }_{ 0 }{ c }_{ 0 }^{ 2 }\nabla .\underline { v } =0
+\end{cases}
+\end{align}</script>
 
-<ul>
-  <li><kbd>command</kbd> + <kbd>tab</kbd>, một thanh switcher sẽ hiển thị trên màn hình, tiếp tục bấm <kbd>command</kbd> + <kbd>tab</kbd> để chọn app mong muốn.</li>
-  <li>Tay còn giữ phím <kbd>command</kbd> thì thanh switcher còn hiện, bỏ ra là ẩn đi.</li>
-  <li>Để di chuyển ngược lại, nhấn <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>tab</kbd>.</li>
-</ul>
+<h3 id="conservative-form-of-the-lees-in-2d-with-source-terms">Conservative form of the LEEs in 2D with source terms</h3>
 
-<h2 id="copy-cut-paste-select-all-undo-redo">Copy, cut, paste, select all, undo, redo</h2>
+<script type="math/tex; mode=display">\tag{2}\label{eq2}\frac { \partial U }{ \partial t } +\frac { \partial E }{ \partial x } +\frac { \partial G }{ \partial z } +H=S</script>
 
-<p>Tất cả phím <kbd>control</kbd> bên Win sẽ thay bằng <kbd>Command</kbd> bên Mac:</p>
-<ul>
-  <li><kbd>command</kbd> + <kbd>C</kbd> để copy.</li>
-  <li><kbd>command</kbd> + <kbd>X</kbd> để cut (không áp dụng cho file, mời xem bên dưới).</li>
-  <li><kbd>command</kbd> + <kbd>V</kbd> để paste.</li>
-  <li><kbd>command</kbd> + <kbd>A</kbd> để select all.</li>
-  <li><kbd>command</kbd> + <kbd>Z</kbd> để undo.</li>
-  <li><kbd>command</kbd> + <kbd>Y</kbd> hoặc <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>Z</kbd> để redo, cái này tùy app.</li>
-</ul>
-
-<h2 id="cut-đổi-tên-và-xoá-file">Cut, đổi tên và xoá file</h2>
-
-<p><strong>Cut file</strong> (không khuyến khích dùng vì lỡ trong quá trình cut mà xảy ra lỗi thì nguy cơ hỏng file cao):</p>
-<ul>
-  <li>Nhấn <kbd>command</kbd> + <kbd>C</kbd> để copy file trước.</li>
-  <li>Tới nơi định dán xuống, nhấn <kbd>command</kbd> + <kbd>option</kbd> + <kbd>C</kbd> để paste.</li>
-</ul>
-
-<p><strong>Đổi tên file</strong></p>
-<ul>
-  <li>Chọn file $\to$ nhấn <kbd>return</kbd> $\to$ nhập tên $\to$ nhấn <kbd>return</kbd> lần nữa để hoàn tất.</li>
-</ul>
-
-<p><strong>Xoá file:</strong> <kbd>command</kbd> + <kbd>delete</kbd> để xóa file vào thùng rác.</p>
-
-<h2 id="tab">Tab</h2>
-
-<p>Với những app hỗ trợ chia theo tab, ví dụ như Safari, Chrome, Firefox, Finder…</p>
-<ul>
-  <li><kbd>command</kbd> + <kbd>T</kbd> để mở tab mới.</li>
-  <li><kbd>command</kbd> + <kbd>shift</kbd> + <kbd>T</kbd> để mở lại Tab vừa mới đóng (do nhỡ tay hoặc tắt nhầm Tab đó).</li>
-  <li><kbd>control</kbd> + <kbd>tab</kbd> để chuyển giữa các tab với nhau.</li>
-  <li><kbd>option</kbd> + Click lên dấu $\times$ ở tab để đóng hết tất cả tab khác, giữ lại tab mà bạn đã click lên.</li>
-  <li><kbd>command</kbd> + <kbd>Z</kbd> để undo khi lỡ đóng nhầm tab nào đó (tương tự như <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>T</kbd>).</li>
-</ul>
-
-<h2 id="nhảy-lên-đầu-hoặc-cuối-của-tài-liệu">Nhảy lên đầu hoặc cuối của tài liệu</h2>
+<h3 id="discretization-in-time-and-space">Discretization in time and space:</h3>
 
 <ul>
-  <li><kbd>command</kbd> + $\downarrow$ (mũi tên xuống): nhảy đến cuối tài liệu đang mở.</li>
-  <li><kbd>command</kbd> + $\uparrow$: nhảy đến đầu trang tài liệu đang mở.</li>
+  <li>Set the initial conditions <script type="math/tex">U\left( t=0 \right)</script></li>
+  <li>Compute the spatial derivatives of the Eulerian fluxes to evaluate <script type="math/tex">K\left( U \right)</script></li>
+  <li>Advance the solution in time to obtain <script type="math/tex">U\left( t=\Delta t \right)</script></li>
+  <li>Repeat the previous steps until we obtain <script type="math/tex">U\left( t= N \Delta t \right)</script></li>
 </ul>
 
-<h2 id="mở-options--settings--preferences-của-bất-kì-ứng-dụng-nào">Mở Options / Settings / Preferences của bất kì ứng dụng nào</h2>
-<ul>
-  <li><kbd>command</kbd> + <kbd>,</kbd></li>
-  <li>Thường thì bạn cũng có thể truy cập Preferences bằng cách nhấn vào tên app trên menu bar $\to$ Preferences.</li>
-</ul>
+<p>To solve the LEEs we need to choose a numerical differentiation method (Finite Differences) and a time-integration method (Runge-Kutta algorithms). We call these methods FDTD for “Finite-Difference Time-Domain”.</p>
 
-<h2 id="tìm-kiếm-tất-cả-mọi-thứ">Tìm kiếm tất cả mọi thứ</h2>
+<h2 id="pe-method">PE Method</h2>
 
-<p><kbd>command</kbd> + <kbd>space</kbd>: mở hộp thoại tìm kiếm.</p>
+<p>We use a 2D version of the FDTD model, based on the 2D Euler equations.</p>
 
-<h2 id="chuyển-giữa-các-desktop-với-nhau">Chuyển giữa các desktop với nhau</h2>
+<p>You can read the book “Computational atmospheric acoustics” of Salomons to know more details</p>
 
-<p>MacOS cho tạo nhiều desktop ảo: <kbd>control</kbd> + số &lt;1&gt; &lt;2&gt; &lt;3&gt; để chuyển giữa những desktop này (con số tương ứng với vị trí desktop ảo).</p>
-
-<h2 id="screenshot">Screenshot</h2>
-<ul>
-  <li><kbd>command</kbd> + <kbd>shift</kbd> + <kbd>3</kbd>: chụp toàn màn hình.</li>
-  <li><kbd>command</kbd> + <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>3</kbd>: copy ảnh chụp màn hình vào clipboard, sẵn sàng paste vào các app khác.</li>
-  <li><kbd>command</kbd> + <kbd>shift</kbd> + <kbd>4</kbd>: chọn vị trí mong muốn để chụp ảnh màn hình.</li>
-  <li><kbd>command</kbd> + <kbd>shift</kbd> + <kbd>5</kbd>: chụp ảnh màn hình với nhiều tuỳ chọn rất hữu ích (chỉ có trên Mac OS Mojave).</li>
-</ul>
-
-<h2 id="lock-máy-nhanh">Lock máy nhanh</h2>
-
-<p><kbd>control</kbd> + <kbd>shift</kbd> + nút nguồn: lock màn hình.</p>
+<h2 id="fdtd-pe-method">FDTD-PE Method</h2>
+<p>Coupling: the Finite-Difference Time-Domain (FDTD) method and the Parabolic Equation (PE) method.</p>
 
 
       </div>
@@ -438,16 +371,9 @@ This post is in Vietnamese, please wait for an English version.
         
           
           
-          <a class="tag-chip" href="/tags/tutorial#admin">
+          <a class="tag-chip" href="/tags/tutorial#math">
             <i class="fa fa-tag"></i>
-            admin
-          </a>
-        
-          
-          
-          <a class="tag-chip" href="/tags/tutorial#mac-os">
-            <i class="fa fa-tag"></i>
-            mac os
+            math
           </a>
         
       </div>
@@ -521,13 +447,9 @@ This post is in Vietnamese, please wait for an English version.
         ttitle = Titles[randomIndex];
         uurl = Urls[randomIndex];
         
-          ssubtitle = Subtitles[randomIndex];
-        
         
           ddate = Dates[randomIndex];
         
-        
-          ddescription = Descriptions[randomIndex];
         
         
           iimg = Imgs[randomIndex];
