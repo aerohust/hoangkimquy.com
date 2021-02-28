@@ -19,7 +19,7 @@ Khi tôi muốn viết vài câu về thể loại nhạc mình thích, có mộ
 
 Một câu hỏi đặt ra rằng bạn đã bao giờ nghe nhạc Country chưa? Nhiều người sẽ trả lời ràng chưa, nhưng thực tế, chúng ta ít nhất đã từng nghe một vài bài mà chúng ta không biết nó thuộc thể loại này. Một ví dụ điển hình là bài *Remember when* của Alan Jackson. Bài hát đã làm tăng thêm rất nhiều giá trị cho bộ phim *Up (2009)*. Trong bài hát đó, Alan Jackson kể những lần đầu ông gặp vợ của mình, cả hai cùng còn trẻ, phải học cách để sống trong một mối quan hệ nghiêm túc, cùng nhau trải qua vui buồn. Những người già qua đời (bố mẹ, họ hàng), và cái mới đã ra đời. Đó là vòng tròn của cuộc sống, khi một thế hệ chết đi, thế hệ mới bắt đầu. Alan Jackson và vợ kết hôn năm 1979, 19 năm sau họ ly thân được vài tháng do sự nghiệp và sự không chung thủy của Alan nhưng họ đã làm hòa với nhau vì lý do chính là ba người con gái của họ. Kể cả khi Alan không chung thủy nhưng tình yêu của họ và tình yêu dành cho con cái của họ mạnh mẽ hơn bao giờ hết. Khi con cái lớn lên và rời xa vòng tay của họ, họ sẽ cùng nhau đối mặt với điều đó và nhớ lại những lần vui buồn từng trải qua. Cả hai đã thề với nhau rằng họ sẽ bên nhau mãi mãi qua tuổi già và mọi thứ, dù thế nào đi chăng nữa. Đó là những điều mình tìm hiểu được về bài hát này của Alan. Đằng sau đó là một câu chuyện chẳng phải của riêng ai. 
 
-{% include youtube.html content="fbo0powrWlg" size="6" %}
+{% include youtube.html content="TTA2buWlNyM" size="6" %}
 
 Nói đến dòng nhạc Country thì không thể không nhắc đến những buổi trình diễn tại [Grand Ole Opry](https://www.opry.com/). Nó được coi là ngôi nhà của những nhạc sĩ dòng nhạc Country. Khi nhắc tới [Grand Ole Opry](https://www.opry.com/), tôi lại có thêm một thứ để ghi vào *bucket list* của mình: *Đi xem một show tại Grand Ole Opry!*. 
 
@@ -29,7 +29,7 @@ Một bài hát mà tôi cũng rất thích là *Walkaway Joe* được Carrie U
 
 Rồi lại thêm một câu chuyện trong *He Stopped Loving Her Today* của George Jones. Một chàng trai bảo với cô gái rằng: *I'll love you til I die* nhưng nhận được câu trả lời của cô gái rằng *You'll forget in time*. Và lần đầu Jones thấy anh ấy cười sau nhiều năm, nhưng đó cũng là lần anh ấy ra đi mãi mãi...  
 
-{% include youtube.html content="GbjpbqowX3Y" size="6" %}
+{% include youtube.html content="mSuq-ZUJinA" size="6" %}
 
 Bạn cũng có thể nghe thêm nhiều bài khác nữa trong danh sách yêu thích của tôi như [Ho Hey](https://www.youtube.com/watch?v=n-lLlEtoAS8) hay [Five More Minutes](https://www.youtube.com/watch?v=gb8o8fgMs3A)...
 
