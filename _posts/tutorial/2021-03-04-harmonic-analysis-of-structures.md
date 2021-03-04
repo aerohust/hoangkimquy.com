@@ -23,7 +23,7 @@ Forced Frequency Response or Harmonic Analysis is an important branch of linear 
 
 ## Formulation of Harmonic Analysis
 
-Harmonic analyses are used to determine the steady- state response of a structure to loads that vary sinusoidally (harmonically) with time.
+Harmonic analyses are used to determine the steady-state response of a structure to loads that vary sinusoidally (harmonically) with time.
 
 Engineers use harmonic analysis to verify a design, providing insight such as:
 - Will resonance occur, which could result in excessive motion, stress, noise and vibration?

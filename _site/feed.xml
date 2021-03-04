@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-04T16:09:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">Harmonic Analysis of Structures</title><link href="http://localhost:4000/tutorial/harmonic-analysis-of-structures" rel="alternate" type="text/html" title="Harmonic Analysis of Structures" /><published>2021-03-04T00:00:00+01:00</published><updated>2021-03-04T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/harmonic-analysis-of-structures</id><content type="html" xml:base="http://localhost:4000/tutorial/harmonic-analysis-of-structures">&lt;div id=&quot;toc&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-04T16:13:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">Harmonic Analysis of Structures</title><link href="http://localhost:4000/tutorial/harmonic-analysis-of-structures" rel="alternate" type="text/html" title="Harmonic Analysis of Structures" /><published>2021-03-04T00:00:00+01:00</published><updated>2021-03-04T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/harmonic-analysis-of-structures</id><content type="html" xml:base="http://localhost:4000/tutorial/harmonic-analysis-of-structures">&lt;div id=&quot;toc&quot;&gt;
   &lt;div class=&quot;toc-title&quot;&gt;
     &lt;i class=&quot;fa fa-list-ul&quot;&gt;&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
   &lt;/div&gt;
@@ -29,7 +29,7 @@
 
 &lt;h2 id=&quot;formulation-of-harmonic-analysis&quot;&gt;Formulation of Harmonic Analysis&lt;/h2&gt;
 
-&lt;p&gt;Harmonic analyses are used to determine the steady- state response of a structure to loads that vary sinusoidally (harmonically) with time.&lt;/p&gt;
+&lt;p&gt;Harmonic analyses are used to determine the steady-state response of a structure to loads that vary sinusoidally (harmonically) with time.&lt;/p&gt;
 
 &lt;p&gt;Engineers use harmonic analysis to verify a design, providing insight such as:&lt;/p&gt;
 &lt;ul&gt;
