@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-28T16:15:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">Thời xa vắng</title><link href="http://localhost:4000/reading/thoi-xa-vang" rel="alternate" type="text/html" title="Thời xa vắng" /><published>2021-02-22T00:00:00+01:00</published><updated>2021-02-22T00:00:00+01:00</updated><id>http://localhost:4000/reading/thoi-xa-vang</id><content type="html" xml:base="http://localhost:4000/reading/thoi-xa-vang">&lt;h4 class=&quot;post-more&quot;&gt;Information&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-04T16:09:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quy Bookrista</title><subtitle>Try &amp; Acquire</subtitle><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><entry><title type="html">Harmonic Analysis of Structures</title><link href="http://localhost:4000/tutorial/harmonic-analysis-of-structures" rel="alternate" type="text/html" title="Harmonic Analysis of Structures" /><published>2021-03-04T00:00:00+01:00</published><updated>2021-03-04T00:00:00+01:00</updated><id>http://localhost:4000/tutorial/harmonic-analysis-of-structures</id><content type="html" xml:base="http://localhost:4000/tutorial/harmonic-analysis-of-structures">&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;fa fa-list-ul&quot;&gt;&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;toc-content&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro-to-harmonic-analysis&quot; id=&quot;markdown-toc-intro-to-harmonic-analysis&quot;&gt;Intro to Harmonic Analysis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#formulation-of-harmonic-analysis&quot; id=&quot;markdown-toc-formulation-of-harmonic-analysis&quot;&gt;Formulation of Harmonic Analysis&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#formulation&quot; id=&quot;markdown-toc-formulation&quot;&gt;Formulation&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;intro-to-harmonic-analysis&quot;&gt;Intro to Harmonic Analysis&lt;/h2&gt;
+
+&lt;p&gt;Forced Frequency Response or Harmonic Analysis is an important branch of linear dynamics. Linear dynamics solves the equation of motion as a frequency domain problem instead of a time domain problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why it is important&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Most engineered structures will be vibration tested to verify the dynamic response.&lt;/li&gt;
+  &lt;li&gt;The design may need to avoid resonance with a known excitation.&lt;/li&gt;
+  &lt;li&gt;Understanding the magnitude of the vibration can prevent fatigue failure.&lt;/li&gt;
+  &lt;li&gt;This is an effective way to understand the significance of the different modes.&lt;/li&gt;
+  &lt;li&gt;Harmonic analysis can be used alongside physical testing (such as a shaker table with sine sweep) to correlate the models (natural frequencies and damping).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;formulation-of-harmonic-analysis&quot;&gt;Formulation of Harmonic Analysis&lt;/h2&gt;
+
+&lt;p&gt;Harmonic analyses are used to determine the steady- state response of a structure to loads that vary sinusoidally (harmonically) with time.&lt;/p&gt;
+
+&lt;p&gt;Engineers use harmonic analysis to verify a design, providing insight such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Will resonance occur, which could result in excessive motion, stress, noise and vibration?&lt;/li&gt;
+  &lt;li&gt;Will the cyclically repeating load result in repetitive stress, resulting in fatigue damage and potential failure?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;formulation&quot;&gt;Formulation&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Starting with the matrix form of the governing equations of motion, let’s explore a harmonic solution to this equation.
+&lt;script type=&quot;math/tex&quot;&gt;\left [ M \right ]\left \{ \ddot{u} \right \} + \left [ C \right ]\left \{ \dot{u} \right \} + \left [ K \right ]\left \{ u \right \} = \left [ F \right ] \tag{1}\label{eq1}&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;The Forcing Function &lt;script type=&quot;math/tex&quot;&gt;\left \{ F \right \}&lt;/script&gt; and displacement &lt;script type=&quot;math/tex&quot;&gt;\left \{ u \right \}&lt;/script&gt; are of the form shown below. Recall that these can be visualized as sinusoids and simply given a value for time &lt;script type=&quot;math/tex&quot;&gt;\left ( t \right )&lt;/script&gt; and circular frequency &lt;script type=&quot;math/tex&quot;&gt;\left ( \Omega \right )&lt;/script&gt; we can compute the complex values of the force or displacement at each node, once we have of course solved for the unknown max values and phase shifts for each node in the model.
+&lt;script type=&quot;math/tex&quot;&gt;\left \{ F \right \} = \left \{ F_{max}e^{i\psi} \right \}e^{i \Omega t} \tag{2}\label{eq2}&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;\left \{ u \right \} = \left \{ u_{max}e^{i\phi} \right \}e^{i \Omega t} \tag{3}\label{eq3}&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="tutorial" /><category term="analysis" /><category term="harmonic" /><category term="structure" /><summary type="html">In this post</summary></entry><entry><title type="html">Thời xa vắng</title><link href="http://localhost:4000/reading/thoi-xa-vang" rel="alternate" type="text/html" title="Thời xa vắng" /><published>2021-02-22T00:00:00+01:00</published><updated>2021-02-22T00:00:00+01:00</updated><id>http://localhost:4000/reading/thoi-xa-vang</id><content type="html" xml:base="http://localhost:4000/reading/thoi-xa-vang">&lt;h4 class=&quot;post-more&quot;&gt;Information&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Title in Vietnamese&lt;/strong&gt;: Thời xa vắng&lt;/li&gt;
@@ -439,60 +485,4 @@ Below comments are in Vietnamese, please wait for an English version.
 
 &lt;p&gt;&lt;em&gt;09/08/2019&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="paris" /><category term="hanoi" /><category term="memoirs" /><summary type="html">Rời quán café trên phố Nguyễn Biểu, chúng tôi lặng lẽ chia tay nhau giữa dòng người đông đúc. Đầu tôi vương lại câu hỏi ngỏ của Bảo Ngọc: “Liệu chúng mình còn có thể gặp nhau bên trời Âu được không nhỉ?” Tôi cười, không trả lời cô, nhưng trong lòng thì lại không ngừng mong chờ ngày ấy. Hôm nay, Paris giảm một độ. Mùa hạ sắp qua. Mưa rả rích. Lưa thưa vài người. Công ty. Tôi. Màn hình máy tính. E-mail của sếp. Một đống ngổn ngang. Điện thoại rung… “Này Quý, mong ước của chúng mình sắp thực hiện được rồi. Cuối tháng 8 này tớ qua Lyon học M2. Không những là trời Âu mà còn cùng là Pháp nữa nhé!” Tôi không giấu nổi niềm vui lúc này. Cô nàng Ngoại Thương tôi tình cờ quen biết đã chạm tay đến giấc mơ của cô ấy. “Ừ, mảnh đất lục lăng luôn chờ đón cậu!”, “và tớ cũng như vậy!”. Nhưng tôi chỉ nói vế đầu của câu kia. Điện thoại rung… “Thứ 6 tuần sau tao bay sang Mỹ rồi!” Dù biết trước là nó sẽ đi nhưng trong lòng tôi vẫn còn chút vương vấn. “Tối đi làm về tao call.” Tôi trả lời nó. “Tao giờ bận lắm. Nhiều thứ phải chuẩn bị. Qua đó, tao sẽ call cho mày ngay.” Cái thằng ngày nào vẫn còn hậm hực mỗi lúc tôi nhờ nó chuyển nhà. Rồi thuốc thang, nấu nướng, giặt giũ lúc tôi ốm. Giờ đây, nó cũng chạm tới giấc mơ mà nó hằng mong ước rồi. Điện thoại rung… “Anh về với em luôn được không?!” Giọng em có vẻ nhõng nhẽo. “Ít nhất thì anh cũng phải hoàn thành xong chương trình đang học đã chứ!” “Không cần! Về đây đi!” “Anh chưa đủ tự tin để về bên em!” Dòng tin nhắn này tôi viết rồi lại xoá đi. Thay vào đó, tôi gửi: “Về em nuôi anh à? =)))” “Không! Bảo mẹ em nuôi =)))!” Tôi không tập trung được nữa. Lướt qua vài trang báo tôi hay đọc và mục điểm sách tôi hay xem. Tôi dừng lại ở dòng tin “Nhã Nam Books N’ Coffee Times City sẽ dừng hoạt động.” Mưa vẫn rơi. Những giọt nước đọng trên cửa kính như đầy luyến lưu. Nhắm mắt… Sấu chín, giấu điều thầm kín, ngọt rồi lại chua. Trở về phố xưa, thơm lừng hoa sữa. Thêm điều nhỏ nữa… Những chiều nhớ mong những gánh hàng rong, đôi vai nặng trĩu, mang phần bận bịu góc nhỏ đìu hiu. Tôi. Mở mắt… “Rồi Hà Nội sẽ còn lại những điều chi?” 09/08/2019 _ Po _</summary></entry><entry><title type="html">The Grand Ole Opry và dòng nhạc Country</title><link href="http://localhost:4000/thought/the-grand-ole-opry" rel="alternate" type="text/html" title="The Grand Ole Opry và dòng nhạc Country" /><published>2019-06-12T00:00:00+02:00</published><updated>2019-06-12T00:00:00+02:00</updated><id>http://localhost:4000/thought/the-grand-ole-opry</id><content type="html" xml:base="http://localhost:4000/thought/the-grand-ole-opry">&lt;p&gt;Khi tôi muốn viết vài câu về thể loại nhạc mình thích, có một mẩu chuyện nhỏ hiện ngay lên trong đầu tôi. Cách đây vài tháng, tại &lt;em&gt;“Bar Le Monsieur”&lt;/em&gt;, tôi ngồi uống cùng Joe và Anthony. Cô gái bồi bàn tới gần hỏi chuyện và có vẻ thích thú khi thấy ba đứa tôi ngồi cùng nhau (nó làm tôi liên tưởng đến cuốn &lt;em&gt;“Ba gã cùng thuyền”&lt;/em&gt; của Jerome, một cuốn sách hài hước, hóm hỉnh mà bạn có thể đọc). Đơn giản là vì Anthony, chàng trai người Pháp lịch lãm, có một điệu cười rất giống Vũ - bạn đại học của tôi; và Joe, một chàng điển trai người Mỹ đang ngồi say sưa tám chuyện với một tên nhỏ con người Việt. Nhìn cái không khí ấy, hẳn sẽ có người so sánh với hình ảnh chiến tranh mấy chục năm về trước.&lt;/p&gt;
-
-&lt;p&gt;- &lt;em&gt;Này Quý, mày thích nghe thể loại nhạc gì nhất?&lt;/em&gt; Anthony hỏi tôi.&lt;/p&gt;
-
-&lt;p&gt;- &lt;em&gt;Nhạc á, chắc là Country!&lt;/em&gt; Tôi cười và đáp lại.&lt;/p&gt;
-
-&lt;p&gt;- &lt;em&gt;Mày già hơn so với tuổi đấy. Mặc dù nó xuất phát từ Nam Mỹ nhưng tao không thích nó lắm.&lt;/em&gt; Joe nhìn tôi rồi cười. Điều này làm tôi nghĩ đến việc tôi cũng chẳng húng thú gì với việc nghe cải lương hay hát bội ở Việt Nam cả.&lt;/p&gt;
-
-&lt;p&gt;- &lt;em&gt;Nhưng tại sao lại là nhạc Country?&lt;/em&gt; Anthony tiếp lời.&lt;/p&gt;
-
-&lt;p&gt;Đúng, tại sao lại là &lt;a href=&quot;https://en.wikipedia.org/wiki/Country_music&quot;&gt;dòng nhạc Country&lt;/a&gt; cơ chứ? Trong một thế giới âm nhạc phong phú, để tìm một thể loại nhạc mình yêu thích và cảm nhận được quả thực là rất khó. Tôi thích những bài hát có &lt;em&gt;mélodie&lt;/em&gt; nhẹ nhàng bao nhiêu thì lại thích từng con chữ trong mỗi &lt;em&gt;paroles&lt;/em&gt; bấy nhiêu. Và &lt;a href=&quot;https://en.wikipedia.org/wiki/Country_music&quot;&gt;dòng nhạc Country&lt;/a&gt; đã đáp ứng được mong đợi của tôi về cả hai khía cạnh đó. Mỗi bài hát lại ấp ủ một câu chuyện trong đó; có khi chỉ là một ngày đẹp trời, có khi khi là một phần của tuổi trẻ, nhưng có khi nó là câu chuyện âm ỉ trong cả cuộc đời con người. Càng nghe, càng tìm hiểu thì lại trân trọng chúng hơn.&lt;/p&gt;
-
-&lt;p&gt;Một câu hỏi đặt ra rằng bạn đã bao giờ nghe nhạc Country chưa? Nhiều người sẽ trả lời ràng chưa, nhưng thực tế, chúng ta ít nhất đã từng nghe một vài bài mà chúng ta không biết nó thuộc thể loại này. Một ví dụ điển hình là bài &lt;em&gt;Remember when&lt;/em&gt; của Alan Jackson. Bài hát đã làm tăng thêm rất nhiều giá trị cho bộ phim &lt;em&gt;Up (2009)&lt;/em&gt;. Trong bài hát đó, Alan Jackson kể những lần đầu ông gặp vợ của mình, cả hai cùng còn trẻ, phải học cách để sống trong một mối quan hệ nghiêm túc, cùng nhau trải qua vui buồn. Những người già qua đời (bố mẹ, họ hàng), và cái mới đã ra đời. Đó là vòng tròn của cuộc sống, khi một thế hệ chết đi, thế hệ mới bắt đầu. Alan Jackson và vợ kết hôn năm 1979, 19 năm sau họ ly thân được vài tháng do sự nghiệp và sự không chung thủy của Alan nhưng họ đã làm hòa với nhau vì lý do chính là ba người con gái của họ. Kể cả khi Alan không chung thủy nhưng tình yêu của họ và tình yêu dành cho con cái của họ mạnh mẽ hơn bao giờ hết. Khi con cái lớn lên và rời xa vòng tay của họ, họ sẽ cùng nhau đối mặt với điều đó và nhớ lại những lần vui buồn từng trải qua. Cả hai đã thề với nhau rằng họ sẽ bên nhau mãi mãi qua tuổi già và mọi thứ, dù thế nào đi chăng nữa. Đó là những điều mình tìm hiểu được về bài hát này của Alan. Đằng sau đó là một câu chuyện chẳng phải của riêng ai.&lt;/p&gt;
-
-&lt;div class=&quot;youtube-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/TTA2buWlNyM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; class=&quot;youtube-video&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&quot;youtube-des&quot;&gt;
-    
-&lt;/div&gt;
-
-&lt;p&gt;Nói đến dòng nhạc Country thì không thể không nhắc đến những buổi trình diễn tại &lt;a href=&quot;https://www.opry.com/&quot;&gt;Grand Ole Opry&lt;/a&gt;. Nó được coi là ngôi nhà của những nhạc sĩ dòng nhạc Country. Khi nhắc tới &lt;a href=&quot;https://www.opry.com/&quot;&gt;Grand Ole Opry&lt;/a&gt;, tôi lại có thêm một thứ để ghi vào &lt;em&gt;bucket list&lt;/em&gt; của mình: &lt;em&gt;Đi xem một show tại Grand Ole Opry!&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Một bài hát mà tôi cũng rất thích là &lt;em&gt;Walkaway Joe&lt;/em&gt; được Carrie Underwood và Kelsea Ballerini thể hiện tại Grand Ole Opry. Đây là một bản hit của Trisha Yearwood kể về câu chuyện giữa một cô gái 17 tuổi và một chàng &lt;em&gt;thieving drifter&lt;/em&gt;. Và tôi cũng rất thích một bình luận trên Youtube về bài hát này: &lt;em&gt;We all have a walk away joe somewhere in my life.&lt;/em&gt;&lt;/p&gt;
-
-&lt;div class=&quot;youtube-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/_roA6enTCn0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; class=&quot;youtube-video&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&quot;youtube-des&quot;&gt;
-    
-&lt;/div&gt;
-
-&lt;p&gt;Rồi lại thêm một câu chuyện trong &lt;em&gt;He Stopped Loving Her Today&lt;/em&gt; của George Jones. Một chàng trai bảo với cô gái rằng: &lt;em&gt;I’ll love you til I die&lt;/em&gt; nhưng nhận được câu trả lời của cô gái rằng &lt;em&gt;You’ll forget in time&lt;/em&gt;. Và lần đầu Jones thấy anh ấy cười sau nhiều năm, nhưng đó cũng là lần anh ấy ra đi mãi mãi…&lt;/p&gt;
-
-&lt;div class=&quot;youtube-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/mSuq-ZUJinA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; class=&quot;youtube-video&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&quot;youtube-des&quot;&gt;
-    
-&lt;/div&gt;
-
-&lt;p&gt;Bạn cũng có thể nghe thêm nhiều bài khác nữa trong danh sách yêu thích của tôi như &lt;a href=&quot;https://www.youtube.com/watch?v=n-lLlEtoAS8&quot;&gt;Ho Hey&lt;/a&gt; hay &lt;a href=&quot;https://www.youtube.com/watch?v=gb8o8fgMs3A&quot;&gt;Five More Minutes&lt;/a&gt;…&lt;/p&gt;
-
-&lt;p&gt;Ở Việt Nam, Tạ Quang Thắng là ca sĩ nổi tiếng với dòng Country Rock - một thể loại cũng liên quan đến dòng nhạc Country. Những bài hát như &lt;a href=&quot;https://www.youtube.com/watch?v=K1JHgNPnTps&quot;&gt;Lá Cờ&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=KwGTNrhbu5k&quot;&gt;Sống Như Những Đóa Hoa&lt;/a&gt; hay &lt;a href=&quot;https://www.youtube.com/watch?v=1nB13jFuc2s&quot;&gt;Viết Tình Ca&lt;/a&gt; đã gắn liền với quãng thời gian tham gia hoạt động tình nguyện cũng như học đại học của tôi. Gần đây, anh cũng đã ra mắt một bài hát mới cũng rất dễ chịu - &lt;a href=&quot;https://www.youtube.com/watch?v=cNwL_h0Ap5A&quot;&gt;Sẽ Không Yêu Thêm Ai&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;youtube-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/cNwL_h0Ap5A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; class=&quot;youtube-video&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div class=&quot;youtube-des&quot;&gt;
-    
-&lt;/div&gt;
-
-&lt;p&gt;Đó là tất cả những gì cần thiết trong bài viết nho nhỏ này!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;And you, what is your favorite music?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><summary type="html">Khi tôi muốn viết vài câu về thể loại nhạc mình thích, có một mẩu chuyện nhỏ hiện ngay lên trong đầu tôi. Cách đây vài tháng, tại “Bar Le Monsieur”, tôi ngồi uống cùng Joe và Anthony. Cô gái bồi bàn tới gần hỏi chuyện và có vẻ thích thú khi thấy ba đứa tôi ngồi cùng nhau (nó làm tôi liên tưởng đến cuốn “Ba gã cùng thuyền” của Jerome, một cuốn sách hài hước, hóm hỉnh mà bạn có thể đọc). Đơn giản là vì Anthony, chàng trai người Pháp lịch lãm, có một điệu cười rất giống Vũ - bạn đại học của tôi; và Joe, một chàng điển trai người Mỹ đang ngồi say sưa tám chuyện với một tên nhỏ con người Việt. Nhìn cái không khí ấy, hẳn sẽ có người so sánh với hình ảnh chiến tranh mấy chục năm về trước.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;_ Po _&lt;/strong&gt;&lt;/p&gt;</content><author><name>HOANG Kim-Quy</name><email>hoangkimquy.hust@gmail.com</email></author><category term="thought" /><category term="feeling" /><category term="paris" /><category term="hanoi" /><category term="memoirs" /><summary type="html">Rời quán café trên phố Nguyễn Biểu, chúng tôi lặng lẽ chia tay nhau giữa dòng người đông đúc. Đầu tôi vương lại câu hỏi ngỏ của Bảo Ngọc: “Liệu chúng mình còn có thể gặp nhau bên trời Âu được không nhỉ?” Tôi cười, không trả lời cô, nhưng trong lòng thì lại không ngừng mong chờ ngày ấy. Hôm nay, Paris giảm một độ. Mùa hạ sắp qua. Mưa rả rích. Lưa thưa vài người. Công ty. Tôi. Màn hình máy tính. E-mail của sếp. Một đống ngổn ngang. Điện thoại rung… “Này Quý, mong ước của chúng mình sắp thực hiện được rồi. Cuối tháng 8 này tớ qua Lyon học M2. Không những là trời Âu mà còn cùng là Pháp nữa nhé!” Tôi không giấu nổi niềm vui lúc này. Cô nàng Ngoại Thương tôi tình cờ quen biết đã chạm tay đến giấc mơ của cô ấy. “Ừ, mảnh đất lục lăng luôn chờ đón cậu!”, “và tớ cũng như vậy!”. Nhưng tôi chỉ nói vế đầu của câu kia. Điện thoại rung… “Thứ 6 tuần sau tao bay sang Mỹ rồi!” Dù biết trước là nó sẽ đi nhưng trong lòng tôi vẫn còn chút vương vấn. “Tối đi làm về tao call.” Tôi trả lời nó. “Tao giờ bận lắm. Nhiều thứ phải chuẩn bị. Qua đó, tao sẽ call cho mày ngay.” Cái thằng ngày nào vẫn còn hậm hực mỗi lúc tôi nhờ nó chuyển nhà. Rồi thuốc thang, nấu nướng, giặt giũ lúc tôi ốm. Giờ đây, nó cũng chạm tới giấc mơ mà nó hằng mong ước rồi. Điện thoại rung… “Anh về với em luôn được không?!” Giọng em có vẻ nhõng nhẽo. “Ít nhất thì anh cũng phải hoàn thành xong chương trình đang học đã chứ!” “Không cần! Về đây đi!” “Anh chưa đủ tự tin để về bên em!” Dòng tin nhắn này tôi viết rồi lại xoá đi. Thay vào đó, tôi gửi: “Về em nuôi anh à? =)))” “Không! Bảo mẹ em nuôi =)))!” Tôi không tập trung được nữa. Lướt qua vài trang báo tôi hay đọc và mục điểm sách tôi hay xem. Tôi dừng lại ở dòng tin “Nhã Nam Books N’ Coffee Times City sẽ dừng hoạt động.” Mưa vẫn rơi. Những giọt nước đọng trên cửa kính như đầy luyến lưu. Nhắm mắt… Sấu chín, giấu điều thầm kín, ngọt rồi lại chua. Trở về phố xưa, thơm lừng hoa sữa. Thêm điều nhỏ nữa… Những chiều nhớ mong những gánh hàng rong, đôi vai nặng trĩu, mang phần bận bịu góc nhỏ đìu hiu. Tôi. Mở mắt… “Rồi Hà Nội sẽ còn lại những điều chi?” 09/08/2019 _ Po _</summary></entry></feed>
