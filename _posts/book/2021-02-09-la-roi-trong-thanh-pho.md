@@ -12,7 +12,7 @@ rating: 5
 <h4 class="post-more">Information</h4>
 
 - **Title in Vietnamese**: Lá rơi trong thành phố
-- **Genre**: Truyện ngắn
+- **Genre**: Tiểu thuyết
 - **Author**: Lê Xuân Khoa
 - **Published**: June 2013 (Nhà xuất bản văn học & THAIHABOOKS)
 
