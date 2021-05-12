@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Đừng chỉ nói về sách, hãy cùng chia sẻ Trải Nghiệm Đọc!"
+title: "Robooksta & Trải Nghiệm Đọc"
 tags: [feeling,hanoi,café sách,paris]
 categories: thought
 img: cafesach_logo.png
