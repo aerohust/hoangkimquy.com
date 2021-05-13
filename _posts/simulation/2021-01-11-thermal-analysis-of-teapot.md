@@ -13,8 +13,6 @@ date: 2021-02-01
 This example is reproduced from [**ANSYS**](https://www.ansys.com/).
 </div>
 
-{% include toc.html %}
-
 ## Overview
 In this example we intend to perform thermal analysis of a tea pot and indicate the temperature distribution in a steady state and transient analysis for steel material and for porcelain material.
 

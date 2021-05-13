@@ -9,6 +9,7 @@ categories: tutorial
 math: 1
 ---
 {% include toc.html %}
+This post is referred from Ansys document.
 
 ## Intro to Harmonic Analysis
 
