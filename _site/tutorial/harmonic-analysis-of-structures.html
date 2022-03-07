@@ -27,7 +27,7 @@
 
   <title>
     
-      Quy Bookrista | Le Marché de Noël de la Défense
+      Quy Bookrista | Harmonic Analysis of Structures
     
   </title>
 
@@ -106,19 +106,19 @@
   
 
   
-    <meta property="og:title" content="Le Marché de Noël de la Défense" />
+    <meta property="og:title" content="Harmonic Analysis of Structures" />
   
 
   
-    <meta property="og:description" content="Một buổi tối cuối tuần như mọi khi, chúng tôi lại tìm đến nhau sau một tuần học đầy căng thẳng và mệt mỏi. Hôm nay, ngày đầu tiên của tháng cuối cùng năm 2018, vi vu tại La Defense, chúng tôi đã tìm đến chợ Noel. Có thể bạn...">
+    <meta property="og:description" content="Ansys Mechanical">
   
 
 
   <meta property="og:type" content="website" />
 
   
-    <meta property="og:url" content="http://localhost:4000/thought/la-defense" />
-    <link rel="canonical" href="http://localhost:4000/thought/la-defense" />
+    <meta property="og:url" content="http://localhost:4000/tutorial/harmonic-analysis-of-structures" />
+    <link rel="canonical" href="http://localhost:4000/tutorial/harmonic-analysis-of-structures" />
   
 
   <!-- page's cover -->
@@ -139,25 +139,34 @@
     
 
     <script type="text/javascript">
-      var Titles = ["Ga sách bụi","Robooksta & Trải Nghiệm Đọc","Gala CFS Hà Nội 2020","Gió","Rồi Hà Nội sẽ còn lại những điều chi?","The Grand Ole Opry và dòng nhạc Country","Midnight in Paris","Le Marché de Noël de la Défense","Mẩu chuyện nhỏ với dì Chíp","Trước khi xa nhà","Năm ấy","Một cảm nhận nho nhỏ về sự cô đơn"];
-      var Urls = ["/thought/ga-sach-bui","/thought/dung-chi-noi-ve-sach","/thought/gala-cfs-2020","/thought/gio","/thought/roi-ha-noi-se-con-lai-nhung-dieu-chi","/thought/the-grand-ole-opry","/thought/midnight-in-paris","/thought/la-defense","/thought/mau-chuyen-vun-vat-voi-di-chip","/thought/truoc-khi-xa-nha","/thought/nam-ay","/thought/mot-cam-nhan-nho-nho-ve-su-co-don"];
+      var Titles = ["Harmonic Analysis of Structures","For the editor only","Shortcuts for Mac OS's Users","Finite-Difference Time-Domain Method"];
+      var Urls = ["/tutorial/harmonic-analysis-of-structures","/tutorial/for-the-editors-only","/tutorial/shortcut-for-mac-os","/tutorial/FDTD-PE-Model"];
       
       
-        var Dates = ["02 Aug 2021","07 Mar 2021","27 Dec 2020","19 Dec 2020","09 Aug 2019","12 Jun 2019","21 Dec 2018","01 Dec 2018","30 Sep 2018","03 Sep 2018","17 Mar 2018","09 Feb 2017"];
+        var Dates = ["21 Jan 2021","18 Jan 2021","11 Jan 2019","30 Sep 2018"];
       
       
+        var Descriptions = ["Ansys Mechanical","Shortcuts for the editors on this site","Useful shortcuts for macbook users",""];
       
-        var Imgs = ["ga-sach-bui.jpg","cafesach_logo.png","cfs-12-2020-cover.png","gio.jpg","ho-tay-ha-noi.jpg","opry.jpg","midnight-in-paris.jpg","defense.jpg","di-chip.jpg","parents.png","nam-ay.png","co-don.jpg"];
+      
+        var Imgs = ["harmonic-analysis-of-structure.gif","admin.svg","mac-os-shortcut.jpg","fdtd-method.png"];
       
       
 
       
       
-      var Updates = ["false","false","false","false","false","false","false","false","false","false","false","false"];
+      var Updates = ["false","false","false","false"];
     </script>
 
   
 
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
   
 
 </head>
@@ -269,14 +278,18 @@
 
 
 
-    <header id="post-header" class="bg-thought page-post-header">
+    <header id="post-header" class="bg-tutorial page-post-header">
       <div class="container">
         <div class="row">
           <div class="col-md-8 offset-md-2 col-12 text-center">
             
-            <h1>Le Marché de Noël de la Défense</h1>
+              <div class="text-center header-tuto-img">
+                <img src="/img/tutorial/harmonic-analysis-of-structure.gif">
+              </div>
+            
+            <h1>Harmonic Analysis of Structures</h1>
             <h3></h3>
-            <h3 class="header-date">01 Dec 2018</h3>
+            <h3 class="header-date">21 Jan 2021</h3>
           </div>
         </div>
       </div>
@@ -289,128 +302,77 @@
   <div class="row justify-content-center">
     <div class="col-md-10 col-lg-8 col-12">
       <div class="post-content mb-4">
-        <p>Một buổi tối cuối tuần như mọi khi, chúng tôi lại tìm đến nhau sau một tuần học đầy căng thẳng và mệt mỏi. Hôm nay, ngày đầu tiên của tháng cuối cùng năm 2018, vi vu tại <em>La Defense</em>, chúng tôi đã tìm đến chợ Noel.</p>
+        <div id="toc">
+  <div class="toc-title">
+    <i class="fa fa-list-ul"></i><span>In this post</span>
+  </div>
+  <div class="toc-content">
+<ul id="markdown-toc">
+  <li><a href="#intro-to-harmonic-analysis" id="markdown-toc-intro-to-harmonic-analysis">Intro to Harmonic Analysis</a></li>
+  <li><a href="#formulation-of-harmonic-analysis" id="markdown-toc-formulation-of-harmonic-analysis">Formulation of Harmonic Analysis</a>    <ul>
+      <li><a href="#formulation" id="markdown-toc-formulation">Formulation</a></li>
+    </ul>
+  </li>
+</ul>
 
-<div class="img-full-normal">
-  <img src="/img/post/thought/defence/IMG_4390.jpg" alt="Hình: " />
-  <em></em>  
+  </div>
 </div>
+<p>This post is referred from Ansys document.</p>
 
-<p>Có thể bạn đã biết (hoặc chưa), La Défense là một khu vực đô thị nằm ở ngoại ô thành phố Paris. Đây là khu phố văn phòng quan trọng bậc nhất châu Âu, với nhiều nhà chọc trời, tập trung những công ty lớn hàng đầu Pháp cũng như thế giới. Nằm ở Neuilly-sur-Seine thuộc Hauts-de-Seine, La Défense là điểm kéo dài của Axe Historique được bắt đầu từ bảo tàng Louvre trong trung tâm Paris, tới đại lộ Champs-Élysées, Khải Hoàn Môn rồi thẳng đến Grande Arche.</p>
+<h2 id="intro-to-harmonic-analysis">Intro to Harmonic Analysis</h2>
 
-<div class="row align-items-center img-aside">
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4383.jpg" alt="" />
-</p>
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4387.jpg" alt="" />
-</p>
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4386.jpg" alt="" />
-</p>
-</div>
+<p>Forced Frequency Response or Harmonic Analysis is an important branch of linear dynamics. Linear dynamics solves the equation of motion as a frequency domain problem instead of a time domain problem.</p>
 
-<p>Cũng như mọi chợ truyền thống khác, gian hàng không thể thiếu được đó là gian hàng bày bán <em>“fromage”</em>. Thú thực mà nói, tôi chẳng khoái gì cái mùi vị của nó. Nhưng giống như người Việt thích ăn <em>“bún đậu mắm tôm”</em> thì <em>“fromage”</em> cũng đã ăn sâu vào tiềm thức của người Pháp.</p>
+<p><strong>Why it is important</strong></p>
+<ul>
+  <li>Most engineered structures will be vibration tested to verify the dynamic response.</li>
+  <li>The design may need to avoid resonance with a known excitation.</li>
+  <li>Understanding the magnitude of the vibration can prevent fatigue failure.</li>
+  <li>This is an effective way to understand the significance of the different modes.</li>
+  <li>Harmonic analysis can be used alongside physical testing (such as a shaker table with sine sweep) to correlate the models (natural frequencies and damping).</li>
+</ul>
 
-<div class="img-full-normal">
-  <img src="/img/post/thought/defence/IMG_4393.jpg" alt="Hình: " />
-  <em></em>  
-</div>
+<h2 id="formulation-of-harmonic-analysis">Formulation of Harmonic Analysis</h2>
 
-<p>Chợ Noel đẹp như những gì tôi từng mong đợi. Bởi trong cái thời tiết mưa gió và giá lạnh ở Paris, người ta vẫn tìm đến bên nhau và chia sẻ với nhau những điều tốt đẹp trong tháng cuối cùng của năm cũ. Những gian hàng đầy màu sắc và cũng đầy đủ những thứ chúng ta cần. Đơn giản thì là bánh kẹo, đồ ăn nhanh (chúng tôi đã móc hết những đồng xu cuối cùng còn sót lại để mua được vài miếng gà quay, vài thanh phô mai que và một hộp bánh ăn <em>sống dở, chết dở</em>). Tiện lợi thì là quần áo, giầy dép đủ loại đáng yêu. Hừm. Phức tạp hơn thì là một chút nghệ thuật mà chúng tôi cũng chẳng hiểu rõ về chúng.</p>
+<p>Harmonic analyses are used to determine the steady-state response of a structure to loads that vary sinusoidally (harmonically) with time.</p>
 
-<div class="row align-items-center img-aside">
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4395.jpg" alt="" />
-</p>
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4403.jpg" alt="" />
-</p>
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4399.jpg" alt="" />
-</p>
-</div>
+<p>Engineers use harmonic analysis to verify a design, providing insight such as:</p>
+<ul>
+  <li>Will resonance occur, which could result in excessive motion, stress, noise and vibration?</li>
+  <li>Will the cyclically repeating load result in repetitive stress, resulting in fatigue damage and potential failure?</li>
+</ul>
 
-<p>Nói đến Pháp mà không nhắc đến những quán ăn nhanh cùng một chút rượu nhâm nhi thì thật là uổng phí. Không nhiều nhưng gian hàng này cũng làm nổi thêm cho hội chợ Noel.</p>
-
-<div class="img-full-normal">
-  <img src="/img/post/thought/defence/IMG_4445.jpg" alt="Hình: " />
-  <em></em>  
-</div>
-
-<p>Hình ảnh đầu tiên hiện ra khi tôi chụp bức ảnh này đó là Hà Nội - một chút sâu lắng, một chút nhẹ nhàng nhưng đôi phần bình dị.</p>
-
-<div class="img-full-normal">
-  <img src="/img/post/thought/defence/IMG_4438.jpg" alt="Hình: " />
-  <em></em>  
-</div>
-
-<p>Và nhắc đến Noel thì không thể thiếu hình tượng đáng yêu này rồi. Ai lấy trộm mấy chú tuần lộc thì trả cho ông già Noel còn đi phát quà. =)))</p>
-
-<div class="img-full-normal">
-  <img src="/img/post/thought/defence/IMG_4444.jpg" alt="Hình: " />
-  <em></em>  
-</div>
-
-<p>À đấy, cứ nói linh tinh mà quên mất chưa giới thiệu ba người bạn đồng hành cùng tôi hôm nay.</p>
-
-<div class="row align-items-center img-aside">
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4408.jpg" alt="" />
-</p>
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4417.jpg" alt="" />
-</p>
-<p class="col-md-4">
-<img src="/img/post/thought/defence/IMG_4435.jpg" alt="" />
-</p>
-</div>
-
-<p>Có thể đôi lúc, mọi thứ không được như ý bạn mong muốn như việc người ta chỉ chú ý đến toàn thể bức ảnh mà quên mất có ba gương mặt xinh xắn xuất hiện trong đó. Nhưng thôi đừng buồn, cuộc sống cũng vậy, có lúc <em>rõ ràng</em>, có lúc <em>mờ ảo</em>; thay vì ngán ngẩm với nó, tại sao ta lại không nghĩ đến những điều tốt đẹp hơn cơ chứ?</p>
-
-<div class="img-full-normal">
-  <img src="/img/post/thought/defence/IMG_2331.jpg" alt="Hình: " />
-  <em></em>  
-</div>
-
-<p>Và hãy nhớ rằng, dù có chuyện gì xảy ra đi nữa, hãy luôn giữ mãi nụ cười này trên môi nhé bạn của tôi.</p>
-
-<div class="img-full-normal">
-  <img src="/img/post/thought/defence/IMG_2298.jpg" alt="Hình: " />
-  <em></em>  
-</div>
-
-<p>P/s. Không hiểu sao tôi lại quay thêm cái video này nữa, nó chẳng có ý nghĩa gì cả (và thực tế thì chúng ta đã rất nhiều lần làm những điều vô nghĩa đó thôi).</p>
-
-<div class="youtube-container">
-    <iframe src="https://www.youtube.com/embed/kTr5aZKE6B8" frameborder="0" allowfullscreen="" class="youtube-video"></iframe>
-</div>
-<div class="youtube-des">
-    
-</div>
+<h4 id="formulation">Formulation</h4>
+<ul>
+  <li>Starting with the matrix form of the governing equations of motion, let’s explore a harmonic solution to this equation.
+<script type="math/tex">\left [ M \right ]\left \{ \ddot{u} \right \} + \left [ C \right ]\left \{ \dot{u} \right \} + \left [ K \right ]\left \{ u \right \} = \left [ F \right ] \tag{1}\label{eq1}</script></li>
+  <li>The Forcing Function <script type="math/tex">\left \{ F \right \}</script> and displacement <script type="math/tex">\left \{ u \right \}</script> are of the form shown below. Recall that these can be visualized as sinusoids and simply given a value for time <script type="math/tex">\left ( t \right )</script> and circular frequency <script type="math/tex">\left ( \Omega \right )</script> we can compute the complex values of the force or displacement at each node, once we have of course solved for the unknown max values and phase shifts for each node in the model.
+<script type="math/tex">\left \{ F \right \} = \left \{ F_{max}e^{i\psi} \right \}e^{i \Omega t} \tag{2}\label{eq2}</script>
+<script type="math/tex">\left \{ u \right \} = \left \{ u_{max}e^{i\phi} \right \}e^{i \Omega t} \tag{3}\label{eq3}</script></li>
+</ul>
 
       </div>
       <div class="tag-list text-center">
         
           
           
-          <a class="tag-chip" href="/tags/thought#feeling">
+          <a class="tag-chip" href="/tags/tutorial#analysis">
             <i class="fa fa-tag"></i>
-            feeling
+            analysis
           </a>
         
           
           
-          <a class="tag-chip" href="/tags/thought#paris">
+          <a class="tag-chip" href="/tags/tutorial#harmonic">
             <i class="fa fa-tag"></i>
-            paris
+            harmonic
           </a>
         
           
           
-          <a class="tag-chip" href="/tags/thought#vivu">
+          <a class="tag-chip" href="/tags/tutorial#structure">
             <i class="fa fa-tag"></i>
-            vivu
+            structure
           </a>
         
       </div>
@@ -423,6 +385,8 @@
     
 
 
+    
+    
     
     
     
@@ -442,28 +406,28 @@
       
         <h4 class="sec-more">
           
-            <a href="/thought">see others</a>
+            <a href="/tutorial">see full list</a>
           
         </h4>
       
     </div>
   </div>
 </div>
-  
+
 
 <div class="row row-eq-height justify-content-center">
   <script type="text/javascript">
 
-    var class_col = 'col-6 col-sm-4 col-md-3 text-center mb-3';
-    var class_main = 'thought2-main text-center';
-    var class_photo = '';
-    var img_src = '/img/thought';
+    var class_col = 'col-6 col-md-4 col-lg-2 p-2';
+    var class_main = 'tutorial-main';
+    var class_photo = 'px-4 py-3';
+    var img_src = '/img/tutorial';
 
     var randomIndexUsed = [];
     var counter = 0;
 
-    if (Titles.length > 4){
-      var numberOfPosts = 4;
+    if (Titles.length > 6){
+      var numberOfPosts = 6;
     }else{
       var numberOfPosts = Titles.length;
     }
@@ -485,6 +449,8 @@
         
           ddate = Dates[randomIndex];
         
+        
+          ddescription = Descriptions[randomIndex];
         
         
           iimg = Imgs[randomIndex];
