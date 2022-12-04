@@ -1,0 +1,1 @@
+Functionality, safety and reliability are the main pursposes of structural simulations. 
