@@ -36,7 +36,7 @@ var x = setInterval(function() {
   // If the countdown is over, display a message
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "Congratulations! It's your wedding day!";
+    document.getElementById("countdown").innerHTML = "Cảm ơn các bạn đã đến tham dự lễ cưới của chúng mình!";
   }
 }, 1000);
 </script>
