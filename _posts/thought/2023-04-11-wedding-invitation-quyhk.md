@@ -70,17 +70,16 @@ Như bao cuộc tình khác, chúng mình cũng đã vượt qua nhiều sóng g
 
 {% include img/full-normal.html src="/img/post/thought/wedding/wedding-proposal.jpg"%}
 
-Trải qua bao nhiêu vui buồn thì trong anh vẫn rất vinh hạnh...
-"gặp gỡ, yêu đương và được bên em."
+Trải qua bao nhiêu vui buồn thì chúng mình vẫn rất vinh hạnh vì đã "gặp gỡ, yêu đương và được bên nhau."
 
 <p class="col-md-4" markdown="1">
 ![](/img/post/thought//wedding/AP-Wedding.jpg)
 </p>
 <p class="col-md-4" markdown="1">
-![](/img/post/thought/defence/wedding-1.jpg)
+![](/img/post/thought/wedding/wedding-1.jpg)
 </p>
 <p class="col-md-4" markdown="1">
-![](/img/post/thought/defence/wedding-2.jpg)
+![](/img/post/thought/wedding/wedding-2.jpg)
 </p>
 </div>
 
@@ -88,20 +87,20 @@ Trải qua bao nhiêu vui buồn thì trong anh vẫn rất vinh hạnh...
 ![](/img/post/thought//wedding/wedding-3.jpg)
 </p>
 <p class="col-md-4" markdown="1">
-![](/img/post/thought/defence/wedding-4.jpg)
+![](/img/post/thought/wedding/wedding-4.jpg)
 </p>
 <p class="col-md-4" markdown="1">
-![](/img/post/thought/defence/wedding-5.jpg)
+![](/img/post/thought/wedding/wedding-5.jpg)
 </p>
 </div>
 
 <p class="col-md-4" markdown="6">
-![](/img/post/thought//wedding/wedding-3.jpg)
+![](/img/post/thought//wedding/wedding-6.jpg)
 </p>
 <p class="col-md-4" markdown="7">
-![](/img/post/thought/defence/wedding-4.jpg)
+![](/img/post/thought/dwedding/wedding-7.jpg)
 </p>
 <p class="col-md-4" markdown="8">
-![](/img/post/thought/defence/wedding-5.jpg)
+![](/img/post/thought/wedding/wedding-8.jpg)
 </p>
 </div>
