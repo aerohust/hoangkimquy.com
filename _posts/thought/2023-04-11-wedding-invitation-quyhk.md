@@ -53,7 +53,9 @@ Cùng đến ngược đến thời gian hôn lễ của chúng mình nhé!
 {% include img/full-normal.html src="/img/post/thought/wedding/thiep-cuoi-quyhk.png"%}
 
 ## Địa điểm đón khách tại Hà Nội
-- Thời gian: 7h30 ngày 23 tháng 4 năm 2023
-- Địa điểm: Red River Building, 23 Phan Chu Trinh, Hoàn Kiếm, Hà Nội
+- **Thời gian**: 7h30 ngày 23 tháng 4 năm 2023
+- **Địa điểm**: Red River Building, 23 Phan Chu Trinh, Hoàn Kiếm, Hà Nội
+- **Liên hệ**: Mrs. Tâm - SĐT: 0383023668
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.2949454335794!2d105.85184932853097!3d21.020881341232016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abedb5e4a929%3A0x6fcb00cf4e2c426f!2sSun%20Red%20River%20Building!5e0!3m2!1sen!2sus!4v1681192017295!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
