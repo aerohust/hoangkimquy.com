@@ -72,8 +72,9 @@ Như bao cuộc tình khác, chúng mình cũng đã vượt qua nhiều sóng g
 
 Trải qua bao nhiêu vui buồn thì chúng mình vẫn rất vinh hạnh vì đã "gặp gỡ, yêu đương và được bên nhau."
 
+<div>
 <p class="col-md-4" markdown="1">
-![](/img/post/thought//wedding/AP-Wedding.jpg)
+![](/img/post/thought/wedding/AP-Wedding.jpg)
 </p>
 <p class="col-md-4" markdown="1">
 ![](/img/post/thought/wedding/wedding-1.jpg)
@@ -83,8 +84,9 @@ Trải qua bao nhiêu vui buồn thì chúng mình vẫn rất vinh hạnh vì �
 </p>
 </div>
 
+<div>
 <p class="col-md-4" markdown="1">
-![](/img/post/thought//wedding/wedding-3.jpg)
+![](/img/post/thought/wedding/wedding-3.jpg)
 </p>
 <p class="col-md-4" markdown="1">
 ![](/img/post/thought/wedding/wedding-4.jpg)
@@ -94,8 +96,9 @@ Trải qua bao nhiêu vui buồn thì chúng mình vẫn rất vinh hạnh vì �
 </p>
 </div>
 
+<div>
 <p class="col-md-4" markdown="6">
-![](/img/post/thought//wedding/wedding-6.jpg)
+![](/img/post/thought/wedding/wedding-6.jpg)
 </p>
 <p class="col-md-4" markdown="7">
 ![](/img/post/thought/dwedding/wedding-7.jpg)
