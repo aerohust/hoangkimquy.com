@@ -5,7 +5,11 @@ categories: thought
 img: wedding-invitation-quyhk-cover.jpg
 ---
 {% include toc.html %}
+“Yêu một người cũng giống như dọn tới một ngôi nhà. Lúc đầu ta phải lòng nó vì sự mới mẻ.
 
+Thế rồi năm tháng trôi qua, tường nhà bắt đầu xuống màu, lớp gỗ rạn nứt dần và ta bắt đầu cảm thấy yêu ngôi nhà này bởi những khiếm khuyết của nó hơn là vì những điểm hoàn hảo. Ta thuộc tất cả mọi ngóc ngách xó xỉnh trong nhà. Ta biết làm thế nào để chìa khóa không kẹt lại trong ổ khi ngoài trời đang lạnh, tấm ván sàn nào bị võng xuống khi có người bước lên và cách mở tủ áo sao cho nó không kêu cọt kẹt.
+
+Chính những bí mật nho nhỏ ấy mới là thứ biến ngôi nhà thành một tổ ấm”.
 
 {% include img/full-normal.html src="/img/post/thought/wedding/AP-Wedding.jpg" des="Ảnh cưới demo." %}
 
