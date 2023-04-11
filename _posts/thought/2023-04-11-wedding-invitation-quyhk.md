@@ -6,6 +6,12 @@ img: wedding-invitation-quyhk-cover.jpg
 ---
 {% include toc.html %}
 
+“Yêu một người cũng giống như dọn tới một ngôi nhà. Lúc đầu ta phải lòng nó vì sự mới mẻ.
+
+Thế rồi năm tháng trôi qua, tường nhà bắt đầu xuống màu, lớp gỗ rạn nứt dần và ta bắt đầu cảm thấy yêu ngôi nhà này bởi những khiếm khuyết của nó hơn là vì những điểm hoàn hảo. Ta thuộc tất cả mọi ngóc ngách xó xỉnh trong nhà. Ta biết làm thế nào để chìa khóa không kẹt lại trong ổ khi ngoài trời đang lạnh, tấm ván sàn nào bị võng xuống khi có người bước lên và cách mở tủ áo sao cho nó không kêu cọt kẹt.
+
+Chính những bí mật nho nhỏ ấy mới là thứ biến ngôi nhà thành một tổ ấm.”
+
 {% include img/full-normal.html src="/img/post/thought/wedding/wedding-invitation-quyhk-cover.jpg"%}
 
 ## Thời gian tổ chức hôn lễ
@@ -56,10 +62,46 @@ Cùng đếm ngược đến thời gian hôn lễ của chúng mình nhé!
 
 ## Chuyện chúng mình
 
-“Yêu một người cũng giống như dọn tới một ngôi nhà. Lúc đầu ta phải lòng nó vì sự mới mẻ.
+Nhiều người nói rằng, viết thư tay giờ chỉ dành cho những kẻ mộng mơ. Thật may mắn, hai kẻ mộng mơ ấy đã gặp nhau tại VKIST và đã dành cho nhau những lá thư ngọt ngào nhất.
 
-Thế rồi năm tháng trôi qua, tường nhà bắt đầu xuống màu, lớp gỗ rạn nứt dần và ta bắt đầu cảm thấy yêu ngôi nhà này bởi những khiếm khuyết của nó hơn là vì những điểm hoàn hảo. Ta thuộc tất cả mọi ngóc ngách xó xỉnh trong nhà. Ta biết làm thế nào để chìa khóa không kẹt lại trong ổ khi ngoài trời đang lạnh, tấm ván sàn nào bị võng xuống khi có người bước lên và cách mở tủ áo sao cho nó không kêu cọt kẹt.
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-vkist.JPG"%}
 
-Chính những bí mật nho nhỏ ấy mới là thứ biến ngôi nhà thành một tổ ấm”.
+Như bao cuộc tình khác, chúng mình cũng đã vượt qua nhiều sóng gió để đến ngày được chờ mong...
 
-{% include img/full-normal.html src="/img/post/thought/wedding/AP-Wedding.jpg"%}
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-proposal.jpg"%}
+
+Trải qua bao nhiêu vui buồn thì trong anh vẫn rất vinh hạnh...
+"gặp gỡ, yêu đương và được bên em."
+
+<p class="col-md-4" markdown="1">
+![](/img/post/thought//wedding/AP-Wedding.jpg)
+</p>
+<p class="col-md-4" markdown="1">
+![](/img/post/thought/defence/wedding-1.jpg)
+</p>
+<p class="col-md-4" markdown="1">
+![](/img/post/thought/defence/wedding-2.jpg)
+</p>
+</div>
+
+<p class="col-md-4" markdown="1">
+![](/img/post/thought//wedding/wedding-3.jpg)
+</p>
+<p class="col-md-4" markdown="1">
+![](/img/post/thought/defence/wedding-4.jpg)
+</p>
+<p class="col-md-4" markdown="1">
+![](/img/post/thought/defence/wedding-5.jpg)
+</p>
+</div>
+
+<p class="col-md-4" markdown="6">
+![](/img/post/thought//wedding/wedding-3.jpg)
+</p>
+<p class="col-md-4" markdown="7">
+![](/img/post/thought/defence/wedding-4.jpg)
+</p>
+<p class="col-md-4" markdown="8">
+![](/img/post/thought/defence/wedding-5.jpg)
+</p>
+</div>
