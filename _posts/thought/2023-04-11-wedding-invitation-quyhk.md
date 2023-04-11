@@ -41,7 +41,7 @@ var x = setInterval(function() {
 }, 1000);
 </script>
 
-<div id="countdown"></div>
+<div id="countdown" style="text-align: center; color: red;"></div>
 
 ## Địa điểm đón khách
 
