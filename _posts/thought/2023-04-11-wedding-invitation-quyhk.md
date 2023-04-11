@@ -41,7 +41,7 @@ var x = setInterval(function() {
 }, 1000);
 </script>
 
-Cùng đến ngược đến thời gian hôn lễ của chúng mình nhé!
+Cùng đếm ngược đến thời gian hôn lễ của chúng mình nhé!
 
 <div id="countdown" style="text-align: center; color: red;"></div>
 
