@@ -8,7 +8,7 @@ This is a testing
 
 {% include img/full-normal.html src="/img/post/thought/wedding/AP-Wedding.jpg" des="Ảnh cưới demo." %}
 
-## Wedding Countdown Timer
+## Thời gian đếm ngược
 
 <script>
 // Set the date of your wedding in UTC+7 timezone
@@ -30,8 +30,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the countdown on the page
-  document.getElementById("countdown").innerHTML = days + " days, " + hours + " hours, "
-  + minutes + " minutes, " + seconds + " seconds";
+  document.getElementById("countdown").innerHTML = days + " ngày, " + hours + " giờ, "
+  + minutes + " phút, " + seconds + " giây";
 
   // If the countdown is over, display a message
   if (distance < 0) {
@@ -42,6 +42,8 @@ var x = setInterval(function() {
 </script>
 
 <div id="countdown" style="text-align: center; color: red;"></div>
+
+
 
 ## Địa điểm đón khách
 
