@@ -51,7 +51,7 @@ Cùng đếm ngược đến thời gian hôn lễ của chúng mình nhé!
 
 <div id="countdown" style="text-align: center; color: red;"></div>
 
-{% include img/full-normal.html src="/img/post/thought/wedding/thiep-cuoi-quyhk.png"%}
+{% include img/full-normal.html src="/img/post/thought/wedding/thiep-cuoi-diemhh.png"%}
 
 ## Địa điểm đón khách tại Hà Nội
 - **Thời gian**: 13h ngày 22 tháng 4 năm 2023
