@@ -72,34 +72,24 @@ Như bao cuộc tình khác, chúng mình cũng đã vượt qua nhiều sóng g
 
 Trải qua bao nhiêu vui buồn thì chúng mình vẫn rất vinh hạnh vì đã "gặp gỡ, yêu đương và được bên nhau."
 
-<p class="col-md-4" markdown="1">
-![](/img/post/thought//wedding/AP-Wedding.jpg)
-</p>
-<p class="col-md-4" markdown="1">
-![](/img/post/thought/wedding/wedding-1.jpg)
-</p>
-<p class="col-md-4" markdown="1">
-![](/img/post/thought/wedding/wedding-2.jpg)
-</p>
+{% include img/full-normal.html src="/img/post/thought/wedding/AP-Wedding.jpg"%}
 
-<p class="col-md-4" markdown="1">
-![](/img/post/thought//wedding/wedding-3.jpg)
-</p>
-<p class="col-md-4" markdown="1">
-![](/img/post/thought/wedding/wedding-4.jpg)
-</p>
-<p class="col-md-4" markdown="1">
-![](/img/post/thought/wedding/wedding-5.jpg)
-</p>
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-1.jpg"%}
+
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-2.jpg"%}
+
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-3.jpg"%}
+
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-4.jpg"%}
+
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-5.jpg"%}
+
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-6.jpg"%}
+
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-7.jpg"%}
+
+{% include img/full-normal.html src="/img/post/thought/wedding/wedding-8.jpg"%}
 
 
-<p class="col-md-4" markdown="1">
-![](/img/post/thought//wedding/wedding-6.jpg)
-</p>
-<p class="col-md-4" markdown="1">
-![](/img/post/thought/wedding/wedding-7.jpg)
-</p>
-<p class="col-md-4" markdown="1">
-![](/img/post/thought/wedding/wedding-8.jpg)
-</p>
+
 
