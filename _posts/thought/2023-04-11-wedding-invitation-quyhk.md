@@ -60,6 +60,12 @@ Cùng đếm ngược đến thời gian hôn lễ của chúng mình nhé!
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.2949454335794!2d105.85184932853097!3d21.020881341232016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abedb5e4a929%3A0x6fcb00cf4e2c426f!2sSun%20Red%20River%20Building!5e0!3m2!1sen!2sus!4v1681192017295!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+## Địa chỉ gia đình nhà trai
+- Đội 1, thôn Đào Xá, xã An Bình, huyện Nam Sách, tỉnh Hải Dương
+- **Liên hệ**: Miss. Bích - SĐT: 0328968059
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d433.82166959476723!2d106.37443570370584!3d21.016929255827673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAxJzAyLjEiTiAxMDbCsDIyJzI3LjkiRQ!5e1!3m2!1sen!2sus!4v1681303211409!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 ## Chuyện chúng mình
 
 Nhiều người nói rằng, viết thư tay giờ chỉ dành cho những kẻ mộng mơ. Thật may mắn, hai kẻ mộng mơ ấy đã gặp nhau tại VKIST và đã dành cho nhau những lá thư ngọt ngào nhất.
