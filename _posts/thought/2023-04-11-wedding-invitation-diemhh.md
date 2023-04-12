@@ -62,7 +62,7 @@ Cùng đếm ngược đến thời gian hôn lễ của chúng mình nhé!
 
 ## Địa chỉ gia đình nhà gái
 - Xóm 8, xã Giao Tiến, huyện Giao Thuỷ, tỉnh Nam Định
-- **Liên hệ**: Mrs. Thu Anh - SĐT: 0905121195
+- **Liên hệ**: Mr. Thưởng - SĐT: 0328172158
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.7535551725196!2d106.39551861534164!3d20.269053086414853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136076e26f260b1%3A0xb020de3766e5bf71!2zSMOgIFbEg24!5e0!3m2!1sen!2s!4v1681316098491!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
