@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wedding Invitation"
+title: "Wedding Invitation Q&D"
 categories: thought
 img: wedding-invitation-quyhk-cover.jpg
 ---
