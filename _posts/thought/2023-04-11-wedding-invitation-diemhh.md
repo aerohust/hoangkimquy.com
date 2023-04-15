@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wedding Invitation"
+title: "Diem's Wedding Invitation"
 categories: thought
 img: wedding-invitation-quyhk-cover.jpg
 ---
